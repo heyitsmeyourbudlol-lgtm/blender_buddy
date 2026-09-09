@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "blender_buddy"
+version = "1.0.0"
+name = "Blender Buddy"
+tagline = "Ask, act, and see in Blender"
+maintainer = "CGMatter"
+type = "add-on"
+website = "https://cgmatter.github.io/website/html/blender_buddy/documentation.html"
+tags = ["3D View"]
+blender_version_min = "5.1.0"
+license = [
+"SPDX:GPL-3.0-or-later",
+]

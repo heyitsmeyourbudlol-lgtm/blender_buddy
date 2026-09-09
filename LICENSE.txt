@@ -1,0 +1,3 @@
+Blender Buddy (code and own assets) is licensed under GPL-3.0-or-later.
+
+The file `blender_buddy_assets/api_index.jsonl`, in part, includes the up-to-date Blender documentation and is licensed under CC BY-SA 4.0
