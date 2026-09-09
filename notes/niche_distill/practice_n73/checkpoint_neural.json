@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N73",
+  "name": "jsonl_count_gate",
+  "domain": "jsonl_count_gate",
+  "helps": "distill done-gate",
+  "weights": "notes/niche_distill/practice_n73/weights/n73_jsonl_count_gate_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 7.862862548790872e-05,
+  "labels": [
+    "abstain",
+    "jsonl count gate_escalate",
+    "jsonl count gate_maybe",
+    "jsonl count gate_no",
+    "jsonl count gate_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N73 '<input>'"
+}

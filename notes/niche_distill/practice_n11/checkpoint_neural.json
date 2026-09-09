@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N11",
+  "name": "launchagent_loaded_nopid",
+  "domain": "launchagent_loaded_nopid",
+  "helps": "peer_self_heal",
+  "weights": "notes/niche_distill/practice_n11/weights/n11_launchagent_loaded_nopid_neural.pt",
+  "param_count": 5789449,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 3.539881799952127e-05,
+  "labels": [
+    "adapt_stale",
+    "chicken_egg",
+    "healthy",
+    "noop_stall",
+    "plan_gate_blocked",
+    "queue_drift",
+    "unknown",
+    "verify_fail_agent_exit",
+    "verify_fail_tests"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N11 '<input>'"
+}

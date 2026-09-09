@@ -1,0 +1,17 @@
+{
+  "needle": "OVERSEER_NICHE_PRACTICE_N02_2026_09_07",
+  "niche_id": "N02",
+  "niche": "queue_kit_vs_research",
+  "checkpoint": "notes/niche_distill/practice_n02/checkpoint.json",
+  "weights": "notes/niche_distill/practice_n02/weights/n02_queue_kit_vs_research_practice.pt",
+  "train_jsonl": "notes/niche_distill/N02_queue_kit_vs_research.jsonl",
+  "heldout_jsonl": "notes/niche_distill/N02_queue_kit_vs_research_heldout.jsonl",
+  "n_train": 96,
+  "n_heldout": 16,
+  "heldout_accuracy": 1.0,
+  "pass_bar": 0.9,
+  "passed": true,
+  "serve": "python3 scripts/niche_n02_practice.py --serve '<item>'",
+  "recipe": "notes/niche_distill/RECIPE.md",
+  "corpus_prune": false
+}

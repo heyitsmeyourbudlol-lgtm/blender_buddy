@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N36",
+  "name": "peer_command_suggest",
+  "domain": "peer_command_suggest",
+  "helps": "AGENT_COMMANDS",
+  "weights": "notes/niche_distill/practice_n36/weights/n36_peer_command_suggest_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.03477346524596214,
+  "labels": [
+    "abstain",
+    "peer command suggest_escalate",
+    "peer command suggest_maybe",
+    "peer command suggest_no",
+    "peer command suggest_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N36 '<input>'"
+}

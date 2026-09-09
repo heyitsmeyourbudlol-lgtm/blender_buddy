@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_COMPRESSION_TRAIN_RUNG0_2026_09_05",
+  "ts": "2026-09-08T02:28:06Z",
+  "status": "complete",
+  "train_complete": true,
+  "step": 3500,
+  "target_steps": 3000,
+  "loss": 0.15523585677146912,
+  "heldout_kd_mse": 0.1365958359092474,
+  "kd_eps": 0.15,
+  "unique_U_arith": 74576,
+  "S_arith": 134.09139669598798,
+  "train_unique": 90112,
+  "nvfp4_pack_bytes": 37288.0,
+  "nvfp4_pack_mb": 0.03556060791015625,
+  "n_logic": 10000000,
+  "device": "cuda:0",
+  "data_prune": false,
+  "hot_dtype": "NVFP4",
+  "checkpoint_dir": "/home/arnavrastogi/Automation/notes/compression_artifacts/rung0_checkpoints",
+  "latest_checkpoint": "/home/arnavrastogi/Automation/notes/compression_artifacts/rung0_checkpoints/rung0_latest.pt",
+  "elapsed_sec": 15.18,
+  "unlock": "OVERSEER_COMPRESSION_TRAIN_UNLOCK_2026_09_05",
+  "kd_bank": {
+    "bank": "/home/arnavrastogi/Automation/notes/compression_artifacts/t3_teacher_logit_bank.json",
+    "cache_needle": "OVERSEER_COMPRESSION_T3_LOGIT_CACHE_2026_09_05",
+    "handoff": "reuse teacher logit bank \u2014 no prune; continue BitDistill at scale"
+  },
+  "north_star_1b_complete": false,
+  "note": "rung0 KD complete \u2260 1B north-star; stress gates integrate"
+}

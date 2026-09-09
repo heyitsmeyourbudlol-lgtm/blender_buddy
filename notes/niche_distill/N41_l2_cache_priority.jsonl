@@ -1,0 +1,96 @@
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → abstain. Input shape tensors. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_no. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[unknown] cache hierarchy — tensors sample-16","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → abstain. Input shape tensors. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_yes | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_maybe. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_escalate for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → abstain. Input shape tensors. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_no | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_maybe for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_escalate. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_yes | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory abstain for l2_cache_priority: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_no for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_maybe | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_escalate. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_yes | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory unknown for l2_cache_priority: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_no. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[abstain] cache hierarchy — tensors sample-101","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[abstain] cache hierarchy — tensors sample-71","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=unknown | tensors | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — [l2 cache priority_no] cache hierarchy — tensors sample-1","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as l2 cache priority_escalate. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_escalate for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_escalate | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_maybe | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_maybe | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=unknown | tensors | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_no for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_maybe for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_escalate | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as abstain. Context: sm_121a missing flag (pin order)","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_no. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_maybe | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_escalate. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=abstain | tensors | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_yes] cache hierarchy — tensors sample-96","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_no for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_escalate for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_escalate. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[abstain] cache hierarchy — tensors sample-41","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_no. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_no. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=abstain | tensors | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_yes for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[unknown] cache hierarchy — tensors sample-76","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_yes | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_maybe] cache hierarchy — tensors sample-86","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_no] cache hierarchy — tensors sample-31","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_maybe. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — [l2 cache priority_no] cache hierarchy — tensors sample-91","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_escalate | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as l2 cache priority_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_yes. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as abstain. Context: sm_121a missing flag (pin order)","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_maybe] cache hierarchy — tensors sample-56","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_yes] cache hierarchy — tensors sample-6","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → unknown. Input shape tensors. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as abstain. Context: sm_121a missing flag (pin order)","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_no] cache hierarchy — tensors sample-61","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory unknown for l2_cache_priority: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — [l2 cache priority_escalate] cache hierarchy — tensors sample-111","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_no. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_yes for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_maybe. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory abstain for l2_cache_priority: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_escalate. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_yes. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_no for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_escalate. Input shape tensors. RSS proposal 48GB reject","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as abstain. Context: sm_121a missing flag (pin order)","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_no | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_escalate] cache hierarchy — tensors sample-21","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_escalate] cache hierarchy — tensors sample-81","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as l2 cache priority_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_no. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_no | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=l2 cache priority_escalate | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[unknown] cache hierarchy — tensors sample-46","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory unknown for l2_cache_priority: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=unknown | tensors | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=unknown | tensors | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_yes] cache hierarchy — tensors sample-66","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=abstain | tensors | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Niche l2_cache_priority: label=abstain | tensors | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[abstain] cache hierarchy — tensors sample-11","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_yes for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_escalate] cache hierarchy — tensors sample-51","output":{"label":"l2 cache priority_escalate"}}

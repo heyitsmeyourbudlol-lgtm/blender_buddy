@@ -1,0 +1,10 @@
+{"niche_id":"N05","niche":"done_gate_checklist","input":"done_gate_checklist decision → allow. Input shape diff+claim. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Niche done_gate_checklist: label=allow | diff+claim | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Classify done_gate_checklist as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Classify done_gate_checklist as allow. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Niche done_gate_checklist: label=allow | diff+claim | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Factory pending for done_gate_checklist: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Factory allow for done_gate_checklist: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"done_gate_checklist decision → allow. Input shape diff+claim. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Niche done_gate_checklist: label=reject | diff+claim | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Niche done_gate_checklist: label=reject | diff+claim | WORK_QUEUE Active empty","output":{"label":"reject"}}

@@ -1,0 +1,48 @@
+{"niche_id":"N36","niche":"peer_command_suggest","input":"peer_command_suggest decision → peer command suggest_no. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — peer_command_suggest decision → peer command suggest_yes. Input shape symptom. continue_on_dirty HOLD","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — peer_command_suggest decision → peer command suggest_maybe. Input shape symptom. continue_on_dirty HOLD","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Factory peer command suggest_no for peer_command_suggest: fact_checker prefer-order","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_no] AGENT_COMMANDS — symptom sample-1","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Niche peer_command_suggest: label=peer command suggest_escalate | symptom | WORK_QUEUE Active empty","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as peer command suggest_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as peer command suggest_no. Context: sm_121a missing flag (`./scripts/peer …`)","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=peer command suggest_maybe | symptom | peer_loop IDLE seed","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_maybe] AGENT_COMMANDS — symptom sample-26","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Factory peer command suggest_escalate for peer_command_suggest: fact_checker prefer-order","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=abstain | symptom | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — peer_command_suggest decision → abstain. Input shape symptom. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=peer command suggest_escalate | symptom | WORK_QUEUE Active empty","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_escalate] AGENT_COMMANDS — symptom sample-51","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=peer command suggest_yes | symptom | peer_loop IDLE seed","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=peer command suggest_maybe | symptom | peer_loop IDLE seed","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Factory peer command suggest_maybe for peer_command_suggest: GDS cuFile forbidden","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory unknown for peer_command_suggest: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as peer command suggest_escalate. Context: sm_121a missing flag (`./scripts/peer …`)","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as peer command suggest_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"peer_command_suggest decision → peer command suggest_no. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_yes] AGENT_COMMANDS — symptom sample-36","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Classify peer_command_suggest as peer command suggest_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=unknown | symptom | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory peer command suggest_no for peer_command_suggest: fact_checker prefer-order","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — peer_command_suggest decision → abstain. Input shape symptom. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_yes] AGENT_COMMANDS — symptom sample-6","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Classify peer_command_suggest as abstain. Context: sm_121a missing flag (`./scripts/peer …`)","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory peer command suggest_yes for peer_command_suggest: GDS cuFile forbidden","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — [abstain] AGENT_COMMANDS — symptom sample-11","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_maybe] AGENT_COMMANDS — symptom sample-56","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory unknown for peer_command_suggest: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[peer command suggest_escalate] AGENT_COMMANDS — symptom sample-21","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=unknown | symptom | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Niche peer_command_suggest: label=peer command suggest_no | symptom | WORK_QUEUE Active empty","output":{"label":"peer command suggest_no"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"[unknown] AGENT_COMMANDS — symptom sample-46","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"peer_command_suggest decision → peer command suggest_yes. Input shape symptom. continue_on_dirty HOLD","output":{"label":"peer command suggest_yes"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — peer_command_suggest decision → peer command suggest_maybe. Input shape symptom. continue_on_dirty HOLD","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory peer command suggest_maybe for peer_command_suggest: GDS cuFile forbidden","output":{"label":"peer command suggest_maybe"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"peer_command_suggest decision → peer command suggest_escalate. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer command suggest_escalate"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Factory abstain for peer_command_suggest: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — [abstain] AGENT_COMMANDS — symptom sample-41","output":{"label":"abstain"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"peer_command_suggest decision → unknown. Input shape symptom. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — [unknown] AGENT_COMMANDS — symptom sample-16","output":{"label":"unknown"}}
+{"niche_id":"N36","niche":"peer_command_suggest","input":"Kit lock — Classify peer_command_suggest as peer command suggest_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (`./scripts/peer …`)","output":{"label":"peer command suggest_maybe"}}

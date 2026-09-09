@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Peer dispatch — background terminal by default; --clipboard-only / --cursor-ui / --paid-api opt-in.
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ "${1:-}" == "--forever" ]]; then
+  shift
+  exec /usr/bin/python3 "$ROOT/scripts/peer_loop.py" --forever --background "$@"
+fi
+if [[ "${1:-}" == "--cursor-ui" || "${1:-}" == "--direct-ui" ]] && [[ "${2:-}" == "--forever" ]]; then
+  shift 2
+  exec /usr/bin/python3 "$ROOT/scripts/peer_loop.py" --forever --from-transcript --direct-ui "$@"
+fi
+if [[ "${1:-}" == "--paid-api" && "${2:-}" == "--forever" ]]; then
+  shift 2
+  export PEER_LOOP_PAID_API=1
+  exec /usr/bin/python3 "$ROOT/scripts/peer_loop.py" --forever --paid-api "$@"
+fi
+if [[ "${1:-}" == "--clipboard-only" && "${2:-}" == "--forever" ]]; then
+  shift 2
+  export CURSOR_MINIMIZED=1
+  exec /usr/bin/python3 "$ROOT/scripts/peer_loop.py" --forever --from-transcript --clipboard-only "$@"
+fi
+exec /usr/bin/python3 "$ROOT/scripts/cursor_self_improve.py" --peer "$@"

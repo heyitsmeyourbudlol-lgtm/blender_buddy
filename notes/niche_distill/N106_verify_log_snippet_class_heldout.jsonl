@@ -1,0 +1,16 @@
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Classify verify_log_snippet_class as abstain. Context: sm_121a missing flag (class)","output":{"label":"abstain"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Factory unknown for verify_log_snippet_class: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — Factory verify log snippet class_maybe for verify_log_snippet_class: GDS cuFile forbidden","output":{"label":"verify log snippet class_maybe"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — [abstain] agent on-demand — verify log snippet sample-11","output":{"label":"abstain"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Niche verify_log_snippet_class: label=verify log snippet class_no | verify log snippet | WORK_QUEUE Active empty","output":{"label":"verify log snippet class_no"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — Classify verify_log_snippet_class as abstain. Context: sm_121a missing flag (class)","output":{"label":"abstain"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — Classify verify_log_snippet_class as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (class)","output":{"label":"unknown"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Niche verify_log_snippet_class: label=abstain | verify log snippet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"verify_log_snippet_class decision → verify log snippet class_escalate. Input shape verify log snippet. RSS proposal 48GB reject","output":{"label":"verify log snippet class_escalate"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — Niche verify_log_snippet_class: label=abstain | verify log snippet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"[verify log snippet class_no] agent on-demand — verify log snippet sample-1","output":{"label":"verify log snippet class_no"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Factory verify log snippet class_maybe for verify_log_snippet_class: GDS cuFile forbidden","output":{"label":"verify log snippet class_maybe"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"[verify log snippet class_yes] agent on-demand — verify log snippet sample-66","output":{"label":"verify log snippet class_yes"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Kit lock — Niche verify_log_snippet_class: label=verify log snippet class_maybe | verify log snippet | peer_loop IDLE seed","output":{"label":"verify log snippet class_maybe"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Niche verify_log_snippet_class: label=verify log snippet class_no | verify log snippet | WORK_QUEUE Active empty","output":{"label":"verify log snippet class_no"}}
+{"niche_id":"N106","niche":"verify_log_snippet_class","input":"Niche verify_log_snippet_class: label=verify log snippet class_maybe | verify log snippet | peer_loop IDLE seed","output":{"label":"verify log snippet class_maybe"}}

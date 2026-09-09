@@ -1,0 +1,5 @@
+- **2026-09-03 stagnation dispatch (event-triggered #2)**
+  - **Found:** noop fp + HEAD-flat at 88%; Mac rsync rewound local verify (omit peer_worktree); hub-protect omitted local/base config; live lacked scrub; metrics_green flipped under restore races; Active theater reopened via compact orphan promote.
+  - **Fixed:** lean verify includes peer_worktree+factory_grid+mark_local; nested dgx_unittest_cap→8; restore+peer_remote protect configs; scrub restored across protect layers; metrics_green ignores git_clean; mark helpers closed flaw theater; seeded non-noop last_cycle; peer+improve active.
+  - **Still broken:** HSO/Mac/hub-protect multi-writer race; compact-queue orphan promote; Dispatch ~85% dirty; HEAD flat until human commit.
+  - **Needs human:** Commit overseer WIP when safe; keep hub-protect + land-hold; external-proof deferred under self_sufficient.

@@ -1,0 +1,1 @@
+exists=True bytes=370 lines=8 head=b'<function _patch_peer_loop.<locals>.metrics_green at 0xf141cb1d5300>\n    def metrics_green(live):\n        return bool(ge'

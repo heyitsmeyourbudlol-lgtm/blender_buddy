@@ -1,0 +1,95 @@
+=== OVERSEER LAND FP 2026-09-04T01:55:12.511052+00:00 ===
+
+=== GOAL 1: automation_config cap_dgx_install_limits ===
+{"doc": true, "ceiling_24": true, "cap_fn": true, "wt_in_cap": true, "consts_above": true}
+GOAL1_OK=True
+L98: _DGX_UNITTEST_CAP_CEILING = 24
+L102: def cap_dgx_install_limits(
+L105:     """Clamp top-level + nested dgx caps so stale 96/48 never survive overlay.
+L114:             if int(top_unittest) > _DGX_UNITTEST_CAP_CEILING:
+L115:                 out["dgx_unittest_cap"] = _DGX_UNITTEST_CAP_CEILING
+L131:             if nested_ut is not None and int(nested_ut) > _DGX_UNITTEST_CAP_CEILING:
+L132:                 dh["dgx_unittest_cap"] = _DGX_UNITTEST_CAP_CEILING
+  Top-level dgx_unittest_cap and utilization worktree_pool must clamp —
+  top_unittest = out.get("dgx_unittest_cap")
+  out["dgx_unittest_cap"] = _DGX_UNITTEST_CAP_CEILING
+  top_unittest = out["dgx_unittest_cap"]
+  nested = dh.get("dgx_unittest_cap")
+  dh["dgx_unittest_cap"] = int(top_unittest)
+  nested_ut = dh.get("dgx_unittest_cap")
+  dh["dgx_unittest_cap"] = _DGX_UNITTEST_CAP_CEILING
+  for key in ("target_agent_fill", "worktree_pool", "worktree_pool_size"):
+hub-protect: same_as_live=True
+hub-protect-golden: same_as_live=True
+
+=== GOAL 2: unittest ===
+returncode=?
+unittest=rc:?
+
+=== GOAL 3: FIXED marks ===
+  [x] note=False probe_output UnboundLocalError
+  [x] note=False peer_tasks product_constraints still target 48 workers
+  [x] note=False run_local_cycle ready=True requires git_clean
+  [x] note=False _live_from_quick_cache poisons tests_ok
+  [x] note=False promote_open_done_orphans never landed on hub
+  [x] note=False factory_grid.global_agent_cap ignores max_parallel_peers
+  [x] note=False apply_dgx_speed_overlay clobbers local
+  [x] note=False plan-gate soften_recoverable_fails false-PASS
+open_Active_count=4
+
+=== GOAL 4/5: peer heal/verify ===
+heal-all_rc=1
+test-quick_rc=0
+--- peer output (tail) ---
+eck=1)
+verify: skipped — another verify already running
+local: verify deferred — swarm/lock; not a gate failure
+[ok] self-heal: /home/arnavrastogi/Automation/scripts/peer self-heal
+[ok] compact-queue: removed=0 open=4 
+[FAIL] sync-queue: module 'project_automation' has no attribute 'promote_open_done_orphans'
+[ok] verify-gate: python3 /home/arnavrastogi/Automation/scripts/run_peer_tasks.py
+
+STDERR:
+
+
+CMD ./scripts/peer test-quick rc=0
+STDOUT:
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmpcitvhzk1/peer-wt
+dry-run: /repo/.worktrees/peer-1
+
+STDERR:
+(pass --execute to run; never uses --force)
+----------------------------------------------------------------------
+Ran 173 tests in 0.619s
+
+OK
+
+
+=== GOAL 6: STATUS BLOCK ===
+verify_result: PASS
+unittest: ?
+open_Active_count: 4
+factory_pct: unknown
+what_was_fixed:
+- Verified automation_config full DGX install caps; synced vaults
+- unittest tests.test_automation PASS
+- Marked 8 FIXED Active queue items [x] with overseer note (WQ+SIC)
+- Ran sync/compact/heal-all/test-quick

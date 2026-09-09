@@ -1,0 +1,10 @@
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → poc. Input shape width. RSS proposal 48GB reject","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. RSS proposal 48GB reject","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as poc. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Niche near_vs_far_grain: label=poc | width | peer_loop IDLE seed","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory near for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory far for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → far. Input shape width. continue_on_dirty HOLD","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Classify near_vs_far_grain as poc. Context: sm_121a missing flag (near/far bucket)","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as poc. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[poc] map — width sample-41","output":{"label":"poc"}}

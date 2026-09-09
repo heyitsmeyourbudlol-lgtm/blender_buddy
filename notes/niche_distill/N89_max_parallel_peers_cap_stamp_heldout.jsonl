@@ -1,0 +1,16 @@
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"[max parallel peers cap_yes] never solo — pool status sample-6","output":{"label":"max parallel peers cap_yes"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Kit lock — Classify max_parallel_peers_cap as abstain. Context: sm_121a missing flag (how many to launch)","output":{"label":"abstain"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"[max parallel peers cap_escalate] never solo — pool status sample-81","output":{"label":"max parallel peers cap_escalate"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Niche max_parallel_peers_cap: label=abstain | pool status | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Niche max_parallel_peers_cap: label=unknown | pool status | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Factory abstain for max_parallel_peers_cap: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"max_parallel_peers_cap decision → max parallel peers cap_yes. Input shape pool status. continue_on_dirty HOLD","output":{"label":"max parallel peers cap_yes"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"[max parallel peers cap_no] never solo — pool status sample-1","output":{"label":"max parallel peers cap_no"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Factory max parallel peers cap_yes for max_parallel_peers_cap: GDS cuFile forbidden","output":{"label":"max parallel peers cap_yes"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Niche max_parallel_peers_cap: label=abstain | pool status | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Classify max_parallel_peers_cap as abstain. Context: sm_121a missing flag (how many to launch)","output":{"label":"abstain"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Kit lock — max_parallel_peers_cap decision → max parallel peers cap_escalate. Input shape pool status. RSS proposal 48GB reject","output":{"label":"max parallel peers cap_escalate"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"max_parallel_peers_cap decision → max parallel peers cap_escalate. Input shape pool status. RSS proposal 48GB reject","output":{"label":"max parallel peers cap_escalate"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Classify max_parallel_peers_cap as max parallel peers cap_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (how many to launch)","output":{"label":"max parallel peers cap_maybe"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Niche max_parallel_peers_cap: label=max parallel peers cap_maybe | pool status | peer_loop IDLE seed","output":{"label":"max parallel peers cap_maybe"}}
+{"niche_id":"N89","niche":"max_parallel_peers_cap","input":"Factory unknown for max_parallel_peers_cap: GDS cuFile forbidden","output":{"label":"unknown"}}

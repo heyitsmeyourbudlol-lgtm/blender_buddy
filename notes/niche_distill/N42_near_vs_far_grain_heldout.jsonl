@@ -1,0 +1,16 @@
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Factory near for near_vs_far_grain: fact_checker prefer-order","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory near for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[far] map — width sample-91","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → far. Input shape width. RSS proposal 48GB reject","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — near_vs_far_grain decision → near. Input shape width. RSS proposal 48GB reject","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as near. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. RSS proposal 48GB reject","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. continue_on_dirty HOLD","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as poc. Context: sm_121a missing flag (near/far bucket)","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[near] map — width sample-66","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — [far] map — width sample-106","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory far for near_vs_far_grain: fact_checker prefer-order","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Niche near_vs_far_grain: label=poc | width | peer_loop IDLE seed","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[near] map — width sample-81","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=poc | width | WORK_QUEUE Active empty","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → poc. Input shape width. RSS proposal 48GB reject","output":{"label":"poc"}}

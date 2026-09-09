@@ -1,0 +1,16 @@
+{"niche_id":"N52","niche":"status_box_compress","input":"status_box_compress decision → status box compress_yes. Input shape peer status. continue_on_dirty HOLD","output":{"label":"status box compress_yes"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"status_box_compress decision → status box compress_maybe. Input shape peer status. continue_on_dirty HOLD","output":{"label":"status box compress_maybe"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Niche status_box_compress: label=abstain | peer status | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"status_box_compress decision → status box compress_escalate. Input shape peer status. RSS proposal 48GB reject","output":{"label":"status box compress_escalate"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Classify status_box_compress as status box compress_escalate. Context: sm_121a missing flag (5-field snap)","output":{"label":"status box compress_escalate"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Niche status_box_compress: label=unknown | peer status | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Niche status_box_compress: label=abstain | peer status | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Kit lock — Factory status box compress_no for status_box_compress: fact_checker prefer-order","output":{"label":"status box compress_no"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"status_box_compress decision → status box compress_yes. Input shape peer status. continue_on_dirty HOLD","output":{"label":"status box compress_yes"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Kit lock — [status box compress_no] stall ticks — peer status sample-61","output":{"label":"status box compress_no"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"status_box_compress decision → abstain. Input shape peer status. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Niche status_box_compress: label=status box compress_yes | peer status | peer_loop IDLE seed","output":{"label":"status box compress_yes"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Classify status_box_compress as abstain. Context: sm_121a missing flag (5-field snap)","output":{"label":"abstain"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Classify status_box_compress as status box compress_escalate. Context: sm_121a missing flag (5-field snap)","output":{"label":"status box compress_escalate"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Classify status_box_compress as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (5-field snap)","output":{"label":"unknown"}}
+{"niche_id":"N52","niche":"status_box_compress","input":"Kit lock — [unknown] stall ticks — peer status sample-16","output":{"label":"unknown"}}

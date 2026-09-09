@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N105",
+  "name": "param_grain_check",
+  "domain": "param_grain_check",
+  "helps": "anti-inflate",
+  "weights": "notes/niche_distill/practice_n105/weights/n105_param_grain_check_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.0035629840567708015,
+  "labels": [
+    "collision",
+    "missing",
+    "ok"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N105 '<input>'"
+}

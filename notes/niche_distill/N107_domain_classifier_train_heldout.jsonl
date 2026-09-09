@@ -1,0 +1,16 @@
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_maybe] agent on-demand — text sample-26","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_escalate. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Niche domain_classifier_train: label=abstain | text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=unknown | text | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_no. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_yes | text | peer_loop IDLE seed","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=unknown | text | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [abstain] agent on-demand — text sample-101","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_maybe] agent on-demand — text sample-56","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Niche domain_classifier_train: label=domain classifier train_yes | text | peer_loop IDLE seed","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_yes for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → unknown. Input shape text. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_yes. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Classify domain_classifier_train as domain classifier train_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_no. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_no"}}

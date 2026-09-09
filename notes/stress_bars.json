@@ -1,0 +1,56 @@
+{
+  "needle": "OVERSEER_COMPRESSION_STRESS_THEN_INTEGRATE_2026_09_06",
+  "ts": "2026-09-07T12:51:05Z",
+  "status": "PASS",
+  "integrate_allowed": true,
+  "integrate_scope": "local_workflow_only",
+  "publish_model": false,
+  "local_only_needle": "OVERSEER_MODEL_LOCAL_ONLY_2026_09_06",
+  "bars": {
+    "S_ge_100_or_recipe_floor": {
+      "result": "PASS",
+      "S": 134.09139669598798,
+      "floor": 100.0
+    },
+    "unique_U_within_budget": {
+      "result": "PASS",
+      "U": 74576,
+      "n_logic": 10000000,
+      "S": 134.09139669598798
+    },
+    "nvfp4_pack_bytes": {
+      "result": "PASS",
+      "pack_bytes": 37288.0,
+      "ideal_U_over_2": 37288.0
+    },
+    "ram_residency_min": {
+      "result": "PASS",
+      "nvfp4_pack_mb": 0.03556060791015625,
+      "cap_mb": 512.0
+    },
+    "kd_heldout": {
+      "result": "PASS",
+      "heldout_kd_mse": 0.13854102976620197,
+      "eps": 0.15,
+      "train_complete": true
+    },
+    "no_data_prune": {
+      "result": "PASS",
+      "data_prune": false
+    },
+    "serve_smoke": {
+      "result": "PASS",
+      "t5": "OVERSEER_COMPRESSION_T5_SERVE_2026_09_06"
+    }
+  },
+  "note": "STALE PATH \u2014 use notes/compression_artifacts/stress_bars.json (G7). Mirrored PASS for readers of bare notes/stress_bars.json. All bars PASS \u2014 LOCAL workflow integrate allowed (never public publish).",
+  "evidence": {
+    "checkpoint": "/home/arnavrastogi/Automation/notes/compression_artifacts/rung0_checkpoints/rung0_latest.pt",
+    "ckpt_exists": true,
+    "train_status": "/home/arnavrastogi/Automation/notes/compression_artifacts/rung0_train_status.json",
+    "step": 3000,
+    "train_complete": true,
+    "north_star_1b_complete": false
+  },
+  "canonical": "notes/compression_artifacts/stress_bars.json"
+}

@@ -1,0 +1,23 @@
+promote_open_done_orphans: True
+open_done_orphan_items: True
+success_metrics_ok_no_git_clean: False
+quick_cache_guards_tests_ok: True
+global_agent_cap_clamps: True
+run_local_cycle_ready_no_git_clean_and: True
+product_constraints_no_48: True
+adapt_plan_gate_uses_report2: True
+probe_output_has_external_init: True
+
+=== GOAL 6: STATUS BLOCK ===
+verify_result: FAIL(rc=1)
+unittest: PASS
+open_Active_count: 0
+factory_pct: unknown
+heal_rc: None
+test_quick_rc: None
+goal1_ok: True
+what_was_fixed:
+- automation_config cap_dgx_install_limits verified (ceiling 24, worktree_pool clamp, docstring "stale 96/48 never survive", _DGX_* above load); synced to hub-protect + hub-protect-golden
+- unittest tests.test_automation -q PASS
+- 8 FIXED Active items marked [x] in WORK_QUEUE.md + self_improve_context.md (overseer 2026-09-03: FIXED; do not re-promote)
+- peer sync-queue / compact-queue / heal-all / test-quick run

@@ -1,0 +1,21 @@
+{'fg_clamp': True, 'ad_promote': True, 'test_method': True, 'auto_import': True, 'hold': True}
+REPROMOTE needed but land script should handle
+TEST_ALREADY
+
+test_caps_from_config (tests.test_factory_grid.FactoryGridTests.test_caps_from_config) ... ok
+test_global_agent_cap_clamps_to_max_parallel_peers (tests.test_factory_grid.FactoryGridTests.test_global_agent_cap_clamps_to_max_parallel_peers) ... ok
+test_hub_agent_cap_clamps_to_max_parallel_peers (tests.test_factory_grid.FactoryGridTests.test_hub_agent_cap_clamps_to_max_parallel_peers)
+hub_agents 32/48 must not outrun the worktree pool (extras → cwd=ROOT). ... ok
+test_sprint_interval_floors_hyper_overlay (tests.test_factory_grid.FactoryGridTests.test_sprint_interval_floors_hyper_overlay)
+DGX factory_grid.interval_sec=8 must not restore sub-15s sprint poll. ... ok
+test_heal_queue_drift_promotes_done_orphans (tests.test_automation_adapt.AdaptHealTests.test_heal_queue_drift_promotes_done_orphans)
+sync-queue/heal must promote open ## Done orphans (not compact-only). ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.072s
+
+OK
+
+TEST_RC 0
+OVERSIGHT_NOTED
+DISK {'clamp': True, 'promote': True, 'test': True}

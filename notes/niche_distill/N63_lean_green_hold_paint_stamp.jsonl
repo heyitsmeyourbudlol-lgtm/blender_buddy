@@ -1,0 +1,48 @@
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (imply HOLD?)","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (imply HOLD?)","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Niche lean_green_hold_paint: label=lean green hold paint_escalate | Cycle row | WORK_QUEUE Active empty","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=abstain | Cycle row | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"[lean green hold paint_no] peer_watch — Cycle row sample-1","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=lean green hold paint_maybe | Cycle row | peer_loop IDLE seed","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as abstain. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"[lean green hold paint_yes] peer_watch — Cycle row sample-6","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Factory lean green hold paint_yes for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as abstain. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Classify lean_green_hold_paint as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (imply HOLD?)","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"lean_green_hold_paint decision → abstain. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — [lean green hold paint_yes] peer_watch — Cycle row sample-36","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — [lean green hold paint_escalate] peer_watch — Cycle row sample-21","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"[abstain] peer_watch — Cycle row sample-11","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — [unknown] peer_watch — Cycle row sample-16","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"lean_green_hold_paint decision → abstain. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Factory unknown for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Factory lean green hold paint_maybe for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — [lean green hold paint_no] peer_watch — Cycle row sample-31","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_no. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=unknown | Cycle row | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=lean green hold paint_no | Cycle row | WORK_QUEUE Active empty","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=abstain | Cycle row | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"lean_green_hold_paint decision → lean green hold paint_no. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — lean_green_hold_paint decision → lean green hold paint_escalate. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (imply HOLD?)","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Factory unknown for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Factory lean green hold paint_maybe for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Niche lean_green_hold_paint: label=lean green hold paint_no | Cycle row | WORK_QUEUE Active empty","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — lean_green_hold_paint decision → lean green hold paint_no. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Classify lean_green_hold_paint as lean green hold paint_escalate. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Niche lean_green_hold_paint: label=unknown | Cycle row | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"lean_green_hold_paint decision → lean green hold paint_yes. Input shape Cycle row. continue_on_dirty HOLD","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — lean_green_hold_paint decision → lean green hold paint_maybe. Input shape Cycle row. continue_on_dirty HOLD","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=lean green hold paint_yes | Cycle row | peer_loop IDLE seed","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — lean_green_hold_paint decision → unknown. Input shape Cycle row. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"lean_green_hold_paint decision → lean green hold paint_escalate. Input shape Cycle row. RSS proposal 48GB reject","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Factory abstain for lean_green_hold_paint: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_no. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"lean green hold paint_no"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Factory lean green hold paint_escalate for lean_green_hold_paint: fact_checker prefer-order","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — Classify lean_green_hold_paint as lean green hold paint_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (imply HOLD?)","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Classify lean_green_hold_paint as lean green hold paint_escalate. Context: sm_121a missing flag (imply HOLD?)","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"[abstain] peer_watch — Cycle row sample-41","output":{"label":"abstain"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Factory lean green hold paint_yes for lean_green_hold_paint: GDS cuFile forbidden","output":{"label":"lean green hold paint_yes"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"[lean green hold paint_maybe] peer_watch — Cycle row sample-26","output":{"label":"lean green hold paint_maybe"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Kit lock — [lean green hold paint_escalate] peer_watch — Cycle row sample-51","output":{"label":"lean green hold paint_escalate"}}
+{"niche_id":"N63","niche":"lean_green_hold_paint","input":"Niche lean_green_hold_paint: label=lean green hold paint_escalate | Cycle row | WORK_QUEUE Active empty","output":{"label":"lean green hold paint_escalate"}}

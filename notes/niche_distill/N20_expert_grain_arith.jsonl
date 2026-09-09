@@ -1,0 +1,96 @@
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=unknown | total,N,k | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory unknown for expert_grain_arith: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_escalate. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_yes. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory abstain for expert_grain_arith: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_maybe for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_yes] ladder — total,N,k sample-66","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_yes for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=abstain | total,N,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_no. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_no for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_yes | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_escalate] ladder — total,N,k sample-21","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_no] ladder — total,N,k sample-31","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=abstain | total,N,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_maybe | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Classify expert_grain_arith as abstain. Context: sm_121a missing flag (grain+active)","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_maybe | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_yes | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_maybe] ladder — total,N,k sample-26","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → unknown. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[unknown] ladder — total,N,k sample-106","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → abstain. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_no | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[abstain] ladder — total,N,k sample-71","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_yes. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — expert_grain_arith decision → expert grain arith_no. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory abstain for expert_grain_arith: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_no. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — [expert grain arith_no] ladder — total,N,k sample-91","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_escalate. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=abstain | total,N,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — [unknown] ladder — total,N,k sample-16","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_no] ladder — total,N,k sample-1","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_escalate] ladder — total,N,k sample-51","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_escalate. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_maybe] ladder — total,N,k sample-56","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_escalate for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[unknown] ladder — total,N,k sample-76","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — [expert grain arith_escalate] ladder — total,N,k sample-81","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_maybe. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_escalate for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_maybe | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Classify expert_grain_arith as abstain. Context: sm_121a missing flag (grain+active)","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[abstain] ladder — total,N,k sample-11","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_yes. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_maybe. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — [expert grain arith_escalate] ladder — total,N,k sample-111","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_yes] ladder — total,N,k sample-6","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=expert grain arith_no | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=expert grain arith_yes | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_no for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_yes for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[unknown] ladder — total,N,k sample-46","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — expert_grain_arith decision → expert grain arith_escalate. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Factory unknown for expert_grain_arith: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_no for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_yes. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_escalate | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=abstain | total,N,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → unknown. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_maybe] ladder — total,N,k sample-86","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=unknown | total,N,k | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_yes | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_yes] ladder — total,N,k sample-36","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_maybe. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_no. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Factory expert grain arith_no for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory unknown for expert_grain_arith: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=expert grain arith_escalate | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (grain+active)","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → unknown. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_no. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_maybe for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_escalate | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"[expert grain arith_yes] ladder — total,N,k sample-96","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Niche expert_grain_arith: label=expert grain arith_escalate | total,N,k | WORK_QUEUE Active empty","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=unknown | total,N,k | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_maybe. Input shape total,N,k. continue_on_dirty HOLD","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory expert grain arith_maybe for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Niche expert_grain_arith: label=expert grain arith_maybe | total,N,k | peer_loop IDLE seed","output":{"label":"expert grain arith_maybe"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_escalate. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — expert_grain_arith decision → expert grain arith_escalate. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_escalate. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Factory expert grain arith_yes for expert_grain_arith: GDS cuFile forbidden","output":{"label":"expert grain arith_yes"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Kit lock — Factory expert grain arith_escalate for expert_grain_arith: fact_checker prefer-order","output":{"label":"expert grain arith_escalate"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → expert grain arith_no. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Classify expert_grain_arith as expert grain arith_no. Context: sm_121a missing flag (grain+active)","output":{"label":"expert grain arith_no"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"Factory abstain for expert_grain_arith: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N20","niche":"expert_grain_arith","input":"expert_grain_arith decision → abstain. Input shape total,N,k. RSS proposal 48GB reject","output":{"label":"abstain"}}

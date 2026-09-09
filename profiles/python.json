@@ -1,0 +1,32 @@
+{
+  "peers": {
+    "implement": {
+      "subagent_type": "generalPurpose",
+      "reads": ["AGENTS.md", "README.md"],
+      "description": "Implement scoped Python changes — minimal diff"
+    },
+    "verify": {
+      "subagent_type": "shell",
+      "reads": ["AGENTS.md"],
+      "description": "Run pytest/unittest — no edits"
+    }
+  },
+  "match_rules": [
+    {"template": "git_hygiene", "any": ["commit", "stash", "git dirty"], "priority": 5},
+    {"template": "automation_audit", "any": ["automation", "self-check"], "priority": 8},
+    {"template": "generic_task", "any": ["implement", "fix", "add", "update", "ship", "test"], "priority": 200}
+  ],
+  "task_templates": {
+    "generic_task": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "Implement the queue item with minimal diff. Match repo conventions. Run verify commands before done."
+    }
+  },
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "python3 -m pytest -q",
+    "python3 -m unittest discover -s tests -q"
+  ]
+}

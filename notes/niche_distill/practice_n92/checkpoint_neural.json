@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N92",
+  "name": "secret_env_name_only",
+  "domain": "secret_env_name_only",
+  "helps": "safety",
+  "weights": "notes/niche_distill/practice_n92/weights/n92_secret_env_name_only_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.03225303068757057,
+  "labels": [
+    "abstain",
+    "secret env name only_escalate",
+    "secret env name only_maybe",
+    "secret env name only_no",
+    "secret env name only_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N92 '<input>'"
+}

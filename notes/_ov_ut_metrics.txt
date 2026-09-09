@@ -1,0 +1,6 @@
+test_metrics_green (tests.test_automation.PeerLoopTests.test_metrics_green) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK

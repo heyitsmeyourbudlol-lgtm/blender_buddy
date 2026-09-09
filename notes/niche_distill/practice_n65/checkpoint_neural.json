@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N65",
+  "name": "last_resort_stamp_seed",
+  "domain": "last_resort_stamp_seed",
+  "helps": "kit-seed skip",
+  "weights": "notes/niche_distill/practice_n65/weights/n65_last_resort_stamp_seed_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00018768769223242998,
+  "labels": [
+    "abstain",
+    "last resort stamp seed_escalate",
+    "last resort stamp seed_maybe",
+    "last resort stamp seed_no",
+    "last resort stamp seed_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N65 '<input>'"
+}

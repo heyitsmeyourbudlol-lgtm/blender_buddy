@@ -1,0 +1,17 @@
+{
+  "needle": "OVERSEER_NICHE_PRACTICE_N07_2026_09_07",
+  "niche_id": "N07",
+  "niche": "hallucination_block_fill",
+  "checkpoint": "notes/niche_distill/practice_n07/checkpoint.json",
+  "weights": "notes/niche_distill/practice_n07/weights/n07_hallucination_block_fill_practice.pt",
+  "train_jsonl": "notes/niche_distill/N07_hallucination_block_fill.jsonl",
+  "heldout_jsonl": "notes/niche_distill/N07_hallucination_block_fill_heldout.jsonl",
+  "n_train": 96,
+  "n_heldout": 16,
+  "heldout_accuracy": 1.0,
+  "pass_bar": 0.9,
+  "passed": true,
+  "serve": "python3 scripts/niche_n07_practice.py --serve '<item>'",
+  "recipe": "notes/niche_distill/RECIPE.md",
+  "corpus_prune": false
+}

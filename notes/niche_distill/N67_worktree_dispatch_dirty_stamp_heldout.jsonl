@@ -1,0 +1,10 @@
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Kit lock — Factory CLEAN for worktree_dispatch_dirty: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Classify worktree_dispatch_dirty as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (worktree vs hub)","output":{"label":"hub"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"[hub] continue_on_dirty — dirty tree sample-21","output":{"label":"hub"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"[wrong_host] continue_on_dirty — dirty tree sample-11","output":{"label":"wrong_host"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Kit lock — worktree_dispatch_dirty decision → CLEAN. Input shape dirty tree. RSS proposal 48GB reject","output":{"label":"CLEAN"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Niche worktree_dispatch_dirty: label=wrong_host | dirty tree | WORK_QUEUE Active empty","output":{"label":"wrong_host"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Niche worktree_dispatch_dirty: label=hub | dirty tree | peer_loop IDLE seed","output":{"label":"hub"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Kit lock — Niche worktree_dispatch_dirty: label=wrong_host | dirty tree | peer_loop IDLE seed","output":{"label":"wrong_host"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Classify worktree_dispatch_dirty as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (worktree vs hub)","output":{"label":"hub"}}
+{"niche_id":"N67","niche":"worktree_dispatch_dirty","input":"Factory hub for worktree_dispatch_dirty: GDS cuFile forbidden","output":{"label":"hub"}}

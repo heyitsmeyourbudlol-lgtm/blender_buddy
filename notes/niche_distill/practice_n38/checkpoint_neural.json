@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N38",
+  "name": "sync_wq_context_diff",
+  "domain": "sync_wq_context_diff",
+  "helps": "sync",
+  "weights": "notes/niche_distill/practice_n38/weights/n38_sync_wq_context_diff_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 2.3145597879192792e-05,
+  "labels": [
+    "abstain",
+    "sync wq context diff_escalate",
+    "sync wq context diff_maybe",
+    "sync wq context diff_no",
+    "sync wq context diff_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N38 '<input>'"
+}

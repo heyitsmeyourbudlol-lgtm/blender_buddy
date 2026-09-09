@@ -1,0 +1,96 @@
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → ok. Input shape rung row. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[missing] R0–R8 — rung row sample-56","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: sm_121a missing flag (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=ok | rung row | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory ok for ladder_rung_validate: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[ok] R0–R8 — rung row sample-111","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory ok for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-31","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-6","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory missing for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=missing | rung row | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=ok | rung row | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: sm_121a missing flag (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → collision. Input shape rung row. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → missing. Input shape rung row. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → collision. Input shape rung row. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=collision | rung row | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=ok | rung row | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [collision] R0–R8 — rung row sample-1","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → missing. Input shape rung row. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — ladder_rung_validate decision → missing. Input shape rung row. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — ladder_rung_validate decision → ok. Input shape rung row. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=ok | rung row | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: sm_121a missing flag (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-106","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Classify ladder_rung_validate as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory missing for ladder_rung_validate: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=ok | rung row | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → ok. Input shape rung row. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → collision. Input shape rung row. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[missing] R0–R8 — rung row sample-86","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[ok] R0–R8 — rung row sample-51","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=missing | rung row | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory missing for ladder_rung_validate: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: sm_121a missing flag (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-21","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [missing] R0–R8 — rung row sample-41","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory missing for ladder_rung_validate: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[missing] R0–R8 — rung row sample-101","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory ok for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory ok for ladder_rung_validate: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-81","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory collision for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → missing. Input shape rung row. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Classify ladder_rung_validate as collision. Context: sm_121a missing flag (arith OK)","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-61","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [collision] R0–R8 — rung row sample-16","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-66","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[missing] R0–R8 — rung row sample-11","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=ok | rung row | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory missing for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → ok. Input shape rung row. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-76","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: sm_121a missing flag (arith OK)","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[missing] R0–R8 — rung row sample-26","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-36","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: sm_121a missing flag (arith OK)","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → ok. Input shape rung row. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — ladder_rung_validate decision → collision. Input shape rung row. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory ok for ladder_rung_validate: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory ok for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-91","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[ok] R0–R8 — rung row sample-96","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory missing for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as collision. Context: sm_121a missing flag (arith OK)","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → collision. Input shape rung row. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=ok | rung row | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory missing for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → collision. Input shape rung row. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — ladder_rung_validate decision → missing. Input shape rung row. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=ok | rung row | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"ok"}}

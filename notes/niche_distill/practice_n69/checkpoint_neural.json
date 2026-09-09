@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N69",
+  "name": "launchagent_label_resolve",
+  "domain": "launchagent_label_resolve",
+  "helps": "heal/kickstart",
+  "weights": "notes/niche_distill/practice_n69/weights/n69_launchagent_label_resolve_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 4.4506010453915223e-05,
+  "labels": [
+    "abstain",
+    "launchagent label resolve_escalate",
+    "launchagent label resolve_maybe",
+    "launchagent label resolve_no",
+    "launchagent label resolve_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N69 '<input>'"
+}

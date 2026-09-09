@@ -1,0 +1,10 @@
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=unknown | smoke JSON | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — Classify rss_envelope_read as rss envelope read_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (RSS Δ)","output":{"label":"rss envelope read_yes"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_no | smoke JSON | WORK_QUEUE Active empty","output":{"label":"rss envelope read_no"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — rss_envelope_read decision → rss envelope read_yes. Input shape smoke JSON. continue_on_dirty HOLD","output":{"label":"rss envelope read_yes"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"rss_envelope_read decision → unknown. Input shape smoke JSON. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"rss_envelope_read decision → abstain. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Factory rss envelope read_maybe for rss_envelope_read: GDS cuFile forbidden","output":{"label":"rss envelope read_maybe"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_escalate | smoke JSON | WORK_QUEUE Active empty","output":{"label":"rss envelope read_escalate"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Classify rss_envelope_read as rss envelope read_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (RSS Δ)","output":{"label":"rss envelope read_maybe"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — rss_envelope_read decision → rss envelope read_no. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"rss envelope read_no"}}

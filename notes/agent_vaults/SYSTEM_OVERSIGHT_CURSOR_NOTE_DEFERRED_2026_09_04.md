@@ -1,0 +1,5 @@
+- **2026-09-04 stagnation dispatch (event-triggered — deferred≠verify_fail_hold)**
+  - **Found:** noop fp + deferred/cursor-agent non-zero; soft `failure_type=deferred` stamped `verify_ok=False` → false `verify_fail_hold`; fixture poison `{verify_ok:true,ts:1.0,deferred}`; hub-protect timer thrash; Active poison theater reopen loop.
+  - **Fixed:** permanent `OVERSEER_DEFERRED_NOT_VERIFY_FAIL_2026_09_04` in `peer_self_heal.py` — soft deferred skips verify_fail_hold; deferred-poison scrub helpers in `peer_transcript.py`; healers for `last_cycle_deferred_poison`; closed Active poison theater; factory advanced off 91% flatline when meter stable.
+  - **Still broken:** Mac↔DGX rsync + concurrent overseer land-holds can rewind unprotected scripts within seconds; Dispatch dirty ~85%.
+  - **Needs human:** Commit WORKING hub-protect scripts; Mac sender exclude vault list.

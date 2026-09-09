@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N43",
+  "name": "chinese_prior_tag",
+  "domain": "chinese_prior_tag",
+  "helps": "L6",
+  "weights": "notes/niche_distill/practice_n43/weights/n43_chinese_prior_tag_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.01914246566593647,
+  "labels": [
+    "abstain",
+    "chinese prior tag_escalate",
+    "chinese prior tag_maybe",
+    "chinese prior tag_no",
+    "chinese prior tag_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N43 '<input>'"
+}

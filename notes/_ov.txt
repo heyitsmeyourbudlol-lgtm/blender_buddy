@@ -1,0 +1,25 @@
+stopped
+ls: cannot access 'scripts/_overseer_land_stall_now.py': No such file or directory
+python3: can't open file '/home/arnavrastogi/Automation/scripts/_overseer_land_stall_now.py': [Errno 2] No such file or directory
+249:        "in-process quick signals (no --audit subprocess)"
+note
+60:- **2026-09-03 stagnation dispatch (event-triggered · stall restore-loop)**
+hub-protect: land hold fresh age=0s — needle-heal only (skip full promote)
+249:        "in-process quick signals (no --audit subprocess)"
+----------------------------------------------------------------------
+Ran 11 tests in 0.017s
+
+OK
+FINAL:0
+# Factory progress (real outcomes)
+
+**North star:** Self-sufficient automation: peer + improve forever, mechanical heal, verify gates, oversight — runs without babysitting
+
+**Readiness:** `59%`  `████████████░░░░░░░░`
+
+_59% self-sufficient (peak 0%) — 2 blocker(s); loops not yet proven without babysitting_
+
+ASI % on the dashboard is harness health. This meter is what you actually asked for:
+can the factory clear dispatch, deliver non-noop work, and run self-sufficiently.
+
+## Dimensions

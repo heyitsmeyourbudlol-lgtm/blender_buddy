@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N78",
+  "name": "composer_route_pick",
+  "domain": "composer_route_pick",
+  "helps": "niche_composer",
+  "weights": "notes/niche_distill/practice_n78/weights/n78_composer_route_pick_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.027836227789521217,
+  "labels": [
+    "abstain",
+    "composer route pick_escalate",
+    "composer route pick_maybe",
+    "composer route pick_no",
+    "composer route pick_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N78 '<input>'"
+}

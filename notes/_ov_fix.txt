@@ -1,0 +1,5 @@
+start bare False
+start dups is 1
+start dups poison 1
+CONTEXT 'run_local_cycle(quick=True, log_fn=lambda _m: None)\n    verify_ok = rc == 0 and bool(ready)\n    if not verify_ok:\n        try:\n            import automation_adapt as adapt\n\n       '
+no pattern

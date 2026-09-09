@@ -1,0 +1,16 @@
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — gds_import_ban decision → unknown. Input shape python file. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — Factory gds import ban_no for gds_import_ban: fact_checker prefer-order","output":{"label":"gds import ban_no"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — [abstain] C4 — python file sample-11","output":{"label":"abstain"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Factory abstain for gds_import_ban: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=gds import ban_escalate | python file | WORK_QUEUE Active empty","output":{"label":"gds import ban_escalate"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"[unknown] C4 — python file sample-106","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=gds import ban_escalate | python file | WORK_QUEUE Active empty","output":{"label":"gds import ban_escalate"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Factory gds import ban_escalate for gds_import_ban: fact_checker prefer-order","output":{"label":"gds import ban_escalate"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"[gds import ban_maybe] C4 — python file sample-86","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — Niche gds_import_ban: label=unknown | python file | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — gds_import_ban decision → gds import ban_maybe. Input shape python file. continue_on_dirty HOLD","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"gds_import_ban decision → gds import ban_no. Input shape python file. RSS proposal 48GB reject","output":{"label":"gds import ban_no"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Factory gds import ban_maybe for gds_import_ban: GDS cuFile forbidden","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Factory unknown for gds_import_ban: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"[unknown] C4 — python file sample-16","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — Classify gds_import_ban as gds import ban_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (forbidden import hits)","output":{"label":"gds import ban_maybe"}}

@@ -1,0 +1,16 @@
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Factory abstain for subagent_type_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Factory subagent type pick_escalate for subagent_type_pick: fact_checker prefer-order","output":{"label":"subagent type pick_escalate"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Factory abstain for subagent_type_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Classify subagent_type_pick as subagent type pick_escalate. Context: sm_121a missing flag (Task subagent_type)","output":{"label":"subagent type pick_escalate"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"subagent_type_pick decision → subagent type pick_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"subagent type pick_maybe"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[unknown] parallel peers — task sample-76","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=subagent type pick_maybe | task | peer_loop IDLE seed","output":{"label":"subagent type pick_maybe"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Factory abstain for subagent_type_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"subagent_type_pick decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[subagent type pick_escalate] parallel peers — task sample-111","output":{"label":"subagent type pick_escalate"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=subagent type pick_escalate | task | WORK_QUEUE Active empty","output":{"label":"subagent type pick_escalate"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[abstain] parallel peers — task sample-41","output":{"label":"abstain"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Factory subagent type pick_yes for subagent_type_pick: GDS cuFile forbidden","output":{"label":"subagent type pick_yes"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[subagent type pick_no] parallel peers — task sample-61","output":{"label":"subagent type pick_no"}}

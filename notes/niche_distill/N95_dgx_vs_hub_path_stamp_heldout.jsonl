@@ -1,0 +1,10 @@
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-46","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | WORK_QUEUE Active empty","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-16","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-11","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-36","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory wrong_host for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"wrong_host"}}

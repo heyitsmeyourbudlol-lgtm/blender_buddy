@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "fetched_at": "2026-09-03T10:06:51.478056+00:00",
+  "trends": [
+    {
+      "id": "parallel_worktrees",
+      "theme": "Parallel agents via git worktrees",
+      "summary": "Industry pattern: isolate each agent in its own worktree/branch to avoid file conflicts.",
+      "kit_status": "have",
+      "opportunity": "Shipped: peer_worktree.spawn_parallel_worktree + ./scripts/peer ensure-pool (floor=8, refuse out-of-cap slots). Keep pool floor \u2194 max_parallel_peers aligned.",
+      "sources": [
+        "https://www.mindstudio.ai/blog/parallel-ai-coding-agents-git-worktrees",
+        "https://github.com/spillwavesolutions/parallel-worktrees"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "phase_orchestration",
+      "theme": "Phase-based orchestration (plan \u2192 implement \u2192 verify \u2192 review)",
+      "summary": "Discrete phases with recovery points beat free-roaming agents.",
+      "kit_status": "have",
+      "opportunity": "Formalize phases in peer_orchestrate output; gate merge on verify between phases.",
+      "sources": [
+        "https://maecapozzi.com/blog/building-a-multi-agent-orchestrator"
+      ],
+      "priority": 28
+    },
+    {
+      "id": "coordinator_routing",
+      "theme": "Coordinator-first specialist routing",
+      "summary": "A coordinator picks specialists instead of hardcoded if/else routing.",
+      "kit_status": "partial",
+      "opportunity": "Optional coordinator pass before template_match for ambiguous queue items.",
+      "sources": [
+        "https://htdocs.dev/posts/from-conductor-to-orchestrator-a-practical-guide-to-multi-agent-coding-in-2026/"
+      ],
+      "priority": 35
+    },
+    {
+      "id": "self_healing_ci",
+      "theme": "Self-healing CI / verify loops",
+      "summary": "Agents re-run CI, fix failures, and stop wedged PR loops with terminal close + respawn.",
+      "kit_status": "have",
+      "opportunity": "Extend post-agent verify to retry-once + classify failure type in peer-loop-state.",
+      "sources": [
+        "https://github.com/kai-linux/agent-os",
+        "https://github.com/amitdevx/self-healops"
+      ],
+      "priority": 18
+    },
+    {
+      "id": "graduated_automation",
+      "theme": "dispatcher_only \u2192 full automation rollout",
+      "summary": "Start supervised; graduate to full loop after reliability metrics are green.",
+      "kit_status": "have",
+      "opportunity": "Document dispatcher_only path in IMPORT.md; expose automation_mode in config.",
+      "sources": [
+        "https://github.com/kai-linux/agent-os"
+      ],
+      "priority": 55
+    },
+    {
+      "id": "event_driven_wake",
+      "theme": "Event-driven agent wake (not poll timers)",
+      "summary": "Wake on transcript/git/signal events; long fallback sleep only off macOS.",
+      "kit_status": "have",
+      "opportunity": "Keep kqueue path hot; avoid adding short poll timers.",
+      "sources": [
+        "https://www.firecrawl.dev/blog/agentic-ai-trends"
+      ],
+      "priority": 70
+    },
+    {
+      "id": "harness_memory",
+      "theme": "Agent harness: memory + state across sessions",
+      "summary": "WORK_QUEUE, adapt-state, loop retrospect \u2014 persistence outside the chat window.",
+      "kit_status": "have",
+      "opportunity": "Inject last_cycle + trend cache into every peer prompt; trim stale context.",
+      "sources": [
+        "https://www.firecrawl.dev/blog/agentic-ai-trends"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "mcp_tool_layer",
+      "theme": "MCP / tool protocol layer",
+      "summary": "Standard tool interfaces (MCP) for agents; kit should play nice with Cursor MCP.",
+      "kit_status": "partial",
+      "opportunity": "Self-check tip when MCP namespaces error; document peer + MCP workflow.",
+      "sources": [
+        "https://www.firecrawl.dev/blog/agentic-ai-trends"
+      ],
+      "priority": 45
+    }
+  ]
+}

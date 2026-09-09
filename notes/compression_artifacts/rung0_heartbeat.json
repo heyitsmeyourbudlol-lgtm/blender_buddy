@@ -1,0 +1,12 @@
+{
+  "needle": "OVERSEER_COMPRESSION_TRAIN_RUNG0_2026_09_05",
+  "ts": "2026-09-08T02:31:06Z",
+  "skeleton": "/home/arnavrastogi/Automation/notes/compression_artifacts/rung0_model_skeleton.json",
+  "status": "complete",
+  "step": 3500,
+  "loss": 0.15523585677146912,
+  "note": "rung0 KD complete \u2014 await stress suite; north_star_1b still open",
+  "S_arith": 134.0914,
+  "heldout_kd_mse": 0.1365958359092474,
+  "train_complete": true
+}

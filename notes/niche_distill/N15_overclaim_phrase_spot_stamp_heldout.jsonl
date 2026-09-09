@@ -1,0 +1,10 @@
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory abstain for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as abstain. Context: sm_121a missing flag (overclaim span)","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_no | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_maybe] honesty — sentence sample-56","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_maybe for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_escalate] honesty — sentence sample-21","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [abstain] honesty — sentence sample-41","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_maybe] honesty — sentence sample-26","output":{"label":"overclaim phrase spot_maybe"}}

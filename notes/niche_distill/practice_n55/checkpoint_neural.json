@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N55",
+  "name": "improve_opp_file_scope",
+  "domain": "improve_opp_file_scope",
+  "helps": "kit-seed",
+  "weights": "notes/niche_distill/practice_n55/weights/n55_improve_opp_file_scope_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 3.147518145851791e-05,
+  "labels": [
+    "abstain",
+    "improve opp file scope_escalate",
+    "improve opp file scope_maybe",
+    "improve opp file scope_no",
+    "improve opp file scope_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N55 '<input>'"
+}

@@ -1,0 +1,15 @@
+{
+  "needle": "OVERSEER_FAR_MAP_1Q_SCAFFOLD_2026_09_06",
+  "status": "HORIZON_MAP_ONLY",
+  "north_star_params": 1e15,
+  "rss_budget_gb": 20,
+  "default_expert_width": 10000000,
+  "optional_ultra_fine_width": 1000000,
+  "milestones_illustrative": [
+    {"id": "M0", "total": 1e13, "expert_width": 6.1e8, "n_order": 16000},
+    {"id": "M1", "total": 4e13, "expert_width": 1.5e8, "n_order": 260000},
+    {"id": "M2", "total": 1.6e14, "expert_width": 1.5e8, "n_order": 1000000},
+    {"id": "M_star", "total": 1e15, "expert_width": 1e7, "n_order": 100000000}
+  ],
+  "rule": "Never break ≤20GB; prefer smaller experts; I/O layers own small cache; FP4 TE + C2C + pinned-UMA cold (no GDS). Redraw when hardware allows."
+}

@@ -1,0 +1,7 @@
+t: 0
+factory_pct: unknown
+heal_rc: None
+test_quick_rc: None
+goal1_ok: True
+what_was_fixed:
+- automation_config cap_dgx_install_limits verified (ceiling 24, worktree_pool clamp, docstring "stale 96/48 

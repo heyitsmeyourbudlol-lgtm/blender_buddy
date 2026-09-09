@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_NICHE_MINT_ON_DEMAND_2026_09_07",
+  "niches": [
+    {
+      "id": "N106",
+      "name": "verify_log_snippet_class",
+      "input_shape": "verify log snippet",
+      "output_shape": "class",
+      "helps": "agent on-demand",
+      "reason": "agent demo mint scaffold",
+      "examples": [],
+      "status": "scaffolded",
+      "minted_at": "2026-09-07T13:58:08Z"
+    },
+    {
+      "id": "N107",
+      "name": "domain_classifier_train",
+      "input_shape": "text",
+      "output_shape": "label",
+      "helps": "agent on-demand",
+      "reason": "closed-world domain id for fact-librarian; free local",
+      "examples": [],
+      "status": "trained",
+      "minted_at": "2026-09-07T17:10:24Z",
+      "checkpoint": "notes/niche_distill/domain_classifier/checkpoint.json",
+      "trained_at": "2026-09-08"
+    }
+  ],
+  "local_only": true,
+  "ts": "2026-09-07T17:10:24Z"
+}

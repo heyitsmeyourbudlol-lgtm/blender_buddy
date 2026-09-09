@@ -1,0 +1,96 @@
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_yes. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_yes] self_sufficient lies — bullet sample-66","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_maybe. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=abstain | bullet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_no for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — demote_note_scrub decision → abstain. Input shape bullet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_escalate] self_sufficient lies — bullet sample-111","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=abstain | bullet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_maybe | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [demote note scrub_no] self_sufficient lies — bullet sample-61","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_yes | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_maybe. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_maybe. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_no | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_no. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [unknown] self_sufficient lies — bullet sample-76","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_escalate] self_sufficient lies — bullet sample-21","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_escalate | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory unknown for demote_note_scrub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=unknown | bullet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Factory demote note scrub_maybe for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_escalate for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_maybe for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_no. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_maybe] self_sufficient lies — bullet sample-56","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_no. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory abstain for demote_note_scrub: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory unknown for demote_note_scrub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_no. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Factory demote note scrub_escalate for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_maybe] self_sufficient lies — bullet sample-86","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_escalate] self_sufficient lies — bullet sample-81","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → unknown. Input shape bullet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [demote note scrub_no] self_sufficient lies — bullet sample-31","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=unknown | bullet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as abstain. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_yes | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_maybe | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as abstain. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_no. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [abstain] self_sufficient lies — bullet sample-101","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_yes] self_sufficient lies — bullet sample-36","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [demote note scrub_no] self_sufficient lies — bullet sample-91","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory unknown for demote_note_scrub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [demote note scrub_no] self_sufficient lies — bullet sample-1","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=abstain | bullet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_no | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_no | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — demote_note_scrub decision → abstain. Input shape bullet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_escalate | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_maybe] self_sufficient lies — bullet sample-26","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=abstain | bullet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_yes. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_yes for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_escalate. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[abstain] self_sufficient lies — bullet sample-11","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_maybe for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_yes | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → abstain. Input shape bullet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory abstain for demote_note_scrub: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_no for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_escalate. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory unknown for demote_note_scrub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_yes | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_yes for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_yes] self_sufficient lies — bullet sample-96","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_no. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [abstain] self_sufficient lies — bullet sample-71","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[unknown] self_sufficient lies — bullet sample-16","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_no for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_escalate. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_maybe | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=demote note scrub_maybe | bullet | peer_loop IDLE seed","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as abstain. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Factory demote note scrub_no for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_escalate | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[unknown] self_sufficient lies — bullet sample-46","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_escalate for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → unknown. Input shape bullet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_no. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_no. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_no"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_yes for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_maybe for demote_note_scrub: GDS cuFile forbidden","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_escalate. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — demote_note_scrub decision → demote note scrub_escalate. Input shape bullet. RSS proposal 48GB reject","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=demote note scrub_escalate | bullet | WORK_QUEUE Active empty","output":{"label":"demote note scrub_escalate"}}

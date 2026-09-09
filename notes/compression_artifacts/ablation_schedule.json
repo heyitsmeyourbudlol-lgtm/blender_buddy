@@ -1,0 +1,293 @@
+{
+  "needle": "OVERSEER_COMPRESSION_ABLATION_SCHEDULE_2026_09_06",
+  "mode": "oa-then-hb",
+  "dry_run": true,
+  "blocks_rung0": false,
+  "train_unlocked": false,
+  "recipe_locked": true,
+  "refs": {
+    "S03": "orthogonal array / successive halving for (k,r)",
+    "S16": "Hyperband-style brackets eta cull after OA",
+    "S32": "OATM / Taguchi L9 multi-factor k,r,E screen"
+  },
+  "eta": 3,
+  "max_resource": 81,
+  "k_levels": [
+    2,
+    4,
+    8,
+    16,
+    50,
+    100,
+    125,
+    200
+  ],
+  "r_levels": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "e_levels": [
+    1,
+    3,
+    9
+  ],
+  "full_grid_n": 48,
+  "full_grid_cost_proxy": 3888,
+  "screen": [
+    {
+      "k": 2,
+      "r": 1,
+      "e": 1,
+      "config_id": "oa0"
+    },
+    {
+      "k": 2,
+      "r": 4,
+      "e": 3,
+      "config_id": "oa1"
+    },
+    {
+      "k": 2,
+      "r": 32,
+      "e": 9,
+      "config_id": "oa2"
+    },
+    {
+      "k": 50,
+      "r": 1,
+      "e": 3,
+      "config_id": "oa3"
+    },
+    {
+      "k": 50,
+      "r": 4,
+      "e": 9,
+      "config_id": "oa4"
+    },
+    {
+      "k": 50,
+      "r": 32,
+      "e": 1,
+      "config_id": "oa5"
+    },
+    {
+      "k": 200,
+      "r": 1,
+      "e": 9,
+      "config_id": "oa6"
+    },
+    {
+      "k": 200,
+      "r": 4,
+      "e": 1,
+      "config_id": "oa7"
+    },
+    {
+      "k": 200,
+      "r": 32,
+      "e": 3,
+      "config_id": "oa8"
+    }
+  ],
+  "screen_n": 9,
+  "brackets": [
+    {
+      "bracket_id": 0,
+      "n0": 9,
+      "r0": 1,
+      "s": 4,
+      "eta": 3,
+      "total_resource_units": 27,
+      "rounds": [
+        {
+          "round_idx": 0,
+          "resource": 1,
+          "n_configs": 9,
+          "configs": [
+            "hb0_0_oa0",
+            "hb0_1_oa1",
+            "hb0_2_oa2",
+            "hb0_3_oa3",
+            "hb0_4_oa4",
+            "hb0_5_oa5",
+            "hb0_6_oa6",
+            "hb0_7_oa7",
+            "hb0_8_oa8"
+          ]
+        },
+        {
+          "round_idx": 1,
+          "resource": 3,
+          "n_configs": 3,
+          "configs": [
+            "hb0_0_oa0",
+            "hb0_1_oa1",
+            "hb0_2_oa2"
+          ]
+        },
+        {
+          "round_idx": 2,
+          "resource": 9,
+          "n_configs": 1,
+          "configs": [
+            "hb0_0_oa0"
+          ]
+        }
+      ]
+    },
+    {
+      "bracket_id": 1,
+      "n0": 9,
+      "r0": 3,
+      "s": 3,
+      "eta": 3,
+      "total_resource_units": 81,
+      "rounds": [
+        {
+          "round_idx": 0,
+          "resource": 3,
+          "n_configs": 9,
+          "configs": [
+            "hb1_0_oa0",
+            "hb1_1_oa1",
+            "hb1_2_oa2",
+            "hb1_3_oa3",
+            "hb1_4_oa4",
+            "hb1_5_oa5",
+            "hb1_6_oa6",
+            "hb1_7_oa7",
+            "hb1_8_oa8"
+          ]
+        },
+        {
+          "round_idx": 1,
+          "resource": 9,
+          "n_configs": 3,
+          "configs": [
+            "hb1_0_oa0",
+            "hb1_1_oa1",
+            "hb1_2_oa2"
+          ]
+        },
+        {
+          "round_idx": 2,
+          "resource": 27,
+          "n_configs": 1,
+          "configs": [
+            "hb1_0_oa0"
+          ]
+        }
+      ]
+    },
+    {
+      "bracket_id": 2,
+      "n0": 9,
+      "r0": 9,
+      "s": 2,
+      "eta": 3,
+      "total_resource_units": 243,
+      "rounds": [
+        {
+          "round_idx": 0,
+          "resource": 9,
+          "n_configs": 9,
+          "configs": [
+            "hb2_0_oa0",
+            "hb2_1_oa1",
+            "hb2_2_oa2",
+            "hb2_3_oa3",
+            "hb2_4_oa4",
+            "hb2_5_oa5",
+            "hb2_6_oa6",
+            "hb2_7_oa7",
+            "hb2_8_oa8"
+          ]
+        },
+        {
+          "round_idx": 1,
+          "resource": 27,
+          "n_configs": 3,
+          "configs": [
+            "hb2_0_oa0",
+            "hb2_1_oa1",
+            "hb2_2_oa2"
+          ]
+        },
+        {
+          "round_idx": 2,
+          "resource": 81,
+          "n_configs": 1,
+          "configs": [
+            "hb2_0_oa0"
+          ]
+        }
+      ]
+    },
+    {
+      "bracket_id": 3,
+      "n0": 8,
+      "r0": 27,
+      "s": 1,
+      "eta": 3,
+      "total_resource_units": 378,
+      "rounds": [
+        {
+          "round_idx": 0,
+          "resource": 27,
+          "n_configs": 8,
+          "configs": [
+            "hb3_0_oa0",
+            "hb3_1_oa1",
+            "hb3_2_oa2",
+            "hb3_3_oa3",
+            "hb3_4_oa4",
+            "hb3_5_oa5",
+            "hb3_6_oa6",
+            "hb3_7_oa7"
+          ]
+        },
+        {
+          "round_idx": 1,
+          "resource": 81,
+          "n_configs": 2,
+          "configs": [
+            "hb3_0_oa0",
+            "hb3_1_oa1"
+          ]
+        }
+      ]
+    },
+    {
+      "bracket_id": 4,
+      "n0": 5,
+      "r0": 81,
+      "s": 0,
+      "eta": 3,
+      "total_resource_units": 405,
+      "rounds": [
+        {
+          "round_idx": 0,
+          "resource": 81,
+          "n_configs": 5,
+          "configs": [
+            "hb4_0_oa0",
+            "hb4_1_oa1",
+            "hb4_2_oa2",
+            "hb4_3_oa3",
+            "hb4_4_oa4"
+          ]
+        }
+      ]
+    }
+  ],
+  "schedule_resource_units": 1134,
+  "approx_speedup_vs_full_grid": 3.4285714285714284,
+  "note": "Dry-run schedule only \u2014 cull order is deterministic placeholder; does not rewrite LOCKED recipe or gate rung0.",
+  "cache_needle": "OVERSEER_COMPRESSION_ABLATION_SCHEDULE_CACHE_2026_09_08",
+  "fingerprint": "48f56c56e945b308",
+  "data_prune": false
+}

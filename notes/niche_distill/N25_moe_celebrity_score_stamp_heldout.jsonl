@@ -1,0 +1,10 @@
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Factory abstain for moe_celebrity_score: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Niche moe_celebrity_score: label=moe celebrity score_maybe | router hist | peer_loop IDLE seed","output":{"label":"moe celebrity score_maybe"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Kit lock — Factory moe celebrity score_escalate for moe_celebrity_score: fact_checker prefer-order","output":{"label":"moe celebrity score_escalate"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"[abstain] load-spread — router hist sample-11","output":{"label":"abstain"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Classify moe_celebrity_score as moe celebrity score_no. Context: sm_121a missing flag (risk)","output":{"label":"moe celebrity score_no"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Factory moe celebrity score_escalate for moe_celebrity_score: fact_checker prefer-order","output":{"label":"moe celebrity score_escalate"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Factory unknown for moe_celebrity_score: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Kit lock — moe_celebrity_score decision → moe celebrity score_yes. Input shape router hist. continue_on_dirty HOLD","output":{"label":"moe celebrity score_yes"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"Kit lock — moe_celebrity_score decision → moe celebrity score_yes. Input shape router hist. continue_on_dirty HOLD","output":{"label":"moe celebrity score_yes"}}
+{"niche_id":"N25","niche":"moe_celebrity_score","input":"moe_celebrity_score decision → moe celebrity score_maybe. Input shape router hist. continue_on_dirty HOLD","output":{"label":"moe celebrity score_maybe"}}

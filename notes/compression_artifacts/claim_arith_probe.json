@@ -1,0 +1,67 @@
+{
+  "needle": "OVERSEER_RESEARCH_CLAIM_ARITH_PROBE_2026_09_08",
+  "parent_needle": "OVERSEER_RESEARCH_CLAIM_ARITH_2026_09_08",
+  "refs": {
+    "S06": "arith prefilter",
+    "S14": "closed-form U/S/bytes"
+  },
+  "grid_n": 48,
+  "n_logic": 100000,
+  "quality_proxy_ms": 0.0,
+  "before_cost_units": 48.0,
+  "after_cost_units": 31.0,
+  "unit_speedup": 1.548,
+  "before_wall_sec": 0.000212,
+  "after_wall_sec": 0.000898,
+  "wall_speedup": 0.236,
+  "approx_speedup": 1.548,
+  "after_pass": 31,
+  "after_reject": 17,
+  "reject_fraction": 0.3542,
+  "train_unlocked": false,
+  "blocks_rung0": false,
+  "recipe_locked": true,
+  "note": "Primary speedup = cost units (grid_n / after_pass). Optional wall sleep mirrors quality proxy \u2014 not GPU. Rejects fail-closed (S<MIN_ARITH); no data prune.",
+  "sample_rejects": [
+    {
+      "k": 2,
+      "r": 8,
+      "S": 47.619
+    },
+    {
+      "k": 2,
+      "r": 16,
+      "S": 27.027
+    },
+    {
+      "k": 2,
+      "r": 32,
+      "S": 14.4928
+    },
+    {
+      "k": 4,
+      "r": 16,
+      "S": 28.9855
+    },
+    {
+      "k": 4,
+      "r": 32,
+      "S": 15.0376
+    },
+    {
+      "k": 8,
+      "r": 16,
+      "S": 30.0752
+    },
+    {
+      "k": 8,
+      "r": 32,
+      "S": 15.3257
+    },
+    {
+      "k": 16,
+      "r": 16,
+      "S": 30.656
+    }
+  ]
+}

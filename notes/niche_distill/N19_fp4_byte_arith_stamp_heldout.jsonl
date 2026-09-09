@@ -1,0 +1,10 @@
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Niche fp4_byte_arith: label=fp4 byte arith_no | N_params | WORK_QUEUE Active empty","output":{"label":"fp4 byte arith_no"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"[fp4 byte arith_yes] L5 — N_params sample-36","output":{"label":"fp4 byte arith_yes"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Classify fp4_byte_arith as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (FP4 bytes)","output":{"label":"unknown"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Kit lock — Factory fp4 byte arith_no for fp4_byte_arith: fact_checker prefer-order","output":{"label":"fp4 byte arith_no"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Kit lock — fp4_byte_arith decision → fp4 byte arith_maybe. Input shape N_params. continue_on_dirty HOLD","output":{"label":"fp4 byte arith_maybe"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Classify fp4_byte_arith as fp4 byte arith_no. Context: sm_121a missing flag (FP4 bytes)","output":{"label":"fp4 byte arith_no"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Classify fp4_byte_arith as fp4 byte arith_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (FP4 bytes)","output":{"label":"fp4 byte arith_yes"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Niche fp4_byte_arith: label=fp4 byte arith_maybe | N_params | peer_loop IDLE seed","output":{"label":"fp4 byte arith_maybe"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"fp4_byte_arith decision → fp4 byte arith_escalate. Input shape N_params. RSS proposal 48GB reject","output":{"label":"fp4 byte arith_escalate"}}
+{"niche_id":"N19","niche":"fp4_byte_arith","input":"Kit lock — [abstain] L5 — N_params sample-11","output":{"label":"abstain"}}

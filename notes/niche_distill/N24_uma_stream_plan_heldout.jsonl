@@ -1,0 +1,16 @@
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Kit lock — Factory uma stream plan_maybe for uma_stream_plan: GDS cuFile forbidden","output":{"label":"uma stream plan_maybe"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"[unknown] no-GDS path — expert size sample-76","output":{"label":"unknown"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"uma_stream_plan decision → uma stream plan_escalate. Input shape expert size. RSS proposal 48GB reject","output":{"label":"uma stream plan_escalate"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Classify uma_stream_plan as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (l2/uma/nvme)","output":{"label":"unknown"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Kit lock — Classify uma_stream_plan as abstain. Context: sm_121a missing flag (l2/uma/nvme)","output":{"label":"abstain"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Niche uma_stream_plan: label=unknown | expert size | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Factory abstain for uma_stream_plan: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Kit lock — Niche uma_stream_plan: label=uma stream plan_maybe | expert size | peer_loop IDLE seed","output":{"label":"uma stream plan_maybe"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Kit lock — Factory uma stream plan_yes for uma_stream_plan: GDS cuFile forbidden","output":{"label":"uma stream plan_yes"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"[uma stream plan_escalate] no-GDS path — expert size sample-21","output":{"label":"uma stream plan_escalate"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Factory unknown for uma_stream_plan: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"uma_stream_plan decision → uma stream plan_no. Input shape expert size. RSS proposal 48GB reject","output":{"label":"uma stream plan_no"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Classify uma_stream_plan as uma stream plan_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (l2/uma/nvme)","output":{"label":"uma stream plan_maybe"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"[uma stream plan_yes] no-GDS path — expert size sample-36","output":{"label":"uma stream plan_yes"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"uma_stream_plan decision → uma stream plan_yes. Input shape expert size. continue_on_dirty HOLD","output":{"label":"uma stream plan_yes"}}
+{"niche_id":"N24","niche":"uma_stream_plan","input":"Factory uma stream plan_no for uma_stream_plan: fact_checker prefer-order","output":{"label":"uma stream plan_no"}}

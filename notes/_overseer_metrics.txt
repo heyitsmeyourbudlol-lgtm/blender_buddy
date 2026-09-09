@@ -1,0 +1,8 @@
+<function _patch_peer_loop.<locals>.metrics_green at 0xf141cb1d5300>
+    def metrics_green(live):
+        return bool(getattr(live, "tests_ok", False)) and pl.auto.success_metrics_ok(live)
+
+live LiveState(git_clean=True, git_detail='clean', tests_ok=False, tests_detail='fail', import_rss_mb=13.0, footprint_detail='ok')
+tests_ok False
+success False
+metrics_green False

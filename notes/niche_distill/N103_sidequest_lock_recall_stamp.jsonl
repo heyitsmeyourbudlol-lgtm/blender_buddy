@@ -1,0 +1,48 @@
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Classify sidequest_lock_recall as abstain. Context: sm_121a missing flag (short answer)","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_no. Context: sm_121a missing flag (short answer)","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Factory sidequest lock recall_no for sidequest_lock_recall: fact_checker prefer-order","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Niche sidequest_lock_recall: label=sidequest lock recall_no | lock question | WORK_QUEUE Active empty","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — sidequest_lock_recall decision → sidequest lock recall_yes. Input shape lock question. continue_on_dirty HOLD","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Niche sidequest_lock_recall: label=abstain | lock question | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_maybe for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_escalate. Input shape lock question. RSS proposal 48GB reject","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=unknown | lock question | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_no. Context: sm_121a missing flag (short answer)","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=abstain | lock question | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_yes. Input shape lock question. continue_on_dirty HOLD","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_yes] knowledge — lock question sample-6","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_escalate] knowledge — lock question sample-21","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_no. Input shape lock question. RSS proposal 48GB reject","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — sidequest_lock_recall decision → abstain. Input shape lock question. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_maybe] knowledge — lock question sample-56","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as abstain. Context: sm_121a missing flag (short answer)","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_yes for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_maybe for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Niche sidequest_lock_recall: label=sidequest lock recall_no | lock question | WORK_QUEUE Active empty","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_no for sidequest_lock_recall: fact_checker prefer-order","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — [sidequest lock recall_escalate] knowledge — lock question sample-51","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Factory sidequest lock recall_escalate for sidequest_lock_recall: fact_checker prefer-order","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_maybe. Input shape lock question. continue_on_dirty HOLD","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Classify sidequest_lock_recall as sidequest lock recall_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_escalate. Context: sm_121a missing flag (short answer)","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_yes] knowledge — lock question sample-36","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — [abstain] knowledge — lock question sample-11","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_escalate | lock question | WORK_QUEUE Active empty","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — Factory abstain for sidequest_lock_recall: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_escalate. Context: sm_121a missing flag (short answer)","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_maybe | lock question | peer_loop IDLE seed","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — sidequest_lock_recall decision → sidequest lock recall_no. Input shape lock question. RSS proposal 48GB reject","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_maybe] knowledge — lock question sample-26","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as sidequest lock recall_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_no] knowledge — lock question sample-31","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — [unknown] knowledge — lock question sample-46","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_maybe. Input shape lock question. continue_on_dirty HOLD","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_yes | lock question | peer_loop IDLE seed","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory unknown for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=unknown | lock question | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_yes | lock question | peer_loop IDLE seed","output":{"label":"sidequest lock recall_yes"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_maybe | lock question | peer_loop IDLE seed","output":{"label":"sidequest lock recall_maybe"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Kit lock — sidequest_lock_recall decision → unknown. Input shape lock question. continue_on_dirty HOLD","output":{"label":"unknown"}}

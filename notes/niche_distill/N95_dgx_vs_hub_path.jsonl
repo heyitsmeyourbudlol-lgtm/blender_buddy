@@ -1,0 +1,96 @@
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=wrong_host | path | peer_loop IDLE seed","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Niche dgx_vs_hub_path: label=CLEAN | path | peer_loop IDLE seed","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. continue_on_dirty HOLD","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → CLEAN. Input shape path. RSS proposal 48GB reject","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — [CLEAN] remote — path sample-76","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=CLEAN | path | peer_loop IDLE seed","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | WORK_QUEUE Active empty","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | WORK_QUEUE Active empty","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory hub for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-86","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-91","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → hub. Input shape path. RSS proposal 48GB reject","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. continue_on_dirty HOLD","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=wrong_host | path | WORK_QUEUE Active empty","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory CLEAN for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory hub for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=CLEAN | path | peer_loop IDLE seed","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory hub for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | peer_loop IDLE seed","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-26","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | peer_loop IDLE seed","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → wrong_host. Input shape path. continue_on_dirty HOLD","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-46","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → CLEAN. Input shape path. RSS proposal 48GB reject","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-1","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=wrong_host | path | WORK_QUEUE Active empty","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → wrong_host. Input shape path. RSS proposal 48GB reject","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-51","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. RSS proposal 48GB reject","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → CLEAN. Input shape path. RSS proposal 48GB reject","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as hub. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-6","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-96","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=CLEAN | path | WORK_QUEUE Active empty","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-56","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-111","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as hub. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as CLEAN. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=wrong_host | path | peer_loop IDLE seed","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → wrong_host. Input shape path. continue_on_dirty HOLD","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — [CLEAN] remote — path sample-61","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory CLEAN for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → CLEAN. Input shape path. continue_on_dirty HOLD","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Niche dgx_vs_hub_path: label=wrong_host | path | WORK_QUEUE Active empty","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Niche dgx_vs_hub_path: label=hub | path | peer_loop IDLE seed","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-101","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[hub] remote — path sample-36","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as CLEAN. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | WORK_QUEUE Active empty","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-71","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. RSS proposal 48GB reject","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory CLEAN for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. continue_on_dirty HOLD","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[CLEAN] remote — path sample-31","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → CLEAN. Input shape path. RSS proposal 48GB reject","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — [CLEAN] remote — path sample-106","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=CLEAN | path | peer_loop IDLE seed","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | WORK_QUEUE Active empty","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → CLEAN. Input shape path. continue_on_dirty HOLD","output":{"label":"CLEAN"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Classify dgx_vs_hub_path as wrong_host. Context: sm_121a missing flag (hub / CLEAN / wrong host)","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"[wrong_host] remote — path sample-11","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=hub | path | peer_loop IDLE seed","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — [hub] remote — path sample-21","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Niche dgx_vs_hub_path: label=wrong_host | path | peer_loop IDLE seed","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → wrong_host. Input shape path. RSS proposal 48GB reject","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → wrong_host. Input shape path. RSS proposal 48GB reject","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory hub for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → hub. Input shape path. RSS proposal 48GB reject","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"dgx_vs_hub_path decision → hub. Input shape path. continue_on_dirty HOLD","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — dgx_vs_hub_path decision → wrong_host. Input shape path. continue_on_dirty HOLD","output":{"label":"wrong_host"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Kit lock — Factory hub for dgx_vs_hub_path: fact_checker prefer-order","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Classify dgx_vs_hub_path as hub. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (hub / CLEAN / wrong host)","output":{"label":"hub"}}
+{"niche_id":"N95","niche":"dgx_vs_hub_path","input":"Factory wrong_host for dgx_vs_hub_path: GDS cuFile forbidden","output":{"label":"wrong_host"}}

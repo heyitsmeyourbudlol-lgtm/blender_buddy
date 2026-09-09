@@ -1,0 +1,35 @@
+{
+  "needle": "OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07",
+  "needle_ae": "OVERSEER_KIT_RUN_AE_2026_09_07",
+  "ts": "2026-09-08T04:25:30Z",
+  "repo": "News",
+  "namespace": "news",
+  "target": "/Users/togi/News",
+  "dry_run": false,
+  "stop_after": "E",
+  "ok": true,
+  "status": "fourteenth_done",
+  "artifact_mode": "pr",
+  "pr_url": "https://github.com/heyitsmeyourbudlol-lgtm/News/pull/4",
+  "merged": true,
+  "merge_commit": "614a0d7ffb8a33364a1d3b124bf85f64ba8eed4a",
+  "origin_main": "614a0d7ffb8a33364a1d3b124bf85f64ba8eed4a",
+  "branch": "peer/kit-a-to-z-20260908T042316",
+  "tip": "45a7bb4",
+  "worktree_path": "/Users/togi/News-kit-a-to-z-20260908T042316",
+  "receipt": "notes/KIT_A_TO_Z_FOURTEENTH_TARGET.md",
+  "next": "fifteenth=CyberActivity",
+  "prs": [
+    "https://github.com/heyitsmeyourbudlol-lgtm/News/pull/1",
+    "https://github.com/heyitsmeyourbudlol-lgtm/News/pull/2",
+    "https://github.com/heyitsmeyourbudlol-lgtm/News/pull/4"
+  ],
+  "steps": [
+    {"step": "A_adapt", "ok": true},
+    {"step": "B_verify", "ok": true},
+    {"step": "C_worktree", "ok": true},
+    {"step": "D_artifact", "ok": true, "mode": "pr"},
+    {"step": "E_writeback", "ok": true}
+  ],
+  "note": "NO PAY · empty-repo seed + origin + Mac gh PR · SaaS orphan residual not a count · live factory_a_to_z_last.json may advance to fifteenth"
+}

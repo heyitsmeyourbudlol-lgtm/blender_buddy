@@ -1,0 +1,379 @@
+{
+  "_generated_by": "automation_adapt.py",
+  "_generated_at": "2026-09-09T06:31:31.066340+00:00",
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "python3 -m unittest tests.test_automation -q",
+    "python3 -m unittest tests.test_run_peer_tasks -q",
+    "python3 -m unittest tests.test_peer_worktree -q",
+    "python3 -m unittest tests.test_peer_pen_test -q",
+    "python3 -m unittest tests.test_peer_remote -q",
+    "python3 -m unittest tests.test_compact_land_proof -q",
+    "python3 -m unittest tests.test_factory_kit_run -q",
+    "python3 -m unittest tests.test_peer_last_cycle_poison -q",
+    "python3 -m unittest tests.test_peer_self_heal -q",
+    "python3 -m unittest tests.test_peer_repo_research -q",
+    "python3 -m unittest tests.test_pool_ensure_fastpath -q",
+    "python3 -m unittest tests.test_peer_dual_research_linux_install -q",
+    "python3 -m unittest tests.test_adapt_verify_protect -q",
+    "python3 -m unittest tests.test_emit_inventory_ttl_list_skip -q",
+    "python3 -m unittest tests.test_prepare_prompts_ttl -q",
+    "python3 -m unittest tests.test_auth_live_soft -q",
+    "python3 -m unittest tests.test_parse_phased_ttl -q",
+    "python3 -m unittest tests.test_cache_path_fallback -q",
+    "python3 -m unittest tests.test_self_check_dedup_measure -q"
+  ],
+  "_git_fingerprint": "868d8b0427330c0d98177503a2f46bd81cfaf17c:?? .cursor/\n?? AGENTS.md\n?? IMPORT.md\n?? LAUNCH.md\n?? automation.config.json\n?? install.sh\n?? profiles/\n?? repos/\n?? scripts/\n?? tests/",
+  "module_scope": {
+    "_clean_force_free_auth": "scripts/_clean_force_free_auth.py",
+    "_clean_install_gpu_worker": "scripts/_clean_install_gpu_worker.py",
+    "_clean_install_progress_watch": "scripts/_clean_install_progress_watch.py",
+    "_clean_install_result_watch": "scripts/_clean_install_result_watch.py",
+    "_clean_switch_free_auth": "scripts/_clean_switch_free_auth.py",
+    "_infra_fix_once": "scripts/_infra_fix_once.py",
+    "_infra_requeue_teacher": "scripts/_infra_requeue_teacher.py",
+    "_mark_flaw_research_landed": "scripts/_mark_flaw_research_landed.py",
+    "_ov_atomic_state_lock_land": "scripts/_ov_atomic_state_lock_land.py",
+    "_ov_land_state_lock": "scripts/_ov_land_state_lock.py",
+    "_ov_patch_agent_exit_soft": "scripts/_ov_patch_agent_exit_soft.py",
+    "_ov_stag_finish": "scripts/_ov_stag_finish.py",
+    "_ov_stag_finish_gates": "scripts/_ov_stag_finish_gates.py",
+    "_ov_stag_fix_land": "scripts/_ov_stag_fix_land.py",
+    "_overseer_heal_sync_pool": "scripts/_overseer_heal_sync_pool.py",
+    "_overseer_land_dirty_theater": "scripts/_overseer_land_dirty_theater.py",
+    "_overseer_land_shadow_purge": "scripts/_overseer_land_shadow_purge.py",
+    "_overseer_land_stagnation": "scripts/_overseer_land_stagnation.py"
+  },
+  "peers": {
+    "implement": {
+      "reads": [
+        "AGENTS.md",
+        "README.md",
+        "notes/SAFETY_GATES.md",
+        "notes/VALUE_STACK.md"
+      ]
+    },
+    "verify": {
+      "reads": [
+        "AGENTS.md",
+        "notes/AUTOMATION.md"
+      ]
+    }
+  },
+  "match_rules": [
+    {
+      "template": "scope__clean_force_free_auth",
+      "any": [
+        " clean force free auth",
+        "_clean_force_free_auth",
+        "_clean_force_free_auth.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__clean_install_gpu_worker",
+      "any": [
+        " clean install gpu worker",
+        "_clean_install_gpu_worker",
+        "_clean_install_gpu_worker.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__clean_install_progress_watch",
+      "any": [
+        " clean install progress watch",
+        "_clean_install_progress_watch",
+        "_clean_install_progress_watch.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__clean_install_result_watch",
+      "any": [
+        " clean install result watch",
+        "_clean_install_result_watch",
+        "_clean_install_result_watch.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__clean_switch_free_auth",
+      "any": [
+        " clean switch free auth",
+        "_clean_switch_free_auth",
+        "_clean_switch_free_auth.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__infra_fix_once",
+      "any": [
+        " infra fix once",
+        "_infra_fix_once",
+        "_infra_fix_once.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__infra_requeue_teacher",
+      "any": [
+        " infra requeue teacher",
+        "_infra_requeue_teacher",
+        "_infra_requeue_teacher.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__mark_flaw_research_landed",
+      "any": [
+        " mark flaw research landed",
+        "_mark_flaw_research_landed",
+        "_mark_flaw_research_landed.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_atomic_state_lock_land",
+      "any": [
+        " ov atomic state lock land",
+        "_ov_atomic_state_lock_land",
+        "_ov_atomic_state_lock_land.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_land_state_lock",
+      "any": [
+        " ov land state lock",
+        "_ov_land_state_lock",
+        "_ov_land_state_lock.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_patch_agent_exit_soft",
+      "any": [
+        " ov patch agent exit soft",
+        "_ov_patch_agent_exit_soft",
+        "_ov_patch_agent_exit_soft.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_stag_finish",
+      "any": [
+        " ov stag finish",
+        "_ov_stag_finish",
+        "_ov_stag_finish.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_stag_finish_gates",
+      "any": [
+        " ov stag finish gates",
+        "_ov_stag_finish_gates",
+        "_ov_stag_finish_gates.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__ov_stag_fix_land",
+      "any": [
+        " ov stag fix land",
+        "_ov_stag_fix_land",
+        "_ov_stag_fix_land.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__overseer_heal_sync_pool",
+      "any": [
+        " overseer heal sync pool",
+        "_overseer_heal_sync_pool",
+        "_overseer_heal_sync_pool.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__overseer_land_dirty_theater",
+      "any": [
+        " overseer land dirty theater",
+        "_overseer_land_dirty_theater",
+        "_overseer_land_dirty_theater.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__overseer_land_shadow_purge",
+      "any": [
+        " overseer land shadow purge",
+        "_overseer_land_shadow_purge",
+        "_overseer_land_shadow_purge.py"
+      ],
+      "priority": 45
+    },
+    {
+      "template": "scope__overseer_land_stagnation",
+      "any": [
+        " overseer land stagnation",
+        "_overseer_land_stagnation",
+        "_overseer_land_stagnation.py"
+      ],
+      "priority": 45
+    }
+  ],
+  "task_templates": {
+    "scope__clean_force_free_auth": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_clean_force_free_auth.py"
+      ],
+      "prompt": "Implement queue item for `_clean_force_free_auth`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__clean_install_gpu_worker": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_clean_install_gpu_worker.py"
+      ],
+      "prompt": "Implement queue item for `_clean_install_gpu_worker`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__clean_install_progress_watch": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_clean_install_progress_watch.py"
+      ],
+      "prompt": "Implement queue item for `_clean_install_progress_watch`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__clean_install_result_watch": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_clean_install_result_watch.py"
+      ],
+      "prompt": "Implement queue item for `_clean_install_result_watch`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__clean_switch_free_auth": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_clean_switch_free_auth.py"
+      ],
+      "prompt": "Implement queue item for `_clean_switch_free_auth`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__infra_fix_once": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_infra_fix_once.py"
+      ],
+      "prompt": "Implement queue item for `_infra_fix_once`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__infra_requeue_teacher": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_infra_requeue_teacher.py"
+      ],
+      "prompt": "Implement queue item for `_infra_requeue_teacher`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__mark_flaw_research_landed": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_mark_flaw_research_landed.py"
+      ],
+      "prompt": "Implement queue item for `_mark_flaw_research_landed`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_atomic_state_lock_land": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_atomic_state_lock_land.py"
+      ],
+      "prompt": "Implement queue item for `_ov_atomic_state_lock_land`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_land_state_lock": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_land_state_lock.py"
+      ],
+      "prompt": "Implement queue item for `_ov_land_state_lock`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_patch_agent_exit_soft": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_patch_agent_exit_soft.py"
+      ],
+      "prompt": "Implement queue item for `_ov_patch_agent_exit_soft`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_stag_finish": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_stag_finish.py"
+      ],
+      "prompt": "Implement queue item for `_ov_stag_finish`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_stag_finish_gates": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_stag_finish_gates.py"
+      ],
+      "prompt": "Implement queue item for `_ov_stag_finish_gates`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__ov_stag_fix_land": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_ov_stag_fix_land.py"
+      ],
+      "prompt": "Implement queue item for `_ov_stag_fix_land`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__overseer_heal_sync_pool": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_overseer_heal_sync_pool.py"
+      ],
+      "prompt": "Implement queue item for `_overseer_heal_sync_pool`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__overseer_land_dirty_theater": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_overseer_land_dirty_theater.py"
+      ],
+      "prompt": "Implement queue item for `_overseer_land_dirty_theater`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__overseer_land_shadow_purge": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_overseer_land_shadow_purge.py"
+      ],
+      "prompt": "Implement queue item for `_overseer_land_shadow_purge`. Minimal diff; match repo conventions; run verify before done."
+    },
+    "scope__overseer_land_stagnation": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/_overseer_land_stagnation.py"
+      ],
+      "prompt": "Implement queue item for `_overseer_land_stagnation`. Minimal diff; match repo conventions; run verify before done."
+    }
+  },
+  "product_constraints": [
+    "Ladder: intelligence \u2192 speed \u2192 distribution \u2192 ecosystem (hub with gravity; 10 apps \u2260 ecosystem)",
+    "Keep after commoditization: queue semantics, verify gates, product constraints \u2014 not the daemon",
+    "Meta-skill: **exit each loop** when it becomes table stakes; migrate the brain, murder the boilerplate",
+    "Moat: users + shared primitives + habits + willingness to kill the kit"
+  ]
+}

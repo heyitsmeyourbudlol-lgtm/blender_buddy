@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N98",
+  "name": "active_budget_tok_s_split",
+  "domain": "active_budget_tok_s_split",
+  "helps": "meters",
+  "weights": "notes/niche_distill/practice_n98/weights/n98_active_budget_tok_s_split_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00048047860036604106,
+  "labels": [
+    "abstain",
+    "active budget tok s split_escalate",
+    "active budget tok s split_maybe",
+    "active budget tok s split_no",
+    "active budget tok s split_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N98 '<input>'"
+}

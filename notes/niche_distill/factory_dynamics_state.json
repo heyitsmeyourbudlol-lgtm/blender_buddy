@@ -1,0 +1,38 @@
+{
+  "needle": "OVERSEER_FACTORY_DYNAMICS_2026_09_07",
+  "gpu_share": 0.4,
+  "escalate_floor": 0.30999999999999994,
+  "top_k_bias": -1,
+  "workers_bias": -1,
+  "cpu_latency_ema_ms": 30.166461141224456,
+  "gpu_latency_ema_ms": 275.21344,
+  "last_reasons": [
+    "gpu_slower_than_cpu"
+  ],
+  "last_adjust": {
+    "delta": -0.05,
+    "gpu_share_before": 0.45,
+    "gpu_share_after": 0.4,
+    "why": [
+      "gpu_slower_than_cpu"
+    ],
+    "escalate_floor": 0.30999999999999994,
+    "top_k_bias": -1,
+    "workers_bias": -1
+  },
+  "last_resources": {
+    "cpu_load": 6.81005859375,
+    "cpu_count": 10,
+    "cpu_load_ratio": 0.681005859375,
+    "cuda_available": false,
+    "gpu_util": null,
+    "gpu_free_mb": null,
+    "gpu_total_mb": null,
+    "mps_available": false,
+    "torch": false
+  },
+  "batches": 5,
+  "cuda_errors": 0,
+  "ts": "2026-09-08T02:41:40Z",
+  "honesty": "Live serve/routing/resource policy only \u2014 not continuous training, not TE, niches \u2260 LLM."
+}

@@ -1,0 +1,2270 @@
+{
+  "agent_roles": [
+    {
+      "id": "progress_monitor",
+      "job_title": "Progress Monitor",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "progress-monitor",
+        "progress monitor",
+        "24/7",
+        "oversight",
+        "stagnation",
+        "always-on",
+        "watch progress",
+        "call cursor-agent"
+      ],
+      "responsibilities": "Always-on progress review — watch queue/verify/factory; when stalled, call cursor-agent / heal. Embodied by oversight forever daemon.",
+      "niche_task": "**Progress Monitor** — read notes/SYSTEM_OVERSIGHT.md; if stalled run ./scripts/peer heal-all or escalate; never leave noop unattended.",
+      "reads": [
+        "notes/SYSTEM_OVERSIGHT.md",
+        "notes/COMPANY_TEAMS.md",
+        "notes/WORK_QUEUE.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md",
+        "notes/SOP_TEMPORARY_RULE_SHUTDOWN.md",
+        "notes/RULE_SHUTDOWN_DIGEST.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "factory_engineer",
+      "job_title": "Factory Engineer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "implement",
+        "factory",
+        "scripts/",
+        "peer_loop",
+        "orchestr",
+        "worktree",
+        "automation_",
+        "improve",
+        "noop",
+        "daemon",
+        "stall",
+        "continue_on_dirty"
+      ],
+      "responsibilities": "Land minimal diffs in kit Python; extend peer_loop, adapt, verify, worktrees; match repo conventions.",
+      "niche_task": "**Factory niche** — extend peer_loop / peer_orchestrate for 8-worker pools; minimal diff; run self-check.",
+      "reads": [
+        "notes/AUTOMATION.md",
+        "notes/AGENT_COMMANDS.md",
+        "AGENTS.md",
+        "scripts/peer_orchestrate.py",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "verify_runner",
+      "job_title": "Verify Runner",
+      "legacy_peer": "verify",
+      "subagent_type": "shell",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "verify",
+        "unittest",
+        "test",
+        "self-check",
+        "audit",
+        "pytest",
+        "npm test",
+        "lint"
+      ],
+      "responsibilities": "Run verify commands only — no feature edits; report first failure line.",
+      "niche_task": "**Verify niche** — run configured verify commands via `run_peer_tasks.py`; report first failure line (do not spawn parallel self-check storms).",
+      "reads": [
+        "notes/AUTOMATION.md",
+        "scripts/run_peer_tasks.py",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "adapt_specialist",
+      "job_title": "Adapt & Heal Specialist",
+      "legacy_peer": "verify",
+      "subagent_type": "explore",
+      "model": "inherit",
+      "strengths": [
+        "adapt",
+        "heal",
+        "probe",
+        "profile",
+        "registry",
+        "automation_adapt",
+        "local.json",
+        "fingerprint"
+      ],
+      "responsibilities": "Probe foreign repos, heal profiles, fix adapt/audit drift — minimal hub diff.",
+      "niche_task": "**Adapt niche** — run `automation_adapt --heal --write` and `--audit`; fix profile/registry drift.",
+      "reads": [
+        "scripts/automation_adapt.py",
+        "repos/registry.json",
+        "IMPORT.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "communications_engineer",
+      "job_title": "Communications Engineer",
+      "legacy_peer": "launch",
+      "subagent_type": "explore",
+      "model": "inherit",
+      "strengths": [
+        "comms",
+        "glink",
+        "bus",
+        "encoding",
+        "protocol",
+        "a2a",
+        "peer_agent_comms",
+        "automation_comms",
+        "message",
+        "token",
+        "verbosity",
+        "vault",
+        "gibberlink",
+        "req",
+        "ack"
+      ],
+      "responsibilities": "GLink bus, structured agent messaging, comms-improve research — minimum tokens, maximum signal between niches.",
+      "niche_task": "**Comms niche** — extend GLink schema/validators; run `automation_comms_improve --verify`; post STAT/DIFF to bus; no English on hot path.",
+      "reads": [
+        "notes/COMMS_TRENDS.md",
+        "scripts/peer_agent_comms.py",
+        "scripts/automation_comms_improve.py"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "queue_steward",
+      "job_title": "Queue Steward",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "queue",
+        "work_queue",
+        "context",
+        "sync",
+        "drift",
+        "executable",
+        "theater",
+        "noop",
+        "remaining work"
+      ],
+      "responsibilities": "Keep WORK_QUEUE ↔ self_improve_context identical; demote strategy theater; shrink noop loops.",
+      "niche_task": "**Queue niche** — diff WORK_QUEUE vs self_improve_context; demote theater lines; sync open items.",
+      "reads": [
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md",
+        "notes/AGENT_COMMANDS.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "integration_architect",
+      "job_title": "OSS Integration Architect",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "external proof",
+        "native verify",
+        "worktree",
+        "registry",
+        "RAM",
+        "CaaS",
+        "CPT",
+        "pr ",
+        "monster"
+      ],
+      "responsibilities": "Adapt + native verify + worktree/PR on registry targets; leave irreversible external artifacts.",
+      "niche_task": "**OSS niche** — pick one registry repo; adapt + native verify in worktree; note proof in registry.",
+      "reads": [
+        "repos/registry.json",
+        "notes/AUTOMATION.md",
+        "scripts/peer_worktree.py"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "compression_engineer",
+      "job_title": "Compression Engineer",
+      "legacy_peer": "footprint",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "ram",
+        "rss",
+        "memory",
+        "compression",
+        "footprint",
+        "hog",
+        "leak",
+        "cooldown",
+        "cache",
+        "lazy",
+        "prune",
+        "retain features",
+        "daemon memory",
+        "measure"
+      ],
+      "responsibilities": "Shrink RAM/RSS across daemons and hot paths without removing features — measure before/after; prefer cache/prune/lazy over capability cuts.",
+      "niche_task": "**Compression niche** — audit RSS of peer/improve/dashboard daemons; trim caches and redundant probes; document MB saved with zero feature loss.",
+      "reads": [
+        "automation.config.json",
+        "scripts/project_automation.py",
+        "notes/AUTOMATION.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "safety_auditor",
+      "job_title": "Safety Auditor",
+      "legacy_peer": "safety",
+      "subagent_type": "security-review",
+      "model": "inherit",
+      "strengths": [
+        "safety",
+        "security",
+        "harm",
+        "gates",
+        "block",
+        "consent",
+        "yellow",
+        "red tier"
+      ],
+      "responsibilities": "Read-only review against SAFETY_GATES; PASS or BLOCK with file:line — veto before merge.",
+      "niche_task": "**Safety niche** — audit recent kit diffs against SAFETY_GATES; PASS or BLOCK with file:line.",
+      "reads": [
+        "notes/SAFETY_GATES.md",
+        "AGENTS.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "command_builder",
+      "job_title": "Command Builder Agent",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "command-builder",
+        "commands",
+        "peer_commands",
+        "compound",
+        "cli",
+        "recipe",
+        "dev-fast",
+        "commands-sync",
+        "agent commands",
+        "shell loop",
+        "pivotal"
+      ],
+      "responsibilities": "Committed always-on: build ./scripts/peer recipes so other agents execute commands for repetitive work — peer_commands.py + scripts/peer + tests only.",
+      "niche_task": "**Command Builder (committed)** — `./scripts/peer commands-cycle` + `command-coverage`; read COMMAND_BUILDER.md + COMMAND_COVERAGE.md + harvest.json; add ONE peer command/compound for the top gap; `./scripts/peer commands-sync`; unittest test_peer_commands. Other agents run commands — you build them.",
+      "reads": [
+        "notes/COMMAND_BUILDER.md",
+        "notes/COMMAND_COVERAGE.md",
+        "notes/COMMAND_ECOSYSTEM_PLAN.md",
+        "notes/command_builder_harvest.json",
+        "scripts/peer_commands.py",
+        "notes/AGENT_COMMANDS.md",
+        "scripts/peer_command_builder.py",
+        "scripts/command_ecosystem.py"
+      ],
+      "prefer_remote": false
+    },
+    {
+      "id": "efficiency_researcher",
+      "job_title": "Efficiency Research Agent",
+      "legacy_peer": "footprint",
+      "subagent_type": "web-researcher",
+      "model": "inherit",
+      "strengths": [
+        "efficiency-research",
+        "efficiency",
+        "speed",
+        "hot path",
+        "latency",
+        "cache",
+        "pre-dispatch",
+        "compact-queue",
+        "noop",
+        "per-worker",
+        "yield",
+        "dgx-speed"
+      ],
+      "responsibilities": "Research speed wins — hot paths, queue discipline, per-worker yield. Feed notes/EFFICIENCY_RESEARCH.md + RESEARCH_SYNC.md; enqueue executable [efficiency-research] items.",
+      "niche_task": "**Efficiency research** — probe hot paths; append findings to notes/EFFICIENCY_RESEARCH.md; enqueue 1 file-scoped speed win.",
+      "reads": [
+        "notes/EFFICIENCY_RESEARCH.md",
+        "notes/RESEARCH_SYNC.md",
+        "notes/DGX_SPEED_PLAN.md",
+        "notes/AUTOMATION.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "pen_test_researcher",
+      "job_title": "Pen Test Researcher",
+      "legacy_peer": "safety",
+      "subagent_type": "security-review",
+      "model": "inherit",
+      "strengths": [
+        "pen-test",
+        "pentest",
+        "security hardening",
+        "secrets",
+        "authz",
+        "xss",
+        "sqli",
+        "ssrf",
+        "fail-open",
+        "RLS",
+        "injection"
+      ],
+      "responsibilities": "Defensive pen-test lane — scan hub + product-forge target for secrets/injection/fail-open; remediate fail-closed; feed notes/PEN_TEST.md; enqueue [pen-test] items. Never write exploit PoCs.",
+      "niche_task": "**Pen-test** — run ./scripts/peer pen-test-digest; harden top finding or open [pen-test] item; unittest; append Agent notes.",
+      "reads": [
+        "notes/PEN_TEST.md",
+        "notes/SAFETY_GATES.md",
+        "notes/WORK_QUEUE.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "output_researcher",
+      "job_title": "Output Research Agent",
+      "legacy_peer": "implement",
+      "subagent_type": "web-researcher",
+      "model": "inherit",
+      "strengths": [
+        "output-research",
+        "output",
+        "monster",
+        "impossible",
+        "external proof",
+        "oss",
+        "factory",
+        "breakthrough",
+        "irreversible artifact",
+        "registry"
+      ],
+      "responsibilities": "Research monster software — external proof, OSS factory, breakthrough features. Feed notes/OUTPUT_RESEARCH.md + RESEARCH_SYNC.md; enqueue [output-research] items.",
+      "niche_task": "**Output research** — find one impossible-before capability; append notes/OUTPUT_RESEARCH.md; enqueue 1 external-proof sprint.",
+      "reads": [
+        "notes/OUTPUT_RESEARCH.md",
+        "notes/RESEARCH_SYNC.md",
+        "repos/registry.json",
+        "notes/IMPROVE_HORIZON.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "backend_engineer",
+      "job_title": "Backend Engineer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "backend",
+        "api",
+        "auth",
+        "server"
+      ],
+      "responsibilities": "APIs, auth, billing hooks, server routes on product repos",
+      "niche_task": "**Backend Engineer** — APIs, auth, billing hooks, server routes on product repos. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "frontend_engineer",
+      "job_title": "Frontend Engineer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "frontend",
+        "ui",
+        "react",
+        "next"
+      ],
+      "responsibilities": "UI/UX implementation — elegant statue, one job per screen",
+      "niche_task": "**Frontend Engineer** — UI/UX implementation — elegant statue, one job per screen. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "qa_engineer",
+      "job_title": "QA Engineer",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "qa",
+        "smoke",
+        "acceptance",
+        "regression"
+      ],
+      "responsibilities": "Product acceptance, smoke paths, regression checklists",
+      "niche_task": "**QA Engineer** — Product acceptance, smoke paths, regression checklists. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "sre_release",
+      "job_title": "SRE / Release Engineer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "sre",
+        "release",
+        "deploy",
+        "uptime"
+      ],
+      "responsibilities": "Deploy, rollback, health, release notes, uptime",
+      "niche_task": "**SRE / Release Engineer** — Deploy, rollback, health, release notes, uptime. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "legal_compliance",
+      "job_title": "Legal / Compliance Officer",
+      "legacy_peer": "safety",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "legal",
+        "compliance",
+        "privacy",
+        "terms"
+      ],
+      "responsibilities": "Terms, privacy, export controls, consent copy",
+      "niche_task": "**Legal / Compliance Officer** — Terms, privacy, export controls, consent copy. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "product_manager",
+      "job_title": "Product Manager",
+      "legacy_peer": "launch",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "product",
+        "roadmap",
+        "acceptance",
+        "prioritize"
+      ],
+      "responsibilities": "Scope, prioritization, acceptance criteria, roadmap slices",
+      "niche_task": "**Product Manager** — Scope, prioritization, acceptance criteria, roadmap slices. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "design_ux",
+      "job_title": "Design / UX Lead",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "design",
+        "ux",
+        "a11y",
+        "visual"
+      ],
+      "responsibilities": "Visual system, a11y, elegant statue — remove chrome",
+      "niche_task": "**Design / UX Lead** — Visual system, a11y, elegant statue — remove chrome. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "growth_marketer",
+      "job_title": "Growth / Marketing Lead",
+      "legacy_peer": "launch",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "growth",
+        "marketing",
+        "landing",
+        "launch"
+      ],
+      "responsibilities": "Distribution, landing, launch spikes, acquisition loops",
+      "niche_task": "**Growth / Marketing Lead** — Distribution, landing, launch spikes, acquisition loops. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "customer_success",
+      "job_title": "Customer Success Lead",
+      "legacy_peer": "launch",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "support",
+        "success",
+        "onboarding",
+        "retention"
+      ],
+      "responsibilities": "Support playbooks, onboarding, retention signals",
+      "niche_task": "**Customer Success Lead** — Support playbooks, onboarding, retention signals. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "finance_billing",
+      "job_title": "Finance / Billing Lead",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "strengths": [
+        "billing",
+        "stripe",
+        "finance",
+        "receipt"
+      ],
+      "responsibilities": "Stripe/billing correctness, receipts, plan gates",
+      "niche_task": "**Finance / Billing Lead** — Stripe/billing correctness, receipts, plan gates. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "job_title": "Data Analyst",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "data",
+        "analytics",
+        "kpi",
+        "funnel"
+      ],
+      "responsibilities": "KPIs, funnels, factory_progress metrics",
+      "niche_task": "**Data Analyst** — KPIs, funnels, factory_progress metrics. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ],
+      "prefer_remote": true
+    },
+    {
+      "id": "tech_writer",
+      "job_title": "Technical Writer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "strengths": [
+        "docs",
+        "sop",
+        "readme",
+        "writer"
+      ],
+      "responsibilities": "SOPs, AGENTS.md, user-facing docs",
+      "niche_task": "**Technical Writer** — SOPs, AGENTS.md, user-facing docs. Draft numbered plan (≥3 steps) before any edit; execute only those steps.",
+      "reads": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md",
+        "notes/SOP_TEMPORARY_RULE_SHUTDOWN.md",
+        "notes/RULE_SHUTDOWN.md"
+      ]
+    },
+    {
+      "id": "fact_checker",
+      "job_title": "Fact Checker",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "fact-check",
+        "fact_check",
+        "factcheck",
+        "BITNET_FACTCHECK",
+        "OVERCLAIM",
+        "claim ledger",
+        "claim-ledger",
+        "falsifier"
+      ],
+      "responsibilities": "Fact-check BitNet/compression claims against BITNET_FACTCHECK + HALLUCINATION_GUARD; append OVERCLAIM ledger; never invent citations.",
+      "niche_task": "**Fact-check** — read notes/BITNET_FACTCHECK.md + HALLUCINATION_GUARD.md; verify one claim with evidence or mark OVERCLAIM; append claim ledger.",
+      "reads": [
+        "notes/BITNET_FACTCHECK.md",
+        "notes/HALLUCINATION_GUARD.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/WORK_QUEUE.md"
+      ]
+    },
+    {
+      "id": "bitnet_researcher",
+      "job_title": "BitNet Research Agent",
+      "legacy_peer": "footprint",
+      "subagent_type": "web-researcher",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "bitnet-research",
+        "bitnet_research",
+        "bitnet",
+        "COMPRESSION_",
+        "COMPRESSION_CATALOG",
+        "compression catalog",
+        "compression methods",
+        "method census",
+        "BITNET_ARCH",
+        "niche_distill",
+        "BitNet",
+        "1.58-bit"
+      ],
+      "responsibilities": "Own notes/COMPRESSION_CATALOG.md Lane A curation (append methods, NVFP4/S-axis tags, no data-prune cheats). Also BitNet + COMPRESSION_* north star + BITNET_ARCH; enqueue executable [bitnet-research]/compression-research] only.",
+      "niche_task": "**Compression-catalog curator** — each cycle: add ≥5 evidence-backed methods to COMPRESSION_CATALOG Lane A (or harden existing rows with sources); tag axis (unique-param vs KV vs disk vs util); respect NVFP4 hot lock; never invent citations.",
+      "reads": [
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/COMPRESSION_CATALOG.md",
+        "notes/NVFP4_LOCK_APPLICABILITY.md",
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/BITNET_RESEARCH_TASKS.md",
+        "notes/niche_distill/README.md",
+        "notes/RESEARCH_SYNC.md"
+      ]
+    },
+    {
+      "id": "compression_trainer",
+      "job_title": "Compression Trainer",
+      "legacy_peer": "footprint",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "compression-train",
+        "compression_train",
+        "TRAIN_READY",
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "compression_t0_pack",
+        "logit bank",
+        "BitDistill",
+        "train recipe"
+      ],
+      "responsibilities": "Run compression train lane T0–T4 per COMPRESSION_TRAIN_READY / RECIPE — logit bank, BitDistill packs; no architecture drift without recipe lock.",
+      "niche_task": "**Compression-train** — read COMPRESSION_TRAIN_READY + TRAIN_RECIPE; advance one T0–T4 step (compression_t0_pack / logit bank); verify probe.",
+      "reads": [
+        "notes/COMPRESSION_TRAIN_READY.md",
+        "notes/COMPRESSION_TRAIN_RECIPE.md",
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "scripts/compression_t0_pack.py",
+        "notes/RESEARCH_SPEED_TRAINING.md"
+      ]
+    },
+    {
+      "id": "research_speed_engineer",
+      "job_title": "Research Speed Engineer",
+      "legacy_peer": "footprint",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "research-speed",
+        "RESEARCH_SPEED",
+        "RESEARCH_SPEED_TRAINING",
+        "successive halving",
+        "logit cache",
+        "train speed",
+        "halving"
+      ],
+      "responsibilities": "Cut research/train wall-clock — successive halving, logit cache, probe-once discipline per RESEARCH_SPEED_TRAINING.",
+      "niche_task": "**Research-speed** — read notes/RESEARCH_SPEED_TRAINING.md; land one cache/halving/probe win; measure before/after.",
+      "reads": [
+        "notes/RESEARCH_SPEED_TRAINING.md",
+        "notes/EFFICIENCY_RESEARCH.md",
+        "notes/COMPRESSION_TRAIN_READY.md",
+        "notes/DGX_SPEED_PLAN.md"
+      ]
+    },
+    {
+      "id": "niche_distiller",
+      "job_title": "Niche Distiller",
+      "legacy_peer": "footprint",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "niche_distill",
+        "niche-distill",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "practice runner",
+        "STRESS_GAPS",
+        "JSONL",
+        "practice_n01",
+        "heldout",
+        "schema.md",
+        "niche bank"
+      ],
+      "responsibilities": "Maintain niche_distill JSONL schemas + practice runners; grow catalog via recipe+JSONL not new stacks; P2 stress → STRESS_GAPS; on-demand mint via niche_mint when agents find a closed-world speedup.",
+      "niche_task": "**Niche distill** — read niche_distill/README + RECIPE + STRESS_GAPS; stamp only when stress demands OR `./scripts/peer niche-mint --start` when agents find a local speedup (dedupe first); no mass catalog expansion; no data prune of full corpus.",
+      "reads": [
+        "notes/niche_distill/README.md",
+        "notes/niche_distill/RECIPE.md",
+        "notes/niche_distill/schema.md",
+        "notes/niche_distill/STRESS_GAPS.md",
+        "notes/BITNET_NICHE_BANK.md",
+        "scripts/niche_mint.py",
+        "scripts/niche_n01_practice.py",
+        "scripts/niche_n03_practice.py",
+        "scripts/niche_n08_practice.py",
+        "scripts/niche_bank_train.py"
+      ]
+    },
+    {
+      "id": "architecture_researcher",
+      "job_title": "Architecture Researcher",
+      "legacy_peer": "footprint",
+      "subagent_type": "web-researcher",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "BITNET_ARCH",
+        "BITNET_ARCH_RESEARCH",
+        "architecture research",
+        "MoE",
+        "MLA",
+        "SSD",
+        "Zamba",
+        "arch lock"
+      ],
+      "responsibilities": "Architecture research for BitNet/MoE/MLA/SSD paths — evidence in BITNET_ARCH_RESEARCH; respect recipe architecture lock.",
+      "niche_task": "**Arch research** — read BITNET_ARCH_RESEARCH; append one MoE/MLA/SSD finding with citations; enqueue only if file-scoped.",
+      "reads": [
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/COMPRESSION_TRAIN_RECIPE.md",
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/BITNET_FACTCHECK.md"
+      ]
+    },
+    {
+      "id": "train_eval_runner",
+      "job_title": "Train Eval Runner",
+      "legacy_peer": "verify",
+      "subagent_type": "shell",
+      "model": "composer-2.5-fast",
+      "prefer_remote": true,
+      "strengths": [
+        "heldout",
+        "heldout eval",
+        "niche accuracy",
+        "train probe",
+        "unittest train",
+        "eval bar",
+        "accuracy bar"
+      ],
+      "responsibilities": "Run heldout eval + niche accuracy bars + unittest train probes — report first failure; no recipe rewrites.",
+      "niche_task": "**Train-eval** — run heldout/niche accuracy probes; report bar pass/fail; unittest train probes only.",
+      "reads": [
+        "notes/COMPRESSION_TRAIN_READY.md",
+        "notes/niche_distill/RECIPE.md",
+        "notes/BITNET_NICHE_BANK.md",
+        "tests/test_niche_n01_practice.py",
+        "tests/test_compression_t0_pack.py"
+      ]
+    },
+    {
+      "id": "gpu_profiler",
+      "job_title": "GPU Profiler",
+      "legacy_peer": "footprint",
+      "subagent_type": "shell",
+      "model": "composer-2.5-fast",
+      "prefer_remote": true,
+      "strengths": [
+        "gpu",
+        "profiler",
+        "dgx utilization",
+        "TE FP4",
+        "FP4",
+        "profile once",
+        "nvidia-smi",
+        "utilization"
+      ],
+      "responsibilities": "Profile DGX utilization once per change (TE FP4 etc.); document bottlenecks; no endless re-profile loops.",
+      "niche_task": "**GPU profile** — profile-once DGX util / TE FP4; append meters; do not re-profile without a code change.",
+      "reads": [
+        "notes/DGX_SPEED_PLAN.md",
+        "notes/RESEARCH_SPEED_TRAINING.md",
+        "scripts/dgx_watch.py",
+        "scripts/dgx_ram_budget.py"
+      ]
+    },
+    {
+      "id": "model_serve_engineer",
+      "job_title": "Model Serve Engineer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "model serve",
+        "Zamba",
+        "SSD serve",
+        "vLLM",
+        "bitnet.cpp",
+        "inference serve",
+        "serve engineer"
+      ],
+      "responsibilities": "Zamba/SSD serve path — vLLM / bitnet.cpp; keep serve configs reproducible on DGX Spark.",
+      "niche_task": "**Model-serve** — advance one Zamba/SSD or vLLM/bitnet.cpp serve step; document cmd + health check.",
+      "reads": [
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/DGX_SPEED_PLAN.md"
+      ]
+    },
+    {
+      "id": "dataset_curator",
+      "job_title": "Dataset Curator",
+      "legacy_peer": "footprint",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "dataset",
+        "synthetic distill",
+        "JSONL corpus",
+        "curator",
+        "full corpus",
+        "NO data prune",
+        "distill data"
+      ],
+      "responsibilities": "Curate synthetic distill JSONL full corpus — grow/validate schemas; NEVER prune data to fake metrics.",
+      "niche_task": "**Dataset curator** — expand/validate distill JSONL; schema check; forbid data prune for score inflation.",
+      "reads": [
+        "notes/niche_distill/schema.md",
+        "notes/niche_distill/RECIPE.md",
+        "notes/BITNET_NICHE_BANK.md",
+        "notes/COMPRESSION_CATALOG.md"
+      ]
+    },
+    {
+      "id": "idea_synthesis",
+      "job_title": "Idea Synthesis Agent",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "idea synthesis",
+        "idea-synthesis",
+        "COMPRESSION_NOVEL",
+        "hypothesis",
+        "novel compression",
+        "creative backlog"
+      ],
+      "responsibilities": "Synthesize COMPRESSION_NOVEL hypotheses from ≥2 evidence anchors; enqueue falsifiable experiments only.",
+      "niche_task": "**Idea synthesis** — read COMPRESSION_NOVEL; articulate one NEW hypothesis with ≥2 anchors; record to CREATIVE_BACKLOG if actionable.",
+      "reads": [
+        "notes/COMPRESSION_NOVEL.md",
+        "notes/CREATIVE_BACKLOG.md",
+        "notes/IDEA_SYNTHESIS.md",
+        "notes/BITNET_FACTCHECK.md"
+      ]
+    },
+    {
+      "id": "dgx_ops",
+      "job_title": "DGX Ops Engineer",
+      "legacy_peer": "verify",
+      "subagent_type": "shell",
+      "model": "composer-2.5-fast",
+      "prefer_remote": true,
+      "strengths": [
+        "dgx",
+        "spark",
+        "offload",
+        "dgx_watch",
+        "ram budget",
+        "mac-offload",
+        "sync pull",
+        "dgx_sync",
+        "dgx ops"
+      ],
+      "responsibilities": "DGX Spark ops — dgx_watch, ram budget, mac-offload, sync pull; keep remote train path healthy.",
+      "niche_task": "**DGX ops** — run dgx_watch / ram budget / sync-pull as needed; restore hub-protect; report Spark health.",
+      "reads": [
+        "scripts/dgx_watch.py",
+        "scripts/dgx_ram_budget.py",
+        "scripts/dgx_mac_offload.sh",
+        "scripts/dgx_sync_pull.sh",
+        "notes/DGX_SPEED_PLAN.md"
+      ]
+    },
+    {
+      "id": "flaw_researcher",
+      "job_title": "Flaw Research Agent",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "flaw-research",
+        "flaw research",
+        "REPO_FLAW",
+        "flaw scan",
+        "repo defect",
+        "cross-review"
+      ],
+      "responsibilities": "Land [flaw-research] defects with minimal scripts/ diff + unittest — no theater enqueue loops.",
+      "niche_task": "**Flaw-research** — fix open [flaw-research] with minimal diff + unittest; mark done in WORK_QUEUE ↔ context.",
+      "reads": [
+        "notes/REPO_FLAW_RESEARCH.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/peer_repo_research.py",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ]
+    },
+    {
+      "id": "creative_miner",
+      "job_title": "Creative Miner",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "CREATIVE_BACKLOG",
+        "creative backlog",
+        "creative-miner",
+        "mine ideas",
+        "backlog triage"
+      ],
+      "responsibilities": "Mine CREATIVE_BACKLOG for executable next steps; promote one idea to WORK_QUEUE with file scope.",
+      "niche_task": "**Creative miner** — triage CREATIVE_BACKLOG; promote one falsifiable idea to queue with paths.",
+      "reads": [
+        "notes/CREATIVE_BACKLOG.md",
+        "notes/IDEA_SYNTHESIS.md",
+        "notes/WORK_QUEUE.md",
+        "notes/COMPRESSION_NOVEL.md"
+      ]
+    },
+    {
+      "id": "debrief_optimizer",
+      "job_title": "Debrief Optimizer",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "prefer_remote": false,
+      "strengths": [
+        "DEBRIEF_LOG",
+        "debrief",
+        "peer_debrief",
+        "AAR",
+        "post-mortem",
+        "blameless"
+      ],
+      "responsibilities": "Keep DEBRIEF_LOG / peer_debrief useful — extract actions, close loops, feed playbook.",
+      "niche_task": "**Debrief** — read DEBRIEF_LOG; convert one lesson into playbook or executable queue item.",
+      "reads": [
+        "notes/DEBRIEF_LOG.md",
+        "notes/OPERATING_SYSTEM.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md",
+        "notes/SOP_INDEX.md"
+      ]
+    },
+    {
+      "id": "lessons_curator",
+      "job_title": "Lessons Curator",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "prefer_remote": false,
+      "strengths": [
+        "lessons",
+        "lessons-harvest",
+        "lessons-squeeze",
+        "PROJECT_LEARNING",
+        "memory journal",
+        "institutional memory",
+        "learn-record",
+        "paper trail"
+      ],
+      "responsibilities": "ONLY harvest + land lessons — mine logs/journals, lossless squeeze (dedupe/fold/promote), never feature code or data-prune unique facts.",
+      "niche_task": "**Lessons curator** — run `./scripts/peer lessons-harvest` then `lessons-squeeze --write`; promote repeats to PROJECT_LEARNING/playbook; assert facts_preserved=true; no feature diffs.",
+      "reads": [
+        "notes/MEMORY_SPAN.md",
+        "notes/PROJECT_LEARNING.md",
+        "notes/DEBRIEF_LOG.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md",
+        "scripts/peer_lessons.py"
+      ]
+    },
+    {
+      "id": "worktree_manager",
+      "job_title": "Worktree Manager",
+      "legacy_peer": "implement",
+      "subagent_type": "shell",
+      "model": "composer-2.5-fast",
+      "prefer_remote": false,
+      "strengths": [
+        "ensure-pool",
+        "peer_worktree",
+        "worktree",
+        "pool slots",
+        "parallel pool",
+        "worktree manager"
+      ],
+      "responsibilities": "Keep peer worktree pool healthy — ensure-pool, reclaim stale slots, one worktree per peer.",
+      "niche_task": "**Worktree manager** — run peer worktree ensure-pool; fix stale/missing slots; report pool health.",
+      "reads": [
+        "scripts/peer_worktree.py",
+        "notes/AUTOMATION.md",
+        "notes/INTEGRATION_PROOF_PARALLEL_WORKTREES.md"
+      ]
+    },
+    {
+      "id": "hallucination_auditor",
+      "job_title": "Hallucination Auditor",
+      "legacy_peer": "safety",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "HALLUCINATION_GUARD",
+        "hallucination",
+        "critical thinking",
+        "drift",
+        "falsifier",
+        "auditor"
+      ],
+      "responsibilities": "Audit for hallucination/drift — enforce evidence→falsifier→verify before claims land.",
+      "niche_task": "**Hallucination audit** — apply HALLUCINATION_GUARD + CRITICAL_THINKING; flag unverified claims; require falsifier.",
+      "reads": [
+        "notes/HALLUCINATION_GUARD.md",
+        "notes/CRITICAL_THINKING.md",
+        "notes/BITNET_FACTCHECK.md",
+        "notes/PRECISION_HABITS.md"
+      ]
+    },
+    {
+      "id": "recipe_lock_steward",
+      "job_title": "Recipe Lock Steward",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "COMPRESSION_TRAIN_RECIPE",
+        "recipe lock",
+        "architecture lock",
+        "train recipe",
+        "recipe steward"
+      ],
+      "responsibilities": "Guard COMPRESSION_TRAIN_RECIPE architecture lock — reject silent arch drift; document approved unlocks only.",
+      "niche_task": "**Recipe lock** — diff train changes vs COMPRESSION_TRAIN_RECIPE; block unapproved arch drift; document unlock if needed.",
+      "reads": [
+        "notes/COMPRESSION_TRAIN_RECIPE.md",
+        "notes/COMPRESSION_TRAIN_READY.md",
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/COMPRESSION_NORTH_STAR.md"
+      ]
+    },
+    {
+      "id": "claim_ledger_scribe",
+      "job_title": "Claim Ledger Scribe",
+      "legacy_peer": "verify",
+      "subagent_type": "generalPurpose",
+      "model": "composer-2.5-fast",
+      "prefer_remote": false,
+      "strengths": [
+        "claim ledger",
+        "claim-ledger",
+        "append-only",
+        "factcheck hygiene",
+        "OVERCLAIM",
+        "ledger scribe"
+      ],
+      "responsibilities": "Append-only factcheck hygiene — maintain claim ledger; never rewrite history; cross-link OVERCLAIM entries.",
+      "niche_task": "**Claim ledger** — append verified/OVERCLAIM rows to BITNET_FACTCHECK ledger; no destructive edits to past claims.",
+      "reads": [
+        "notes/BITNET_FACTCHECK.md",
+        "notes/HALLUCINATION_GUARD.md",
+        "notes/CRITICAL_THINKING.md"
+      ]
+    },
+    {
+      "id": "parallel_dispatch_coach",
+      "job_title": "Parallel Dispatch Coach",
+      "legacy_peer": "launch",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": false,
+      "strengths": [
+        "parallel dispatch",
+        "Task peers",
+        "factory grid",
+        "fanout",
+        "maximize peers",
+        "dispatch coach",
+        "hub pool"
+      ],
+      "responsibilities": "Maximize parallel Task peers / factory grid — never collapse independent scopes into one hero agent.",
+      "niche_task": "**Dispatch coach** — audit open items for parallelizable scopes; enqueue split lanes; prefer full peer set in ONE message.",
+      "reads": [
+        "notes/AUTOMATION.md",
+        "notes/PEER_ORCHESTRATION.md",
+        "AGENTS.md",
+        "scripts/factory_grid.py",
+        "scripts/factory_fanout.py"
+      ]
+    },
+    {
+      "id": "top10_implementer",
+      "job_title": "TOP10 Next Implementer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "TOP10_NEXT",
+        "top10_next",
+        "top10_implementer",
+        "top10 implementer",
+        "[top10-next]",
+        "T10-01",
+        "T10-02",
+        "T10-03"
+      ],
+      "responsibilities": "Entire job: maintain and implement notes/TOP10_NEXT.md items #1–N in order; re-rank when done; never invent work outside the list; free/no-pay; safe deletes only.",
+      "niche_task": "**TOP10_NEXT** — read notes/TOP10_NEXT.md; implement highest-rank open item only; mark done; ./scripts/peer top10-refresh; sync WQ twin; NO PAY; no invent outside list.",
+      "reads": [
+        "notes/TOP10_NEXT.md",
+        "notes/AGENT_AMNESIA_RESEARCH.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "notes/SOP_TOP10_NEXT.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "kit_a_to_z",
+      "job_title": "Factory Kit A→Z Implementer",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "FACTORY_A_TO_Z",
+        "a-to-z",
+        "kit_a_to_z",
+        "kit-run",
+        "[a-to-z]",
+        "OVERSEER_NO_JUMP_UNTIL_A_TO_Z",
+        "unsupervised kit",
+        "sequencing lock"
+      ],
+      "responsibilities": "Prove full automation kit A→Z without human oversight on registry targets before any ladder jump. Execute FACTORY_A_TO_Z_TASKS in order; use peer kit-run; NO PAY.",
+      "niche_task": "**A→Z sequencing lock** — read FACTORY_A_TO_Z_PLAN + TASKS; implement highest open [a-to-z] item; ./scripts/peer kit-run; no Newdrop jump until green lock; NO PAY.",
+      "reads": [
+        "notes/FACTORY_A_TO_Z_PLAN.md",
+        "notes/FACTORY_A_TO_Z_TASKS.md",
+        "notes/FACTORY_A_TO_Z_PROOF.md",
+        "notes/SOP_FACTORY_A_TO_Z.md",
+        "notes/EXTERNAL_PROOF.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "repos/registry.json",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "agent_builder",
+      "job_title": "Agent Builder",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "agent_builder",
+        "agent-builder",
+        "[agent-builder]",
+        "agent build",
+        "provision role",
+        "peer_agent_builder",
+        "task→worker",
+        "agent-who",
+        "SOP_AGENT_BUILDER"
+      ],
+      "responsibilities": "Run Agent Builder protocol: refine specs, validate, provision roles/templates/match_rules, prove assignment via agent-who. NO PAY.",
+      "niche_task": "**Agent Builder** — read notes/SOP_AGENT_BUILDER.md; refine or provision one specialist via ./scripts/peer agent-build; prove with agent-who; never delete other roles.",
+      "reads": [
+        "notes/SOP_AGENT_BUILDER.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/peer_tasks.json",
+        "scripts/peer_agent_builder.py",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "demo_widget_sme",
+      "job_title": "Demo Widget SME",
+      "legacy_peer": "implement",
+      "subagent_type": "generalPurpose",
+      "model": "inherit",
+      "prefer_remote": true,
+      "strengths": [
+        "demo_widget",
+        "demo_widget_sme",
+        "[demo-widget]",
+        "widget SME",
+        "demo widget"
+      ],
+      "responsibilities": "Own demo widget specialist tasks only — prove Agent Builder assignment wiring.",
+      "niche_task": "**Demo Widget SME** — handle queue lines tagged [demo-widget]; minimal diff; NO PAY.",
+      "reads": [
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/SOP_AGENT_BUILDER.md",
+        "AGENTS.md"
+      ]
+    }
+  ],
+  "peers": {
+    "implement": {
+      "subagent_type": "generalPurpose",
+      "reads": [
+        "notes/VALUE_STACK.md",
+        "notes/SAFETY_GATES.md",
+        "AGENTS.md",
+        "notes/LOOP_STRATEGY.md"
+      ],
+      "description": "Implement scoped features — minimal diff, match repo conventions"
+    },
+    "footprint": {
+      "subagent_type": "generalPurpose",
+      "reads": [
+        "notes/VALUE_STACK.md",
+        "notes/AUTOMATION.md"
+      ],
+      "description": "Performance, bundle size, lazy loading — measure before/after"
+    },
+    "safety": {
+      "subagent_type": "generalPurpose",
+      "reads": [
+        "notes/SAFETY_GATES.md",
+        "AGENTS.md"
+      ],
+      "description": "BLOCK or PASS — review diffs against harm matrix"
+    },
+    "verify": {
+      "subagent_type": "shell",
+      "reads": [
+        "notes/AUTOMATION.md"
+      ],
+      "description": "Run tests and verify commands — no edits"
+    },
+    "launch": {
+      "subagent_type": "generalPurpose",
+      "reads": [
+        "LAUNCH.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "notes/LOOP_STRATEGY.md"
+      ],
+      "description": "Ship, docs, distribution — customer-first"
+    }
+  },
+  "task_templates": {
+    "git_hygiene": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "After verify passes, peer_loop auto-commits. Do not commit manually unless fixing a bad auto-commit message. Summarize what changed."
+    },
+    "automation_audit": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/peer_orchestrate.py",
+        "scripts/project_automation.py",
+        "scripts/peer_tasks.json"
+      ],
+      "prompt": "Run peer_orchestrate --self-check; fix template/verify drift; sync WORK_QUEUE ↔ self_improve_context."
+    },
+    "kit_adapt": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/automation_adapt.py",
+        "profiles/local.json"
+      ],
+      "prompt": "Run automation_adapt probe/heal/audit; fix verify drift; sync profiles/local.json with detected stack."
+    },
+    "kit_export": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/bundle_automation_kit.py",
+        "scripts/automation_adapt.py"
+      ],
+      "prompt": "Export portable kit tarball; verify KIT_COPY_PATHS complete; run self-check after export script edits."
+    },
+    "kit_bootstrap": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [
+        "install.sh",
+        "IMPORT.md",
+        "automation.config.json"
+      ],
+      "prompt": "Bootstrap peer kit: config identity, self-check, adapt heal. Sync WORK_QUEUE ↔ self_improve_context."
+    },
+    "registry_hub": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "repos/registry.json",
+        "scripts/automation_adapt.py"
+      ],
+      "prompt": "Update registry metadata (profile, status, notes). Hub-only — do not adapt-all unless user asked."
+    },
+    "comms_kit": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/peer_agent_comms.py",
+        "scripts/automation_comms_improve.py",
+        "notes/COMMS_TRENDS.md"
+      ],
+      "prompt": "Comms-kit only: GLink bus/vaults, structured messaging, token efficiency. Run automation_comms_improve --verify before done."
+    },
+    "domain_sme": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/repo_domain_smes.json",
+        "notes/REPO_DOMAIN_SMES.md",
+        "scripts/peer_fact_librarian.py",
+        "notes/AGENT_WORKING_MEMORY.md"
+      ],
+      "prompt": "Domain SME niche ONLY. Read scripts/repo_domain_smes.json for your domain id (from queue item / ASN). Open ONLY that domain's globs + SoT files. Run ./scripts/peer fact-query --domain <id> \"…\" for facts. Do not edit outside your globs. Main worker stays free of whole-repo load. Needle OVERSEER_FACT_LIBRARIAN_2026_09_07. Free desktop only — no paid API."
+    },
+    "compression_ram": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/project_automation.py",
+        "scripts/peer_loop.py",
+        "automation.config.json"
+      ],
+      "prompt": "Reduce RAM/RSS without removing features — measure before/after; cache/prune/lazy-load only; document MB saved."
+    },
+    "creative_loop": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/cursor_self_improve.py",
+        "scripts/peer_orchestrate.py",
+        "scripts/project_automation.py"
+      ],
+      "prompt": "Verify forever loop: kqueue wake, noop backoff, post-agent verify gate, conversation truncate keeps newest."
+    },
+    "crown_time_bomb": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [
+        "notes/LOOP_STRATEGY.md",
+        "LAUNCH.md",
+        "notes/WORK_QUEUE.md"
+      ],
+      "prompt": "Crown-era strategy (stress ALL of notes/LOOP_STRATEGY.md, not only the deadline): (1) TIME BOMB early–mid 2027 top 5–15% parity — bank hub users/revenue now; (2) ladder speed→distribution→ecosystem with one hub of gravity; (3) keep queue/verify/constraints, plan exit of daemon/kqueue when native ~80%; (4) shared primitives so next product is a node; (5) meta-exit — leave each loop when it becomes the floor. Refuse kit-only polish unless it accelerates a shippable/distribution/ecosystem outcome."
+    },
+    "efficiency_research": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "notes/EFFICIENCY_RESEARCH.md",
+        "notes/RESEARCH_SYNC.md",
+        "scripts/peer_dual_research.py"
+      ],
+      "prompt": "Efficiency research cycle: run ./scripts/peer dual-research --digest-only; read notes/EFFICIENCY_RESEARCH.md + RESEARCH_SYNC.md; land 1 hot-path diff (cache, pre-dispatch, queue compact, or --quick skip). Append Agent notes to EFFICIENCY_RESEARCH.md. Enqueue [efficiency-research] only if file-scoped."
+    },
+    "output_research": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/OUTPUT_RESEARCH.md",
+        "notes/RESEARCH_SYNC.md",
+        "repos/registry.json"
+      ],
+      "prompt": "Output research cycle: run ./scripts/peer dual-research --digest-only; read notes/OUTPUT_RESEARCH.md + RESEARCH_SYNC.md; advance one external-proof or monster-factory step (adapt→native verify→worktree). Append Agent notes to OUTPUT_RESEARCH.md. Enqueue [output-research] with registry target + file scope."
+    },
+    "command_builder": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/peer_commands.py",
+        "scripts/peer",
+        "tests/test_peer_commands.py",
+        "notes/AGENT_COMMANDS.md",
+        "notes/COMMAND_BUILDER.md"
+      ],
+      "prompt": "You are the committed Command Builder Agent (always-on). Policy: other agents EXECUTE ./scripts/peer commands for repetitive work; YOU add recipes when gaps appear. Run ./scripts/peer commands-cycle (or commands-harvest). Read notes/COMMAND_BUILDER.md + notes/command_builder_harvest.json. Add ONE compound/pivotal command in peer_commands.py + scripts/peer case + test. Finish: ./scripts/peer commands-sync && python3 -m unittest tests.test_peer_commands -q. No peer_loop/improve/queue essays/OSS."
+    },
+    "factory_a_plus": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/FACTORY_A_PLUS_PLAN.md",
+        "notes/FACTORY_A_PLUS_TASKS.md",
+        "scripts/peer_factory_a_plus.py",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "prompt": "Factory A+ track: read notes/FACTORY_A_PLUS_PLAN.md + FACTORY_A_PLUS_TASKS.md. Execute the highest-priority open phase item only — minimal diff, verify gate, sync WORK_QUEUE ↔ self_improve_context. Run ./scripts/peer factory-a-plus for scoreboard. No new peer_* modules unless item explicitly requires it."
+    },
+    "external_proof_sprint": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/EXTERNAL_PROOF.md",
+        "repos/registry.json",
+        "scripts/automation_adapt.py",
+        "scripts/peer_worktree.py"
+      ],
+      "prompt": "External proof sprint: pick ONE registry repo (CPT first if adapted). Run automation_adapt --heal --write on hub path; native verify must pass; peer worktree cycle; record PR URL in notes/EXTERNAL_PROOF.md; update registry status toward factory-proven."
+    },
+    "noop_break": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/WORK_QUEUE.md",
+        "scripts/project_automation.py",
+        "scripts/peer_factory_a_plus.py"
+      ],
+      "prompt": "Break noop loop: queue fingerprint must change after verify-ok cycle. Demote theater via peer_factory_a_plus --demote-theater --write; compact-queue; advance one factory-a-plus or external-proof item with a landed diff."
+    },
+    "flaw_research": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/peer_loop.py",
+        "scripts/peer_self_heal.py",
+        "scripts/peer_repo_research.py"
+      ],
+      "prompt": "Fix the [flaw-research] defect with a minimal scripts/ diff + unittest. Do not enqueue more flaw-research theater; land the code fix and mark the item done in WORK_QUEUE + self_improve_context."
+    },
+    "pen_test": {
+      "peer": "safety",
+      "safety_tier": "yellow",
+      "scope": [
+        "notes/PEN_TEST.md",
+        "scripts/peer_pen_test.py",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "prompt": "Defensive pen-test / harden only: read notes/PEN_TEST.md; fix the open [pen-test] item (secrets out of tree, fail-closed auth, parameterized SQL, sanitize HTML). Prefer product-forge target (Newdrop/CaaS) when active. Unittest or verify gate. Never write exploit PoCs or attack procedures. Sync WORK_QUEUE ↔ self_improve_context."
+    },
+    "fact_check": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "notes/BITNET_FACTCHECK.md",
+        "notes/HALLUCINATION_GUARD.md",
+        "notes/WORK_QUEUE.md"
+      ],
+      "prompt": "Fact-check cycle: read notes/BITNET_FACTCHECK.md + HALLUCINATION_GUARD.md; verify one claim with evidence or mark OVERCLAIM; append claim ledger append-only. Enqueue [fact-check] only if file-scoped. Prefer DGX/remote when probing train artifacts."
+    },
+    "bitnet_research": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/BITNET_RESEARCH_TASKS.md",
+        "notes/niche_distill/README.md",
+        "notes/RESEARCH_SYNC.md"
+      ],
+      "prompt": "BitNet research cycle: read COMPRESSION_* + BITNET_ARCH + niche_distill; land one evidence-backed note or executable [bitnet-research] with file scope. Prefer remote/DGX for heavy probes. No strategy theater."
+    },
+    "compression_train": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPRESSION_TRAIN_READY.md",
+        "notes/COMPRESSION_TRAIN_RECIPE.md",
+        "scripts/compression_t0_pack.py",
+        "notes/RESEARCH_SPEED_TRAINING.md"
+      ],
+      "prompt": "Compression-train cycle: advance one T0–T4 step per TRAIN_READY/RECIPE (compression_t0_pack, logit bank, BitDistill). Respect architecture lock. Prefer DGX Spark. Verify probe; sync WORK_QUEUE ↔ context."
+    },
+    "compression_research": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPRESSION_CATALOG.md",
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/NVFP4_LOCK_APPLICABILITY.md",
+        "notes/BITNET_ARCH_RESEARCH.md",
+        "notes/COMPRESSION_NOVEL.md"
+      ],
+      "prompt": "You are bitnet_researcher = COMPRESSION_CATALOG curator. Primary job each cycle: grow/harden Lane A in notes/COMPRESSION_CATALOG.md (≥5 new method rows OR ≥5 source/status fixes). Tag each row axis: unique-param vs KV vs disk vs util; mark NVFP4 hot-path fit. Forbidden: data/example pruning; inventing citations; counting zstd/PagedAttention as S≈100. Secondary: one falsifiable finding or enqueue [bitnet-research]/compression-train]. Sync WORK_QUEUE ↔ self_improve_context."
+    },
+    "research_speed": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": [
+        "notes/RESEARCH_SPEED_TRAINING.md",
+        "notes/EFFICIENCY_RESEARCH.md",
+        "notes/DGX_SPEED_PLAN.md"
+      ],
+      "prompt": "Research-speed cycle: read RESEARCH_SPEED_TRAINING; land one successive-halving / logit-cache / profile-once win; measure before/after. Prefer DGX. Append Agent notes."
+    },
+    "niche_distill": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/niche_distill/",
+        "scripts/niche_mint.py",
+        "scripts/niche_n01_practice.py",
+        "scripts/niche_n03_practice.py",
+        "scripts/niche_n08_practice.py",
+        "scripts/niche_bank_train.py"
+      ],
+      "prompt": "Niche distill on DGX: stamp from RECIPE or close STRESS_GAPS; OR run ./scripts/peer niche-mint --start when agents found a closed-world speedup (dedupe first). Heldout ≥0.90; no example pruning; one niche per peer."
+    },
+    "progress_monitor": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "notes/SYSTEM_OVERSIGHT.md",
+        "scripts/peer_oversight.py",
+        "notes/WORK_QUEUE.md",
+        "notes/RULE_SHUTDOWN_DIGEST.md"
+      ],
+      "prompt": "You are Progress Monitor (24/7). Review SYSTEM_OVERSIGHT + factory progress. If stalled: plan→numbered steps→execute heal/noop-break. If green: append short note only. Call cursor-agent path via oversight when needed."
+    },
+    "rule_shutdown_review": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "notes/RULE_SHUTDOWN_DIGEST.md",
+        "notes/RULE_SHUTDOWN.md",
+        "notes/RULE_CATALOG.md",
+        "notes/SOP_TEMPORARY_RULE_SHUTDOWN.md",
+        "scripts/peer_rule_shutdown.py"
+      ],
+      "prompt": "Rule-change review (Progress/Tech Writer). Read notes/RULE_SHUTDOWN_DIGEST.md + RULE_CATALOG.md (topic→severity). Summarize pending add/remove/modify/suspend for the human. Point to http://127.0.0.1:8765/rules. Do NOT mute or edit rules. Do not invent queue work. Optional: ./scripts/peer rule-shutdown-digest. Mark queue done after note."
+    },
+    "top10_next": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/TOP10_NEXT.md",
+        "notes/AGENT_AMNESIA_RESEARCH.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md",
+        "notes/SOP_TOP10_NEXT.md",
+        "scripts/peer_top10_next.py"
+      ],
+      "prompt": "You are top10_implementer. Entire job: maintain + implement notes/TOP10_NEXT.md in rank order. Read TOP10_NEXT + AGENT_AMNESIA_RESEARCH + AGENT_WORKING_MEMORY + WORK_QUEUE. Implement the highest-rank status:open item only. Do not invent work outside the list. NO PAY (free desktop / local / CLEAN only). Safe deletes = scratch/temp only — pack ≠ delete live SoT. When done: mark item done, run ./scripts/peer top10-refresh, sync WORK_QUEUE ↔ self_improve_context. Verify with peer_orchestrate --self-check and targeted unittests for touched scripts."
+    },
+    "factory_a_to_z": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/FACTORY_A_TO_Z_PLAN.md",
+        "notes/FACTORY_A_TO_Z_TASKS.md",
+        "notes/FACTORY_A_TO_Z_PROOF.md",
+        "notes/SOP_FACTORY_A_TO_Z.md",
+        "notes/EXTERNAL_PROOF.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md",
+        "scripts/factory_kit_run.py",
+        "scripts/peer_factory_a_to_z.py",
+        "repos/registry.json",
+        "AGENTS.md"
+      ],
+      "prompt": "You are kit_a_to_z. SEQUENCING LOCK: never jump to Newdrop distribution / Automations migration until A→Z unsupervised green (OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07). Read FACTORY_A_TO_Z_PLAN + TASKS + PROOF + AGENT_WORKING_MEMORY + WORK_QUEUE. Execute the highest-priority open [a-to-z:…] item only. Prefer ./scripts/peer kit-run and ./scripts/peer a-to-z. Done for a target = adapt → native verify → worktree/PR or blocked receipt → writeback EXTERNAL_PROOF + FACTORY_A_TO_Z_PROOF. NO PAY. Sync WORK_QUEUE ↔ self_improve_context. Verify with peer_orchestrate --self-check and tests/test_factory_kit_run.py."
+    },
+    "production_power_newdrop": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "/Users/togi/CaaS",
+        "notes/TOP10_PRODUCTION_POWER.md",
+        "notes/PRODUCTION_POWER_SCOREBOARD.md",
+        "notes/FACTORY_PROOF.md",
+        "notes/EXTERNAL_PROOF.md",
+        "notes/NEWDROP_DISTRIBUTION_WEDGE.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "prompt": "Top 10 indie production power: Active = Newdrop production only. Land a meaningful verify-backed change in /Users/togi/CaaS (worktree from origin/main). Done = PR opened or merged. Verify with npm test + check:controls. Update EXTERNAL_PROOF + FACTORY_PROOF + run python3 scripts/production_power_scoreboard.py --write. Do not ship kit theater, niche stamps, or compression as Active. Keep CLEAN brain under mac-offloaded; respect max_parallel_agent_procs free-desktop cap (8). NEW DROP UI: do not change UI unless a real flaw is detected — prefer backend/security/ops; no drive-by redesign."
+    },
+    "agent_builder": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/SOP_AGENT_BUILDER.md",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/peer_tasks.json",
+        "scripts/peer_agent_builder.py",
+        "AGENTS.md"
+      ],
+      "prompt": "You are agent_builder. Entire job: Agent Builder protocol (notes/SOP_AGENT_BUILDER.md). Spec → validate → ./scripts/peer agent-build --dry-run then --write → self-check → ./scripts/peer agent-who for a matching line. Never delete other roles. Refuse paid/billing specialists without human ack. NO PAY (free desktop / local / CLEAN). Sync WQ twin when enqueueing. Verify: peer_orchestrate --self-check + tests/test_peer_agent_builder.py."
+    },
+    "demo_widget_sme": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/SOP_AGENT_BUILDER.md",
+        "AGENTS.md",
+        "scripts/peer_tasks.json"
+      ],
+      "prompt": "You are demo_widget_sme. Handle only [demo-widget] / demo_widget queue items. Read AGENT_WORKING_MEMORY + SOP_AGENT_BUILDER. Minimal diff. NO PAY (free desktop / local / CLEAN). Safe deletes = scratch/temp only. Mark queue done when verified."
+    }
+  },
+  "match_rules": [
+    {
+      "template": "factory_a_to_z",
+      "any": [
+        "FACTORY_A_TO_Z",
+        "a-to-z",
+        "[a-to-z]",
+        "kit_a_to_z",
+        "kit-run",
+        "OVERSEER_NO_JUMP_UNTIL_A_TO_Z",
+        "sequencing lock",
+        "unsupervised kit"
+      ],
+      "priority": 0
+    },
+    {
+      "template": "top10_next",
+      "any": [
+        "TOP10_NEXT",
+        "top10_next",
+        "[top10-next]",
+        "top10_implementer",
+        "top10 implementer"
+      ],
+      "priority": 1
+    },
+    {
+      "template": "production_power_newdrop",
+      "any": [
+        "top10",
+        "[top10]",
+        "production_power",
+        "production-power",
+        "TOP10_PRODUCTION_POWER",
+        "FACTORY_PROOF",
+        "Newdrop production",
+        "free-desktop agent cap"
+      ],
+      "exclude": [
+        "TOP10_NEXT",
+        "top10_next",
+        "top10_implementer",
+        "FACTORY_A_TO_Z",
+        "a-to-z",
+        "kit_a_to_z"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "lessons",
+      "any": [
+        "lessons",
+        "lessons-harvest",
+        "lessons-squeeze",
+        "lessons_curator",
+        "[lessons]",
+        "institutional memory",
+        "PROJECT_LEARNING",
+        "paper trail"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "fact_check",
+      "any": [
+        "fact-check",
+        "fact_check",
+        "[fact-check]",
+        "BITNET_FACTCHECK",
+        "OVERCLAIM",
+        "wave-14",
+        "fact check",
+        "claim ledger"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "bitnet_research",
+      "any": [
+        "bitnet-research",
+        "bitnet_research",
+        "[bitnet-research]",
+        "BITNET_ARCH",
+        "bitnet research",
+        "niche_distill"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "compression_train",
+      "any": [
+        "compression-train",
+        "compression_train",
+        "[compression-train]",
+        "TRAIN_READY",
+        "T0 packing",
+        "T1 share",
+        "packing proof",
+        "compression train",
+        "compression_t0_pack",
+        "BitDistill",
+        "logit bank"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "agent_builder",
+      "any": [
+        "agent_builder",
+        "agent-builder",
+        "[agent-builder]",
+        "peer_agent_builder",
+        "SOP_AGENT_BUILDER",
+        "agent-who",
+        "provision role"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "research_speed",
+      "any": [
+        "research-speed",
+        "RESEARCH_SPEED",
+        "Speed all research-for-training",
+        "ultra path",
+        "research_speed",
+        "research speed",
+        "RESEARCH_SPEED_TRAINING",
+        "successive halving",
+        "logit cache"
+      ],
+      "priority": 3
+    },
+    {
+      "template": "niche_distill",
+      "any": [
+        "niche_distill",
+        "niche-distill",
+        "[niche-distill]",
+        "niche distill",
+        "N01 practice",
+        "practice runner",
+        "STRESS_GAPS",
+        "niche_composer"
+      ],
+      "priority": 4
+    },
+    {
+      "template": "rule_shutdown_review",
+      "any": [
+        "rule-shutdown",
+        "rule shutdown",
+        "[rule-shutdown]",
+        "RULE_SHUTDOWN_DIGEST",
+        "rule proposals",
+        "rule-change proposal"
+      ],
+      "priority": 3
+    },
+    {
+      "template": "progress_monitor",
+      "any": [
+        "progress-monitor",
+        "progress monitor",
+        "24/7 monitor",
+        "always-on oversight"
+      ],
+      "priority": 3
+    },
+    {
+      "template": "command_builder",
+      "any": [
+        "command-builder",
+        "command builder",
+        "peer_commands",
+        "compound command",
+        "commands-sync",
+        "commands-build",
+        "dev-fast",
+        "agent commands",
+        "build commands"
+      ],
+      "priority": 4
+    },
+    {
+      "template": "git_hygiene",
+      "any": [
+        "commit",
+        "stash",
+        "git dirty",
+        "git not clean"
+      ],
+      "priority": 5
+    },
+    {
+      "template": "automation_audit",
+      "any": [
+        "self-check",
+        "peer_orchestrate",
+        "automation_improve",
+        "automation_adapt"
+      ],
+      "priority": 8
+    },
+    {
+      "template": "kit_adapt",
+      "any": [
+        "adapt",
+        "heal",
+        "probe",
+        "local profile",
+        "automation_adapt"
+      ],
+      "priority": 12
+    },
+    {
+      "template": "demo_widget_sme",
+      "any": [
+        "demo_widget",
+        "[demo-widget]",
+        "demo_widget_sme",
+        "widget SME"
+      ],
+      "priority": 12
+    },
+    {
+      "template": "kit_export",
+      "any": [
+        "export",
+        "bundle",
+        "tarball",
+        "automation-kit"
+      ],
+      "priority": 14
+    },
+    {
+      "template": "kit_bootstrap",
+      "any": [
+        "bootstrap",
+        "import kit",
+        "install.sh",
+        "install kit"
+      ],
+      "priority": 16
+    },
+    {
+      "template": "registry_hub",
+      "any": [
+        "registry.json",
+        "repo audit",
+        "registry hub"
+      ],
+      "priority": 18
+    },
+    {
+      "template": "comms_kit",
+      "any": [
+        "glink",
+        "agent comms",
+        "comms improve",
+        "comms-improve",
+        "peer_agent_comms",
+        "bus.jsonl",
+        "message bus"
+      ],
+      "priority": 11
+    },
+    {
+      "template": "domain_sme",
+      "any": [
+        "domain_sme",
+        "domain-sme",
+        "[domain-sme]",
+        "domain sme",
+        "fact-query",
+        "fact librarian",
+        "REPO_DOMAIN_SMES"
+      ],
+      "priority": 10
+    },
+    {
+      "template": "compression_ram",
+      "any": [
+        "ram hog",
+        "memory leak",
+        "rss",
+        "ram usage",
+        "footprint",
+        "memory pressure",
+        "daemon memory",
+        "compression ram"
+      ],
+      "priority": 13,
+      "exclude": [
+        "compression-train",
+        "compression_train",
+        "compression-research",
+        "compression_research",
+        "TRAIN_READY",
+        "bitnet-research",
+        "BitDistill"
+      ]
+    },
+    {
+      "template": "creative_loop",
+      "any": [
+        "forever loop",
+        "peer loop",
+        "kqueue",
+        "noop backoff"
+      ],
+      "priority": 20
+    },
+    {
+      "template": "crown_time_bomb",
+      "any": [
+        "time bomb",
+        "crown-era",
+        "loop strategy",
+        "2027 parity",
+        "exit readiness",
+        "competition ladder",
+        "shared primitives",
+        "meta-exit"
+      ],
+      "priority": 3
+    },
+    {
+      "template": "compression_research",
+      "any": [
+        "compression-research",
+        "compression_research",
+        "compression research",
+        "[compression-research]",
+        "COMPRESSION_CATALOG",
+        "compression catalog",
+        "compression methods",
+        "method census",
+        "curate compression"
+      ],
+      "priority": 5
+    },
+    {
+      "template": "efficiency_research",
+      "any": [
+        "efficiency-research",
+        "efficiency research",
+        "hot path",
+        "per-worker yield",
+        "pre-dispatch",
+        "dual-research efficiency"
+      ],
+      "priority": 7
+    },
+    {
+      "template": "output_research",
+      "any": [
+        "output-research",
+        "output research",
+        "monster factory",
+        "impossible software",
+        "dual-research output"
+      ],
+      "priority": 6
+    },
+    {
+      "template": "factory_a_plus",
+      "any": [
+        "factory-a-plus",
+        "factory a+",
+        "a+ plan",
+        "factory_a_plus"
+      ],
+      "priority": 2
+    },
+    {
+      "template": "external_proof_sprint",
+      "any": [
+        "external proof sprint",
+        "external proof #",
+        "factory-proven",
+        "irreversible artifact"
+      ],
+      "priority": 5
+    },
+    {
+      "template": "noop_break",
+      "any": [
+        "break noop loop",
+        "noop loop",
+        "noop shrink"
+      ],
+      "priority": 9
+    },
+    {
+      "template": "flaw_research",
+      "any": [
+        "flaw-research",
+        "flaw research"
+      ],
+      "priority": 5
+    },
+    {
+      "template": "pen_test",
+      "any": [
+        "pen-test",
+        "pentest",
+        "pen test",
+        "security hardening",
+        "harden secrets",
+        "authz hole"
+      ],
+      "priority": 4
+    },
+    {
+      "template": "product_manager",
+      "any": [
+        "product manager",
+        "product-manager",
+        "roadmap slice",
+        "acceptance criteria"
+      ],
+      "priority": 6
+    },
+    {
+      "template": "design_ux",
+      "any": [
+        "design-ux",
+        "design / ux",
+        "elegant statue",
+        "a11y pass"
+      ],
+      "priority": 6
+    },
+    {
+      "template": "company_org",
+      "any": [
+        "company-org",
+        "company org",
+        "staff role",
+        "missing role"
+      ],
+      "priority": 4
+    }
+  ],
+  "product_constraints": [
+    "Progress Monitor is always-on (oversight forever daemon): reviews progress every mechanical tick and dispatches cursor-agent on stagnation — ./scripts/peer progress-monitor",
+    "Plan→draft numbered steps→execute: every agent writes a step plan (≥3 concrete steps with paths + verify) before any edit; execute only those steps (notes/CRITICAL_THINKING.md)",
+    "TIME BOMB early–mid 2027: custom orchestration becomes top 5–15% norm — bank product/users now (notes/LOOP_STRATEGY.md — stress full doc)",
+    "Ladder: speed → distribution → ecosystem; hub with gravity required; 10 solo apps ≠ ecosystem",
+    "Meta-exit: leave each competitive loop when it becomes table stakes; keep queue/verify/constraints, not the daemon",
+    "Do not expand kit complexity unless it accelerates shippable product, distribution, or ecosystem node",
+    "Maximize parallel Task peers: target max_parallel_peers (live pool, floor 8) in ONE message — one niche lane per expanded agent_roles shard; one worktree per peer; never collapse independent scopes into one hero agent",
+    "Pen-test lane: defensive scan hub + product-forge target via ./scripts/peer pen-test; remediate [pen-test] fail-closed — never exploit PoCs (notes/PEN_TEST.md)",
+    "Daily flaw scan (flaw_scan_daily_time): each niche becomes Flaw Detection Scanner + role; cross-review 7 others; subject self-triages upgrades vs downgrades",
+    "Operating system (notes/OPERATING_SYSTEM.md): blameless AAR/post-mortems via peer_debrief; KPIs from factory_progress; SOP index + DEBRIEF_LOG clearinghouse",
+    "Keep notes/WORK_QUEUE.md ↔ scripts/self_improve_context.md identical for open items",
+    "Every agent reads notes/TEAM_CONTEXT.md each cycle — shared pivotal + output-changing facts (peer_team_context.py)",
+    "Project learning: read notes/PROJECT_LEARNING.md each cycle; record one insight via ./scripts/peer learn-record when done (peer_project_learning.py)",
+    "Critical thinking: evidence → root cause → assumptions → pre-mortem before Plan; Act gate before DONE (peer_critical_thinking.py)",
+    "Self-check questions: answer Plan + Done question lists before edit and DONE; post GLink BLOCK if any answer fails (peer_critical_thinking.py --questions)",
+    "Precision habits: locate → isolate → pinpoint → touch one → measure; all models; notes/PRECISION_HABITS.md (peer_precision_habits.py)",
+    "Output compare: state expected verify output before run; compare side-by-side with actual; ./scripts/peer output-compare (peer_output_compare.py)",
+    "Mini apps: build scripts/agent_tools/ when repetition hurts; scaffold + test + register; promote via Command Builder (peer_agent_mini_apps.py)",
+    "Peer assignment: agents assign each other scoped work via GLink ASN; run ./scripts/peer eta before assign; when=now|later|miss vs cursor-agent session timeout (peer_work_assign.py)",
+    "Memory span (100x): tiered external memory — hot last_cycle+journal, warm learnings+vault+GLink, cold knowledge_index; memory-record each cycle; read tiers before Plan (peer_memory_span.py)",
+    "Self-diagnosis: run ./scripts/peer diagnose before Plan and on failure — instant scan for errors, miscalculations, poor logic; playbook-lookup for mechanical fix (peer_self_diagnose.py)",
+    "Hallucination guard: assume drift imminent; write strategy block (evidence, falsifier, verify) before edit; defy via memory-recall, output-compare, diagnose, check-questions (peer_hallucination_guard.py)",
+    "Agent vs human: know 20 gap rows — memory, hallucination, creativity, accountability; run countermeasure command per row; do not pretend to be human (peer_agent_human_gap.py)",
+    "Idea synthesis: articulate NEW ideas only from ≥2 evidence anchors read this cycle; idea-articulate template + idea-record to CREATIVE_BACKLOG (peer_idea_synthesis.py)",
+    "Agent gates: run ./scripts/peer plan-gate before first edit and done-gate before DONE — mechanical checks for all 20 human gaps (peer_agent_gates.py)",
+    "Safety peer must PASS before merging yellow-tier changes",
+    "Verify peer runs before post_cycle_hook or declaring cycle complete"
+  ],
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "python3 -m unittest tests.test_automation -q",
+    "python3 -m unittest tests.test_run_peer_tasks -q"
+  ],
+  "templates": {
+    "production_power_newdrop": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "/Users/togi/CaaS",
+        "notes/TOP10_PRODUCTION_POWER.md",
+        "notes/PRODUCTION_POWER_SCOREBOARD.md",
+        "notes/FACTORY_PROOF.md",
+        "notes/EXTERNAL_PROOF.md",
+        "notes/NEWDROP_DISTRIBUTION_WEDGE.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "prompt": "Top 10 indie production power: Active = Newdrop production only. Land a meaningful verify-backed change in /Users/togi/CaaS (worktree from origin/main). Done = PR opened or merged. Verify with npm test + check:controls. Update EXTERNAL_PROOF + FACTORY_PROOF + run python3 scripts/production_power_scoreboard.py --write. Do not ship kit theater, niche stamps, or compression as Active. Keep CLEAN brain under mac-offloaded; respect max_parallel_agent_procs free-desktop cap (8). NEW DROP UI: do not change UI unless a real flaw is detected — prefer backend/security/ops; no drive-by redesign."
+    },
+    "lessons": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [
+        "scripts/peer_lessons.py",
+        "notes/MEMORY_SPAN.md",
+        "notes/PROJECT_LEARNING.md",
+        "notes/DEBRIEF_LOG.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "prompt": "Lessons curator ONLY. Run ./scripts/peer lessons-harvest then lessons-squeeze --write. Assert facts_preserved=true. Promote repeats; never feature code; never prune distinct OVERSEER_* needles. Needle OVERSEER_LESSONS_CURATOR_2026_09_06."
+    },
+    "product_manager": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPANY_TEAMS.md",
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "prompt": "Product Manager: draft numbered plan (≥3 steps) with acceptance criteria before any edit. Scope one roadmap slice for Newdrop/CaaS or hub; enqueue executable items with file paths; sync WORK_QUEUE ↔ context. Plan→steps→execute only."
+    },
+    "design_ux": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPANY_TEAMS.md"
+      ],
+      "prompt": "Design/UX: draft numbered visual/plan steps; prefer remove chrome over knobs; elegant statue. Plan→steps→execute; no drive-by redesign outside assignment."
+    },
+    "company_org": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [
+        "notes/COMPANY_TEAMS.md",
+        "scripts/peer_company_org.py",
+        "scripts/peer_tasks.json"
+      ],
+      "prompt": "Staff missing company-org role: add agent_roles + persona if absent; run ./scripts/peer company-org; plan→steps→execute; mark queue done."
+    }
+  },
+  "pool_guaranteed_roles": [
+    "command_builder",
+    "efficiency_researcher",
+    "fact_checker",
+    "bitnet_researcher",
+    "compression_trainer",
+    "output_researcher"
+  ],
+  "role_importance_order": [
+    "verify_runner",
+    "command_builder",
+    "queue_steward",
+    "product_manager",
+    "factory_engineer",
+    "efficiency_researcher",
+    "fact_checker",
+    "bitnet_researcher",
+    "compression_trainer",
+    "output_researcher",
+    "research_speed_engineer",
+    "niche_distiller",
+    "architecture_researcher",
+    "train_eval_runner",
+    "dgx_ops",
+    "backend_engineer",
+    "frontend_engineer",
+    "adapt_specialist",
+    "safety_auditor",
+    "pen_test_researcher",
+    "gpu_profiler",
+    "recipe_lock_steward",
+    "hallucination_auditor",
+    "qa_engineer",
+    "sre_release",
+    "integration_architect",
+    "design_ux",
+    "compression_engineer",
+    "communications_engineer",
+    "model_serve_engineer",
+    "dataset_curator",
+    "idea_synthesis",
+    "flaw_researcher",
+    "creative_miner",
+    "debrief_optimizer",
+    "lessons_curator",
+    "worktree_manager",
+    "claim_ledger_scribe",
+    "parallel_dispatch_coach",
+    "top10_implementer",
+    "kit_a_to_z",
+    "growth_marketer",
+    "customer_success",
+    "finance_billing",
+    "data_analyst",
+    "tech_writer",
+    "legal_compliance",
+    "agent_builder",
+    "demo_widget_sme",
+    "progress_monitor"
+  ]
+}

@@ -1,0 +1,16 @@
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Classify ensure_lane_needed as ensure lane needed_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_no. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_no. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_escalate | Active snapshot | WORK_QUEUE Active empty","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [ensure lane needed_yes] peer_loop ticks — Active snapshot sample-6","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_maybe | Active snapshot | peer_loop IDLE seed","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[ensure lane needed_escalate] peer_loop ticks — Active snapshot sample-111","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory unknown for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_yes for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory unknown for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_escalate. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[unknown] peer_loop ticks — Active snapshot sample-76","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=unknown | Active snapshot | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → unknown. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[unknown] peer_loop ticks — Active snapshot sample-106","output":{"label":"unknown"}}

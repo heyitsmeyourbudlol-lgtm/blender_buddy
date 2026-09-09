@@ -1,0 +1,10 @@
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory escalate for composer_escalate: fact_checker prefer-order","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [abstain] committee — niche confidences sample-56","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as keep. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [escalate] committee — niche confidences sample-46","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Classify composer_escalate as escalate. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — composer_escalate decision → escalate. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Niche composer_escalate: label=keep | niche confidences | WORK_QUEUE Active empty","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — composer_escalate decision → escalate. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory keep for composer_escalate: fact_checker prefer-order","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Factory abstain for composer_escalate: fact_checker prefer-order","output":{"label":"abstain"}}

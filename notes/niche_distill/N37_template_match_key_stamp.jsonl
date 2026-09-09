@@ -1,0 +1,48 @@
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_escalate. Input shape title. RSS proposal 48GB reject","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_no. Input shape title. RSS proposal 48GB reject","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_no. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Niche template_match_key: label=template match key_maybe | title | peer_loop IDLE seed","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → abstain. Input shape title. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory abstain for template_match_key: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_maybe] orchestrate — title sample-26","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=abstain | title | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[unknown] orchestrate — title sample-46","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=template match key_no | title | WORK_QUEUE Active empty","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_yes. Input shape title. continue_on_dirty HOLD","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_maybe] orchestrate — title sample-56","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — [abstain] orchestrate — title sample-41","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_yes] orchestrate — title sample-36","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[unknown] orchestrate — title sample-16","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=unknown | title | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory unknown for template_match_key: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_maybe for template_match_key: GDS cuFile forbidden","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Niche template_match_key: label=template match key_yes | title | peer_loop IDLE seed","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Classify template_match_key as template match key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=unknown | title | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_no for template_match_key: fact_checker prefer-order","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_yes. Input shape title. continue_on_dirty HOLD","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — [template match key_escalate] orchestrate — title sample-21","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"template_match_key decision → abstain. Input shape title. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as abstain. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_maybe. Input shape title. continue_on_dirty HOLD","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_yes for template_match_key: GDS cuFile forbidden","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_escalate for template_match_key: fact_checker prefer-order","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_escalate for template_match_key: fact_checker prefer-order","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=template match key_escalate | title | WORK_QUEUE Active empty","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_no] orchestrate — title sample-31","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Classify template_match_key as template match key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_escalate] orchestrate — title sample-51","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=template match key_maybe | title | peer_loop IDLE seed","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — [template match key_no] orchestrate — title sample-1","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Niche template_match_key: label=template match key_yes | title | peer_loop IDLE seed","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"template_match_key decision → unknown. Input shape title. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (peer_tasks key)","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory unknown for template_match_key: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N37","niche":"template_match_key","input":"template_match_key decision → template match key_no. Input shape title. RSS proposal 48GB reject","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Factory template match key_yes for template_match_key: GDS cuFile forbidden","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as abstain. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Niche template_match_key: label=abstain | title | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Factory template match key_maybe for template_match_key: GDS cuFile forbidden","output":{"label":"template match key_maybe"}}

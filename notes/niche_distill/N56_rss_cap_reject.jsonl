@@ -1,0 +1,96 @@
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_escalate for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_escalate] hard gate — RSS proposal sample-21","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_no. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — rss_cap_reject decision → rss cap reject_maybe. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_no | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — rss_cap_reject decision → rss cap reject_yes. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[abstain] hard gate — RSS proposal sample-71","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_no] hard gate — RSS proposal sample-31","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Niche rss_cap_reject: label=rss cap reject_escalate | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_yes. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_yes | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — rss_cap_reject decision → rss cap reject_escalate. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_escalate | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_yes] hard gate — RSS proposal sample-6","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_escalate. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory unknown for rss_cap_reject: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_yes | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_escalate] hard gate — RSS proposal sample-51","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=unknown | RSS proposal | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory unknown for rss_cap_reject: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [unknown] hard gate — RSS proposal sample-76","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_no | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Factory rss cap reject_yes for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — rss_cap_reject decision → rss cap reject_maybe. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_escalate. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Classify rss_cap_reject as rss cap reject_escalate. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=abstain | RSS proposal | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_yes for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_maybe. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Classify rss_cap_reject as abstain. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_yes for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Niche rss_cap_reject: label=unknown | RSS proposal | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_maybe for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_no for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_escalate] hard gate — RSS proposal sample-111","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=abstain | RSS proposal | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory abstain for rss_cap_reject: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_no for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → unknown. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[abstain] hard gate — RSS proposal sample-41","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_no. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as abstain. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_escalate | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → abstain. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_escalate for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_no. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_no. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as abstain. Context: sm_121a missing flag (reject if >20GB)","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_yes. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Niche rss_cap_reject: label=rss cap reject_escalate | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_escalate for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_yes] hard gate — RSS proposal sample-96","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_escalate. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_no. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[abstain] hard gate — RSS proposal sample-11","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — rss_cap_reject decision → unknown. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_yes] hard gate — RSS proposal sample-66","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [unknown] hard gate — RSS proposal sample-106","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory abstain for rss_cap_reject: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_yes | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_no | RSS proposal | WORK_QUEUE Active empty","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_maybe] hard gate — RSS proposal sample-56","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_escalate] hard gate — RSS proposal sample-81","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_maybe | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_no] hard gate — RSS proposal sample-91","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_no. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Niche rss_cap_reject: label=unknown | RSS proposal | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_no] hard gate — RSS proposal sample-1","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_maybe | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → abstain. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_no. Input shape RSS proposal. RSS proposal 48GB reject","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → unknown. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_no] hard gate — RSS proposal sample-61","output":{"label":"rss cap reject_no"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory abstain for rss_cap_reject: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[unknown] hard gate — RSS proposal sample-46","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory unknown for rss_cap_reject: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_yes. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Niche rss_cap_reject: label=rss cap reject_maybe | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [abstain] hard gate — RSS proposal sample-101","output":{"label":"abstain"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Factory rss cap reject_maybe for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"[rss cap reject_maybe] hard gate — RSS proposal sample-26","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — [rss cap reject_yes] hard gate — RSS proposal sample-36","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=rss cap reject_yes | RSS proposal | peer_loop IDLE seed","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"rss_cap_reject decision → rss cap reject_maybe. Input shape RSS proposal. continue_on_dirty HOLD","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Factory rss cap reject_escalate for rss_cap_reject: fact_checker prefer-order","output":{"label":"rss cap reject_escalate"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Classify rss_cap_reject as rss cap reject_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (reject if >20GB)","output":{"label":"rss cap reject_yes"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Kit lock — Factory rss cap reject_maybe for rss_cap_reject: GDS cuFile forbidden","output":{"label":"rss cap reject_maybe"}}
+{"niche_id":"N56","niche":"rss_cap_reject","input":"Niche rss_cap_reject: label=unknown | RSS proposal | peer_loop IDLE seed","output":{"label":"unknown"}}

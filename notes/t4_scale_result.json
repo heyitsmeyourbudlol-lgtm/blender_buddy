@@ -1,0 +1,79 @@
+{
+  "all_above_floor_s50": true,
+  "data_prune": false,
+  "k_share": 200,
+  "n_grid": [
+    10000000,
+    50000000,
+    100000000
+  ],
+  "needle": "OVERSEER_COMPRESSION_T4_SCALE_2026_09_06",
+  "north_star_s_cleared": true,
+  "ratio_stable_pm20": true,
+  "results": [
+    {
+      "arith_short_of_s100": false,
+      "below_floor_s50": false,
+      "data_prune": false,
+      "detail": {
+        "hot_dtype": "NVFP4",
+        "layers": 16,
+        "needle": "OVERSEER_COMPRESSION_T4_SCALE_2026_09_06",
+        "r_lora": 2,
+        "r_svd": 1,
+        "stack": "ALBERT-BitMoE + LoRA"
+      },
+      "k": 200,
+      "n_logic": 10000000,
+      "nvfp4_bytes": 37288.0,
+      "nvfp4_mb": 0.03556060791015625,
+      "s_arith": 134.09139669598798,
+      "train_unlocked": false,
+      "u_unique": 74576
+    },
+    {
+      "arith_short_of_s100": false,
+      "below_floor_s50": false,
+      "data_prune": false,
+      "detail": {
+        "hot_dtype": "NVFP4",
+        "layers": 16,
+        "needle": "OVERSEER_COMPRESSION_T4_SCALE_2026_09_06",
+        "r_lora": 2,
+        "r_svd": 1,
+        "stack": "ALBERT-BitMoE + LoRA"
+      },
+      "k": 200,
+      "n_logic": 50000000,
+      "nvfp4_bytes": 137288.0,
+      "nvfp4_mb": 0.13092803955078125,
+      "s_arith": 182.09894528290891,
+      "train_unlocked": false,
+      "u_unique": 274576
+    },
+    {
+      "arith_short_of_s100": false,
+      "below_floor_s50": false,
+      "data_prune": false,
+      "detail": {
+        "hot_dtype": "NVFP4",
+        "layers": 16,
+        "needle": "OVERSEER_COMPRESSION_T4_SCALE_2026_09_06",
+        "r_lora": 2,
+        "r_svd": 1,
+        "stack": "ALBERT-BitMoE + LoRA"
+      },
+      "k": 200,
+      "n_logic": 100000000,
+      "nvfp4_bytes": 262288.0,
+      "nvfp4_mb": 0.2501373291015625,
+      "s_arith": 190.63014701396938,
+      "train_unlocked": false,
+      "u_unique": 524576
+    }
+  ],
+  "s_max": 190.63014701396938,
+  "s_mean": 168.94016299762208,
+  "s_min": 134.09139669598798,
+  "train_unlocked": false
+}

@@ -1,0 +1,44 @@
+(pass --execute to run; never uses --force)
+======================================================================
+FAIL: test_caps_from_config (tests.test_factory_grid.FactoryGridTests.test_caps_from_config)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_factory_grid.py", line 33, in test_caps_from_config
+    self.assertEqual(fg.global_agent_cap(), 32)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 48 != 32
+
+======================================================================
+FAIL: test_global_agent_cap_clamps_to_max_parallel_peers (tests.test_factory_grid.FactoryGridTests.test_global_agent_cap_clamps_to_max_parallel_peers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_factory_grid.py", line 56, in test_global_agent_cap_clamps_to_max_parallel_peers
+    self.assertEqual(fg.global_agent_cap(), 8)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 48 != 8
+
+----------------------------------------------------------------------
+Ran 168 tests in 0.357s
+
+FAILED (failures=2)
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmp8lau5xwo/peer-wt
+dry-run: /repo/.worktrees/peer-1
+TQ:1

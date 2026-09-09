@@ -1,0 +1,24 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N03",
+  "name": "land_proof_needle_match",
+  "domain": "land_proof_needle_match",
+  "helps": "anti false-`[x]`",
+  "weights": "notes/niche_distill/practice_n03/weights/n03_land_proof_needle_match_neural.pt",
+  "param_count": 5787650,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 5.686735312337987e-05,
+  "labels": [
+    "needle",
+    "null"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N03 '<input>'"
+}

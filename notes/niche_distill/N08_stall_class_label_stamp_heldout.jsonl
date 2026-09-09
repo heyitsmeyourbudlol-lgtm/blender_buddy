@@ -1,0 +1,16 @@
+{"niche_id":"N08","niche":"stall_class_label","input":"[verify_fail_agent_exit] stall-watch — status+log sample-76","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as verify_fail_agent_exit. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[verify_fail_agent_exit] stall-watch — status+log sample-31","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_agent_exit. Input shape status+log. RSS proposal 48GB reject","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory queue_drift for stall_class_label: GDS cuFile forbidden","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_tests. Input shape status+log. continue_on_dirty HOLD","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Classify stall_class_label as verify_fail_tests. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=chicken_egg | status+log | WORK_QUEUE Active empty","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as unknown. Context: sm_121a missing flag (stall class)","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=unknown | status+log | WORK_QUEUE Active empty","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [plan_gate_blocked] stall-watch — status+log sample-101","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → unknown. Input shape status+log. RSS proposal 48GB reject","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as queue_drift. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=verify_fail_agent_exit | status+log | peer_loop IDLE seed","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_agent_exit. Input shape status+log. RSS proposal 48GB reject","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=chicken_egg | status+log | peer_loop IDLE seed","output":{"label":"chicken_egg"}}

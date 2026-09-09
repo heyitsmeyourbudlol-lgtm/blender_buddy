@@ -1,0 +1,96 @@
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_yes. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_no] improve debug — log sample-31","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_maybe for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_maybe for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=peer log skip reason_maybe | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_no. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as abstain. Context: sm_121a missing flag (structured skip)","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_maybe | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_no. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Factory peer log skip reason_escalate for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — [peer log skip reason_no] improve debug — log sample-61","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_yes] improve debug — log sample-6","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_yes] improve debug — log sample-66","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory unknown for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_escalate. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_escalate | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_no. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_yes] improve debug — log sample-36","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Factory peer log skip reason_no for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[unknown] improve debug — log sample-76","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=peer log skip reason_no | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — [peer log skip reason_maybe] improve debug — log sample-56","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — [unknown] improve debug — log sample-46","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory abstain for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as abstain. Context: sm_121a missing flag (structured skip)","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_escalate. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_escalate | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory unknown for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=abstain | log | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[abstain] improve debug — log sample-101","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=abstain | log | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory unknown for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[abstain] improve debug — log sample-41","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — peer_log_skip_reason decision → unknown. Input shape log. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[unknown] improve debug — log sample-106","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — peer_log_skip_reason decision → peer log skip reason_no. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_yes | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_maybe. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_escalate. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_yes | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_maybe for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_escalate | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_no for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — peer_log_skip_reason decision → peer log skip reason_yes. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory unknown for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_no. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_no] improve debug — log sample-91","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_escalate] improve debug — log sample-111","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as peer log skip reason_no. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_maybe | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_escalate] improve debug — log sample-51","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[abstain] improve debug — log sample-71","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → abstain. Input shape log. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as peer log skip reason_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_escalate. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_yes for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=peer log skip reason_no | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=peer log skip reason_maybe | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory abstain for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_yes. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_escalate. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_maybe] improve debug — log sample-26","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_escalate] improve debug — log sample-21","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=unknown | log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=peer log skip reason_no | log | WORK_QUEUE Active empty","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_no for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Factory peer log skip reason_escalate for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_no. Input shape log. RSS proposal 48GB reject","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=abstain | log | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → abstain. Input shape log. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_maybe] improve debug — log sample-86","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — [abstain] improve debug — log sample-11","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_maybe. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as abstain. Context: sm_121a missing flag (structured skip)","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Classify peer_log_skip_reason as peer log skip reason_escalate. Context: sm_121a missing flag (structured skip)","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_yes] improve debug — log sample-96","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_escalate for peer_log_skip_reason: fact_checker prefer-order","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=peer log skip reason_yes | log | peer_loop IDLE seed","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Classify peer_log_skip_reason as peer log skip reason_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (structured skip)","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — peer_log_skip_reason decision → abstain. Input shape log. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — [peer log skip reason_escalate] improve debug — log sample-81","output":{"label":"peer log skip reason_escalate"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → unknown. Input shape log. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"[peer log skip reason_no] improve debug — log sample-1","output":{"label":"peer log skip reason_no"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Factory peer log skip reason_maybe for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=unknown | log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Kit lock — Niche peer_log_skip_reason: label=unknown | log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"peer_log_skip_reason decision → peer log skip reason_maybe. Input shape log. continue_on_dirty HOLD","output":{"label":"peer log skip reason_maybe"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Factory peer log skip reason_yes for peer_log_skip_reason: GDS cuFile forbidden","output":{"label":"peer log skip reason_yes"}}
+{"niche_id":"N10","niche":"peer_log_skip_reason","input":"Niche peer_log_skip_reason: label=abstain | log | WORK_QUEUE Active empty","output":{"label":"abstain"}}

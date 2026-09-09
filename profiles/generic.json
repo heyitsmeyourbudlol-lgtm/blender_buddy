@@ -1,0 +1,15 @@
+{
+  "match_rules": [
+    {"template": "git_hygiene", "any": ["commit", "stash", "git dirty", "git not clean"], "priority": 5},
+    {"template": "automation_audit", "any": ["automation", "self-check", "peer_orchestrate"], "priority": 8},
+    {"template": "generic_task", "any": ["implement", "fix", "add", "update", "ship", "build", "test"], "priority": 200}
+  ],
+  "task_templates": {
+    "generic_task": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "Implement the queue item with minimal diff. Match repo conventions. Run verify commands before done."
+    }
+  }
+}

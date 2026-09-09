@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N18",
+  "name": "rss_envelope_read",
+  "domain": "rss_envelope_read",
+  "helps": "T0 meters",
+  "weights": "notes/niche_distill/practice_n18/weights/n18_rss_envelope_read_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.012006119824945927,
+  "labels": [
+    "abstain",
+    "rss envelope read_escalate",
+    "rss envelope read_maybe",
+    "rss envelope read_no",
+    "rss envelope read_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N18 '<input>'"
+}

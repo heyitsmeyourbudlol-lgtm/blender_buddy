@@ -1,0 +1,74 @@
+======================================================================
+FAIL: test_adapt_agent_failure_auth_hold_skips_clear (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_adapt_agent_failure_auth_hold_skips_clear)
+auth_failed must not call clear_autonomy (live-log thrash root cause).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 213, in test_adapt_agent_failure_auth_hold_skips_clear
+    clear.assert_not_called()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/mock.py", line 940, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to not have been called. Called 1 times.
+Calls: [call(log_fn=<function TestPeerErrorAdapt.test_adapt_agent_failure_auth_hold_skips_clear.<locals>.<lambda> at 0xf0c2189caac0>, reason='cursor-agent auth failed: auth')].
+
+======================================================================
+FAIL: test_adapt_plan_gate_soften_omits_clear_autonomy (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_adapt_plan_gate_soften_omits_clear_autonomy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 103, in test_adapt_plan_gate_soften_omits_clear_autonomy
+    self.assertIn("gate-softened", acts)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'gate-softened' not found in ['soften:1', 'gate-clear']
+
+======================================================================
+FAIL: test_ensure_driving_auth_hold_skips_clear (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_ensure_driving_auth_hold_skips_clear)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 196, in test_ensure_driving_auth_hold_skips_clear
+    clear.assert_not_called()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/mock.py", line 940, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to not have been called. Called 1 times.
+Calls: [call(log_fn=<function TestPeerErrorAdapt.test_ensure_driving_auth_hold_skips_clear.<locals>.<lambda> at 0xf0c2179df420>, reason='live log: auth not ready — remote: auth not ready — Connection timed out')].
+
+======================================================================
+FAIL: test_ensure_driving_clears_on_noop_mislabel_fp_advanced (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_ensure_driving_clears_on_noop_mislabel_fp_advanced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 182, in test_ensure_driving_clears_on_noop_mislabel_fp_advanced
+    self.assertEqual(clear.call_args.kwargs.get("reason"), "noop-mislabel")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'noop-or-verify-fail' != 'noop-mislabel'
+- noop-or-verify-fail
++ noop-mislabel
+
+
+======================================================================
+FAIL: test_ensure_driving_skips_clear_on_real_noop_fp_flat (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_ensure_driving_skips_clear_on_real_noop_fp_flat)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 152, in test_ensure_driving_skips_clear_on_real_noop_fp_flat
+    clear.assert_not_called()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/mock.py", line 940, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to not have been called. Called 1 times.
+Calls: [call(log_fn=<function TestPeerErrorAdapt.test_ensure_driving_skips_clear_on_real_noop_fp_flat.<locals>.<lambda> at 0xf0c217849080>, reason='noop-or-verify-fail')].
+
+======================================================================
+FAIL: test_ensure_driving_skips_clear_on_verify_fail_alone (tests.test_peer_error_adapt.TestPeerErrorAdapt.test_ensure_driving_skips_clear_on_verify_fail_alone)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_peer_error_adapt.py", line 123, in test_ensure_driving_skips_clear_on_verify_fail_alone
+    clear.assert_not_called()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/mock.py", line 940, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'mock' to not have been called. Called 1 times.
+Calls: [call(log_fn=<function TestPeerErrorAdapt.test_ensure_driving_skips_clear_on_verify_fail_alone.<locals>.<lambda> at 0xf0c2179df420>, reason='verify-fail')].
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.172s
+
+FAILED (failures=6)

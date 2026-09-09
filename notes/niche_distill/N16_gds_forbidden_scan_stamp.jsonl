@@ -1,0 +1,48 @@
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as gds forbidden scan_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=abstain | code/docs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[gds forbidden scan_maybe] C4 lock — code/docs sample-26","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=unknown | code/docs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_maybe. Input shape code/docs. continue_on_dirty HOLD","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Factory gds forbidden scan_yes for gds_forbidden_scan: GDS cuFile forbidden","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as abstain. Context: sm_121a missing flag (GDS hits)","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[unknown] C4 lock — code/docs sample-16","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory gds forbidden scan_maybe for gds_forbidden_scan: GDS cuFile forbidden","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[gds forbidden scan_escalate] C4 lock — code/docs sample-21","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[gds forbidden scan_yes] C4 lock — code/docs sample-36","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory gds forbidden scan_maybe for gds_forbidden_scan: GDS cuFile forbidden","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[unknown] C4 lock — code/docs sample-46","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory abstain for gds_forbidden_scan: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as gds forbidden scan_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_yes. Input shape code/docs. continue_on_dirty HOLD","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=gds forbidden scan_yes | code/docs | peer_loop IDLE seed","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=gds forbidden scan_escalate | code/docs | WORK_QUEUE Active empty","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Factory gds forbidden scan_no for gds_forbidden_scan: fact_checker prefer-order","output":{"label":"gds forbidden scan_no"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — gds_forbidden_scan decision → gds forbidden scan_no. Input shape code/docs. RSS proposal 48GB reject","output":{"label":"gds forbidden scan_no"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — gds_forbidden_scan decision → gds forbidden scan_yes. Input shape code/docs. continue_on_dirty HOLD","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_escalate. Input shape code/docs. RSS proposal 48GB reject","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as gds forbidden scan_escalate. Context: sm_121a missing flag (GDS hits)","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[gds forbidden scan_no] C4 lock — code/docs sample-1","output":{"label":"gds forbidden scan_no"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_no. Input shape code/docs. RSS proposal 48GB reject","output":{"label":"gds forbidden scan_no"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Classify gds_forbidden_scan as gds forbidden scan_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — [gds forbidden scan_yes] C4 lock — code/docs sample-6","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Niche gds_forbidden_scan: label=gds forbidden scan_maybe | code/docs | peer_loop IDLE seed","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_escalate. Input shape code/docs. RSS proposal 48GB reject","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[abstain] C4 lock — code/docs sample-11","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → abstain. Input shape code/docs. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — [gds forbidden scan_escalate] C4 lock — code/docs sample-51","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=unknown | code/docs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory gds forbidden scan_escalate for gds_forbidden_scan: fact_checker prefer-order","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Classify gds_forbidden_scan as gds forbidden scan_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"gds forbidden scan_yes"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=gds forbidden scan_escalate | code/docs | WORK_QUEUE Active empty","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory unknown for gds_forbidden_scan: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Classify gds_forbidden_scan as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (GDS hits)","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Factory gds forbidden scan_escalate for gds_forbidden_scan: fact_checker prefer-order","output":{"label":"gds forbidden scan_escalate"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Factory unknown for gds_forbidden_scan: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Niche gds_forbidden_scan: label=abstain | code/docs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → unknown. Input shape code/docs. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"[abstain] C4 lock — code/docs sample-41","output":{"label":"abstain"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=gds forbidden scan_maybe | code/docs | peer_loop IDLE seed","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Kit lock — Factory gds forbidden scan_no for gds_forbidden_scan: fact_checker prefer-order","output":{"label":"gds forbidden scan_no"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"gds_forbidden_scan decision → gds forbidden scan_maybe. Input shape code/docs. continue_on_dirty HOLD","output":{"label":"gds forbidden scan_maybe"}}
+{"niche_id":"N16","niche":"gds_forbidden_scan","input":"Niche gds_forbidden_scan: label=gds forbidden scan_no | code/docs | WORK_QUEUE Active empty","output":{"label":"gds forbidden scan_no"}}

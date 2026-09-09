@@ -1,0 +1,1377 @@
+{
+  "needle": "OVERSEER_COMMAND_ECOSYSTEM_PLAN_2026_09_07",
+  "ts": "2026-09-08T15:15:53Z",
+  "n_cli_scripts": 125,
+  "n_wrapped": 125,
+  "n_gaps": 0,
+  "wrapped": [
+    {
+      "script": "scripts/automation_adapt.py",
+      "stem": "automation_adapt",
+      "peer_commands": [
+        "adapt",
+        "adapt-all",
+        "adapt-deep",
+        "audit",
+        "audit-json"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/automation_comms_improve.py",
+      "stem": "automation_comms_improve",
+      "peer_commands": [
+        "comms-improve",
+        "comms-improve-install",
+        "comms-improve-loop",
+        "comms-improve-status",
+        "comms-improve-uninstall",
+        "comms-verify"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/automation_comms_research.py",
+      "stem": "automation_comms_research",
+      "peer_commands": [
+        "comms-research"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/automation_engine.py",
+      "stem": "automation_engine",
+      "peer_commands": [
+        "automations"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/automation_improve.py",
+      "stem": "automation_improve",
+      "peer_commands": [
+        "improve",
+        "improve-install",
+        "improve-loop",
+        "improve-plan",
+        "improve-run",
+        "improve-status",
+        "improve-uninstall",
+        "improve-watch",
+        "improve-write"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/automation_research.py",
+      "stem": "automation_research",
+      "peer_commands": [
+        "research",
+        "trends"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/bitnet_fp4_expert_rss_smoke.py",
+      "stem": "bitnet_fp4_expert_rss_smoke",
+      "peer_commands": [
+        "bitnet-fp4-expert-rss-smoke"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/bundle_automation_kit.py",
+      "stem": "bundle_automation_kit",
+      "peer_commands": [
+        "export"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/command_ecosystem.py",
+      "stem": "command_ecosystem",
+      "peer_commands": [
+        "command-coverage",
+        "command-coverage-enqueue",
+        "command-dispatch-audit",
+        "command-ecosystem-finish",
+        "mini-app-promote"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_ablation_schedule.py",
+      "stem": "compression_ablation_schedule",
+      "peer_commands": [
+        "compression-ablation-schedule"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_auto_train.py",
+      "stem": "compression_auto_train",
+      "peer_commands": [
+        "compression-auto-train"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_gpu_worker.py",
+      "stem": "compression_gpu_worker",
+      "peer_commands": [
+        "compression-gpu-worker"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_keep_alive.py",
+      "stem": "compression_keep_alive",
+      "peer_commands": [
+        "compression-keep-alive"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_logit_expand.py",
+      "stem": "compression_logit_expand",
+      "peer_commands": [
+        "compression-logit-expand"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_result_watch.py",
+      "stem": "compression_result_watch",
+      "peer_commands": [
+        "compression-result-watch"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_stress_suite.py",
+      "stem": "compression_stress_suite",
+      "peer_commands": [
+        "compression-stress-suite"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t0_pack.py",
+      "stem": "compression_t0_pack",
+      "peer_commands": [
+        "compression-t0-pack"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t1_share.py",
+      "stem": "compression_t1_share",
+      "peer_commands": [
+        "compression-t1-share"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t2_svd.py",
+      "stem": "compression_t2_svd",
+      "peer_commands": [
+        "compression-t2-svd"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t3_bitdistill.py",
+      "stem": "compression_t3_bitdistill",
+      "peer_commands": [
+        "compression-t3-bitdistill"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t4_scale.py",
+      "stem": "compression_t4_scale",
+      "peer_commands": [
+        "compression-t4-scale"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t5_serve.py",
+      "stem": "compression_t5_serve",
+      "peer_commands": [
+        "compression-t5-serve"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_t6_quality.py",
+      "stem": "compression_t6_quality",
+      "peer_commands": [
+        "compression-t6-quality"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_train_profile.py",
+      "stem": "compression_train_profile",
+      "peer_commands": [
+        "compression-train-profile"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/compression_train_rung0.py",
+      "stem": "compression_train_rung0",
+      "peer_commands": [
+        "compression-train-rung0"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/cursor_self_improve.py",
+      "stem": "cursor_self_improve",
+      "peer_commands": [
+        "cursor-self-improve"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_gpu_compute.py",
+      "stem": "dgx_gpu_compute",
+      "peer_commands": [
+        "dgx-gpu-compute"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_gpu_events.py",
+      "stem": "dgx_gpu_events",
+      "peer_commands": [
+        "dgx-gpu-events"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_local_ram_guard.py",
+      "stem": "dgx_local_ram_guard",
+      "peer_commands": [
+        "dgx-local-ram-guard"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_ram_accel.py",
+      "stem": "dgx_ram_accel",
+      "peer_commands": [
+        "ram-accel",
+        "ram-fill"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_ram_budget.py",
+      "stem": "dgx_ram_budget",
+      "peer_commands": [
+        "ram-cap-flags",
+        "ram-govern",
+        "ram-purge",
+        "ram-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_ram_events.py",
+      "stem": "dgx_ram_events",
+      "peer_commands": [
+        "dgx-ram-events"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_ram_priority.py",
+      "stem": "dgx_ram_priority",
+      "peer_commands": [
+        "dgx-ram-priority"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_resource_poll.py",
+      "stem": "dgx_resource_poll",
+      "peer_commands": [
+        "resource-fix-now",
+        "resource-poll",
+        "resource-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_resource_priority.py",
+      "stem": "dgx_resource_priority",
+      "peer_commands": [
+        "dgx-resource-priority"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_utilization.py",
+      "stem": "dgx_utilization",
+      "peer_commands": [
+        "dgx-utilization"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/dgx_watch.py",
+      "stem": "dgx_watch",
+      "peer_commands": [
+        "dgx-status",
+        "dgx-watch"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_dynamics.py",
+      "stem": "factory_dynamics",
+      "peer_commands": [
+        "factory-dynamics"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_fanout.py",
+      "stem": "factory_fanout",
+      "peer_commands": [
+        "factory-fanout"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_kit_run.py",
+      "stem": "factory_kit_run",
+      "peer_commands": [
+        "kit-heal-false-green",
+        "kit-run",
+        "kit-run-list"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_lora_train.py",
+      "stem": "factory_lora_train",
+      "peer_commands": [
+        "factory-lora-train"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_niche_runtime.py",
+      "stem": "factory_niche_runtime",
+      "peer_commands": [
+        "factory-niche-runtime"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_progress.py",
+      "stem": "factory_progress",
+      "peer_commands": [
+        "progress"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/factory_sprint.py",
+      "stem": "factory_sprint",
+      "peer_commands": [
+        "factory-sprint"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/github_feedback.py",
+      "stem": "github_feedback",
+      "peer_commands": [
+        "github-feedback-fetch",
+        "github-feedback-list",
+        "github-feedback-render"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/gpu_profile_once.py",
+      "stem": "gpu_profile_once",
+      "peer_commands": [
+        "gpu-profile-once"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/knowledge_index.py",
+      "stem": "knowledge_index",
+      "peer_commands": [
+        "knowledge-index",
+        "knowledge-search"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/knowledge_mamba.py",
+      "stem": "knowledge_mamba",
+      "peer_commands": [
+        "mamba-status",
+        "mamba-warmup"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_assist_once.py",
+      "stem": "niche_assist_once",
+      "peer_commands": [
+        "niche-assist-once"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_bank_compress.py",
+      "stem": "niche_bank_compress",
+      "peer_commands": [
+        "niche-bank-compress"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_bank_eval.py",
+      "stem": "niche_bank_eval",
+      "peer_commands": [
+        "niche-bank-eval"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_bank_train.py",
+      "stem": "niche_bank_train",
+      "peer_commands": [
+        "niche-bank-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_composer.py",
+      "stem": "niche_composer",
+      "peer_commands": [
+        "niche-serve"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_distill_validate.py",
+      "stem": "niche_distill_validate",
+      "peer_commands": [
+        "niche-distill-validate"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_domain_classifier_train.py",
+      "stem": "niche_domain_classifier_train",
+      "peer_commands": [
+        "niche-domain-classifier-train"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_domain_classify.py",
+      "stem": "niche_domain_classify",
+      "peer_commands": [
+        "niche-domain-classify"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_hot_path.py",
+      "stem": "niche_hot_path",
+      "peer_commands": [
+        "niche-hot-path"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_mint.py",
+      "stem": "niche_mint",
+      "peer_commands": [
+        "niche-mint"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_mint_train.py",
+      "stem": "niche_mint_train",
+      "peer_commands": [
+        "niche-mint-train"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n01_neural_train.py",
+      "stem": "niche_n01_neural_train",
+      "peer_commands": [
+        "niche-n01-neural-train"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n01_practice.py",
+      "stem": "niche_n01_practice",
+      "peer_commands": [
+        "niche-n01-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n02_practice.py",
+      "stem": "niche_n02_practice",
+      "peer_commands": [
+        "niche-n02-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n03_practice.py",
+      "stem": "niche_n03_practice",
+      "peer_commands": [
+        "niche-n03-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n04_practice.py",
+      "stem": "niche_n04_practice",
+      "peer_commands": [
+        "niche-n04-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n07_practice.py",
+      "stem": "niche_n07_practice",
+      "peer_commands": [
+        "niche-n07-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_n08_practice.py",
+      "stem": "niche_n08_practice",
+      "peer_commands": [
+        "niche-n08-practice"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/niche_retrieval.py",
+      "stem": "niche_retrieval",
+      "peer_commands": [
+        "niche-retrieval"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_board.py",
+      "stem": "peer_agent_board",
+      "peer_commands": [
+        "agents",
+        "agents-watch"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_builder.py",
+      "stem": "peer_agent_builder",
+      "peer_commands": [
+        "agent-build",
+        "agent-build-list",
+        "agent-build-validate",
+        "agent-who"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_comms.py",
+      "stem": "peer_agent_comms",
+      "peer_commands": [
+        "comms",
+        "comms-bus",
+        "comms-init"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_gates.py",
+      "stem": "peer_agent_gates",
+      "peer_commands": [
+        "agent-gates",
+        "done-gate",
+        "plan-gate"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_human_gap.py",
+      "stem": "peer_agent_human_gap",
+      "peer_commands": [
+        "agent-gap"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_mini_apps.py",
+      "stem": "peer_agent_mini_apps",
+      "peer_commands": [
+        "mini-apps"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_agent_survival.py",
+      "stem": "peer_agent_survival",
+      "peer_commands": [
+        "agent-survival"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_command_builder.py",
+      "stem": "peer_command_builder",
+      "peer_commands": [
+        "commands-build",
+        "commands-digest",
+        "commands-harvest"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_company_org.py",
+      "stem": "peer_company_org",
+      "peer_commands": [
+        "company-org",
+        "company-org-enqueue",
+        "company-org-md",
+        "company-org-stubs"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_critical_thinking.py",
+      "stem": "peer_critical_thinking",
+      "peer_commands": [
+        "check-questions",
+        "think"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_debrief.py",
+      "stem": "peer_debrief",
+      "peer_commands": [
+        "debrief"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_dual_research.py",
+      "stem": "peer_dual_research",
+      "peer_commands": [
+        "dual-research",
+        "dual-research-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_error_adapt.py",
+      "stem": "peer_error_adapt",
+      "peer_commands": [
+        "peer-error-adapt"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_fact_librarian.py",
+      "stem": "peer_fact_librarian",
+      "peer_commands": [
+        "domain-owners",
+        "fact-domains",
+        "fact-query"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_factory_a_plus.py",
+      "stem": "peer_factory_a_plus",
+      "peer_commands": [
+        "factory-a-plus",
+        "factory-a-plus-install"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_factory_a_to_z.py",
+      "stem": "peer_factory_a_to_z",
+      "peer_commands": [
+        "a-to-z"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_flaw_scan.py",
+      "stem": "peer_flaw_scan",
+      "peer_commands": [
+        "flaw-scan",
+        "flaw-scan-preview"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_glink_paste.py",
+      "stem": "peer_glink_paste",
+      "peer_commands": [
+        "peer-glink-paste"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_hallucination_guard.py",
+      "stem": "peer_hallucination_guard",
+      "peer_commands": [
+        "hallucination-guard",
+        "hallucination-strategy"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_idea_synthesis.py",
+      "stem": "peer_idea_synthesis",
+      "peer_commands": [
+        "idea-articulate",
+        "idea-record",
+        "idea-synthesis"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_investigate.py",
+      "stem": "peer_investigate",
+      "peer_commands": [
+        "digest",
+        "investigate",
+        "investigate-force",
+        "investigate-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_kit_progress.py",
+      "stem": "peer_kit_progress",
+      "peer_commands": [
+        "kit-progress"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_land_hold.py",
+      "stem": "peer_land_hold",
+      "peer_commands": [
+        "land-hold"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_lessons.py",
+      "stem": "peer_lessons",
+      "peer_commands": [
+        "lessons",
+        "lessons-harvest",
+        "lessons-squeeze"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_loop.py",
+      "stem": "peer_loop",
+      "peer_commands": [
+        "install",
+        "loop",
+        "once",
+        "status",
+        "uninstall"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_auditor.py",
+      "stem": "peer_memory_auditor",
+      "peer_commands": [
+        "memory-audit"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_compress.py",
+      "stem": "peer_memory_compress",
+      "peer_commands": [
+        "memory-compress",
+        "memory-compress-verify"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_episodic.py",
+      "stem": "peer_memory_episodic",
+      "peer_commands": [
+        "memory-episodic"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_health.py",
+      "stem": "peer_memory_health",
+      "peer_commands": [
+        "memory-health"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_quiz.py",
+      "stem": "peer_memory_quiz",
+      "peer_commands": [
+        "memory-quiz"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_memory_span.py",
+      "stem": "peer_memory_span",
+      "peer_commands": [
+        "memory",
+        "memory-pack",
+        "memory-recall",
+        "memory-record"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_orchestrate.py",
+      "stem": "peer_orchestrate",
+      "peer_commands": [
+        "check",
+        "orchestrate-json",
+        "plan"
+      ],
+      "log_hits": 6
+    },
+    {
+      "script": "scripts/peer_output_compare.py",
+      "stem": "peer_output_compare",
+      "peer_commands": [
+        "output-compare"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_oversight.py",
+      "stem": "peer_oversight",
+      "peer_commands": [
+        "oversight",
+        "oversight-digest",
+        "oversight-force",
+        "oversight-install",
+        "oversight-status",
+        "oversight-uninstall",
+        "progress-monitor",
+        "progress-monitor-force",
+        "progress-monitor-install",
+        "progress-monitor-once"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_pen_test.py",
+      "stem": "peer_pen_test",
+      "peer_commands": [
+        "pen-test",
+        "pen-test-digest",
+        "pen-test-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_persona_rules.py",
+      "stem": "peer_persona_rules",
+      "peer_commands": [
+        "persona-rules"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_playbook.py",
+      "stem": "peer_playbook",
+      "peer_commands": [
+        "playbook",
+        "playbook-add",
+        "playbook-lookup",
+        "playbook-status",
+        "playbook-sync"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_precision_habits.py",
+      "stem": "peer_precision_habits",
+      "peer_commands": [
+        "precision",
+        "precision-record"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_product_forge.py",
+      "stem": "peer_product_forge",
+      "peer_commands": [
+        "product-forge"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_progress_watch.py",
+      "stem": "peer_progress_watch",
+      "peer_commands": [
+        "progress-watch",
+        "progress-watch-forever"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_project_learning.py",
+      "stem": "peer_project_learning",
+      "peer_commands": [
+        "learn",
+        "learn-record"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_repo_research.py",
+      "stem": "peer_repo_research",
+      "peer_commands": [
+        "repo-research",
+        "repo-research-digest",
+        "repo-research-install",
+        "repo-research-status",
+        "repo-research-uninstall"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_role_state.py",
+      "stem": "peer_role_state",
+      "peer_commands": [
+        "role-state"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_rule_shutdown.py",
+      "stem": "peer_rule_shutdown",
+      "peer_commands": [
+        "rule-shutdown",
+        "rule-shutdown-digest",
+        "rule-shutdown-expire"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_self_diagnose.py",
+      "stem": "peer_self_diagnose",
+      "peer_commands": [
+        "diagnose",
+        "diagnose-quick"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_self_heal.py",
+      "stem": "peer_self_heal",
+      "peer_commands": [
+        "self-heal",
+        "self-heal-scan",
+        "self-heal-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_session_amnesia.py",
+      "stem": "peer_session_amnesia",
+      "peer_commands": [
+        "session-claim",
+        "session-distill",
+        "session-hub-rules",
+        "session-ledger-append",
+        "session-sticky-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_stall_pivot.py",
+      "stem": "peer_stall_pivot",
+      "peer_commands": [
+        "stall-pivot"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_team_context.py",
+      "stem": "peer_team_context",
+      "peer_commands": [
+        "team-context"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_top10_next.py",
+      "stem": "peer_top10_next",
+      "peer_commands": [
+        "top10",
+        "top10-next",
+        "top10-refresh"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_watch.py",
+      "stem": "peer_watch",
+      "peer_commands": [
+        "watch"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_work_assign.py",
+      "stem": "peer_work_assign",
+      "peer_commands": [
+        "assign",
+        "assignments",
+        "eta",
+        "work-assign"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/peer_worktree.py",
+      "stem": "peer_worktree",
+      "peer_commands": [
+        "ensure-pool",
+        "worktree-list"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/product_drive.py",
+      "stem": "product_drive",
+      "peer_commands": [
+        "product",
+        "product-status"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/production_power_scoreboard.py",
+      "stem": "production_power_scoreboard",
+      "peer_commands": [
+        "production-power",
+        "scoreboard-write"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/research_claim_arith.py",
+      "stem": "research_claim_arith",
+      "peer_commands": [
+        "research-claim-arith"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/run_improve_poll_cache.py",
+      "stem": "run_improve_poll_cache",
+      "peer_commands": [
+        "improve-poll-cache"
+      ],
+      "log_hits": 0
+    },
+    {
+      "script": "scripts/run_peer_tasks.py",
+      "stem": "run_peer_tasks",
+      "peer_commands": [
+        "local-cycle",
+        "verify-gate",
+        "verify-gate-quick"
+      ],
+      "log_hits": 0
+    }
+  ],
+  "gaps": [],
+  "layers": {
+    "life": [
+      "bootstrap",
+      "heal-all",
+      "green",
+      "install-all",
+      "standup",
+      "noop-break",
+      "stagnation-break",
+      "soft-hub-writeback",
+      "idle-gate",
+      "digest",
+      "oversight",
+      "oversight-force",
+      "oversight-digest",
+      "oversight-status",
+      "oversight-install",
+      "progress-monitor",
+      "progress-monitor-once",
+      "progress-monitor-force",
+      "progress-monitor-install",
+      "repo-research",
+      "repo-research-digest",
+      "repo-research-status",
+      "repo-research-install",
+      "pen-test",
+      "pen-test-digest",
+      "pen-test-status",
+      "dual-research",
+      "dual-research-status",
+      "company-org",
+      "company-org-md",
+      "company-org-enqueue",
+      "investigate-force",
+      "investigate-status",
+      "self-heal",
+      "self-heal-scan",
+      "self-heal-status",
+      "rule-shutdown",
+      "rule-shutdown-digest",
+      "rule-shutdown-expire",
+      "progress-watch",
+      "progress-watch-forever",
+      "playbook",
+      "playbook-lookup",
+      "playbook-sync",
+      "playbook-add",
+      "watch",
+      "status",
+      "poke",
+      "comms-improve-loop",
+      "comms-improve-install",
+      "install",
+      "improve-install",
+      "dashboard-install",
+      "loop",
+      "improve-loop",
+      "once",
+      "ram-status",
+      "ram-purge",
+      "ram-cap-flags",
+      "ram-govern",
+      "dgx-status",
+      "dgx-watch",
+      "compression-ladder",
+      "dgx-gpu-compute",
+      "dgx-gpu-events",
+      "dgx-local-ram-guard",
+      "dgx-ram-events",
+      "dgx-ram-priority",
+      "dgx-utilization"
+    ],
+    "dispatch": [
+      "pre-dispatch",
+      "post-cycle",
+      "plan-gate",
+      "done-gate",
+      "diagnose",
+      "diagnose-quick",
+      "hallucination-guard",
+      "hallucination-strategy",
+      "agent-gap",
+      "idea-articulate",
+      "idea-record",
+      "idea-synthesis",
+      "agent-gates",
+      "think",
+      "check-questions",
+      "precision",
+      "output-compare",
+      "learn",
+      "learn-record",
+      "lessons",
+      "lessons-harvest",
+      "lessons-squeeze",
+      "memory",
+      "memory-record",
+      "memory-recall",
+      "memory-compress",
+      "memory-compress-verify",
+      "memory-pack-gate",
+      "role-state",
+      "niche-domain-classify",
+      "memory-audit",
+      "memory-quiz",
+      "memory-health",
+      "memory-episodic",
+      "fact-query",
+      "fact-domains",
+      "domain-owners",
+      "session-ledger-append",
+      "session-distill",
+      "session-claim",
+      "session-sticky-status",
+      "session-hub-rules",
+      "assign",
+      "eta",
+      "team-context",
+      "ensure-pool",
+      "worktree-list",
+      "stall-pivot",
+      "command-dispatch-audit",
+      "niche-assist-once",
+      "agent-build",
+      "agent-who",
+      "agent-survival",
+      "peer-error-adapt",
+      "peer-glink-paste"
+    ],
+    "dev": [
+      "commands-sync",
+      "commands-cycle",
+      "dev-fast",
+      "dev-heal",
+      "comms-improve",
+      "comms-improve-status",
+      "improve-plan",
+      "improve-run",
+      "improve-write",
+      "improve-status",
+      "improve-watch",
+      "trends",
+      "research",
+      "commands-md",
+      "commands-build",
+      "commands-harvest",
+      "command-coverage",
+      "coverage-gate",
+      "command-coverage-enqueue",
+      "command-ecosystem-finish",
+      "mini-app-promote",
+      "cursor-self-improve",
+      "improve-poll-cache"
+    ],
+    "factory-ai": [
+      "progress",
+      "factory-a-plus",
+      "factory-a-plus-install",
+      "a-to-z",
+      "kit-run",
+      "kit-run-list",
+      "kit-heal-false-green",
+      "factory-a-plus-init",
+      "product-status",
+      "factory-sprint",
+      "factory-fanout",
+      "agents",
+      "niche-mint",
+      "plan",
+      "factory-dynamics",
+      "niche-bank-status",
+      "niche-bank-eval",
+      "niche-serve",
+      "niche-mint-train",
+      "top10",
+      "top10-refresh",
+      "top10-next",
+      "production-power",
+      "scoreboard-write",
+      "agent-build-list",
+      "agent-build-validate",
+      "compression-keep-alive",
+      "bitnet-fp4-expert-rss-smoke",
+      "compression-ablation-schedule",
+      "compression-auto-train",
+      "compression-gpu-worker",
+      "compression-logit-expand",
+      "compression-result-watch",
+      "compression-stress-suite",
+      "compression-t0-pack",
+      "compression-t1-share",
+      "compression-t2-svd",
+      "compression-t3-bitdistill",
+      "compression-t4-scale",
+      "compression-t5-serve",
+      "compression-t6-quality",
+      "compression-train-profile",
+      "niche-bank-compress",
+      "niche-hot-path",
+      "factory-niche-runtime",
+      "factory-lora-train",
+      "compression-train-rung0",
+      "gpu-profile-once",
+      "dgx-resource-priority",
+      "niche-domain-classifier-train",
+      "niche-n01-neural-train",
+      "niche-n01-practice",
+      "niche-n02-practice",
+      "niche-distill-validate",
+      "research-claim-arith",
+      "niche-n03-practice",
+      "niche-n07-practice",
+      "niche-n08-practice",
+      "niche-retrieval",
+      "kit-progress"
+    ],
+    "product": [
+      "product",
+      "github-feedback-fetch",
+      "github-feedback-list",
+      "github-feedback-render",
+      "production-power",
+      "scoreboard-write"
+    ],
+    "meta": [
+      "autonomous-repair",
+      "debrief",
+      "flaw-scan",
+      "flaw-scan-preview",
+      "comms-init",
+      "comms-bus",
+      "export-kit",
+      "commands-list",
+      "commands-digest",
+      "land-hold"
+    ]
+  },
+  "unlayered": [
+    "check",
+    "test",
+    "test-quick",
+    "verify-gate",
+    "audit",
+    "audit-json",
+    "comms-verify",
+    "compact-queue",
+    "sync-queue",
+    "queue-status",
+    "adapt",
+    "adapt-deep",
+    "adapt-all"
+  ],
+  "harvest": [],
+  "policy": "Agents execute ./scripts/peer <id>; Command Builder adds recipes; coverage gaps are Backlog candidates \u2014 not Active flood."
+}

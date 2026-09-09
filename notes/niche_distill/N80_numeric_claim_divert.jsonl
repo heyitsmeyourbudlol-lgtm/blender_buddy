@@ -1,0 +1,96 @@
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[abstain] honesty — sentence sample-101","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_maybe] honesty — sentence sample-86","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_yes. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_no | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as abstain. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_escalate. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as abstain. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory unknown for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory abstain for numeric_claim_divert: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_no | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory unknown for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_escalate. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → abstain. Input shape sentence. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory abstain for numeric_claim_divert: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → abstain. Input shape sentence. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Factory numeric claim divert_yes for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory unknown for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Factory numeric claim divert_maybe for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Classify numeric_claim_divert as numeric claim divert_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → abstain. Input shape sentence. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → unknown. Input shape sentence. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Classify numeric_claim_divert as numeric claim divert_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Factory numeric claim divert_escalate for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_maybe for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_yes for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_escalate] honesty — sentence sample-21","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_no | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_yes | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Classify numeric_claim_divert as numeric claim divert_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_escalate for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → unknown. Input shape sentence. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_maybe | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_maybe | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[unknown] honesty — sentence sample-16","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Classify numeric_claim_divert as numeric claim divert_escalate. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_no. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → unknown. Input shape sentence. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_no for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_escalate for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_yes | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[unknown] honesty — sentence sample-46","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_yes] honesty — sentence sample-66","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[abstain] honesty — sentence sample-71","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_yes | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_maybe | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_no] honesty — sentence sample-61","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Classify numeric_claim_divert as numeric claim divert_no. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_yes for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_escalate] honesty — sentence sample-51","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_maybe] honesty — sentence sample-56","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory unknown for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_yes] honesty — sentence sample-96","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [abstain] honesty — sentence sample-41","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[unknown] honesty — sentence sample-106","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_no for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_yes. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_no] honesty — sentence sample-1","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_no. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_no] honesty — sentence sample-31","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_no for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Factory abstain for numeric_claim_divert: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_maybe] honesty — sentence sample-26","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_maybe for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as abstain. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"[numeric claim divert_escalate] honesty — sentence sample-111","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_no. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_yes | sentence | peer_loop IDLE seed","output":{"label":"numeric claim divert_yes"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Factory numeric claim divert_no for numeric_claim_divert: fact_checker prefer-order","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as numeric claim divert_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as abstain. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_maybe"}}

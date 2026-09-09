@@ -1,0 +1,29 @@
+HIT _ok__overseer_final_json_170 100
+HIT _ok__overseer_land_fp_txt_313 100
+HIT _overseer_factory.txt 7
+HIT _overseer_final.json 170
+HIT _overseer_heal.txt 838
+HIT _overseer_land_fp.txt 313
+HIT _overseer_land_fp_debug.txt 3131
+HIT _overseer_land_fp_slim.txt 3743
+HIT _overseer_metrics.txt 370
+HIT _overseer_metrics_stat.txt 161
+HIT _overseer_open_active.txt 1
+HIT _overseer_run_tests.py 1613
+HIT _overseer_sc.txt 1210
+HIT _overseer_ta.txt 0
+HIT _overseer_tail.txt 312
+HIT _overseer_test_snip.txt 0
+HIT _overseer_tq.txt 174
+HIT _overseer_tr.txt 99
+HIT _overseer_verify.txt 7
+HITMET size 370 lines 8
+HITPOLL False
+HITLINE <function _patch_peer_loop.<locals>.metrics_green at 0xf141cb1d5300>
+HITLINE     def metrics_green(live):
+HITLINE         return bool(getattr(live, "tests_ok", False)) and pl.auto.success_metrics_ok(live)
+HITLINE 
+HITLINE live LiveState(git_clean=True, git_detail='clean', tests_ok=False, tests_detail='fail', import_rss_mb=13.0, footprint_detail='ok')
+HITLINE tests_ok False
+HITLINE success False
+HITLINE metrics_green False

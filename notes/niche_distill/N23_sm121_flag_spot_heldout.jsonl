@@ -1,0 +1,16 @@
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Niche sm121_flag_spot: label=abstain | build snippet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_yes | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_maybe. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_maybe | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_no] FP4 builds — build snippet sample-91","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — sm121_flag_spot decision → unknown. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → abstain. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_escalate. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory sm121 flag spot_escalate for sm121_flag_spot: fact_checker prefer-order","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=abstain | build snippet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Classify sm121_flag_spot as sm121 flag spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_maybe | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — sm121_flag_spot decision → unknown. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — sm121_flag_spot decision → sm121 flag spot_escalate. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_escalate. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory sm121 flag spot_yes for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"sm121 flag spot_yes"}}

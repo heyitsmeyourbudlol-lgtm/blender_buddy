@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N62",
+  "name": "continue_on_dirty_classify",
+  "domain": "continue_on_dirty_classify",
+  "helps": "verify FAIL paint",
+  "weights": "notes/niche_distill/practice_n62/weights/n62_continue_on_dirty_classify_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00013649002357851714,
+  "labels": [
+    "abstain",
+    "continue on dirty classify_escalate",
+    "continue on dirty classify_maybe",
+    "continue on dirty classify_no",
+    "continue on dirty classify_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N62 '<input>'"
+}

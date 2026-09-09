@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N29",
+  "name": "clean_host_cmd_pick",
+  "domain": "clean_host_cmd_pick",
+  "helps": "CLEAN ops",
+  "weights": "notes/niche_distill/practice_n29/weights/n29_clean_host_cmd_pick_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 2.217207475041505e-05,
+  "labels": [
+    "abstain",
+    "clean host cmd pick_escalate",
+    "clean host cmd pick_maybe",
+    "clean host cmd pick_no",
+    "clean host cmd pick_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N29 '<input>'"
+}

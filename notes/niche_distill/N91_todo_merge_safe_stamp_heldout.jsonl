@@ -1,0 +1,10 @@
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → abstain. Input shape todo write. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_maybe | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_yes] TodoWrite — todo write sample-36","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_no. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_no for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_yes | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory unknown for todo_merge_safe: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_maybe for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_maybe"}}

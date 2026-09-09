@@ -1,0 +1,34 @@
+# Factory progress (real outcomes)
+
+**North star:** Self-sufficient automation: peer + improve forever, mechanical heal, verify gates, oversight — runs without babysitting
+
+**Readiness:** `86%`  `█████████████████░░░`
+
+_86% self-sufficient — peer + improve + heal run without babysitting_
+
+ASI % on the dashboard is harness health. This meter is what you actually asked for:
+can the factory clear dispatch, deliver non-noop work, and run self-sufficiently.
+
+## Dimensions
+
+- [~] **Dispatch clear** `85%` × 25% — git: 207 changed path(s) (83 modified, 124 untracked) · continue_on_dirty · coding worktree present
+- [x] **Non-noop delivery** `100%` × 20% — last_cycle verify_ok · not noop · 
+- [~] **Self-sufficient loops** `91%` × 25% — peer + improve daemons running; improve-loop.log age=342s; matched 'wake peer'; 0 high · 1 med bottlenecks; verify/delivery ok · oversight optional
+- [ ] **Executable queue** `43%` × 15% — 8 Active open · factory-shaped 1 · theater 0 · other 7
+- [x] **Single peer brain** `100%` × 15% — hub peer up (peer-loop.service); no dual ram-peer-loop
+
+## Highlights
+
+- continue_on_dirty — coding does not stall on dirty main
+- Last cycle delivered (verify ok, not noop)
+- Self-sufficient loops — peer + improve + heal
+- Single Automation Hub peer daemon
+- Improve forever running
+
+## Commands
+
+```bash
+./scripts/peer progress
+./scripts/peer dashboard   # /progress page
+```
+

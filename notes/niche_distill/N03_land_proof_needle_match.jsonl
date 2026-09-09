@@ -1,0 +1,63 @@
+{"niche_id":"N03","input":"**[kit] niche_composer: distill schemas N01/N03/N08 (~10M niche bank)** — Scope: `notes/BITNET_NICHE_BANK.md`, `notes/niche_distill/`; template niche_compose. Needle: `OVERSEER_NICHE_DISTILL_N01_N03_N08_2026_09_04`.","output":"OVERSEER_NICHE_DISTILL_N01_N03_N08_2026_09_04"}
+{"niche_id":"N03","input":"[kit] Wire niche_composer prefer-order beside fact_checker — Needle: `OVERSEER_NICHE_COMPOSER_WIRE_2026_09_04`.","output":"OVERSEER_NICHE_COMPOSER_WIRE_2026_09_04"}
+{"niche_id":"N03","input":"[kit] Fix kit-seed skip: when Active empty under self_sufficient, fallback must seed a concrete peer-script item — Needle: `OVERSEER_KIT_SEED_EMPTY_ACTIVE_FALLBACK_2026_09_04`.","output":"OVERSEER_KIT_SEED_EMPTY_ACTIVE_FALLBACK_2026_09_04"}
+{"niche_id":"N03","input":"peer_watch: status Queue line should list T0 lane opens alongside kit — landed overseer: `OVERSEER_PEER_WATCH_QUEUE_T0_LANE_2026_09_04`","output":"OVERSEER_PEER_WATCH_QUEUE_T0_LANE_2026_09_04"}
+{"niche_id":"N03","input":"[kit] peer_orchestrate: --self-check documents T0 executable lane needle OVERSEER_T0_EXECUTABLE_LANE_SELF_SUFFICIENT_2026_09_04","output":"OVERSEER_T0_EXECUTABLE_LANE_SELF_SUFFICIENT_2026_09_04"}
+{"niche_id":"N03","input":"peer_self_heal: LaunchAgent loaded-no-pid path must bootout then reinstall once — `OVERSEER_LOADED_NO_PID_BOOTOUT_REINSTALL_2026_09_04`","output":"OVERSEER_LOADED_NO_PID_BOOTOUT_REINSTALL_2026_09_04"}
+{"niche_id":"N03","input":"[kit] peer_loop: continue_on_dirty must skip git-clean wait before verify stamp — landed `OVERSEER_CONTINUE_ON_DIRTY_SKIP_GIT_CLEAN_WAIT_2026_09_04`","output":"OVERSEER_CONTINUE_ON_DIRTY_SKIP_GIT_CLEAN_WAIT_2026_09_04"}
+{"niche_id":"N03","input":"peer_transcript: unittest slim has_new_assistant EOF — landed `OVERSEER_SLIM_HAS_NEW_ASSISTANT_EOF_2026_09_04`","output":"OVERSEER_SLIM_HAS_NEW_ASSISTANT_EOF_2026_09_04"}
+{"niche_id":"N03","input":"automation_improve: surface kit-seed skip reason in peer-loop.log — `OVERSEER_KIT_SEED_SKIP_REASON_PEER_LOG_2026_09_04`","output":"OVERSEER_KIT_SEED_SKIP_REASON_PEER_LOG_2026_09_04"}
+{"niche_id":"N03","input":"peer_orchestrate: self-check fails if fact_checker niche missing prefer-order — `OVERSEER_FACT_CHECKER_PREFER_ORDER_2026_09_04` + twin `OVERSEER_LAND_PROOF_FACT_CHECKER_MISSING_PREFER_ORDER_2026_09_04`","output":"OVERSEER_FACT_CHECKER_PREFER_ORDER_2026_09_04"}
+{"niche_id":"N03","input":"BitNet T0: unittest scripts/bitnet_fp4_expert_rss_smoke.py — landed `OVERSEER_T0_SMOKE_UNITTEST_2026_09_04`","output":"OVERSEER_T0_SMOKE_UNITTEST_2026_09_04"}
+{"niche_id":"N03","input":"CLEAN FP4 expert RSS/mmap smoke — landed `OVERSEER_CLEAN_FP4_EXPERT_RSS_MMAP_SMOKE_2026_09_04` (`scripts/bitnet_fp4_expert_rss_smoke.py`)","output":"OVERSEER_CLEAN_FP4_EXPERT_RSS_MMAP_SMOKE_2026_09_04"}
+{"niche_id":"N03","input":"peer_watch: prune _agent_ps_listing cache TTL documented + unittest — Needle: `OVERSEER_AGENT_PS_LISTING_CACHE_TTL_DOC_2026_09_04`","output":"OVERSEER_AGENT_PS_LISTING_CACHE_TTL_DOC_2026_09_04"}
+{"niche_id":"N03","input":"Stall-watch: clear deferred-swarm WAITING after lean verify — OVERSEER_WATCH_HOLD_PRIMARY","output":"OVERSEER_WATCH_HOLD_PRIMARY"}
+{"niche_id":"N03","input":"peer_remote: HUB_PROTECT_PULL_EXCLUDES includes REPO_FLAW_RESEARCH.md — `OVERSEER_HUB_PROTECT_EXCLUDES_2026_09_04`","output":"OVERSEER_HUB_PROTECT_EXCLUDES_2026_09_04"}
+{"niche_id":"N03","input":"[kit] peer_loop: IDLE seed must log when last-resort kit line is chosen — file `scripts/peer_loop.py`; unittest; `./scripts/peer test-quick`","output":null}
+{"niche_id":"N03","input":"[bitnet-research] Wave A distill schemas + first trains N01 / N03 / N08 (~10M each) — `notes/BITNET_NICHE_BANK.md`","output":null}
+{"niche_id":"N03","input":"Discover clever non-obvious improvements — audit `repos/registry.json`; add experiments to `notes/CREATIVE_BACKLOG.md`","output":null}
+{"niche_id":"N03","input":"**ASN th auto-drop** — ASN th mirrors SUM ah; validator drops English task so assign posts stay ≤320B — demoted Active under self_sufficient","output":null}
+{"niche_id":"N03","input":"[fact-check] BitNet plan claim ledger C1–C12 → notes/BITNET_FACTCHECK.md — done fact_checker PASS8 FAIL2","output":null}
+{"niche_id":"N03","input":"[efficiency-research] CLEAN FP4 expert RSS/mmap smoke under scripts/ (no nvidia-fs/GDS) — no OVERSEER token in title","output":null}
+{"niche_id":"N03","input":"Ensure 8-worker worktree pool for parallel niches — ./scripts/peer ensure-pool","output":null}
+{"niche_id":"N03","input":"refuse mechanical-heal theater ASN — landed overseer: `OVERSEER_REFUSE_LANDED_ASN_2026_09_04` (assign_work already_landed; land-proof needles×3)","output":"OVERSEER_REFUSE_LANDED_ASN_2026_09_04"}
+{"niche_id":"N03","input":"STOPPED status never pushes install on peer-2 — landed `OVERSEER_STOPPED_NO_INSTALL_CTA_2026_09_04`","output":"OVERSEER_STOPPED_NO_INSTALL_CTA_2026_09_04"}
+{"niche_id":"N03","input":"peer_self_heal: unittest that deferred_lean_restamp heal clears stall flag after lean verify — `OVERSEER_DEFERRED_LEAN_HEAL_CLEARS_STALL_2026_09_04`","output":"OVERSEER_DEFERRED_LEAN_HEAL_CLEARS_STALL_2026_09_04"}
+{"niche_id":"N03","input":"automation_improve: when _pick_kit_seed_line returns None under self_sufficient, enqueue file-scoped default — `OVERSEER_KIT_SEED_PEER_SCRIPT_HARDCODED_FALLBACK_2026_09_04`","output":"OVERSEER_KIT_SEED_PEER_SCRIPT_HARDCODED_FALLBACK_2026_09_04"}
+{"niche_id":"N03","input":"[kit] peer_watch: Cycle row must not imply HOLD when lean-green=no-HOLD — landed `OVERSEER_CYCLE_ROW_NO_IMPLY_HOLD_2026_09_04`","output":"OVERSEER_CYCLE_ROW_NO_IMPLY_HOLD_2026_09_04"}
+{"niche_id":"N03","input":"sync WORK_QUEUE ↔ self_improve_context after enqueue — identical text required","output":null}
+{"niche_id":"N03","input":"Mark done without needle after agent essay claiming verify passed","output":null}
+{"niche_id":"N03","input":"land-proof twin for cursor-agent exit seed — `OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04` → `OVERSEER_PEER_AGENT_EXIT_SEED_BEFORE_WAIT_2026_09_04`","output":"OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04"}
+{"niche_id":"N03","input":"land-proof twin (live stress 2026-09-08) — `OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04` → `OVERSEER_PEER_AGENT_EXIT_SEED_BEFORE_WAIT_2026_09_04`","output":"OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04"}
+{"niche_id":"N03","input":"- [x] **[oversight] Stop Mac→DGX rsync clobber of hub-protect scripts** — landed overseer: OVERSEER_HUB_PROTECT_RS_CLOBBER_2026_09_04","output":"OVERSEER_HUB_PROTECT_RS_CLOBBER_2026_09_04"}
+{"niche_id":"N03","input":"- [x] peer_watch refuse-ASN — landed overseer: OVERSEER_REFUSE_ASN_HOLD_2026_09_05 in digest (no ticks)","output":"OVERSEER_REFUSE_ASN_HOLD_2026_09_05"}
+{"niche_id":"N03","input":"- [x] **[top10] Newdrop production — next meaningful non-UI merge** — landed 2026-09-08 [#119] npm test 464 · check:controls 110ok · UI untouched · NO PAY","output":null}
+{"niche_id":"N03","input":"- [x] **[oversight] Stop Mac→DGX rsync clobber of hub-protect scripts** — landed 2026-09-04 overseer (scripts fixed; ignore Mac sync restore)","output":null}
+{"niche_id":"N03","input":"Twin ticks then labeled Needle (policy: earliest OVERSEER by position) — `OVERSEER_LAND_PROOF_POLICY_DOC_2026_09_08` → `OVERSEER_PRIMARY_FALLBACK_2026_09_08` Needle: `OVERSEER_LABELED_WINS_2026_09_08`","output":"OVERSEER_LAND_PROOF_POLICY_DOC_2026_09_08"}
+{"niche_id":"N03","input":"- [x] **[kit] Land** — twin `OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04` → primary Needle: `OVERSEER_KIT_RUN_AE_2026_09_07`.","output":"OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04"}
+{"niche_id":"N03","input":"| 2026-09-08 | RAM | ok | ok | ok | **PR** | ok | CLEAN residual · Needle `OVERSEER_KIT_RUN_AE_2026_09_07` · preferred tenth · NO PAY |","output":"OVERSEER_KIT_RUN_AE_2026_09_07"}
+{"niche_id":"N03","input":"- 2026-09-08 Newdrop (CaaS) kit A→E · PR #55 @ da237ea · Needle `OVERSEER_KIT_RUN_AE_2026_09_07`","output":"OVERSEER_KIT_RUN_AE_2026_09_07"}
+{"niche_id":"N03","input":"- [x] Stall-watch refuse-ASN landed overseer: OVERSEER_WATCH_HOLD_PRIMARY_2026_09_04 without ticks","output":"OVERSEER_WATCH_HOLD_PRIMARY_2026_09_04"}
+{"niche_id":"N03","input":"Done: landed overseer: OVERSEER_CLEARED_ACTIVE_NO_FACTORY_GATE_2026_09_04 — Active demote theater","output":"OVERSEER_CLEARED_ACTIVE_NO_FACTORY_GATE_2026_09_04"}
+{"niche_id":"N03","input":"- [x] **[kit] peer_loop verify passed** — all green on scripts/peer_loop.py; ready to close queue item","output":null}
+{"niche_id":"N03","input":"PR merged and tests green; land proof complete for scripts/niche_n03_practice.py","output":null}
+{"niche_id":"N03","input":"Needles: `OVERSEER_FACT_LIBRARIAN_2026_09_07` · `OVERSEER_LOSSLESS_MEMORY_COMPRESS_2026_09_07` · `OVERSEER_AGENT_AMNESIA_RESEARCH_2026_09_07`","output":"OVERSEER_FACT_LIBRARIAN_2026_09_07"}
+{"niche_id":"N03","input":"[kit] peer_last_cycle_poison: scrub deferred poison before restamp — Needle: `OVERSEER_LAST_CYCLE_POISON_SCRUB_2026_09_05`","output":"OVERSEER_LAST_CYCLE_POISON_SCRUB_2026_09_05"}
+{"niche_id":"N03","input":"[kit] restore-hub-protect.sh twin excludes — landed `OVERSEER_RESTORE_HUB_PROTECT_TWIN_2026_09_05`","output":"OVERSEER_RESTORE_HUB_PROTECT_TWIN_2026_09_05"}
+{"niche_id":"N03","input":"[kit] niche_distill_validate schema + anti-prune — Needle: `OVERSEER_NICHE_DISTILL_VALIDATE_2026_09_05`","output":"OVERSEER_NICHE_DISTILL_VALIDATE_2026_09_05"}
+{"niche_id":"N03","input":"[bitnet-research] T1 share-factor ablation Distill-Fold — notes/COMPRESSION_NOVEL.md","output":null}
+{"niche_id":"N03","input":"Compact queue to 12 executable file-scoped items — notes/WORK_QUEUE.md","output":null}
+{"niche_id":"N03","input":"[creative] debrief entry-count sidecar — no land-proof token","output":null}
+{"niche_id":"N03","input":"Mark [x] after essay claiming verify passed with no OVERSEER needle","output":null}
+{"niche_id":"N03","input":"dataset curator expand JSONL only — landed `OVERSEER_DATASET_CURATOR_EXPAND_2026_09_05`","output":"OVERSEER_DATASET_CURATOR_EXPAND_2026_09_05"}
+{"niche_id":"N03","input":"Land niche_distill_validate schema + anti-prune floors on peer-6","output":null}
+{"niche_id":"N03","input":"Brochure claim: factory 100% without land-proof needle","output":null}
+{"niche_id":"N03","input":"- [ ] **[top10] Newdrop production — Hard-Fix #66 Soft residual** — kill switches env↔DB; docs/ops/KILL_SWITCHES.md; no land-proof OVERSEER token yet","output":null}
+{"niche_id":"N03","input":"Status green (notes/FACTORY_A_TO_Z_PROOF.md) CPT PR #2 — no claimable OVERSEER land-proof on this line alone","output":null}
+{"niche_id":"N03","input":"landed overseer: OVERSEER_NICHE_DISTILL_VALIDATE_2026_09_05 schema anti-prune floors","output":"OVERSEER_NICHE_DISTILL_VALIDATE_2026_09_05"}
+{"niche_id":"N03","input":"[kit] Land gen_all skip_existing for all niches — Needle: `OVERSEER_NICHE_GEN_ALL_SKIP_EXISTING_2026_09_08`.","output":"OVERSEER_NICHE_GEN_ALL_SKIP_EXISTING_2026_09_08"}
+{"niche_id":"N03","input":"see notes/OVERSEER_NOTES.md without real token OVERSEER_REAL_2026_09_08 later","output":"OVERSEER_REAL_2026_09_08"}
+{"niche_id":"N03","input":"path trap notes/OVERSEER_NOTES.md alone — no claimable land-proof","output":null}
+{"niche_id":"N03","input":"- [ ] **[top10] Newdrop production — Hard-Fix #82 Soft residual (live privilege SQL not in CI)** — after #73 Soft local `1d65b779`; no land-proof OVERSEER token yet","output":null}
+{"niche_id":"N03","input":"- [x] **[top10] Newdrop production — Hard-Fix #73 Soft residual** — CLEAN Soft land `1d65b779` · hub `OVERSEER_DEMOTE_PUSH_DEFERRED_2026_09_08` · NO PAY","output":"OVERSEER_DEMOTE_PUSH_DEFERRED_2026_09_08"}
+{"niche_id":"N03","input":"docs/OVERSEER_FOO.md then landed overseer: OVERSEER_BAR_2026_09_08","output":"OVERSEER_BAR_2026_09_08"}

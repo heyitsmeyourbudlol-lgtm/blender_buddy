@@ -1,0 +1,96 @@
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_maybe. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[abstain] PR factory — commits sample-101","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_yes | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_escalate. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → abstain. Input shape commits. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → pr summary bullets_maybe. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_yes for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [pr summary bullets_escalate] PR factory — commits sample-21","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[unknown] PR factory — commits sample-106","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_yes] PR factory — commits sample-66","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_maybe | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_yes | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [unknown] PR factory — commits sample-46","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as abstain. Context: sm_121a missing flag (PR body stubs)","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_escalate] PR factory — commits sample-81","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as abstain. Context: sm_121a missing flag (PR body stubs)","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory pr summary bullets_escalate for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory unknown for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Classify pr_summary_bullets as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[abstain] PR factory — commits sample-41","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Classify pr_summary_bullets as pr summary bullets_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_no | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_no. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory unknown for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_escalate for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → unknown. Input shape commits. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_escalate. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_maybe for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=unknown | commits | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory abstain for pr_summary_bullets: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=pr summary bullets_escalate | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=pr summary bullets_no | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → abstain. Input shape commits. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory abstain for pr_summary_bullets: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → unknown. Input shape commits. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_escalate] PR factory — commits sample-51","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_no] PR factory — commits sample-1","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_maybe | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_escalate. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_escalate for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_yes for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Classify pr_summary_bullets as pr summary bullets_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_no. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Classify pr_summary_bullets as pr summary bullets_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_yes for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → pr summary bullets_yes. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → unknown. Input shape commits. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=unknown | commits | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [abstain] PR factory — commits sample-71","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_maybe. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_no. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [unknown] PR factory — commits sample-16","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[unknown] PR factory — commits sample-76","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=unknown | commits | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_yes. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_escalate. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [pr summary bullets_maybe] PR factory — commits sample-26","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=pr summary bullets_maybe | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_no | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → abstain. Input shape commits. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Classify pr_summary_bullets as pr summary bullets_no. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → pr summary bullets_yes. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_no] PR factory — commits sample-61","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_maybe for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_no for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_maybe. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — pr_summary_bullets decision → pr summary bullets_yes. Input shape commits. continue_on_dirty HOLD","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_yes] PR factory — commits sample-36","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=abstain | commits | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory pr summary bullets_maybe for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=abstain | commits | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=abstain | commits | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_no for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_escalate for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [pr summary bullets_maybe] PR factory — commits sample-56","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory abstain for pr_summary_bullets: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_escalate | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_escalate. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (PR body stubs)","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_yes | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory pr summary bullets_maybe for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory unknown for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_no] PR factory — commits sample-31","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory pr summary bullets_no for pr_summary_bullets: fact_checker prefer-order","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_yes] PR factory — commits sample-96","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[abstain] PR factory — commits sample-11","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as pr summary bullets_no. Context: sm_121a missing flag (PR body stubs)","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Niche pr_summary_bullets: label=pr summary bullets_maybe | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Factory unknown for pr_summary_bullets: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_no] PR factory — commits sample-91","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_no. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_no"}}

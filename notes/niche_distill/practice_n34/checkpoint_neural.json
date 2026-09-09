@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N34",
+  "name": "pr_summary_bullets",
+  "domain": "pr_summary_bullets",
+  "helps": "PR factory",
+  "weights": "notes/niche_distill/practice_n34/weights/n34_pr_summary_bullets_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.016243739053606987,
+  "labels": [
+    "abstain",
+    "pr summary bullets_escalate",
+    "pr summary bullets_maybe",
+    "pr summary bullets_no",
+    "pr summary bullets_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N34 '<input>'"
+}

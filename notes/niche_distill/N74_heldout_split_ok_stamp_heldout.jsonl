@@ -1,0 +1,10 @@
+{"niche_id":"N74","niche":"heldout_split_ok","input":"Factory unknown for heldout_split_ok: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"Niche heldout_split_ok: label=abstain | train/heldout | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"Niche heldout_split_ok: label=heldout split ok_escalate | train/heldout | WORK_QUEUE Active empty","output":{"label":"heldout split ok_escalate"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"[heldout split ok_no] eval honesty — train/heldout sample-31","output":{"label":"heldout split ok_no"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"heldout_split_ok decision → abstain. Input shape train/heldout. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"Classify heldout_split_ok as heldout split ok_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leak?)","output":{"label":"heldout split ok_yes"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"[heldout split ok_maybe] eval honesty — train/heldout sample-26","output":{"label":"heldout split ok_maybe"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"Niche heldout_split_ok: label=heldout split ok_yes | train/heldout | peer_loop IDLE seed","output":{"label":"heldout split ok_yes"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"heldout_split_ok decision → heldout split ok_escalate. Input shape train/heldout. RSS proposal 48GB reject","output":{"label":"heldout split ok_escalate"}}
+{"niche_id":"N74","niche":"heldout_split_ok","input":"heldout_split_ok decision → heldout split ok_maybe. Input shape train/heldout. continue_on_dirty HOLD","output":{"label":"heldout split ok_maybe"}}

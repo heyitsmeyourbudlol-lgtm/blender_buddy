@@ -1,0 +1,16 @@
+self-heal: adapt_stale → adapt heal fresh (10 action(s))
+self-heal: hub_protect_timer_stopped → land-hold fresh age=3s<90s; cleared root OVERSEER_LAND_HOLD; RESTORE_PAUSED kept (fresh land-hold); alt LAND_HOLD skipped (no force); enable --now timer+path; hub-protect restored=0; timer active
+# Self-heal — bottleneck tracker
+
+_Scanned 2026-09-04 09:26:31_ · enabled=True
+
+| Severity | Category | Bottleneck | Status | Hits |
+|----------|----------|------------|--------|------|
+| high | daemon | hub-protect-restore.timer stopped — Mac rsync can clobber WORKING lands | healed | 2 |
+| medium | adapt | Adapt fingerprint stale after git changes | healed | 1 |
+
+## Last heals
+
+- adapt_stale: adapt heal fresh (10 action(s))
+- hub_protect_timer_stopped: land-hold fresh age=3s<90s; cleared root OVERSEER_LAND_HOLD; RESTORE_PAUSED kept (fresh land-hold); alt LAND_HOLD skipped (no force); enable --now timer+path; hub-protect restored=0; timer active
+

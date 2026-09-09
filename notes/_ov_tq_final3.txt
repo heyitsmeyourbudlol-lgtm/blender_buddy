@@ -1,0 +1,25 @@
+(pass --execute to run; never uses --force)
+----------------------------------------------------------------------
+Ran 185 tests in 0.271s
+
+OK
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmptse7ijl_/peer-wt
+dry-run: /repo/.worktrees/peer-1

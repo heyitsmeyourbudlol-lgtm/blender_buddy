@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N20",
+  "name": "expert_grain_arith",
+  "domain": "expert_grain_arith",
+  "helps": "ladder",
+  "weights": "notes/niche_distill/practice_n20/weights/n20_expert_grain_arith_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.09618594497442245,
+  "labels": [
+    "abstain",
+    "expert grain arith_escalate",
+    "expert grain arith_maybe",
+    "expert grain arith_no",
+    "expert grain arith_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N20 '<input>'"
+}

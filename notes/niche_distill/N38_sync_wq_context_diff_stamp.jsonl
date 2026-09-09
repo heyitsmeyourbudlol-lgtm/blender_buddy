@@ -1,0 +1,96 @@
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_yes | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_no for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=abstain | WQ vs context | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [sync wq context diff_no] sync — WQ vs context sample-1","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as abstain. Context: sm_121a missing flag (drift)","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_escalate | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=abstain | WQ vs context | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → unknown. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [sync wq context diff_no] sync — WQ vs context sample-91","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_yes for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=abstain | WQ vs context | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_no for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as abstain. Context: sm_121a missing flag (drift)","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_no. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → abstain. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_escalate] sync — WQ vs context sample-111","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Factory unknown for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → sync wq context diff_yes. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_escalate] sync — WQ vs context sample-81","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → abstain. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_maybe] sync — WQ vs context sample-26","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_yes. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_escalate for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [abstain] sync — WQ vs context sample-101","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_no for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_escalate. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[unknown] sync — WQ vs context sample-106","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_yes for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → sync wq context diff_no. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_no | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_escalate. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_no. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=unknown | WQ vs context | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[abstain] sync — WQ vs context sample-71","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_yes. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_yes | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_no. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as abstain. Context: sm_121a missing flag (drift)","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → unknown. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[abstain] sync — WQ vs context sample-41","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_no. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory unknown for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=unknown | WQ vs context | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory unknown for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_escalate for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → sync wq context diff_yes. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_no. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → sync wq context diff_escalate. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_no | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [sync wq context diff_escalate] sync — WQ vs context sample-51","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [unknown] sync — WQ vs context sample-46","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[unknown] sync — WQ vs context sample-76","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_escalate. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_escalate | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory abstain for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Classify sync_wq_context_diff as sync wq context diff_escalate. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_yes | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_escalate] sync — WQ vs context sample-21","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_escalate for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_no. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_maybe for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_yes | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_maybe. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — [sync wq context diff_yes] sync — WQ vs context sample-6","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_no] sync — WQ vs context sample-61","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_no] sync — WQ vs context sample-31","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=unknown | WQ vs context | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_maybe | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_maybe. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (drift)","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_yes] sync — WQ vs context sample-36","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_no for sync_wq_context_diff: fact_checker prefer-order","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_escalate. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → sync wq context diff_no. Input shape WQ vs context. RSS proposal 48GB reject","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory sync wq context diff_maybe for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_maybe | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_no | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_no"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as sync wq context diff_escalate. Context: sm_121a missing flag (drift)","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[unknown] sync — WQ vs context sample-16","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=sync wq context diff_escalate | WQ vs context | WORK_QUEUE Active empty","output":{"label":"sync wq context diff_escalate"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Niche sync_wq_context_diff: label=unknown | WQ vs context | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Factory unknown for sync_wq_context_diff: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Classify sync_wq_context_diff as abstain. Context: sm_121a missing flag (drift)","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=sync wq context diff_maybe | WQ vs context | peer_loop IDLE seed","output":{"label":"sync wq context diff_maybe"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"[sync wq context diff_yes] sync — WQ vs context sample-96","output":{"label":"sync wq context diff_yes"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"sync_wq_context_diff decision → unknown. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — Niche sync_wq_context_diff: label=abstain | WQ vs context | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N38","niche":"sync_wq_context_diff","input":"Kit lock — sync_wq_context_diff decision → sync wq context diff_maybe. Input shape WQ vs context. continue_on_dirty HOLD","output":{"label":"sync wq context diff_maybe"}}

@@ -1,0 +1,16 @@
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → abstain. Input shape patch. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → abstain. Input shape patch. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → python inline import spot_escalate. Input shape patch. RSS proposal 48GB reject","output":{"label":"python inline import spot_escalate"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Kit lock — Classify python_inline_import_spot as python inline import spot_no. Context: sm_121a missing flag (inline imports)","output":{"label":"python inline import spot_no"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → python inline import spot_maybe. Input shape patch. continue_on_dirty HOLD","output":{"label":"python inline import spot_maybe"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Factory python inline import spot_yes for python_inline_import_spot: GDS cuFile forbidden","output":{"label":"python inline import spot_yes"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Kit lock — Niche python_inline_import_spot: label=python inline import spot_maybe | patch | peer_loop IDLE seed","output":{"label":"python inline import spot_maybe"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Niche python_inline_import_spot: label=abstain | patch | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Niche python_inline_import_spot: label=unknown | patch | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"[python inline import spot_yes] team rule — patch sample-66","output":{"label":"python inline import spot_yes"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Classify python_inline_import_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (inline imports)","output":{"label":"unknown"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Factory python inline import spot_yes for python_inline_import_spot: GDS cuFile forbidden","output":{"label":"python inline import spot_yes"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Factory abstain for python_inline_import_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → abstain. Input shape patch. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"python_inline_import_spot decision → python inline import spot_no. Input shape patch. RSS proposal 48GB reject","output":{"label":"python inline import spot_no"}}
+{"niche_id":"N39","niche":"python_inline_import_spot","input":"Niche python_inline_import_spot: label=abstain | patch | WORK_QUEUE Active empty","output":{"label":"abstain"}}

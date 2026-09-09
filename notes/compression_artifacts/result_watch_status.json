@@ -1,0 +1,60 @@
+{
+  "needle": "OVERSEER_COMPRESSION_RESULT_WATCH_2026_09_06",
+  "last_core_sha": "0f5f65641b2b8fde",
+  "last_move_ts": 1788834684.354914,
+  "last_snap": {
+    "ts": "2026-09-08T02:31:24Z",
+    "t4_done": true,
+    "recipe_locked": true,
+    "train_unlocked": true,
+    "rung0_alive": true,
+    "hb_age_sec": 17,
+    "hb_bucket": 29813911,
+    "integrate_allowed": true,
+    "stress_status": "PASS",
+    "open_compression": 1,
+    "done_compression": 1,
+    "open_sha": "a45608d188f8e4ae",
+    "recipe_sha": "e733fd234fa431c7",
+    "ready_sha": "3d5866eb95f9c070",
+    "ctx_sha": "4e93610d948e387c",
+    "arts": {
+      "t4_scale_result.json": {
+        "mtime": 1788699764,
+        "sha": "29c9f3ce62889701"
+      },
+      "train_unlock.json": {
+        "mtime": 1788834652,
+        "sha": "132a116759101409"
+      },
+      "rung0_model_skeleton.json": {
+        "mtime": 1788834469,
+        "sha": "29457a88928d4fec"
+      },
+      "rung0_heartbeat.json": {
+        "mtime": 1788834666,
+        "sha": "41ae2569dc68cd7e"
+      },
+      "stress_bars.json": {
+        "mtime": 1788785465,
+        "sha": "b87a1e1ef5f5f6d1"
+      },
+      "gpu_accel_status.json": {
+        "mtime": 1788834255,
+        "sha": "fca0857c01c8d17b"
+      }
+    },
+    "agents": 21,
+    "svc": {
+      "peer-loop": true,
+      "keep-alive": true,
+      "auto-train": true,
+      "gpu-worker": false,
+      "result-watch": true
+    },
+    "core_sha": "0f5f65641b2b8fde"
+  },
+  "stall_heals": 1,
+  "idle_sec": 60.10153675079346,
+  "last_heal_ts": 1788773083.0122976
+}

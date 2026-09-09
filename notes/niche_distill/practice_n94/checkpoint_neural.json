@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N94",
+  "name": "pr_test_plan_stub",
+  "domain": "pr_test_plan_stub",
+  "helps": "PR factory",
+  "weights": "notes/niche_distill/practice_n94/weights/n94_pr_test_plan_stub_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.12697112560272217,
+  "labels": [
+    "abstain",
+    "pr test plan stub_escalate",
+    "pr test plan stub_maybe",
+    "pr test plan stub_no",
+    "pr test plan stub_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N94 '<input>'"
+}

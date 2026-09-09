@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N23",
+  "name": "sm121_flag_spot",
+  "domain": "sm121_flag_spot",
+  "helps": "FP4 builds",
+  "weights": "notes/niche_distill/practice_n23/weights/n23_sm121_flag_spot_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.055122148245573044,
+  "labels": [
+    "abstain",
+    "sm121 flag spot_escalate",
+    "sm121 flag spot_maybe",
+    "sm121 flag spot_no",
+    "sm121 flag spot_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N23 '<input>'"
+}

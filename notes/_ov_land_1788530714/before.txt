@@ -1,0 +1,109 @@
+=== BEFORE metrics_green ===
+def metrics_green(live: auto.LiveState) -> bool:
+    return live.tests_ok and live.git_clean and auto.success_metrics_ok(live)
+
+
+def should_stop_loop(context_md: str, live: auto.LiveState) -> str | None:
+    return auto.stop_reason(context_md, live, loop=True)
+
+
+def _emit_automation_event(event: str, payload: dict | None = None, *, log_fn=None) -> None:
+    try:
+=== BEFORE test_metrics_green ===
+class PeerLoopTests(unittest.TestCase):
+    def test_metrics_green(self) -> None:
+        import peer_loop
+
+        live = auto.LiveState(True, "clean", True, "ok", 13.0, "ok")
+        self.assertTrue(peer_loop.metrics_green(live))
+        bad = auto.LiveState(False, "dirty", True, "ok", 13.0, "ok")
+        self.assertFalse(peer_loop.metrics_green(bad))
+
+    def test_should_stop_when_exhausted(self) -> None:
+        import peer_loop
+
+        ctx = "## Loop\n\nexhausted\n"
+        live = auto.LiveState(True, "clean", True, "ok", 13.0, "ok")
+        self.assertIsNotNone(peer_loop.should_stop_loop(ctx, live))
+
+    def test_output_generated_on_new_turn(self) -> None:
+        import peer_transcript as pt
+
+        meta = pt.TranscriptMeta(
+            path=Path("/tmp/x.jsonl"),
+=== BEFORE restore_paused ===
+        path = _systemd_unit_path(unit)
+        bak = _hub_protect_pick_backup(unit)
+        if bak is None:
+            continue
+        need_restore = _hub_protect_unit_masked(unit) or not path.exists()
+        if not need_restore:
+            continue
+        try:
+            if path.exists() or path.is_symlink():
+                path.unlink(missing_ok=True)
+            path.write_text(bak.read_text(encoding="utf-8"), encoding="utf-8")
+            if "masked" in bak.name or bak.name.endswith(".overseer-masked"):
+                parts.append(f"unmasked {unit}")
+            else:
+                parts.append(f"restored {unit}")
+        except OSError as exc:
+            parts.append(f"restore {unit} failed: {exc}")
+    if parts:
+        _systemd_daemon_reload()
+    return parts
+
+
+
+def _hub_protect_restore_paused() -> bool:
+    """True when restore is intentionally paused (land-hold / RESTORE_PAUSED / wrap stub).
+
+    OVERSEER_HUB_PROTECT_RESTORE_PAUSED_2026_09_04 — must exist so scan/heal never
+    NameError mid-clobber, and timer_stopped is not raised during intentional pause.
+    """
+    hub = Path.home() / ".config/automation-hub"
+    if (hub / "RESTORE_PAUSED").is_file() or (hub / "hub-protect" / "RESTORE_PAUSED").is_file():
+        return True
+    try:
+        import peer_land_hold as lh
+
+        if bool(lh.restore_is_paused()):
+            return True
+    except Exception:
+        pass
+    restore = hub / "bin" / "restore-hub-protect.sh"
+    try:
+        t = restore.read_text(encoding="utf-8", errors="replace")[:400].lower()
+    except OSError:
+        return False
+    return "restore paused" in t
+
+=== BEFORE align ===
+=== BEFORE align test ===
+                json.dumps({"config_namespace": "automation-hub"}) + "\n"
+            )
+            slot = hub / ".worktrees" / "peer-0"
+            slot.mkdir(parents=True)
+            cfg = slot / "automation.config.json"
+            before = json.dumps({"config_namespace": "automation-hub", "x": 1}) + "\n"
+            cfg.write_text(before)
+            with mock.patch.object(wt, "primary_worktree_root", return_value=hub):
+                changed = wt.isolate_pool_adapt_namespaces([slot], hub=hub)
+            self.assertEqual(changed, ["peer-0"])
+            # Tracked config untouched (align must not see permanent dirty).
+            self.assertEqual(cfg.read_text(), before)
+            local = json.loads((slot / "automation.config.local.json").read_text())
+            self.assertEqual(local["config_namespace"], "peer-0")
+            self.assertEqual(wt._slot_effective_namespace(slot), "peer-0")
+
+    def test_align_parallel_pool_skips_dirty(self) -> None:
+        """Dirty slots must not hard-reset; clean divergent slots align to hub tip."""
+        calls: list[tuple[tuple[str, ...], str]] = []
+
+        def fake_run(argv, cwd):  # type: ignore[no-untyped-def]
+            calls.append((tuple(argv), str(cwd)))
+            if argv[:2] == ["git", "rev-parse"] and argv[2] == "HEAD":
+                if "hub" in str(cwd) and "peer" not in Path(cwd).name:
+                    return subprocess.CompletedProcess(argv, 0, "hubtipdeadbeef\n", "")
+                return subprocess.CompletedProcess(argv, 0, "staletipaaaaaaa\n", "")
+            if argv[:2] == ["git", "status"]:

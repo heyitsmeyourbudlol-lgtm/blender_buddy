@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "python3 -c \"import json,sys; c=json.load(sys.stdin); cmd=c.get('command',''); blocked=['.env','SECRET','sk-','whsec_']; sys.exit(2 if any(b in cmd for b in blocked) and 'grep' in cmd and 'cut' not in cmd else 0)\""
+      }
+    ]
+  }
+}

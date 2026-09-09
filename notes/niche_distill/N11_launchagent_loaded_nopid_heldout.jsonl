@@ -1,0 +1,16 @@
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Factory noop_stall for launchagent_loaded_nopid: fact_checker prefer-order","output":{"label":"noop_stall"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Niche launchagent_loaded_nopid: label=noop_stall | launchctl | WORK_QUEUE Active empty","output":{"label":"noop_stall"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Kit lock — [noop_stall] peer_self_heal — launchctl sample-61","output":{"label":"noop_stall"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Kit lock — launchagent_loaded_nopid decision → verify_fail_agent_exit. Input shape launchctl. RSS proposal 48GB reject","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"[verify_fail_agent_exit] peer_self_heal — launchctl sample-76","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Kit lock — Classify launchagent_loaded_nopid as unknown. Context: sm_121a missing flag (bootout/reinstall/ignore)","output":{"label":"unknown"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"[chicken_egg] peer_self_heal — launchctl sample-1","output":{"label":"chicken_egg"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Classify launchagent_loaded_nopid as chicken_egg. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (bootout/reinstall/ignore)","output":{"label":"chicken_egg"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"launchagent_loaded_nopid decision → verify_fail_agent_exit. Input shape launchctl. RSS proposal 48GB reject","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Classify launchagent_loaded_nopid as noop_stall. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (bootout/reinstall/ignore)","output":{"label":"noop_stall"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Niche launchagent_loaded_nopid: label=verify_fail_tests | launchctl | WORK_QUEUE Active empty","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Factory verify_fail_tests for launchagent_loaded_nopid: GDS cuFile forbidden","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"launchagent_loaded_nopid decision → adapt_stale. Input shape launchctl. RSS proposal 48GB reject","output":{"label":"adapt_stale"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Factory healthy for launchagent_loaded_nopid: fact_checker prefer-order","output":{"label":"healthy"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"Kit lock — Classify launchagent_loaded_nopid as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (bootout/reinstall/ignore)","output":{"label":"unknown"}}
+{"niche_id":"N11","niche":"launchagent_loaded_nopid","input":"[chicken_egg] peer_self_heal — launchctl sample-46","output":{"label":"chicken_egg"}}

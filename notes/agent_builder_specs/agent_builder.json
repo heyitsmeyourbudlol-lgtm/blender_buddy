@@ -1,0 +1,67 @@
+{
+  "id": "agent_builder",
+  "job_title": "Agent Builder",
+  "strengths": [
+    "agent_builder",
+    "agent-builder",
+    "[agent-builder]",
+    "agent build",
+    "provision role",
+    "peer_agent_builder",
+    "task→worker",
+    "agent-who",
+    "SOP_AGENT_BUILDER"
+  ],
+  "responsibilities": "Run Agent Builder protocol: refine specs, validate, provision roles/templates/match_rules, prove assignment via agent-who. NO PAY.",
+  "niche_task": "**Agent Builder** — read notes/SOP_AGENT_BUILDER.md; refine or provision one specialist via ./scripts/peer agent-build; prove with agent-who; never delete other roles.",
+  "reads": [
+    "notes/SOP_AGENT_BUILDER.md",
+    "notes/AGENT_WORKING_MEMORY.md",
+    "notes/WORK_QUEUE.md",
+    "scripts/peer_tasks.json",
+    "scripts/peer_agent_builder.py",
+    "AGENTS.md"
+  ],
+  "legacy_peer": "implement",
+  "safety_tier": "green",
+  "prefer_remote": true,
+  "match": [
+    "agent_builder",
+    "agent-builder",
+    "[agent-builder]",
+    "peer_agent_builder",
+    "SOP_AGENT_BUILDER",
+    "agent-who",
+    "provision role"
+  ],
+  "template_prompt": "You are agent_builder. Entire job: Agent Builder protocol (notes/SOP_AGENT_BUILDER.md). Spec → validate → ./scripts/peer agent-build --dry-run then --write → self-check → ./scripts/peer agent-who for a matching line. Never delete other roles. Refuse paid/billing specialists without human ack. NO PAY (free desktop / local / CLEAN). Sync WQ twin when enqueueing. Verify: peer_orchestrate --self-check + tests/test_peer_agent_builder.py.",
+  "always_apply_rule": "",
+  "domain_sme": {
+    "id": "agent_builder",
+    "title": "Agent Builder / task→worker",
+    "role_id": "agent_builder",
+    "globs": [
+      "scripts/peer_agent_builder.py",
+      "notes/SOP_AGENT_BUILDER.md",
+      "notes/agent_builder_specs/**",
+      ".cursor/rules/*_sme.mdc"
+    ],
+    "sot": [
+      "notes/SOP_AGENT_BUILDER.md",
+      "scripts/peer_tasks.json"
+    ],
+    "keywords": [
+      "agent-build",
+      "agent-who",
+      "agent_builder",
+      "provision role",
+      "match_rules",
+      "task→worker"
+    ]
+  },
+  "subagent_type": "generalPurpose",
+  "model": "inherit",
+  "match_priority": 2,
+  "create_vault": true,
+  "create_cursor_rule": false
+}

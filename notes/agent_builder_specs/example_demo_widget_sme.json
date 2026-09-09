@@ -1,0 +1,35 @@
+{
+  "id": "demo_widget_sme",
+  "job_title": "Demo Widget SME",
+  "strengths": [
+    "demo_widget",
+    "demo_widget_sme",
+    "[demo-widget]",
+    "widget SME",
+    "demo widget"
+  ],
+  "responsibilities": "Own demo widget specialist tasks only — prove Agent Builder assignment wiring.",
+  "niche_task": "**Demo Widget SME** — handle queue lines tagged [demo-widget]; minimal diff; NO PAY.",
+  "reads": [
+    "notes/AGENT_WORKING_MEMORY.md",
+    "notes/SOP_AGENT_BUILDER.md",
+    "AGENTS.md"
+  ],
+  "legacy_peer": "implement",
+  "safety_tier": "green",
+  "prefer_remote": true,
+  "match": [
+    "demo_widget",
+    "[demo-widget]",
+    "demo_widget_sme",
+    "widget SME"
+  ],
+  "template_prompt": "You are demo_widget_sme. Handle only [demo-widget] / demo_widget queue items. Read AGENT_WORKING_MEMORY + SOP_AGENT_BUILDER. Minimal diff. NO PAY (free desktop / local / CLEAN). Safe deletes = scratch/temp only. Mark queue done when verified.",
+  "always_apply_rule": "",
+  "domain_sme": null,
+  "subagent_type": "generalPurpose",
+  "model": "inherit",
+  "match_priority": 12,
+  "create_vault": true,
+  "create_cursor_rule": false
+}

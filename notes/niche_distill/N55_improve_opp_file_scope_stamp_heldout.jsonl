@@ -1,0 +1,16 @@
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Factory abstain for improve_opp_file_scope: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Classify improve_opp_file_scope as improve opp file scope_no. Context: sm_121a missing flag (scripts/*.py or reject)","output":{"label":"improve opp file scope_no"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Niche improve_opp_file_scope: label=improve opp file scope_yes | title | peer_loop IDLE seed","output":{"label":"improve opp file scope_yes"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — [abstain] kit-seed — title sample-101","output":{"label":"abstain"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Classify improve_opp_file_scope as improve opp file scope_no. Context: sm_121a missing flag (scripts/*.py or reject)","output":{"label":"improve opp file scope_no"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"[abstain] kit-seed — title sample-71","output":{"label":"abstain"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — Classify improve_opp_file_scope as improve opp file scope_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (scripts/*.py or reject)","output":{"label":"improve opp file scope_yes"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"[improve opp file scope_escalate] kit-seed — title sample-51","output":{"label":"improve opp file scope_escalate"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — Niche improve_opp_file_scope: label=abstain | title | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — improve_opp_file_scope decision → unknown. Input shape title. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Niche improve_opp_file_scope: label=improve opp file scope_escalate | title | WORK_QUEUE Active empty","output":{"label":"improve opp file scope_escalate"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — Classify improve_opp_file_scope as improve opp file scope_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (scripts/*.py or reject)","output":{"label":"improve opp file scope_maybe"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — [improve opp file scope_maybe] kit-seed — title sample-26","output":{"label":"improve opp file scope_maybe"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — [improve opp file scope_yes] kit-seed — title sample-6","output":{"label":"improve opp file scope_yes"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Kit lock — Niche improve_opp_file_scope: label=improve opp file scope_yes | title | peer_loop IDLE seed","output":{"label":"improve opp file scope_yes"}}
+{"niche_id":"N55","niche":"improve_opp_file_scope","input":"Factory unknown for improve_opp_file_scope: GDS cuFile forbidden","output":{"label":"unknown"}}

@@ -1,0 +1,9 @@
+nd: True
+product_constraints_no_48: True
+adapt_plan_gate_uses_report2: True
+probe_output_has_external_init: True
+
+=== GOAL 6: STATUS BLOCK ===
+verify_result: FAIL(rc=1)
+unittest: PASS
+open_Active_coun

@@ -1,0 +1,10 @@
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"[collision] Reading=Writing — γ,τ,batch sample-31","output":{"label":"collision"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Factory ok for mtp_gamma_sanity: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Kit lock — Niche mtp_gamma_sanity: label=collision | γ,τ,batch | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Niche mtp_gamma_sanity: label=ok | γ,τ,batch | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Niche mtp_gamma_sanity: label=missing | γ,τ,batch | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"mtp_gamma_sanity decision → missing. Input shape γ,τ,batch. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"mtp_gamma_sanity decision → ok. Input shape γ,τ,batch. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Factory missing for mtp_gamma_sanity: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"mtp_gamma_sanity decision → ok. Input shape γ,τ,batch. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N26","niche":"mtp_gamma_sanity","input":"Niche mtp_gamma_sanity: label=collision | γ,τ,batch | peer_loop IDLE seed","output":{"label":"collision"}}

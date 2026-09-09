@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N08",
+  "name": "stall_class_label",
+  "domain": "stall_class_label",
+  "helps": "stall-watch",
+  "weights": "notes/niche_distill/practice_n08/weights/n08_stall_class_label_neural.pt",
+  "param_count": 5789449,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 4.118867218494415e-05,
+  "labels": [
+    "adapt_stale",
+    "chicken_egg",
+    "healthy",
+    "noop_stall",
+    "plan_gate_blocked",
+    "queue_drift",
+    "unknown",
+    "verify_fail_agent_exit",
+    "verify_fail_tests"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N08 '<input>'"
+}

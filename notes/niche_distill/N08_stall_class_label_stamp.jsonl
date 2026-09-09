@@ -1,0 +1,96 @@
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [adapt_stale] stall-watch — status+log sample-96","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — stall_class_label decision → noop_stall. Input shape status+log. RSS proposal 48GB reject","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory healthy for stall_class_label: fact_checker prefer-order","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as plan_gate_blocked. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → chicken_egg. Input shape status+log. RSS proposal 48GB reject","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Classify stall_class_label as queue_drift. Context: sm_121a missing flag (stall class)","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory chicken_egg for stall_class_label: GDS cuFile forbidden","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory unknown for stall_class_label: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Niche stall_class_label: label=plan_gate_blocked | status+log | peer_loop IDLE seed","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [noop_stall] stall-watch — status+log sample-16","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [verify_fail_tests] stall-watch — status+log sample-66","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory adapt_stale for stall_class_label: fact_checker prefer-order","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory chicken_egg for stall_class_label: fact_checker prefer-order","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory healthy for stall_class_label: fact_checker prefer-order","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as noop_stall. Context: sm_121a missing flag (stall class)","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=chicken_egg | status+log | peer_loop IDLE seed","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → plan_gate_blocked. Input shape status+log. continue_on_dirty HOLD","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Niche stall_class_label: label=healthy | status+log | peer_loop IDLE seed","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as unknown. Context: sm_121a missing flag (stall class)","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[healthy] stall-watch — status+log sample-36","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=queue_drift | status+log | WORK_QUEUE Active empty","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[queue_drift] stall-watch — status+log sample-86","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as plan_gate_blocked. Context: sm_121a missing flag (stall class)","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory verify_fail_tests for stall_class_label: GDS cuFile forbidden","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as noop_stall. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory noop_stall for stall_class_label: fact_checker prefer-order","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[chicken_egg] stall-watch — status+log sample-1","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory unknown for stall_class_label: fact_checker prefer-order","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → adapt_stale. Input shape status+log. continue_on_dirty HOLD","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory plan_gate_blocked for stall_class_label: GDS cuFile forbidden","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → queue_drift. Input shape status+log. continue_on_dirty HOLD","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory healthy for stall_class_label: GDS cuFile forbidden","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as verify_fail_tests. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory adapt_stale for stall_class_label: GDS cuFile forbidden","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [noop_stall] stall-watch — status+log sample-61","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Niche stall_class_label: label=adapt_stale | status+log | WORK_QUEUE Active empty","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as noop_stall. Context: sm_121a missing flag (stall class)","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as adapt_stale. Context: sm_121a missing flag (stall class)","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → adapt_stale. Input shape status+log. RSS proposal 48GB reject","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory plan_gate_blocked for stall_class_label: fact_checker prefer-order","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=plan_gate_blocked | status+log | peer_loop IDLE seed","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory verify_fail_tests for stall_class_label: fact_checker prefer-order","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory verify_fail_agent_exit for stall_class_label: GDS cuFile forbidden","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as plan_gate_blocked. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=healthy | status+log | WORK_QUEUE Active empty","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → healthy. Input shape status+log. continue_on_dirty HOLD","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [verify_fail_tests] stall-watch — status+log sample-21","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — stall_class_label decision → plan_gate_blocked. Input shape status+log. RSS proposal 48GB reject","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[verify_fail_tests] stall-watch — status+log sample-111","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → unknown. Input shape status+log. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[unknown] stall-watch — status+log sample-71","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Classify stall_class_label as chicken_egg. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as verify_fail_agent_exit. Context: sm_121a missing flag (stall class)","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → chicken_egg. Input shape status+log. continue_on_dirty HOLD","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [noop_stall] stall-watch — status+log sample-106","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=healthy | status+log | peer_loop IDLE seed","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → queue_drift. Input shape status+log. RSS proposal 48GB reject","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=verify_fail_tests | status+log | peer_loop IDLE seed","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=noop_stall | status+log | peer_loop IDLE seed","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory queue_drift for stall_class_label: GDS cuFile forbidden","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as healthy. Context: sm_121a missing flag (stall class)","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — stall_class_label decision → noop_stall. Input shape status+log. continue_on_dirty HOLD","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_tests. Input shape status+log. RSS proposal 48GB reject","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [chicken_egg] stall-watch — status+log sample-91","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [chicken_egg] stall-watch — status+log sample-46","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=queue_drift | status+log | peer_loop IDLE seed","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as chicken_egg. Context: sm_121a missing flag (stall class)","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → healthy. Input shape status+log. RSS proposal 48GB reject","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as verify_fail_tests. Context: sm_121a missing flag (stall class)","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_agent_exit. Input shape status+log. continue_on_dirty HOLD","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Classify stall_class_label as healthy. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=unknown | status+log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory noop_stall for stall_class_label: GDS cuFile forbidden","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Niche stall_class_label: label=adapt_stale | status+log | peer_loop IDLE seed","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=adapt_stale | status+log | WORK_QUEUE Active empty","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory verify_fail_agent_exit for stall_class_label: fact_checker prefer-order","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [unknown] stall-watch — status+log sample-26","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=verify_fail_tests | status+log | WORK_QUEUE Active empty","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory queue_drift for stall_class_label: fact_checker prefer-order","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[plan_gate_blocked] stall-watch — status+log sample-56","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=noop_stall | status+log | WORK_QUEUE Active empty","output":{"label":"noop_stall"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → verify_fail_tests. Input shape status+log. RSS proposal 48GB reject","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=plan_gate_blocked | status+log | WORK_QUEUE Active empty","output":{"label":"plan_gate_blocked"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[adapt_stale] stall-watch — status+log sample-6","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[adapt_stale] stall-watch — status+log sample-51","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Factory verify_fail_agent_exit for stall_class_label: GDS cuFile forbidden","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Classify stall_class_label as adapt_stale. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"adapt_stale"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[healthy] stall-watch — status+log sample-81","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Niche stall_class_label: label=verify_fail_agent_exit | status+log | WORK_QUEUE Active empty","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Niche stall_class_label: label=queue_drift | status+log | WORK_QUEUE Active empty","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — stall_class_label decision → healthy. Input shape status+log. continue_on_dirty HOLD","output":{"label":"healthy"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — [queue_drift] stall-watch — status+log sample-41","output":{"label":"queue_drift"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"stall_class_label decision → unknown. Input shape status+log. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"Kit lock — Factory chicken_egg for stall_class_label: fact_checker prefer-order","output":{"label":"chicken_egg"}}
+{"niche_id":"N08","niche":"stall_class_label","input":"[plan_gate_blocked] stall-watch — status+log sample-11","output":{"label":"plan_gate_blocked"}}

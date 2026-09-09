@@ -1,0 +1,21 @@
+{
+  "ts": "2026-09-08T11:03:48.130526+00:00",
+  "candidates": 0,
+  "ok": 0,
+  "fail": 0,
+  "results": [],
+  "note": "native_verify_remaining=0",
+  "agents": 4,
+  "worktrees": 0,
+  "floor": 8,
+  "agents_ge_floor": false,
+  "pool_ge_floor": false,
+  "verify_ok": true,
+  "verify": "cycle_log",
+  "lane": "CT-C",
+  "cid": "20260906T232110Z",
+  "role": "research_speed_engineer",
+  "service_masked": false,
+  "no_public_publish": true,
+  "stress_bars_untouched": true
+}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N83",
+  "name": "automation_config_key",
+  "domain": "automation_config_key",
+  "helps": "config edits",
+  "weights": "notes/niche_distill/practice_n83/weights/n83_automation_config_key_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.027000924572348595,
+  "labels": [
+    "abstain",
+    "automation config key_escalate",
+    "automation config key_maybe",
+    "automation config key_no",
+    "automation config key_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N83 '<input>'"
+}

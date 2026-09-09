@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N32",
+  "name": "diff_risk_label",
+  "domain": "diff_risk_label",
+  "helps": "review",
+  "weights": "notes/niche_distill/practice_n32/weights/n32_diff_risk_label_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 40,
+  "last_loss": 7.342072785831988e-05,
+  "labels": [
+    "abstain",
+    "diff risk label_escalate",
+    "diff risk label_maybe",
+    "diff risk label_no",
+    "diff risk label_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N32 '<input>'"
+}

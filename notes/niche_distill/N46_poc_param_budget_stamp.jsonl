@@ -1,0 +1,48 @@
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Classify poc_param_budget as ok. Context: sm_121a missing flag (too fat / OK)","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[collision] anti-inflate — proposal sample-31","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=collision | proposal | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=collision | proposal | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → missing. Input shape proposal. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[collision] anti-inflate — proposal sample-16","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → missing. Input shape proposal. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → missing. Input shape proposal. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[missing] anti-inflate — proposal sample-11","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=ok | proposal | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Factory ok for poc_param_budget: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → collision. Input shape proposal. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as collision. Context: sm_121a missing flag (too fat / OK)","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (too fat / OK)","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[missing] anti-inflate — proposal sample-56","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → ok. Input shape proposal. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as missing. Context: sm_121a missing flag (too fat / OK)","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory missing for poc_param_budget: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → collision. Input shape proposal. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → collision. Input shape proposal. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (too fat / OK)","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory ok for poc_param_budget: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=collision | proposal | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Classify poc_param_budget as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (too fat / OK)","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Niche poc_param_budget: label=collision | proposal | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → ok. Input shape proposal. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=missing | proposal | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — [collision] anti-inflate — proposal sample-1","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory collision for poc_param_budget: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Classify poc_param_budget as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (too fat / OK)","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[missing] anti-inflate — proposal sample-41","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[missing] anti-inflate — proposal sample-26","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory ok for poc_param_budget: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — [ok] anti-inflate — proposal sample-36","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory missing for poc_param_budget: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"poc_param_budget decision → ok. Input shape proposal. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=ok | proposal | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Classify poc_param_budget as collision. Context: sm_121a missing flag (too fat / OK)","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as missing. Context: sm_121a missing flag (too fat / OK)","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[ok] anti-inflate — proposal sample-6","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Kit lock — Factory collision for poc_param_budget: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=missing | proposal | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=missing | proposal | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory collision for poc_param_budget: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Niche poc_param_budget: label=ok | proposal | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"[collision] anti-inflate — proposal sample-46","output":{"label":"collision"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Classify poc_param_budget as ok. Context: sm_121a missing flag (too fat / OK)","output":{"label":"ok"}}
+{"niche_id":"N46","niche":"poc_param_budget","input":"Factory missing for poc_param_budget: GDS cuFile forbidden","output":{"label":"missing"}}

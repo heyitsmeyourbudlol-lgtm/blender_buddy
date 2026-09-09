@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N56",
+  "name": "rss_cap_reject",
+  "domain": "rss_cap_reject",
+  "helps": "hard gate",
+  "weights": "notes/niche_distill/practice_n56/weights/n56_rss_cap_reject_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.06840475648641586,
+  "labels": [
+    "abstain",
+    "rss cap reject_escalate",
+    "rss cap reject_maybe",
+    "rss cap reject_no",
+    "rss cap reject_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N56 '<input>'"
+}

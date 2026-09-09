@@ -1,0 +1,3 @@
+3:- [ ] **[flaw-research] last_cycle poison: verify_ok=True with failure_type=deferred** — {'verify_ok': True, 'ts': 1.0, 'failure_type': 'deferred'}
+4:- [ ] **[flaw-research] Stale peer worktrees re-poison false eval() flaws** — scripts/peer_worktree.py — peer-{0,1,3,7} DIFF vs hub (no OVERSEER_STATIC_SKIP); ./scripts/peer ensure-pool + ./scripts/peer test-quick
+5:- [ ] **[flaw-research] REPO_FLAW_RESEARCH.md missing from HUB_PROTECT_PULL_EXCLUDES** — scripts/peer_remote.py — Agent notes + digest rewind in <10s; peer-coding kept notes while hub write_digest/rsync rewound; add to peer_remote.HUB_PROTECT_PULL_EXCLUDES + push excludes; unittest; ./scripts/peer test-quick

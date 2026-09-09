@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N66",
+  "name": "queue_fingerprint_stall",
+  "domain": "queue_fingerprint_stall",
+  "helps": "overseer dispatch",
+  "weights": "notes/niche_distill/practice_n66/weights/n66_queue_fingerprint_stall_neural.pt",
+  "param_count": 5789449,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 3.9912938518682495e-05,
+  "labels": [
+    "adapt_stale",
+    "chicken_egg",
+    "healthy",
+    "noop_stall",
+    "plan_gate_blocked",
+    "queue_drift",
+    "unknown",
+    "verify_fail_agent_exit",
+    "verify_fail_tests"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N66 '<input>'"
+}

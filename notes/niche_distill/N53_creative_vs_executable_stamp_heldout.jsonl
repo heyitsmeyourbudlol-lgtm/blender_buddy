@@ -1,0 +1,10 @@
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — Classify creative_vs_executable as creative vs executable_no. Context: sm_121a missing flag (demote/keep)","output":{"label":"creative vs executable_no"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"creative_vs_executable decision → creative vs executable_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Classify creative_vs_executable as creative vs executable_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (demote/keep)","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"[abstain] meter mode — item sample-41","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — Classify creative_vs_executable as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (demote/keep)","output":{"label":"unknown"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"creative_vs_executable decision → creative vs executable_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"creative vs executable_yes"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"[unknown] meter mode — item sample-46","output":{"label":"unknown"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — Factory unknown for creative_vs_executable: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Factory creative vs executable_escalate for creative_vs_executable: fact_checker prefer-order","output":{"label":"creative vs executable_escalate"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Classify creative_vs_executable as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (demote/keep)","output":{"label":"unknown"}}

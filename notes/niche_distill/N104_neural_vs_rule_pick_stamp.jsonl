@@ -1,0 +1,48 @@
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[neural] serve — niche_id sample-21","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as neural. Context: sm_121a missing flag (neural / rule / missing)","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as neural. Context: sm_121a missing flag (neural / rule / missing)","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as neural. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (neural / rule / missing)","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[missing] serve — niche_id sample-56","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Factory missing for neural_vs_rule_pick: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → missing. Input shape niche_id. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Factory neural for neural_vs_rule_pick: GDS cuFile forbidden","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=missing | niche_id | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=missing | niche_id | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (neural / rule / missing)","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=rule | niche_id | peer_loop IDLE seed","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=neural | niche_id | peer_loop IDLE seed","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Factory rule for neural_vs_rule_pick: GDS cuFile forbidden","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → missing. Input shape niche_id. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as neural. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (neural / rule / missing)","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → rule. Input shape niche_id. continue_on_dirty HOLD","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Factory missing for neural_vs_rule_pick: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[rule] serve — niche_id sample-31","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — [missing] serve — niche_id sample-41","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[neural] serve — niche_id sample-36","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → neural. Input shape niche_id. continue_on_dirty HOLD","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[missing] serve — niche_id sample-11","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — neural_vs_rule_pick decision → rule. Input shape niche_id. RSS proposal 48GB reject","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — neural_vs_rule_pick decision → missing. Input shape niche_id. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Classify neural_vs_rule_pick as rule. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (neural / rule / missing)","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=missing | niche_id | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Factory neural for neural_vs_rule_pick: GDS cuFile forbidden","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[missing] serve — niche_id sample-26","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[neural] serve — niche_id sample-6","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=neural | niche_id | peer_loop IDLE seed","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Classify neural_vs_rule_pick as rule. Context: sm_121a missing flag (neural / rule / missing)","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[neural] serve — niche_id sample-51","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Classify neural_vs_rule_pick as rule. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (neural / rule / missing)","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=missing | niche_id | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"[rule] serve — niche_id sample-16","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Factory neural for neural_vs_rule_pick: fact_checker prefer-order","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Niche neural_vs_rule_pick: label=neural | niche_id | WORK_QUEUE Active empty","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — [rule] serve — niche_id sample-1","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Kit lock — Niche neural_vs_rule_pick: label=rule | niche_id | peer_loop IDLE seed","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → neural. Input shape niche_id. continue_on_dirty HOLD","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Classify neural_vs_rule_pick as rule. Context: sm_121a missing flag (neural / rule / missing)","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Factory rule for neural_vs_rule_pick: fact_checker prefer-order","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → rule. Input shape niche_id. RSS proposal 48GB reject","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → neural. Input shape niche_id. RSS proposal 48GB reject","output":{"label":"neural"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=rule | niche_id | WORK_QUEUE Active empty","output":{"label":"rule"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"neural_vs_rule_pick decision → missing. Input shape niche_id. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N104","niche":"neural_vs_rule_pick","input":"Niche neural_vs_rule_pick: label=rule | niche_id | WORK_QUEUE Active empty","output":{"label":"rule"}}

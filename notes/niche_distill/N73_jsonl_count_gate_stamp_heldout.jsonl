@@ -1,0 +1,10 @@
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Factory unknown for jsonl_count_gate: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Kit lock — jsonl_count_gate decision → jsonl count gate_maybe. Input shape niche dir. continue_on_dirty HOLD","output":{"label":"jsonl count gate_maybe"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Classify jsonl_count_gate as jsonl count gate_escalate. Context: sm_121a missing flag (enough exemplars?)","output":{"label":"jsonl count gate_escalate"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"[jsonl count gate_maybe] distill done-gate — niche dir sample-26","output":{"label":"jsonl count gate_maybe"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Classify jsonl_count_gate as jsonl count gate_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (enough exemplars?)","output":{"label":"jsonl count gate_yes"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Niche jsonl_count_gate: label=jsonl count gate_escalate | niche dir | WORK_QUEUE Active empty","output":{"label":"jsonl count gate_escalate"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"[jsonl count gate_maybe] distill done-gate — niche dir sample-56","output":{"label":"jsonl count gate_maybe"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"jsonl_count_gate decision → jsonl count gate_escalate. Input shape niche dir. RSS proposal 48GB reject","output":{"label":"jsonl count gate_escalate"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"Kit lock — [jsonl count gate_no] distill done-gate — niche dir sample-31","output":{"label":"jsonl count gate_no"}}
+{"niche_id":"N73","niche":"jsonl_count_gate","input":"jsonl_count_gate decision → unknown. Input shape niche dir. continue_on_dirty HOLD","output":{"label":"unknown"}}

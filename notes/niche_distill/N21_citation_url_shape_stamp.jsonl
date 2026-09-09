@@ -1,0 +1,48 @@
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → collision. Input shape URL. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory ok for citation_url_shape: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as missing. Context: sm_121a missing flag (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=collision | URL | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → missing. Input shape URL. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[collision] fact hygiene — URL sample-16","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Classify citation_url_shape as missing. Context: sm_121a missing flag (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory collision for citation_url_shape: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory missing for citation_url_shape: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[collision] fact hygiene — URL sample-46","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as collision. Context: sm_121a missing flag (ok/junk)","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as collision. Context: sm_121a missing flag (ok/junk)","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory ok for citation_url_shape: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[missing] fact hygiene — URL sample-41","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory collision for citation_url_shape: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=collision | URL | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory ok for citation_url_shape: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=ok | URL | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → missing. Input shape URL. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → missing. Input shape URL. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory missing for citation_url_shape: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=missing | URL | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Niche citation_url_shape: label=ok | URL | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as ok. Context: sm_121a missing flag (ok/junk)","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — [ok] fact hygiene — URL sample-36","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=collision | URL | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory collision for citation_url_shape: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → collision. Input shape URL. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[ok] fact hygiene — URL sample-21","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — [missing] fact hygiene — URL sample-26","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=ok | URL | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → collision. Input shape URL. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — citation_url_shape decision → missing. Input shape URL. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=missing | URL | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Factory collision for citation_url_shape: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=missing | URL | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — [ok] fact hygiene — URL sample-51","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory missing for citation_url_shape: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — citation_url_shape decision → ok. Input shape URL. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Niche citation_url_shape: label=collision | URL | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=missing | URL | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"citation_url_shape decision → ok. Input shape URL. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[collision] fact hygiene — URL sample-1","output":{"label":"collision"}}

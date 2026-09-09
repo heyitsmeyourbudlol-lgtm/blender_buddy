@@ -1,0 +1,12 @@
+{"niche_id":"N03","input":"[kit] peer_orchestrate: --self-check documents T0 executable lane needle OVERSEER_T0_EXECUTABLE_LANE_SELF_SUFFICIENT_2026_09_04","output":"OVERSEER_T0_EXECUTABLE_LANE_SELF_SUFFICIENT_2026_09_04"}
+{"niche_id":"N03","input":"peer_orchestrate: self-check fails if fact_checker niche missing prefer-order — `OVERSEER_FACT_CHECKER_PREFER_ORDER_2026_09_04` + twin `OVERSEER_LAND_PROOF_FACT_CHECKER_MISSING_PREFER_ORDER_2026_09_04`","output":"OVERSEER_FACT_CHECKER_PREFER_ORDER_2026_09_04"}
+{"niche_id":"N03","input":"peer_remote: HUB_PROTECT_PULL_EXCLUDES includes REPO_FLAW_RESEARCH.md — `OVERSEER_HUB_PROTECT_EXCLUDES_2026_09_04`","output":"OVERSEER_HUB_PROTECT_EXCLUDES_2026_09_04"}
+{"niche_id":"N03","input":"[fact-check] BitNet plan claim ledger C1–C12 → notes/BITNET_FACTCHECK.md — done fact_checker PASS8 FAIL2","output":null}
+{"niche_id":"N03","input":"peer_self_heal: unittest that deferred_lean_restamp heal clears stall flag after lean verify — `OVERSEER_DEFERRED_LEAN_HEAL_CLEARS_STALL_2026_09_04`","output":"OVERSEER_DEFERRED_LEAN_HEAL_CLEARS_STALL_2026_09_04"}
+{"niche_id":"N03","input":"land-proof twin for cursor-agent exit seed — `OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04` → `OVERSEER_PEER_AGENT_EXIT_SEED_BEFORE_WAIT_2026_09_04`","output":"OVERSEER_LAND_PROOF_CURSOR_AGENT_EXIT_SEED_KQUEUE_2026_09_04"}
+{"niche_id":"N03","input":"- [x] **[oversight] Stop Mac→DGX rsync clobber of hub-protect scripts** — landed 2026-09-04 overseer (scripts fixed; ignore Mac sync restore)","output":null}
+{"niche_id":"N03","input":"- [x] Stall-watch refuse-ASN landed overseer: OVERSEER_WATCH_HOLD_PRIMARY_2026_09_04 without ticks","output":"OVERSEER_WATCH_HOLD_PRIMARY_2026_09_04"}
+{"niche_id":"N03","input":"Compact queue to 12 executable file-scoped items — notes/WORK_QUEUE.md","output":null}
+{"niche_id":"N03","input":"Claim done without OVERSEER needle on disk","output":null}
+{"niche_id":"N03","input":"see notes/OVERSEER_NOTES.md without real token OVERSEER_REAL_2026_09_08 later","output":"OVERSEER_REAL_2026_09_08"}
+{"niche_id":"N03","input":"path trap notes/OVERSEER_NOTES.md alone — no claimable land-proof","output":null}

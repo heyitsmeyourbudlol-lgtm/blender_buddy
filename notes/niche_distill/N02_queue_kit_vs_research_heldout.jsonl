@@ -1,0 +1,16 @@
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"queue_kit_vs_research decision → creative. Input shape bullet. continue_on_dirty HOLD","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Factory research for queue_kit_vs_research: fact_checker prefer-order","output":{"label":"research"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Classify queue_kit_vs_research as creative. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit/research/creative/defer)","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Classify queue_kit_vs_research as kit. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit/research/creative/defer)","output":{"label":"kit"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Niche queue_kit_vs_research: label=creative | bullet | peer_loop IDLE seed","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — queue_kit_vs_research decision → defer. Input shape bullet. RSS proposal 48GB reject","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — Niche queue_kit_vs_research: label=research | bullet | WORK_QUEUE Active empty","output":{"label":"research"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — [defer] demote / meter mode — bullet sample-91","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Niche queue_kit_vs_research: label=creative | bullet | peer_loop IDLE seed","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"queue_kit_vs_research decision → defer. Input shape bullet. RSS proposal 48GB reject","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"[defer] demote / meter mode — bullet sample-31","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — Classify queue_kit_vs_research as defer. Context: sm_121a missing flag (kit/research/creative/defer)","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"queue_kit_vs_research decision → defer. Input shape bullet. RSS proposal 48GB reject","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — queue_kit_vs_research decision → creative. Input shape bullet. continue_on_dirty HOLD","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Factory creative for queue_kit_vs_research: GDS cuFile forbidden","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"[creative] demote / meter mode — bullet sample-46","output":{"label":"creative"}}

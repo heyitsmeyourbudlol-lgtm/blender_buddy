@@ -1,0 +1,48 @@
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. continue_on_dirty HOLD","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory far for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory near for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Niche near_vs_far_grain: label=poc | width | peer_loop IDLE seed","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. continue_on_dirty HOLD","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[far] map — width sample-46","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[far] map — width sample-16","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[poc] map — width sample-11","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as poc. Context: sm_121a missing flag (near/far bucket)","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=near | width | WORK_QUEUE Active empty","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[poc] map — width sample-56","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as near. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=far | width | peer_loop IDLE seed","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — [near] map — width sample-21","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[poc] map — width sample-26","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[near] map — width sample-36","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → near. Input shape width. RSS proposal 48GB reject","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory near for near_vs_far_grain: fact_checker prefer-order","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory far for near_vs_far_grain: fact_checker prefer-order","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=far | width | WORK_QUEUE Active empty","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[far] map — width sample-1","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[near] map — width sample-51","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as far. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Niche near_vs_far_grain: label=near | width | WORK_QUEUE Active empty","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as near. Context: sm_121a missing flag (near/far bucket)","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory poc for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory poc for near_vs_far_grain: fact_checker prefer-order","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Factory near for near_vs_far_grain: fact_checker prefer-order","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory poc for near_vs_far_grain: GDS cuFile forbidden","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Factory far for near_vs_far_grain: fact_checker prefer-order","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[near] map — width sample-6","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → far. Input shape width. RSS proposal 48GB reject","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Niche near_vs_far_grain: label=near | width | peer_loop IDLE seed","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=poc | width | WORK_QUEUE Active empty","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as near. Context: sm_121a missing flag (near/far bucket)","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"[far] map — width sample-31","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as far. Context: sm_121a missing flag (near/far bucket)","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — near_vs_far_grain decision → far. Input shape width. RSS proposal 48GB reject","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Classify near_vs_far_grain as near. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=far | width | peer_loop IDLE seed","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → poc. Input shape width. continue_on_dirty HOLD","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → poc. Input shape width. RSS proposal 48GB reject","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Classify near_vs_far_grain as far. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (near/far bucket)","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"near_vs_far_grain decision → poc. Input shape width. continue_on_dirty HOLD","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=near | width | peer_loop IDLE seed","output":{"label":"near"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=poc | width | WORK_QUEUE Active empty","output":{"label":"poc"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Niche near_vs_far_grain: label=far | width | WORK_QUEUE Active empty","output":{"label":"far"}}
+{"niche_id":"N42","niche":"near_vs_far_grain","input":"Kit lock — Classify near_vs_far_grain as far. Context: sm_121a missing flag (near/far bucket)","output":{"label":"far"}}

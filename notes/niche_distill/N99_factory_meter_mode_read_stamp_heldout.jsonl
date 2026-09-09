@@ -1,0 +1,10 @@
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Factory self_sufficient for factory_meter_mode_read: GDS cuFile forbidden","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Niche factory_meter_mode_read: label=self_sufficient | config | peer_loop IDLE seed","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Classify factory_meter_mode_read as external_proof. Context: sm_121a missing flag (self_sufficient / external_proof)","output":{"label":"external_proof"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Classify factory_meter_mode_read as external_proof. Context: sm_121a missing flag (self_sufficient / external_proof)","output":{"label":"external_proof"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"[self_sufficient] demote policy — config sample-56","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Classify factory_meter_mode_read as external_proof. Context: sm_121a missing flag (self_sufficient / external_proof)","output":{"label":"external_proof"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"factory_meter_mode_read decision → self_sufficient. Input shape config. continue_on_dirty HOLD","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Classify factory_meter_mode_read as self_sufficient. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (self_sufficient / external_proof)","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Kit lock — [self_sufficient] demote policy — config sample-16","output":{"label":"self_sufficient"}}
+{"niche_id":"N99","niche":"factory_meter_mode_read","input":"Kit lock — Factory external_proof for factory_meter_mode_read: fact_checker prefer-order","output":{"label":"external_proof"}}

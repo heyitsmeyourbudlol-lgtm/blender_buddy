@@ -1,0 +1,10 @@
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"Kit lock — Niche bitnet_upstream_issue_triage: label=bitnet upstream issue triage_yes | GH blurb | peer_loop IDLE seed","output":{"label":"bitnet upstream issue triage_yes"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"bitnet_upstream_issue_triage decision → bitnet upstream issue triage_escalate. Input shape GH blurb. RSS proposal 48GB reject","output":{"label":"bitnet upstream issue triage_escalate"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"[bitnet upstream issue triage_maybe] Darwin pins — GH blurb sample-56","output":{"label":"bitnet upstream issue triage_maybe"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"bitnet_upstream_issue_triage decision → bitnet upstream issue triage_maybe. Input shape GH blurb. continue_on_dirty HOLD","output":{"label":"bitnet upstream issue triage_maybe"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"[bitnet upstream issue triage_maybe] Darwin pins — GH blurb sample-26","output":{"label":"bitnet upstream issue triage_maybe"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"Kit lock — Classify bitnet_upstream_issue_triage as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (class)","output":{"label":"unknown"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"bitnet_upstream_issue_triage decision → unknown. Input shape GH blurb. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"[bitnet upstream issue triage_yes] Darwin pins — GH blurb sample-36","output":{"label":"bitnet upstream issue triage_yes"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"Factory unknown for bitnet_upstream_issue_triage: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N22","niche":"bitnet_upstream_issue_triage","input":"bitnet_upstream_issue_triage decision → bitnet upstream issue triage_no. Input shape GH blurb. RSS proposal 48GB reject","output":{"label":"bitnet upstream issue triage_no"}}

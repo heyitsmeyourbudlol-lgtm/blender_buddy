@@ -1,0 +1,746 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_EVAL_2026_09_07",
+  "ts": "2026-09-07T12:51:23Z",
+  "n_catalog": 105,
+  "n_pass": 105,
+  "n_fail": 0,
+  "pass_rate": 1.0,
+  "experts": [
+    {
+      "id": "N01",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 6871676,
+      "status": "DONE"
+    },
+    {
+      "id": "N02",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788164,
+      "status": "DONE"
+    },
+    {
+      "id": "N03",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787650,
+      "status": "DONE"
+    },
+    {
+      "id": "N04",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N05",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N06",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N07",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N08",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5789449,
+      "status": "DONE"
+    },
+    {
+      "id": "N09",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N10",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N100",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N101",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N102",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N103",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N104",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N105",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N11",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5789449,
+      "status": "DONE"
+    },
+    {
+      "id": "N12",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N13",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N14",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N15",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N16",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N17",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N18",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N19",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N20",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N21",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N22",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N23",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N24",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N25",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N26",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N27",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N28",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N29",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N30",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N31",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787650,
+      "status": "DONE"
+    },
+    {
+      "id": "N32",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N33",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N34",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N35",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N36",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N37",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N38",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N39",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N40",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N41",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N42",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N43",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N44",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N45",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N46",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N47",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N48",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N49",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N50",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N51",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N52",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N53",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N54",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N55",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N56",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N57",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N58",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N59",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N60",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N61",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N62",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N63",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N64",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N65",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N66",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5789449,
+      "status": "DONE"
+    },
+    {
+      "id": "N67",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N68",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N69",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N70",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N71",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N72",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N73",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N74",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N75",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N76",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N77",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N78",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N79",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N80",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N81",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788164,
+      "status": "DONE"
+    },
+    {
+      "id": "N82",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N83",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N84",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N85",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N86",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N87",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N88",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N89",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N90",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N91",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N92",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N93",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N94",
+      "passed": true,
+      "heldout_accuracy": 0.9,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N95",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5787907,
+      "status": "DONE"
+    },
+    {
+      "id": "N96",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788164,
+      "status": "DONE"
+    },
+    {
+      "id": "N97",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N98",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 5788678,
+      "status": "DONE"
+    },
+    {
+      "id": "N99",
+      "passed": true,
+      "heldout_accuracy": 1.0,
+      "param_count": 6871676,
+      "status": "DONE"
+    }
+  ],
+  "local_only": true
+}

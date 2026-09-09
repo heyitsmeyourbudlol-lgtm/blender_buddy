@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N07",
+  "name": "hallucination_block_fill",
+  "domain": "hallucination_block_fill",
+  "helps": "strategy ritual",
+  "weights": "notes/niche_distill/practice_n07/weights/n07_hallucination_block_fill_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.017000779509544373,
+  "labels": [
+    "abstain",
+    "hallucination block fill_escalate",
+    "hallucination block fill_maybe",
+    "hallucination block fill_no",
+    "hallucination block fill_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N07 '<input>'"
+}

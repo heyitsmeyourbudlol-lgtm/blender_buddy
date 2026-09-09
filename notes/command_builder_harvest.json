@@ -1,0 +1,7 @@
+{
+  "needle": "OVERSEER_COMMAND_BUILDER_COMMITTED_2026_09_07",
+  "ts": "2026-09-08T15:17:40Z",
+  "n_gaps": 0,
+  "gaps": [],
+  "policy": "Agents execute ./scripts/peer commands; Command Builder adds recipes."
+}

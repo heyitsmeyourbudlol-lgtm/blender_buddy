@@ -1,0 +1,26 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N96",
+  "name": "rss_smoke_json_validate",
+  "domain": "rss_smoke_json_validate",
+  "helps": "T0 meters",
+  "weights": "notes/niche_distill/practice_n96/weights/n96_rss_smoke_json_validate_neural.pt",
+  "param_count": 5788164,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 1.476674970035674e-05,
+  "labels": [
+    "FAIL",
+    "PASS",
+    "SPLIT",
+    "UNKNOWN"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N96 '<input>'"
+}

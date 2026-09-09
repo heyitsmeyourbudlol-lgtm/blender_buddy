@@ -1,0 +1,48 @@
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[abstain] FP4 builds — build snippet sample-11","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → abstain. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_no. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory sm121 flag spot_escalate for sm121_flag_spot: fact_checker prefer-order","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → abstain. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory sm121 flag spot_yes for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_yes | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_yes | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_yes. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory abstain for sm121_flag_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as sm121 flag spot_no. Context: sm_121a missing flag (missing sm_121a?)","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_maybe | build snippet | peer_loop IDLE seed","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as abstain. Context: sm_121a missing flag (missing sm_121a?)","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory sm121 flag spot_maybe for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_yes] FP4 builds — build snippet sample-36","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory sm121 flag spot_maybe for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory sm121 flag spot_no for sm121_flag_spot: fact_checker prefer-order","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Classify sm121_flag_spot as sm121 flag spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Factory unknown for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=unknown | build snippet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[unknown] FP4 builds — build snippet sample-46","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_yes] FP4 builds — build snippet sample-6","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=abstain | build snippet | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=unknown | build snippet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_maybe. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory unknown for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[abstain] FP4 builds — build snippet sample-41","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory sm121 flag spot_no for sm121_flag_spot: fact_checker prefer-order","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_no | build snippet | WORK_QUEUE Active empty","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_maybe] FP4 builds — build snippet sample-56","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Classify sm121_flag_spot as abstain. Context: sm_121a missing flag (missing sm_121a?)","output":{"label":"abstain"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as sm121 flag spot_escalate. Context: sm_121a missing flag (missing sm_121a?)","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_no] FP4 builds — build snippet sample-31","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Factory sm121 flag spot_yes for sm121_flag_spot: GDS cuFile forbidden","output":{"label":"sm121 flag spot_yes"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_maybe] FP4 builds — build snippet sample-26","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_escalate. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_maybe. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as sm121 flag spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"sm121 flag spot_maybe"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"sm121_flag_spot decision → sm121 flag spot_no. Input shape build snippet. RSS proposal 48GB reject","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_no | build snippet | WORK_QUEUE Active empty","output":{"label":"sm121 flag spot_no"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Niche sm121_flag_spot: label=sm121 flag spot_escalate | build snippet | WORK_QUEUE Active empty","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[unknown] FP4 builds — build snippet sample-16","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — Niche sm121_flag_spot: label=sm121 flag spot_escalate | build snippet | WORK_QUEUE Active empty","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Kit lock — sm121_flag_spot decision → unknown. Input shape build snippet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"[sm121 flag spot_escalate] FP4 builds — build snippet sample-51","output":{"label":"sm121 flag spot_escalate"}}
+{"niche_id":"N23","niche":"sm121_flag_spot","input":"Classify sm121_flag_spot as sm121 flag spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (missing sm_121a?)","output":{"label":"sm121 flag spot_yes"}}

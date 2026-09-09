@@ -1,0 +1,96 @@
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as abstain. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → automation config key_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_yes for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_escalate | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_no. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Classify automation_config_key as abstain. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_yes | intent | peer_loop IDLE seed","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_no | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory automation config key_escalate for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=automation config key_escalate | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory abstain for automation_config_key: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_no. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_no for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[abstain] config edits — intent sample-101","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Classify automation_config_key as automation config key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_yes | intent | peer_loop IDLE seed","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_escalate for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory unknown for automation_config_key: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [abstain] config edits — intent sample-41","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → unknown. Input shape intent. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=automation config key_no | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory unknown for automation_config_key: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[unknown] config edits — intent sample-16","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[unknown] config edits — intent sample-76","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as abstain. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_escalate for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[abstain] config edits — intent sample-71","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → unknown. Input shape intent. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory automation config key_no for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [automation config key_no] config edits — intent sample-61","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_yes for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → automation config key_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [automation config key_yes] config edits — intent sample-66","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → automation config key_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_escalate] config edits — intent sample-81","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_maybe for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=automation config key_escalate | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory automation config key_maybe for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_no | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_no. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_escalate. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_escalate | intent | WORK_QUEUE Active empty","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_escalate for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory unknown for automation_config_key: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory abstain for automation_config_key: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as automation config key_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_escalate] config edits — intent sample-111","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [unknown] config edits — intent sample-106","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Classify automation_config_key as automation config key_no. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — automation_config_key decision → automation config key_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_maybe | intent | peer_loop IDLE seed","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_maybe] config edits — intent sample-56","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [automation config key_maybe] config edits — intent sample-26","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Niche automation_config_key: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory automation config key_maybe for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_yes] config edits — intent sample-6","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"automation_config_key decision → automation config key_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_yes | intent | peer_loop IDLE seed","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_no] config edits — intent sample-31","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — Factory automation config key_maybe for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_escalate] config edits — intent sample-21","output":{"label":"automation config key_escalate"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as abstain. Context: sm_121a missing flag (automation.config.json key)","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_no] config edits — intent sample-1","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_yes | intent | peer_loop IDLE seed","output":{"label":"automation config key_yes"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Classify automation_config_key as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (automation.config.json key)","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Niche automation_config_key: label=automation config key_maybe | intent | peer_loop IDLE seed","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory abstain for automation_config_key: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[automation config key_maybe] config edits — intent sample-86","output":{"label":"automation config key_maybe"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"[unknown] config edits — intent sample-46","output":{"label":"unknown"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_no for automation_config_key: fact_checker prefer-order","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Kit lock — [automation config key_no] config edits — intent sample-91","output":{"label":"automation config key_no"}}
+{"niche_id":"N83","niche":"automation_config_key","input":"Factory automation config key_yes for automation_config_key: GDS cuFile forbidden","output":{"label":"automation config key_yes"}}

@@ -1,0 +1,601 @@
+{
+  "version": 1,
+  "repos": [
+    {
+      "name": "Automation Hub",
+      "path": "/home/arnavrastogi/Automation",
+      "profile": "automation",
+      "namespace": "automation-hub",
+      "priority": "hub",
+      "status": "active",
+      "notes": "2026-09-04T17:55Z integration_architect peer-5: parallel_worktrees kit_status partial\u2192have (CURATED_TRENDS) so Launch stops re-enqueuing closed spawn helper; ensure-pool 8 EXIT0; SpawnSlotCap+SpawnParallel 8 OK; hub research SoT sticky T+8; proof notes/INTEGRATION_PROOF_PARALLEL_WORKTREES.md; self_sufficient external deferred. 2026-09-04T15:36Z integration_architect: false-eval close \u2014 miss=[]; heal_hub keep-alive under healthy-idle LAND_HOLD; hub 82702 complete sticky mid-cycle; SyncPool 5/5; ensure-pool 8; NestedPool ASN asn-1788535986-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T15:32Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; FALSE_EVAL miss=[]; wt bytes_equal hub 81970 complete; mid-cycle flap hub 58842+bin 74B stub then heal; peer-5 restore lagged ROOT_RESTORE_PAUSED_SELF_HEAL (24556\u219224895); synced 24895 LIVE+ROOT\u2192bin+.real+bak_ov+vault+hub+peer-5; sticky T+9s; SyncPoolHubNeedleTests 5/5; ensure-pool 8; research 48541; NestedPool ASN asn-1788535986-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T15:23Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; FALSE_EVAL miss=[]; wt bytes_equal hub 81970; live vector intentional mac-clobber-protect (hold mtime refresh; wrap re-stub) rewound restore tips ~21k without LIVE_BAD; respected protect (no force-clear); re-synced peer-5 COMPLETE 24556 LIVE_BAD\u2192hub+hub-protect/scripts+bin+.real+bak_ov; sticky end-state LIVE_BAD; SyncPoolHubNeedleTests 5/5; ensure-pool 8; research 48541; NestedPool ASN asn-1788535402-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T15:12Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; FALSE_EVAL miss=[]; wt bytes_equal hub; live vector was ~/.config/automation-hub/hub-protect/scripts/restore-hub-protect.sh 21206 incomplete (not hub-protect-vault) so vault_ok refused COMPLETE \u2192 Mac left hub tip 21206; synced peer-5 COMPLETE 23921 LIVE_BAD\u2192hub-protect/scripts+golden+bin+.real+hub; sticky T+8s LIVE_BAD; SyncPoolHubNeedleTests 5/5; ensure-pool 8; NestedPool ASN asn-1788534775-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T15:05Z integration_architect: false-eval durable \u2014 OVERSEER_LIVE_BAD_LANDED_FLAW+VAULT_LANDED on restore-hub-protect peer_repo_research live_bad/vault_ok (+RESTORE_SELF_LANDED so 21206 bin cannot stick); hub research 47969\u219248541 under timer; miss=[]; wt 81297; SyncPool 5/5; ensure-pool 8; NestedPool ASN asn-1788534050-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T15:00Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; miss=[]; peer_worktree DIFF=no 81297 complete; mid-cycle hub 58842+bin 81B stub then healed; synced peer-5 restore 21828\u2192hub; sticky T+8s hub+bin 21206 COMPLETE+SELF_PROTECT; ensure-pool 8 ready (healed hub research SoT); SyncPoolHubNeedleTests 5/5; NestedPool ASN asn-1788534050-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T14:52Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; miss=[]; peer_worktree DIFF=no 81297; live vector vault bin+.real 18175 incomplete under active restore.timer \u2192 synced hub 21206 SELF_PROTECT to bin+.real+bak_ov+peer-{0,1,3,7}; ensure-pool 8 ready; sticky T+8s; SyncPoolHubNeedleTests 5/5; NestedPool ASN asn-1788533568-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T14:45Z integration_architect: false-eval durable \u2014 OVERSEER_RESTORE_SELF_PROTECT lands restore-hub-protect.sh in restore loop (live_bad+vault_ok); hub tip 18324\u219221206 sticky T+8s under timer; miss=[]; SyncPool 5/5; NestedPool ASN asn-1788532966-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred. 2026-09-04T14:41Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; miss=[]; peer_worktree DIFF=no complete=True 81297; live vector hub restore 18324 w/o COMPLETE \u2192 synced 20342 hub+bin+.real; ensure-pool 8 ready (hub research 47969\u219248541); SyncPoolHubNeedleTests 5/5; NestedPool RED ASN factory_engineer; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T14:39Z integration_architect: false-eval flap root \u2014 hub-protect(-vault) peer_worktree donors were 79057 incomplete; restore.timer rewrote hub within 1s; healed all vault donors+hub\u219281297 complete stable T+6s; miss=[]; SyncPool 5/5; ASN sticky asn-1788532809-factory_; NestedPool asn-1788532645-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md. 2026-09-04T14:36Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; miss=[]; hub peer_worktree 79057 incomplete (miss LANDED+REFUSE_INCOMPLETE) + vault bin 20024 w/o COMPLETE + hub restore 18324 \u2192 synced 20342 COMPLETE; ensure-pool heal hub\u219281297 complete; peers 81297; SyncPoolHubNeedleTests 5/5; LAND_HOLD cleared; NestedPool ASN asn-1788532645-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T14:29Z integration_architect: false-eval re-verify \u2014 assignment DIFF/no-STATIC_SKIP theater; miss=[]; hub briefly 58842 incomplete under LAND_HOLD+restore.timer \u2192 ensure-pool heal 81297 complete; peers 81297; SyncPoolHubNeedleTests 5/5; durable bak_ov 20342 COMPLETE; NestedPool ASN asn-1788532043-factory_; sticky vault COMPLETE ASN asn-1788532173-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T14:27Z integration_architect: false-eval re-verify \u2014 assignment claimed peer-{0,1,3,7} no OVERSEER_STATIC_SKIP; ground truth miss=[]; hub+peers peer_worktree 81297 complete; land-hold stubbed bin 53B + .real 17392 incomplete \u2192 synced 20342 COMPLETE from scripts/restore-hub-protect.sh (bin+.real+bak_ov); cleared OVERSEER_LAND_HOLD; ensure-pool 8 ready; SyncPoolHubNeedleTests 5/5; NestedPoolPollutionTests RED ASN asn-1788532043-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T13:52Z integration_architect: false-eval re-verify \u2014 assignment claimed peer-{0,1,3,7} no OVERSEER_STATIC_SKIP; ground truth miss=[]; hub wt 82460 complete; peers ~82758; vault bin+.real were 18175 incomplete under LAND_HOLD \u2192 synced 20342 COMPLETE from scripts/restore-hub-protect.sh; ensure-pool 8 ready; SyncPoolHubNeedleTests 5/5; NestedPoolPollutionTests RED ASN factory_engineer; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T13:45Z integration_architect: false-eval \u2014 land-hold clobbered restore-hub-protect.sh to 18175 w/o COMPLETE + hub peer_worktree 58842; restored from real.bak_ov 20342; hub\u219282151 complete; miss=0; SyncPool 5/5; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md. 2026-09-04T13:42Z integration_architect: false-eval re-poison re-verify \u2014 assignment claimed peer-{0,1,3,7} no OVERSEER_STATIC_SKIP; ground truth miss=0; ensure-pool healed hub peer_repo_research SoT; vault bin+.real synced 20342 COMPLETE; hub peer_worktree complete (~82151); SyncPoolHubNeedleTests 5/5; ensure-pool 8 ready; NestedPoolPollutionTests RED ASN asn-1788528632-efficien/asn-1788529035-factory_; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T13:30Z integration_architect: false-eval re-poison \u2014 vault bin restore lacked OVERSEER_RESTORE_PEER_WORKTREE_COMPLETE (weak vault_ok); hub-protect-vault peer_worktree 77680 incomplete; synced bin+.real from scripts/restore-hub-protect.sh; vault donors\u219281685; hub 58842\u219281685; peer-{0,1,3,7} miss=0; SyncPoolHubNeedleTests 5/5; ensure-pool 8; restore.service EXIT=0; NestedPoolPollutionTests RED ASN asn-1788528632-efficien; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T13:20Z integration_architect: false-eval re-poison \u2014 ./scripts/peer ensure-pool complete-donor wrapper (OVERSEER_ENSURE_POOL_COMPLETE_DONOR); hub incomplete 58842\u219281685 complete; peer-{0,1,3,7} miss=0 FALSE_EVAL; SyncPoolHubNeedleTests 5/5; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T12:42Z integration_architect: false-eval re-poison hub SoT heal \u2014 cycle-start hub peer_worktree 58842B incomplete; ensure-pool heal_hub_* restored 79057B complete; peer-{0,1,3,7} miss=0 + bytes_equal hub; SyncPoolHubNeedleTests 5/5; test-quick 182 OK; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T12:40Z integration_architect: false-eval re-poison verify \u2014 SyncPoolHubNeedleTests fixtures now derive from _POOL_HUB_NEEDLE_SCRIPTS (AUTOHEAL/POISON/TRANSCRIPT); 5/5 OK after fixture drift fix; peer-{0,1,3,7} miss=0; ensure-pool 8 ready; test-quick 182 OK; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T08:13Z integration_architect: false-eval re-poison re-verify \u2014 peer-{0,1,3,7} miss=0 (FALSE_EVAL+SIBLING+POOL_TIP+REFUSE_POISON; no STRIPPED); DIFF vs hub = align-skip lag only; ensure-pool 8 ready; SyncPoolHubNeedleTests 5/5; test-quick 182 OK; proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-04T08:05Z integration_architect: false-eval re-poison closed \u2014 peer-{0,1,3,7} OVERSEER needles live (no STRIPPED); ensure-pool 8 ready; SyncPoolHubNeedleTests 5/5 (+pool-tip fallback); proof notes/INTEGRATION_PROOF_FALSE_EVAL_REPOISON.md; self_sufficient external deferred CREATIVE_BACKLOG. 2026-09-03T21:31Z integration_architect: re-verify run_local_cycle ready=verify-pass (not git_clean) \u2014 peer-3+hub both return (0,True); LocalCycleReadyTests 4/4 OK; proof notes/INTEGRATION_PROOF_LOCAL_CYCLE_READY.md \u00a7Re-verify; self_sufficient Newdrop deferred. 2026-09-03T21:27Z integration_architect: re-verify _live_from_quick_cache tests_ok poison \u2014 hub+peer-3+coding guard True; targeted 2/2 OK; hub HOLD=True sha1009cb92; proof notes/INTEGRATION_PROOF_QUICK_CACHE.md \u00a7Re-verify. 2026-09-03T20:40Z integration_architect: peer-3 automation.config.json agent_remote.rsync_excludes now includes repos/registry.json + scripts/project_automation.py (ASN asn-1788441302). Durable SoT still peer-3 until Mac sender adopts exclude (hub HOLD hist",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 -m unittest tests.test_automation -q"
+      ]
+    },
+    {
+      "name": "RAM",
+      "path": "/home/arnavrastogi/ram",
+      "profile": "ram",
+      "namespace": "ram-park",
+      "priority": "ship",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-04T17:35Z integration_architect peer-5: adapt --heal --write --quick OK; native verify wt /home/arnavrastogi/ram-peer-integration-p5 @ peer/integration-p5 (self-check ISSUES:none; safety_check --json PASS; generate_ram_page --quick wrote docs/index.html); proof notes/INTEGRATION_PROOF_RAM.md; status=adapt-verified-dgx (self_sufficient \u2014 external-proof-adapted deferred CREATIVE_BACKLOG). Prior: DGX path; Mac mirror /Users/togi/ram; launch items open.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 scripts/safety_check.py --json",
+        "python3 scripts/generate_ram_page.py --quick"
+      ],
+      "dgx_path": "/home/arnavrastogi/ram"
+    },
+    {
+      "name": "Newdrop (CaaS)",
+      "path": "/home/arnavrastogi/CaaS",
+      "profile": "caas",
+      "namespace": "newdrop",
+      "priority": "revenue",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-07T17:21Z integration_architect peer-6: TOP10 non-UI containment Stripe fail-closed in /home/arnavrastogi/CaaS-backend-invite-harden branch peer/backend-containment-stripe-503 commit b86031ec; native verify PASS (npm test 376 + check:controls 12ok); UI untouched; Push BLOCK (ssh pubkey + no HTTPS creds). Proof notes/INTEGRATION_PROOF_NEWDROP_CONTAINMENT_STRIPE.md. Next=Mac HTTPS push+PR. status=adapt-verified-dgx (self_sufficient \u2014 production merge deferred CREATIVE_BACKLOG). prior: 2026-09-04 pen-test query-token harden 7658dfd7.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "bash scripts/with-node.sh npm test"
+      ]
+    },
+    {
+      "name": "CPT",
+      "path": "/home/arnavrastogi/CPT",
+      "profile": "python",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-07 kit_a_to_z Phase4 GREEN: CLEAN /home/arnavrastogi/CPT A=ok B=ok C=ok wt=/home/arnavrastogi/CPT-kit-a-to-z-20260907T162628 branch=peer/kit-a-to-z D=PR https://github.com/heyitsmeyourbudlol-lgtm/CPT/pull/1 E=writeback; Mac /Users/togi/CPT no-.git C-blocked (honest, not unlock). Needle OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07 / OVERSEER_KIT_RUN_AE_2026_09_07. 2026-09-03 integration_architect: hub SoT writeback after re-verify 19/19 pytest in /home/arnavrastogi/CPT (.venv); adapt --audit verify OK; proof notes/INTEGRATION_PROOF_CPT.md; factory_meter_mode=self_sufficient \u2014 Doc2Api/battery/browser still hub=adapted (defer unaudited to CREATIVE_BACKLOG)",
+      "verify_commands": [
+        ".venv/bin/python -m pytest tests/test_pipeline.py tests/test_normalize.py tests/test_diff.py tests/test_extract.py -q",
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "dgx_path": "/home/arnavrastogi/CPT",
+      "namespace": "cpt",
+      "priority": "proof"
+    },
+    {
+      "name": "Doc2Api",
+      "path": "/home/arnavrastogi/Doc2Api",
+      "profile": "automation",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z second-target A\u2192E: CLEAN /home/arnavrastogi/Doc2Api A=ok B=ok (pytest 9) C=ok wt=/home/arnavrastogi/Doc2Api-kit-a-to-z-20260908T024136 branch=peer/kit-a-to-z-20260908T024136 @ d5ea399 D=PR https://github.com/heyitsmeyourbudlol-lgtm/Doc2Api/pull/2 E=writeback; Mac /Users/togi/Doc2Api no-.git. Prior Phase3 PR #1 2026-09-07. Needle OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07 / OVERSEER_KIT_RUN_AE_2026_09_07.",
+      "verify_commands": [
+        "cd backend && .venv/bin/python -m pytest tests/test_app.py tests/test_chunking.py tests/test_health.py tests/test_product.py -q"
+      ],
+      "dgx_path": "/home/arnavrastogi/Doc2Api",
+      "namespace": "doc2api",
+      "priority": "proof"
+    },
+    {
+      "name": "F.I.R.E. Project",
+      "path": "/Users/togi/F.I.R.E. Project",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "fire-project",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z eleventh-target A\u2192E: Mac /Users/togi/F.I.R.E. Project A=ok (adapt --quick) B=ok (self-check --quick) C=ok wt=/Users/togi/F.I.R.E. Project-kit-a-to-z-20260908T035519 branch=peer/kit-a-to-z-20260908T035519 @ 2ec9c7e D=PR https://github.com/heyitsmeyourbudlol-lgtm/FIRE-Project/pull/1 E=writeback; seeded empty .git then origin. Needle OVERSEER_KIT_RUN_AE_2026_09_07.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ]
+    },
+    {
+      "name": "Marketplace",
+      "path": "/Users/togi/Marketplace",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "marketplace",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z twelfth-target A\u2192E: Mac /Users/togi/Marketplace A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/Marketplace-kit-a-to-z-20260908T035850 branch=peer/kit-a-to-z-20260908T035850 \u00b7 seed PR #1 MERGED \u00b7 lean PR #3 MERGED \u00b7 canonical adapt wt=\u2026T035933 PR #4 @ 9af3041 \u00b7 Needle OVERSEER_KIT_RUN_AE_2026_09_07.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ]
+    },
+    {
+      "name": "MATTERNTHREAD",
+      "path": "/home/arnavrastogi/MATTERNTHREAD",
+      "profile": "python",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z sixth-target A\u2192E: CLEAN /home/arnavrastogi/MATTERNTHREAD A=ok B=ok (self-check ISSUES:none + test_automation 69 + pytest test_mdns_parser 7) C=ok wt=/home/arnavrastogi/MATTERNTHREAD-kit-a-to-z-20260908T030656 branch=peer/kit-a-to-z-20260908T030656 @ 68d1098 D=PR https://github.com/heyitsmeyourbudlol-lgtm/MATTERNTHREAD/pull/1 E=writeback; Needle OVERSEER_KIT_RUN_AE_2026_09_07. Prior 2026-09-03 adapt --audit ok.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 -m unittest tests.test_automation -q",
+        "python3 -m pytest tests/test_mdns_parser.py -q"
+      ],
+      "priority": "proof"
+    },
+    {
+      "name": "SaaS Health Dashboard",
+      "path": "/Users/togi/SaaS Health Dashboard",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "notes": "2026-09-08 kit_a_to_z thirteenth-target A\u2192E: Mac /Users/togi/SaaS Health Dashboard A=ok B=ok (self-check --quick ISSUES:none) C=ok seed wt=\u2026T040422 @ 9507ee2 D=PR https://github.com/heyitsmeyourbudlol-lgtm/SaaS-Health-Dashboard/pull/1 MERGED da18f81 + product PR #2 MERGED + product+kit PR #3 MERGED 3e8a448 @ fd72d63 E=writeback; no-.git seeded; origin heyitsmeyourbudlol-lgtm/SaaS-Health-Dashboard; tip origin/main 3e8a448; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTEENTH_TARGET.md \u00b7 2026-09-08 fourteenth orphan residual ff7bfc3 superseded (product parity via PR#2+#3 MERGED 3e8a448; receipt notes/KIT_A_TO_Z_FOURTEENTH_TARGET.md)",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "namespace": "saas-health-dashboard",
+      "priority": "proof"
+    },
+    {
+      "name": "Terminal",
+      "path": "/Users/togi/Terminal",
+      "profile": "python",
+      "status": "adapt-verified-mac",
+      "namespace": "terminal",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z tenth-target A\u2192E: Mac /Users/togi/Terminal A=ok (adapt --quick) B=ok (self-check --quick) C=ok wt=/Users/togi/Terminal-kit-a-to-z-20260908T035024 branch=peer/kit-a-to-z-20260908T035024 @ c9642bb D=PR https://github.com/heyitsmeyourbudlol-lgtm/Terminal/pull/1 E=writeback; initial D=blocked_receipt (no_origin_remote) then origin seeded. Needle OVERSEER_KIT_RUN_AE_2026_09_07.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ]
+    },
+    {
+      "name": "battery",
+      "path": "/home/arnavrastogi/battery",
+      "profile": "automation",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z third target GREEN: CLEAN /home/arnavrastogi/battery A=ok B=ok C=ok wt=/home/arnavrastogi/battery-kit-a-to-z-20260908T024732 branch=peer/kit-a-to-z-20260908T024732 @ 1cd692b D=PR https://github.com/heyitsmeyourbudlol-lgtm/battery/pull/2 E=writeback; reaffirm wt=\u2026T024906 @ 56b1553 PR https://github.com/heyitsmeyourbudlol-lgtm/battery/pull/3; Needle OVERSEER_KIT_RUN_AE_2026_09_07. 2026-09-07T20:40Z integration_architect peer-5 confirm: wt battery-peer-integration-p5 self-check ISSUES:none + test_battery 9/9 + test_automation 69 OK; adapt ok=True; status=adapt-verified-dgx; external deferred CREATIVE (self_sufficient). 2026-09-07T20:36Z integration_architect peer-5: re-verify battery under factory_meter_mode=self_sufficient \u2014 adapt --heal --write --quick ok=True on wt /home/arnavrastogi/battery-peer-integration-p5 @ peer/integration-p5; native verify IN worktree: unittest tests.test_battery 9/9 OK EXIT0; tests.test_automation 69 OK EXIT0; peer_orchestrate --self-check ISSUES:none EXIT0. proof_ref notes/INTEGRATION_PROOF_BATTERY.md. status=adapt-verified-dgx. external-proof-adapted / public PR deferred CREATIVE_BACKLOG (deferred:true). Prior: 2026-09-03 hub SoT writeback+readback after re-verify tests.test_battery 9/9.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 -m unittest tests.test_battery -q",
+        "python3 -m unittest tests.test_automation -q"
+      ],
+      "dgx_path": "/home/arnavrastogi/battery",
+      "namespace": "battery",
+      "priority": "proof"
+    },
+    {
+      "name": "browser",
+      "path": "/home/arnavrastogi/browser",
+      "profile": "automation",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z fourth-target A\u2192E: CLEAN /home/arnavrastogi/browser A=ok B=ok (self-check ISSUES:none + test_automation 69) C=ok wt=/home/arnavrastogi/browser-kit-a-to-z-20260908T025246 branch=peer/kit-a-to-z-20260908T025246 @ 9dfefd6 D=PR https://github.com/heyitsmeyourbudlol-lgtm/browser/pull/1 E=writeback; initial D=blocked_receipt then origin wired. Needle OVERSEER_KIT_RUN_AE_2026_09_07. Prior 2026-09-03 integration_architect: proof notes/INTEGRATION_PROOF_BROWSER.md.",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 -m unittest tests.test_automation -q"
+      ]
+    },
+    {
+      "name": "deepseek-cursor-proxy",
+      "path": "/home/arnavrastogi/deepseek-cursor-proxy",
+      "profile": "python",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z seventh-target A\u2192E: CLEAN /home/arnavrastogi/deepseek-cursor-proxy A=ok B=ok C=ok wt=\u2026T031149 @ 2a980f1 D=PR https://github.com/heyitsmeyourbudlol-lgtm/deepseek-cursor-proxy/pull/1 E=writeback; Needle OVERSEER_KIT_RUN_AE_2026_09_07. 2026-09-07T15:45Z integration_architect peer-6: factory_meter_mode=self_sufficient \u2014 external irreversible PR deferred CREATIVE_BACKLOG (deferred:true). Needle: peer-6 registry lagged hub (deepseek=adapted). Root cause: adapt KIT_COPY_PATHS omitted root dgx_speed.local.json \u2192 fresh worktree fail test_root_dgx_speed_peer_caps_match_scripts_overlay. Fix: KIT_COPY_PATHS+=dgx_speed.local.json (peer-6+hub). Worktree /home/arnavrastogi/deepseek-cursor-proxy-peer-integration-p6 @ peer/integration-p6: adapt --heal --write --quick ok; native verify self-check ISSUES:none EXIT0; env -u PEER_LOOP_PAID_API unittest tests.test_automation 91 OK EXIT0. proof_ref notes/INTEGRATION_PROOF_DEEPSEEK.md. status=adapt-verified-dgx. Newdrop TOP10 production merge deferred same meter. Prior: 2026-09-07T15:45Z int",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "env -u PEER_LOOP_PAID_API python3 -m unittest tests.test_automation -q"
+      ],
+      "dgx_path": "/home/arnavrastogi/deepseek-cursor-proxy",
+      "priority": "proof"
+    },
+    {
+      "name": "falcon-ai",
+      "path": "/home/arnavrastogi/falcon-ai",
+      "profile": "automation",
+      "status": "adapt-verified-dgx",
+      "notes": "2026-09-08 kit_a_to_z fifth-target A\u2192E: CLEAN /home/arnavrastogi/falcon-ai A=ok B=ok C=ok wt=/home/arnavrastogi/falcon-ai-kit-a-to-z-20260908T030039 branch=peer/kit-a-to-z-20260908T030039 @ c196909 D=PR https://github.com/heyitsmeyourbudlol-lgtm/falcon-ai/pull/1 E=writeback; initial D=blocked_receipt then origin wired + Mac gh. Needle OVERSEER_KIT_RUN_AE_2026_09_07. 2026-09-07T21:28Z integration_architect peer-5: OSS niche re-verify falcon-ai under factory_meter_mode=self_sufficient \u2014 adapt --heal --write --quick ok=True on target /home/arnavrastogi/falcon-ai; native verify IN worktree /home/arnavrastogi/falcon-ai-peer-integration-p5w19 @ peer/integration-p5w19 HEAD f1506cb: peer_orchestrate --self-check ISSUES:none EXIT0; unittest tests.test_automation 69 OK EXIT0; tests.test_run_peer_tasks 13 OK. proof_ref notes/INTEGRATION_PROOF_FALCON_AI.md. status=adapt-verified-dgx (no external-proof-adapted flip). public PR deferred CREATIVE_BACKLOG (deferred:true). 2026-09-07T21:27Z integration_architect peer-5: re-verify falcon-ai under factory_meter_mode=self_sufficient \u2014 adapt --heal --write --quick ok=True on wt /home/arnavrastogi/falcon-ai-peer-integration-p5 @ peer/integration-p5; native verify IN worktree: peer_orchestrate --self-check ISSUES:none EXIT0; unittest tests.test_automation 69 OK EXIT0. proof_ref notes/INTEGRATION_PROOF_FALCON_AI.md (restored on peer-5; was cited-but-MISS). status=adapt-verified-dgx. external-proof-adapted / public PR deferred CREATIVE_BACKLOG (deferred:true). 2026-09-05T16:03Z integration_architect peer-1: mid-cycle recheck \u2014 notes/INTEGRATION_PROOF_FALCON_AI.md NOW EXISTS (was cited-but-MISS at plan-gate ls); cite proof_ref. status=adapt-verified-dgx; factory_meter_mode=self_sufficient \u2014 external-proof-adapted deferred CREATIVE_BACKLOG (no public PR this cycle).",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check",
+        "python3 -m unittest tests.test_automation -q"
+      ],
+      "namespace": "falcon-ai",
+      "priority": "ship",
+      "dgx_path": "/home/arnavrastogi/falcon-ai"
+    },
+    {
+      "name": "News",
+      "path": "/Users/togi/News",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "news",
+      "priority": "proof",
+      "notes": "fourteenth kit-run 2026-09-08 A\u2192E PR #1+#2+#4 MERGED tip 614a0d7 \u00b7 NO PAY",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ]
+    },
+    {
+      "name": "CyberActivity",
+      "path": "/Users/togi/CyberActivity",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "notes": "fifteenth kit-run 2026-09-08 A\u2192E PR #1 MERGED 2b24eb7 + reaffirm PR #5/#6 MERGED tip c312c19 \u00b7 peer/kit-a-to-z-20260908T042741 @ 65da668 \u00b7 NO PAY",
+      "namespace": "cyberactivity",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ]
+    },
+    {
+      "name": "HumanTyper",
+      "path": "/Users/togi/HumanTyper",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "humantyper",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z sixteenth-target A\u2192E: Mac /Users/togi/HumanTyper A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/HumanTyper-kit-a-to-z-20260908T042831 branch=peer/kit-a-to-z-20260908T042831 @ 5046031 D=PR https://github.com/heyitsmeyourbudlol-lgtm/HumanTyper/pull/1 MERGED 3e7cb42 E=writeback; empty .git seeded product a421196; origin heyitsmeyourbudlol-lgtm/HumanTyper; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_SIXTEENTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/HumanTyper"
+    },
+    {
+      "name": "RamTransfer",
+      "path": "/Users/togi/RamTransfer",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "ramtransfer",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z seventeenth-target A\u2192E: Mac /Users/togi/RamTransfer A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/RamTransfer-kit-a-to-z-20260908T043653 branch=peer/kit-a-to-z-20260908T043653 @ 17ef0e8 D=PR https://github.com/heyitsmeyourbudlol-lgtm/RamTransfer/pull/1 MERGED 3a1ec04 + lean PR https://github.com/heyitsmeyourbudlol-lgtm/RamTransfer/pull/2 MERGED 13d98b1 E=writeback; empty .git seeded README d9de331; origin heyitsmeyourbudlol-lgtm/RamTransfer; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_SEVENTEENTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/RamTransfer"
+    },
+    {
+      "name": "blenderMCPconnect",
+      "path": "/Users/togi/blenderMCPconnect",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "blendermcpconnect",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z eighteenth-target A\u2192E: Mac /Users/togi/blenderMCPconnect A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/blenderMCPconnect-kit-a-to-z-20260908T045638 branch=peer/kit-a-to-z-20260908T045638 @ 68dd90c D=PR https://github.com/heyitsmeyourbudlol-lgtm/blenderMCPconnect/pull/1 MERGED 5ab2511 + lean PR https://github.com/heyitsmeyourbudlol-lgtm/blenderMCPconnect/pull/2 MERGED a9a092e E=writeback; empty .git seeded product bdd7a4d; HF_TOKEN.drop excluded; origin heyitsmeyourbudlol-lgtm/blenderMCPconnect; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_EIGHTEENTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/blenderMCPconnect"
+    },
+    {
+      "name": "bybit",
+      "path": "/Users/togi/bybit",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "bybit",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z nineteenth-target A\u2192E: Mac /Users/togi/bybit A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/bybit-kit-a-to-z-20260908T050817 branch=peer/kit-a-to-z-20260908T050817 @ 5ab5439 D=PR https://github.com/heyitsmeyourbudlol-lgtm/bybit/pull/1 MERGED 01793d4 + lean PR https://github.com/heyitsmeyourbudlol-lgtm/bybit/pull/3 MERGED e64d3f0 + cite PR https://github.com/heyitsmeyourbudlol-lgtm/bybit/pull/4 MERGED tip 8f00d1e E=writeback; empty .git seeded product 5973ddc; .venv excluded; fat PR#2 CLOSED; origin heyitsmeyourbudlol-lgtm/bybit; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_NINETEENTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/bybit"
+    },
+    {
+      "name": "Congressional App Challenge",
+      "path": "/Users/togi/Congressional App Challenge",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "congressional-app-challenge",
+      "priority": "proof",
+      "notes": "2026-09-08 kit_a_to_z twentieth-target A\u2192E: Mac /Users/togi/Congressional App Challenge A=ok B=ok (self-check --quick) C=ok wt=/Users/togi/Congressional App Challenge-kit-a-to-z-20260908T050852 branch=peer/kit-a-to-z-20260908T050852 @ e98098e D=PR https://github.com/heyitsmeyourbudlol-lgtm/Congressional-App-Challenge/pull/1 MERGED 939c5d6 + lean PR https://github.com/heyitsmeyourbudlol-lgtm/Congressional-App-Challenge/pull/2 MERGED tip 96a80c1 @ 863d0d2 (wt \u2026T051444) E=writeback; empty .git seeded product dfc3281; origin heyitsmeyourbudlol-lgtm/Congressional-App-Challenge; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTIETH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/Congressional App Challenge"
+    },
+    {
+      "name": "freesurfsharkone",
+      "path": "/Users/togi/freesurfsharkone",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "freesurfsharkone",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-first kit A\u2192E MERGED PR#1 tip c6c4920 @ 87472ca; lean PR#2 MERGED tip 5e17e3a @ 868d0c9; seed eef771a; origin heyitsmeyourbudlol-lgtm/freesurfsharkone; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_FIRST_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/freesurfsharkone"
+    },
+    {
+      "name": "movie",
+      "path": "/Users/togi/movie",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "movie",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-second kit A\u2192E MERGED PR#1 tip fcd52e0 @ 94126b2 + lean PR#2 tip 0f1b6b6 @ 84e53ab; seed 2054fc9; origin heyitsmeyourbudlol-lgtm/movie; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_SECOND_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/movie"
+    },
+    {
+      "name": "scratch",
+      "path": "/Users/togi/scratch",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "scratch",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-third kit A\u2192E fat PR#1 MERGED 5ddea98 @ a6bc0f4; fat PR#2 CLOSED; cite PR#3 20a31fd; lean strip PR#4 MERGED tip 9c32729 @ 04bbe77 (no DEBRIEF); seed 1eb5574; origin heyitsmeyourbudlol-lgtm/scratch; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_THIRD_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/scratch"
+    },
+    {
+      "name": "storage",
+      "path": "/Users/togi/storage",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "storage",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-fourth kit A\u2192E MERGED PR#1 tip 37baca0 @ c1a95e0 + lean cite PR#2 tip acc12e9 @ 19b882d; seed da8e1f5; origin heyitsmeyourbudlol-lgtm/storage; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_FOURTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/storage"
+    },
+    {
+      "name": "sweep",
+      "path": "/Users/togi/sweep",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "sweep",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-fifth kit A\u2192E fat PR#1 MERGED 43c3fc8 @ f7e93be; lean PR#2 MERGED 791b27a @ 700df09; lean strip PR#3 MERGED tip 35c6d6e @ 5f7b004; seed 6f7a128; origin heyitsmeyourbudlol-lgtm/sweep; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_FIFTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/sweep"
+    },
+    {
+      "name": "wisprflow",
+      "path": "/Users/togi/wisprflow",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "wisprflow",
+      "priority": "proof",
+      "notes": "2026-09-08 twenty-sixth kit A\u2192E MERGED PR#6 tip 1d64938 @ db63d49 + cite PR#7 tip 6c79c74 @ 8ce77f8; origin heyitsmeyourbudlol-lgtm/clearvoice; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_SIXTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/wisprflow"
+    },
+    {
+      "name": "impactmap",
+      "path": "/Users/togi/Projects/impactmap",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "impactmap",
+      "priority": "proof",
+      "notes": "2026-09-09 twenty-seventh kit A\u2192E MERGED PR#1 tip 259539f @ 685d363; lean notes allowlist; origin heyitsmeyourbudlol-lgtm/impactmap; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_SEVENTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/Projects/impactmap"
+    },
+    {
+      "name": "fire-project-site",
+      "path": "/Users/togi/Downloads/F.I.R.E-projecct-main",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "fire-project-site",
+      "priority": "proof",
+      "notes": "2026-09-09 twenty-eighth kit A\u2192E MERGED PR#1 tip 3f0d7c3 @ 697e04a; lean notes allowlist; origin heyitsmeyourbudlol-lgtm/fire-project-site; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_EIGHTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/Downloads/F.I.R.E-projecct-main"
+    },
+    {
+      "name": "clearvoice-site",
+      "path": "/Users/togi/clearvoice-site",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "clearvoice-site",
+      "priority": "proof",
+      "notes": "2026-09-09 twenty-ninth kit A\u2192E MERGED PR#2 tip 9779ee9 @ 9c7ddeb; lean notes allowlist; origin heyitsmeyourbudlol-lgtm/clearvoice-site; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_TWENTY_NINTH_TARGET.md",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "mac_path": "/Users/togi/clearvoice-site"
+    },
+    {
+      "name": "2D",
+      "path": "/Users/togi/2D",
+      "mac_path": "/Users/togi/2D",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "2d-gamehub",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirtieth kit A\u2192E MERGED PR#1 tip a9d593e @ 781a61a; seed 58ab581; origin heyitsmeyourbudlol-lgtm/2D; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTIETH_TARGET.md"
+    },
+    {
+      "name": "Executive Tycoon 3D",
+      "path": "/Users/togi/Executive Tycoon 3D",
+      "mac_path": "/Users/togi/Executive Tycoon 3D",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "executive-tycoon-3d",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-first kit A\u2192E MERGED PR#1 tip 3fc7da8 @ 072e3cf; seed e9e9c2c; origin heyitsmeyourbudlol-lgtm/Executive-Tycoon-3D; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_FIRST_TARGET.md"
+    },
+    {
+      "name": "Trading",
+      "path": "/Users/togi/Trading",
+      "mac_path": "/Users/togi/Trading",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "trading",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-second kit A\u2192E MERGED PR#1 tip f13377c @ b5c819e; seed 8bafb8c; origin heyitsmeyourbudlol-lgtm/Trading; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_SECOND_TARGET.md"
+    },
+    {
+      "name": "Notion Airtable Backup",
+      "path": "/Users/togi/Notion:Airtable Backup",
+      "mac_path": "/Users/togi/Notion:Airtable Backup",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "notion-airtable-backup",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-third kit A\u2192E MERGED PR#1 tip 8572a0e @ 147acf3; seed b2c03e0; origin heyitsmeyourbudlol-lgtm/Notion-Airtable-Backup; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_THIRD_TARGET.md"
+    },
+    {
+      "name": "add-on-antlandscape",
+      "path": "/Users/togi/Downloads/add-on-antlandscape-v0.2.0",
+      "mac_path": "/Users/togi/Downloads/add-on-antlandscape-v0.2.0",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "add-on-antlandscape",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-fourth kit A\u2192E MERGED PR#1 tip 93152ce @ 6e8319e; seed 3546e63; origin heyitsmeyourbudlol-lgtm/add-on-antlandscape; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_FOURTH_TARGET.md"
+    },
+    {
+      "name": "add-on-extra-curve-objectes",
+      "path": "/Users/togi/Downloads/add-on-extra-curve-objectes-v0.2.0",
+      "mac_path": "/Users/togi/Downloads/add-on-extra-curve-objectes-v0.2.0",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "add-on-extra-curve-objectes",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-fifth kit A\u2192E MERGED PR#1 tip e185243 @ 5363870; seed 468ef30; origin heyitsmeyourbudlol-lgtm/add-on-extra-curve-objectes; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_FIFTH_TARGET.md"
+    },
+    {
+      "name": "add-on-extra-mesh-objects",
+      "path": "/Users/togi/Downloads/add-on-extra-mesh-objects-v0.4.1",
+      "mac_path": "/Users/togi/Downloads/add-on-extra-mesh-objects-v0.4.1",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "add-on-extra-mesh-objects",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-sixth kit A\u2192E MERGED PR#1 tip abc7476 @ a65158b; seed de64a01; origin heyitsmeyourbudlol-lgtm/add-on-extra-mesh-objects; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_SIXTH_TARGET.md"
+    },
+    {
+      "name": "autoremesher",
+      "path": "/Users/togi/Downloads/autoremesher-master",
+      "mac_path": "/Users/togi/Downloads/autoremesher-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "autoremesher",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-seventh kit A\u2192E MERGED PR#1 tip edaa08b @ 1c31052; seed 236460d; origin heyitsmeyourbudlol-lgtm/autoremesher; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_SEVENTH_TARGET.md"
+    },
+    {
+      "name": "BakeMaster-Blender",
+      "path": "/Users/togi/Downloads/BakeMaster-Blender-master",
+      "mac_path": "/Users/togi/Downloads/BakeMaster-Blender-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "bakemaster-blender",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-eighth kit A\u2192E MERGED PR#1 tip 48c659d @ df47564; seed 17df769; origin heyitsmeyourbudlol-lgtm/BakeMaster-Blender; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_EIGHTH_TARGET.md"
+    },
+    {
+      "name": "Blender-Texel-Density-Checker",
+      "path": "/Users/togi/Downloads/Blender-Texel-Density-Checker-master",
+      "mac_path": "/Users/togi/Downloads/Blender-Texel-Density-Checker-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "blender-texel-density-checker",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 thirty-ninth kit A\u2192E MERGED PR#1 tip 16da952 @ 094dc28; seed 9ea368f; origin heyitsmeyourbudlol-lgtm/Blender-Texel-Density-Checker; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_THIRTY_NINTH_TARGET.md"
+    },
+    {
+      "name": "camera_shakify",
+      "path": "/Users/togi/Downloads/camera_shakify-master",
+      "mac_path": "/Users/togi/Downloads/camera_shakify-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "camera-shakify",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 fortieth kit A\u2192E MERGED PR#1 tip 193f784 @ 9dfed89; seed 67d31de; origin heyitsmeyourbudlol-lgtm/camera_shakify; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_FORTIETH_TARGET.md"
+    },
+    {
+      "name": "Gaffer",
+      "path": "/Users/togi/Downloads/Gaffer-master",
+      "mac_path": "/Users/togi/Downloads/Gaffer-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "gaffer",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 forty-first kit A\u2192E MERGED PR#1 tip 3afa3c5 @ b09aa38; seed 8511cc9; origin heyitsmeyourbudlol-lgtm/Gaffer; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_FORTY_FIRST_TARGET.md"
+    },
+    {
+      "name": "MACHIN3tools",
+      "path": "/Users/togi/Downloads/MACHIN3tools-master",
+      "mac_path": "/Users/togi/Downloads/MACHIN3tools-master",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "machin3tools",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 forty-second kit A\u2192E MERGED PR#1 tip b9fa524 @ ddb2839; seed 6068412; origin heyitsmeyourbudlol-lgtm/MACHIN3tools; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_FORTY_SECOND_TARGET.md"
+    },
+    {
+      "name": "hardflow",
+      "path": "/Users/togi/Downloads/hardflow-main",
+      "mac_path": "/Users/togi/Downloads/hardflow-main",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "hardflow",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 forty-third kit A\u2192E MERGED PR#1 tip e60362c @ d2e20cc; seed 80b7034; origin heyitsmeyourbudlol-lgtm/hardflow; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_FORTY_THIRD_TARGET.md"
+    },
+    {
+      "name": "PowerSave",
+      "path": "/Users/togi/Downloads/PowerSave",
+      "mac_path": "/Users/togi/Downloads/PowerSave",
+      "profile": "automation",
+      "status": "adapt-verified-mac",
+      "namespace": "powersave",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 forty-fourth kit A\u2192E MERGED PR#1 tip 1f3bce7 @ 5128508; seed 392d8ab; origin heyitsmeyourbudlol-lgtm/PowerSave; lean notes allowlist; Needle OVERSEER_KIT_RUN_AE_2026_09_07 \u00b7 NO PAY \u00b7 receipt notes/KIT_A_TO_Z_FORTY_FOURTH_TARGET.md"
+    },
+    {
+      "name": "blender_buddy",
+      "path": "/Users/togi/Downloads/blender_buddy",
+      "mac_path": "/Users/togi/Downloads/blender_buddy",
+      "profile": "automation",
+      "status": "registered",
+      "namespace": "blender_buddy",
+      "priority": "proof",
+      "verify_commands": [
+        "python3 scripts/peer_orchestrate.py --self-check --quick"
+      ],
+      "notes": "2026-09-09 forty-fifth kit claim: Mac no-.git residual seeded 868d8b0; origin heyitsmeyourbudlol-lgtm/blender_buddy; Needle OVERSEER_KIT_RUN_AE_2026_09_07 · NO PAY"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"[quality vs serve split_maybe] honesty — text sample-86","output":{"label":"quality vs serve split_maybe"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Niche quality_vs_serve_split: label=unknown | text | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Kit lock — Classify quality_vs_serve_split as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (serve vs quality gate)","output":{"label":"unknown"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Kit lock — [quality vs serve split_yes] honesty — text sample-36","output":{"label":"quality vs serve split_yes"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Niche quality_vs_serve_split: label=abstain | text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Niche quality_vs_serve_split: label=quality vs serve split_maybe | text | peer_loop IDLE seed","output":{"label":"quality vs serve split_maybe"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Factory unknown for quality_vs_serve_split: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Classify quality_vs_serve_split as quality vs serve split_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (serve vs quality gate)","output":{"label":"quality vs serve split_maybe"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Niche quality_vs_serve_split: label=quality vs serve split_escalate | text | WORK_QUEUE Active empty","output":{"label":"quality vs serve split_escalate"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Kit lock — Factory quality vs serve split_maybe for quality_vs_serve_split: GDS cuFile forbidden","output":{"label":"quality vs serve split_maybe"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Factory quality vs serve split_no for quality_vs_serve_split: fact_checker prefer-order","output":{"label":"quality vs serve split_no"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Niche quality_vs_serve_split: label=quality vs serve split_no | text | WORK_QUEUE Active empty","output":{"label":"quality vs serve split_no"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"[abstain] honesty — text sample-71","output":{"label":"abstain"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Factory abstain for quality_vs_serve_split: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Kit lock — [abstain] honesty — text sample-41","output":{"label":"abstain"}}
+{"niche_id":"N45","niche":"quality_vs_serve_split","input":"Kit lock — Niche quality_vs_serve_split: label=quality vs serve split_yes | text | peer_loop IDLE seed","output":{"label":"quality vs serve split_yes"}}

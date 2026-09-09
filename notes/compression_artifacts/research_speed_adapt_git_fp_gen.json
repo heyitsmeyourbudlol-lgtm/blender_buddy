@@ -1,0 +1,23 @@
+{
+  "needle": "OVERSEER_ADAPT_GIT_FP_HEAD_INDEX_GENERATION_2026_09_08",
+  "parent": "DGX_SPEED_PLAN hot path item 7",
+  "parallel_needle": "OVERSEER_SELF_CHECK_PARALLEL_ADAPT_2026_09_08",
+  "ts": "20260908T150145Z",
+  "BEFORE": {
+    "git_fp_median_ms": 7.087,
+    "self_check_median_ms": 13.47,
+    "shells_per_call": 2
+  },
+  "AFTER": {
+    "git_fp_miss_median_ms": 7.7377,
+    "git_fp_hit_median_ms": 0.035137,
+    "git_fp_hit_shells": 0,
+    "speedup_x": 201.7,
+    "self_check_median_ms": 7.148
+  },
+  "paths": [
+    "scripts/automation_adapt.py",
+    "scripts/peer_orchestrate.py",
+    "tests/test_automation_adapt.py"
+  ]
+}

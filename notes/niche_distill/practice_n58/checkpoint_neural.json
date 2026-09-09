@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N58",
+  "name": "p0_lane_protect",
+  "domain": "p0_lane_protect",
+  "helps": "RECIPE+ckpt gate",
+  "weights": "notes/niche_distill/practice_n58/weights/n58_p0_lane_protect_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.006426914129406214,
+  "labels": [
+    "allow",
+    "pending",
+    "reject"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N58 '<input>'"
+}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N93",
+  "name": "commit_scope_kit_vs_product",
+  "domain": "commit_scope_kit_vs_product",
+  "helps": "commit msg",
+  "weights": "notes/niche_distill/practice_n93/weights/n93_commit_scope_kit_vs_product_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 2.9940347303636372e-05,
+  "labels": [
+    "abstain",
+    "commit scope kit vs product_escalate",
+    "commit scope kit vs product_maybe",
+    "commit scope kit vs product_no",
+    "commit scope kit vs product_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N93 '<input>'"
+}

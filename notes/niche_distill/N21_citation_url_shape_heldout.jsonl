@@ -1,0 +1,16 @@
+{"niche_id":"N21","niche":"citation_url_shape","input":"Niche citation_url_shape: label=ok | URL | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Factory collision for citation_url_shape: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory missing for citation_url_shape: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[missing] fact hygiene — URL sample-71","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"[collision] fact hygiene — URL sample-1","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory missing for citation_url_shape: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory collision for citation_url_shape: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as ok. Context: sm_121a missing flag (ok/junk)","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory collision for citation_url_shape: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/junk)","output":{"label":"collision"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Classify citation_url_shape as missing. Context: sm_121a missing flag (ok/junk)","output":{"label":"missing"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Factory ok for citation_url_shape: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — [ok] fact hygiene — URL sample-36","output":{"label":"ok"}}
+{"niche_id":"N21","niche":"citation_url_shape","input":"Kit lock — Factory collision for citation_url_shape: GDS cuFile forbidden","output":{"label":"collision"}}

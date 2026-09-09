@@ -1,0 +1,22 @@
+iter 0 False
+iter 1 False
+iter 2 False
+iter 3 False
+iter 4 False
+iter 5 False
+iter 6 False
+iter 7 False
+iter 8 False
+iter 9 False
+iter 10 False
+iter 11 False
+iter 12 False
+iter 13 False
+iter 14 False
+iter 15 False
+iter 16 False
+iter 17 False
+iter 18 False
+iter 19 False
+notes appended
+DONE True True True hold False

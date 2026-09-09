@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "needle": "OVERSEER_FACT_LIBRARIAN_2026_09_07",
+  "domains": [
+    {
+      "id": "peer_runtime",
+      "title": "Peer loop / orchestrate / gates",
+      "role_id": "factory_engineer",
+      "globs": [
+        "scripts/peer_*.py",
+        "scripts/peer",
+        "scripts/run_peer_tasks.py",
+        "scripts/cursor_self_improve.py"
+      ],
+      "sot": [
+        "notes/AUTOMATION.md",
+        "notes/PEER_ORCHESTRATION.md",
+        "notes/AGENT_GATES.md",
+        "AGENTS.md"
+      ],
+      "keywords": [
+        "peer_loop",
+        "orchestrat",
+        "plan-gate",
+        "done-gate",
+        "pre-dispatch",
+        "noop",
+        "worktree",
+        "dispatch"
+      ]
+    },
+    {
+      "id": "memory_remembrance",
+      "title": "Memory span / pack / librarian",
+      "role_id": "factory_engineer",
+      "globs": [
+        "scripts/peer_memory_*.py",
+        "scripts/peer_fact_librarian.py",
+        "scripts/peer_memory_compress.py",
+        "scripts/repo_domain_smes.json",
+        "notes/memory_artifacts/**",
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/MEMORY_SPAN.md",
+        "notes/SOP_AGENT_REMEMBRANCE.md",
+        "notes/SOP_LOSSLESS_MEMORY_COMPRESSION.md",
+        "notes/REPO_DOMAIN_SMES.md",
+        "notes/DOMAIN_OWNERS.md",
+        "notes/AGENT_AMNESIA_RESEARCH.md"
+      ],
+      "sot": [
+        "notes/AGENT_WORKING_MEMORY.md",
+        "notes/SOP_AGENT_REMEMBRANCE.md",
+        "notes/MEMORY_SPAN.md",
+        "notes/DOMAIN_OWNERS.md"
+      ],
+      "keywords": [
+        "memory",
+        "librarian",
+        "remembrance",
+        "always-read",
+        "compress",
+        "pack",
+        "fact-query",
+        "hot memory",
+        "domain sme",
+        "domain_owners",
+        "read-ack"
+      ]
+    },
+    {
+      "id": "queue_sync",
+      "title": "Work queue + context twin",
+      "role_id": "queue_steward",
+      "globs": [
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md",
+        "notes/WORK_ASSIGN.md",
+        "scripts/peer_work_assign.py"
+      ],
+      "sot": [
+        "notes/WORK_QUEUE.md",
+        "scripts/self_improve_context.md"
+      ],
+      "keywords": [
+        "work_queue",
+        "queue",
+        "active",
+        "sync-queue",
+        "compact-queue",
+        "self_improve_context"
+      ]
+    },
+    {
+      "id": "verify_tests",
+      "title": "Verify / unittest / gates",
+      "role_id": "verify_runner",
+      "globs": [
+        "tests/**",
+        "scripts/run_peer_tasks.py",
+        "scripts/peer_self_diagnose.py",
+        "scripts/peer_output_compare.py"
+      ],
+      "sot": [
+        "notes/OUTPUT_COMPARE.md",
+        "notes/AGENT_ERROR_PLAYBOOK.md"
+      ],
+      "keywords": [
+        "verify",
+        "unittest",
+        "test",
+        "pytest",
+        "self-check",
+        "verify-gate"
+      ]
+    },
+    {
+      "id": "adapt_heal",
+      "title": "Adapt / self-heal / playbook",
+      "role_id": "adapt_specialist",
+      "globs": [
+        "scripts/automation_adapt.py",
+        "scripts/peer_self_heal.py",
+        "scripts/peer_playbook.py",
+        "scripts/peer_error_adapt.py",
+        "notes/AGENT_ERROR_PLAYBOOK.md",
+        "notes/AGENT_SURVIVAL.md"
+      ],
+      "sot": [
+        "notes/AGENT_ERROR_PLAYBOOK.md",
+        "notes/AGENT_SURVIVAL.md",
+        "IMPORT.md"
+      ],
+      "keywords": [
+        "adapt",
+        "self-heal",
+        "heal-all",
+        "playbook",
+        "bottleneck",
+        "survival"
+      ]
+    },
+    {
+      "id": "comms_glink",
+      "title": "GLink / agent comms",
+      "role_id": "communications_engineer",
+      "globs": [
+        "scripts/peer_agent_comms.py",
+        "scripts/automation_comms_*.py",
+        "notes/COMMS_*.md",
+        "notes/agent_vaults/**"
+      ],
+      "sot": [
+        "notes/COMMS_HORIZON.md",
+        "scripts/peer_agent_comms.py"
+      ],
+      "keywords": [
+        "glink",
+        "comms",
+        "bus",
+        "vault",
+        "REQ",
+        "ACK",
+        "STAT",
+        "DIFF"
+      ]
+    },
+    {
+      "id": "dashboard_ui",
+      "title": "Dashboard / static UI",
+      "role_id": "frontend_engineer",
+      "globs": [
+        "dashboard/**",
+        "train.html",
+        "train.js"
+      ],
+      "sot": [
+        "dashboard/server.py",
+        "notes/GAUGE_UI.md"
+      ],
+      "keywords": [
+        "dashboard",
+        "agents.html",
+        "progress",
+        "styles.css",
+        "horizon"
+      ]
+    },
+    {
+      "id": "safety_rules",
+      "title": "Safety / rules / secrets",
+      "role_id": "safety_auditor",
+      "globs": [
+        "notes/SAFETY_GATES.md",
+        "notes/RULE_*.md",
+        "notes/PEN_TEST.md",
+        "scripts/peer_rule_shutdown.py",
+        "scripts/peer_pen_test.py",
+        ".cursor/rules/**"
+      ],
+      "sot": [
+        "notes/SAFETY_GATES.md",
+        "notes/RULE_CATALOG.md",
+        "AGENTS.md"
+      ],
+      "keywords": [
+        "safety",
+        "HITL",
+        "rule-shutdown",
+        "no_pay",
+        "secret",
+        "pen-test",
+        "denylist"
+      ]
+    },
+    {
+      "id": "compression_bitnet",
+      "title": "Compression / BitNet / niche distill",
+      "role_id": "compression_engineer",
+      "globs": [
+        "scripts/compression_*.py",
+        "scripts/niche_*.py",
+        "scripts/factory_*.py",
+        "notes/COMPRESSION_*.md",
+        "notes/BITNET_*.md",
+        "notes/niche_distill/**",
+        "notes/compression_artifacts/**",
+        "COMPRESSION_*.md",
+        "BITNET_*.md"
+      ],
+      "sot": [
+        "notes/COMPRESSION_NORTH_STAR.md",
+        "notes/BITNET_RESEARCH_TASKS.md"
+      ],
+      "keywords": [
+        "compression",
+        "bitnet",
+        "nvfp4",
+        "niche",
+        "distill",
+        "lora",
+        "svd",
+        "train"
+      ]
+    },
+    {
+      "id": "dgx_ram",
+      "title": "DGX / RAM / GPU ops",
+      "role_id": "dgx_ops",
+      "globs": [
+        "scripts/dgx_*.py",
+        "scripts/dgx_*.sh",
+        "notes/DGX_*.md",
+        "dgx_speed.local.json",
+        "scripts/dgx_speed.local.json"
+      ],
+      "sot": [
+        "notes/DGX_ROSTER_EXPAND.md",
+        "ROLE_IMPORTANCE.md"
+      ],
+      "keywords": [
+        "dgx",
+        "ram",
+        "gpu",
+        "nvlink",
+        "spark",
+        "clean host"
+      ]
+    },
+    {
+      "id": "docs_sops",
+      "title": "Docs / SOPs / tech writing",
+      "role_id": "tech_writer",
+      "globs": [
+        "notes/SOP_*.md",
+        "notes/SOP_INDEX.md",
+        "notes/README.md",
+        "README.md",
+        "CONTRIBUTING.md",
+        "notes/AUTOMATION.md"
+      ],
+      "sot": [
+        "notes/SOP_INDEX.md",
+        "notes/README.md"
+      ],
+      "keywords": [
+        "sop",
+        "docs",
+        "readme",
+        "tech_writer",
+        "documentation"
+      ]
+    },
+    {
+      "id": "oversight_progress",
+      "title": "Oversight / factory progress",
+      "role_id": "progress_monitor",
+      "globs": [
+        "scripts/peer_oversight*.py",
+        "scripts/factory_progress.py",
+        "scripts/peer_debrief.py",
+        "notes/SYSTEM_OVERSIGHT.md",
+        "notes/KIT_PROGRESS.md",
+        "notes/DEBRIEF_LOG.md"
+      ],
+      "sot": [
+        "notes/SYSTEM_OVERSIGHT.md",
+        "notes/KIT_PROGRESS.md"
+      ],
+      "keywords": [
+        "oversight",
+        "progress",
+        "factory%",
+        "debrief",
+        "stagnation",
+        "monitor"
+      ]
+    },
+    {
+      "id": "agent_builder",
+      "title": "Agent Builder / task→worker",
+      "role_id": "agent_builder",
+      "globs": [
+        "scripts/peer_agent_builder.py",
+        "notes/SOP_AGENT_BUILDER.md",
+        "notes/agent_builder_specs/**",
+        ".cursor/rules/*_sme.mdc"
+      ],
+      "sot": [
+        "notes/SOP_AGENT_BUILDER.md",
+        "scripts/peer_tasks.json"
+      ],
+      "keywords": [
+        "agent-build",
+        "agent-who",
+        "agent_builder",
+        "provision role",
+        "match_rules",
+        "task→worker"
+      ]
+    }
+  ]
+}

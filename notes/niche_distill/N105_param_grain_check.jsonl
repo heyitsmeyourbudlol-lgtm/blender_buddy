@@ -1,0 +1,96 @@
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-61","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → missing. Input shape param_count. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=missing | param_count | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-106","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=ok | param_count | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory missing for param_grain_check: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as collision. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=missing | param_count | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=missing | param_count | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-6","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory missing for param_grain_check: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → ok. Input shape param_count. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=ok | param_count | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as missing. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory missing for param_grain_check: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Factory collision for param_grain_check: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=ok | param_count | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=ok | param_count | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → ok. Input shape param_count. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-21","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as ok. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[missing] anti-inflate — param_count sample-41","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-46","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-16","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory ok for param_grain_check: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=collision | param_count | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory ok for param_grain_check: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=ok | param_count | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Factory ok for param_grain_check: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → collision. Input shape param_count. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Factory ok for param_grain_check: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — [ok] anti-inflate — param_count sample-66","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=missing | param_count | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-51","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — [collision] anti-inflate — param_count sample-76","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-36","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=missing | param_count | WORK_QUEUE Active empty","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — [ok] anti-inflate — param_count sample-111","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[missing] anti-inflate — param_count sample-71","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=ok | param_count | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as missing. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as collision. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — [missing] anti-inflate — param_count sample-56","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → collision. Input shape param_count. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory ok for param_grain_check: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-81","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Factory missing for param_grain_check: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as ok. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as ok. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → collision. Input shape param_count. continue_on_dirty HOLD","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → collision. Input shape param_count. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — [missing] anti-inflate — param_count sample-26","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory ok for param_grain_check: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as collision. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory missing for param_grain_check: fact_checker prefer-order","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=ok | param_count | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → ok. Input shape param_count. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Classify param_grain_check as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[missing] anti-inflate — param_count sample-86","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → missing. Input shape param_count. continue_on_dirty HOLD","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as collision. Context: sm_121a missing flag (ok_10m_class / too_fat / too_thin)","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=missing | param_count | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-1","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → collision. Input shape param_count. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory collision for param_grain_check: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → collision. Input shape param_count. RSS proposal 48GB reject","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=collision | param_count | peer_loop IDLE seed","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Niche param_grain_check: label=missing | param_count | peer_loop IDLE seed","output":{"label":"missing"}}

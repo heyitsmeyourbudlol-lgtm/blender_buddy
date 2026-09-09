@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N102",
+  "name": "niche_serve_route",
+  "domain": "niche_serve_route",
+  "helps": "composer",
+  "weights": "notes/niche_distill/practice_n102/weights/n102_niche_serve_route_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.01651005446910858,
+  "labels": [
+    "abstain",
+    "niche serve route_escalate",
+    "niche serve route_maybe",
+    "niche serve route_no",
+    "niche serve route_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N102 '<input>'"
+}

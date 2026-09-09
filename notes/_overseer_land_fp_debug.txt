@@ -1,0 +1,57 @@
+++ set -x
+++ echo START
+START
+++ ls -la /tmp/m_50whkx /tmp/m_5rjkko /tmp/m__6eawf /tmp/m_agent_sz_1011 /tmp/m_fp_sz_313 /tmp/m_notes_sz_313
+-rw------- 1 arnavrastogi arnavrastogi   0 Sep  3 06:02 /tmp/m_50whkx
+-rw------- 1 arnavrastogi arnavrastogi   0 Sep  1 23:17 /tmp/m_5rjkko
+-rw------- 1 arnavrastogi arnavrastogi   0 Sep  2 14:45 /tmp/m__6eawf
+-rw-rw-r-- 1 arnavrastogi arnavrastogi 120 Sep  3 21:38 /tmp/m_agent_sz_1011
+-rw-rw-r-- 1 arnavrastogi arnavrastogi 120 Sep  3 21:38 /tmp/m_fp_sz_313
+-rw-rw-r-- 1 arnavrastogi arnavrastogi 120 Sep  3 21:38 /tmp/m_notes_sz_313
+++ ls -la /home/arnavrastogi/Automation/notes/_overseer_land_fp.txt
+-rw-rw-r-- 1 arnavrastogi arnavrastogi 313 Sep  3 21:21 /home/arnavrastogi/Automation/notes/_overseer_land_fp.txt
+++ python3 -c '
+import os
+print('\''notes'\'', os.path.getsize('\''/home/arnavrastogi/Automation/notes/_overseer_land_fp.txt'\''))
+print(open('\''/home/arnavrastogi/Automation/notes/_overseer_land_fp.txt'\'','\''r'\'',errors='\''replace'\'').read()[:2500])
+print('\''---AGENT PEEK---'\'')
+print(open('\''/tmp/peek_agent.bin'\'','\''rb'\'').read()[:500])
+'
+notes 313
+promote_open_done_orphans: True
+open_done_orphan_items: True
+success_metrics_ok_no_git_clean: False
+quick_cache_guards_tests_ok: True
+global_agent_cap_clamps: True
+run_local_cycle_ready_no_git_clean_and: True
+product_constraints_no_48: True
+adapt_plan_gate_uses_report2: True
+probe_output_has_external_init: True
+
+---AGENT PEEK---
+b"START\n+++ command base64 -d\n++ cursor_snap_BASH_OPTS_B64='shopt -u autocd\nshopt -u assoc_expand_once\nshopt -u cdable_vars\nshopt -u cdspell\nshopt -u checkhash\nshopt -u checkjobs\nshopt -s checkwinsize\nshopt -s cmdhist\nshopt -u compat31\nshopt -u compat32\nshopt -u compat40\nshopt -u compat41\nshopt -u compat42\nshopt -u compat43\nshopt -u compat44\nshopt -s complete_fullquote\nshopt -u direxpand\nshopt -u dirspell\nshopt -u dotglob\nshopt -u execfail\nshopt -s expand_aliases\nshopt -u extdebug\nshopt -s extglob"
+++ python3 -c '
+import os,glob
+files=sorted(glob.glob('\''/home/arnavrastogi/.cursor/projects/home-arnavrastogi-Automation/agent-tools/*.txt'\''), key=os.path.getmtime)[-3:]
+for f in files:
+  print(f, os.path.getsize(f))
+  with open(f) as fh:
+    first=fh.readline()
+    print('\'' first:'\'', repr(first[:120]))
+    # find ONLY_HELLO
+    fh.seek(0)
+    txt=fh.read(2000)
+    print('\'' head2000 has HELLO'\'', '\''ONLY_HELLO'\'' in txt, '\''OVERSEER'\'' in txt)
+'
+/home/arnavrastogi/.cursor/projects/home-arnavrastogi-Automation/agent-tools/9897e332-632f-432e-9f51-6deb263da17a.txt 1505229
+ first: '+++ command base64 -d\n'
+ head2000 has HELLO False False
+/home/arnavrastogi/.cursor/projects/home-arnavrastogi-Automation/agent-tools/ecf13326-a66e-41c5-aa30-949000833405.txt 61923
+ first: '## Cursor agent notes\n'
+ head2000 has HELLO False False
+/home/arnavrastogi/.cursor/projects/home-arnavrastogi-Automation/agent-tools/6c8a64c0-7a18-48a8-8ba1-6d7461e2ad5f.txt 499860
+ first: '+++ command base64 -d\n'
+ head2000 has HELLO False False
+++ echo DONE
+DONE
+++ cp /tmp/overseer_run.log /home/arnavrastogi/Automation/notes/_overseer_land_fp_debug.txt

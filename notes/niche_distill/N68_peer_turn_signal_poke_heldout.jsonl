@@ -1,0 +1,16 @@
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"[peer turn signal poke_escalate] wake daemon — symptom sample-51","output":{"label":"peer turn signal poke_escalate"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Factory peer turn signal poke_no for peer_turn_signal_poke: fact_checker prefer-order","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Niche peer_turn_signal_poke: label=unknown | symptom | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"[peer turn signal poke_no] wake daemon — symptom sample-1","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"peer_turn_signal_poke decision → peer turn signal poke_no. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — peer_turn_signal_poke decision → unknown. Input shape symptom. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Niche peer_turn_signal_poke: label=peer turn signal poke_no | symptom | WORK_QUEUE Active empty","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Factory peer turn signal poke_yes for peer_turn_signal_poke: GDS cuFile forbidden","output":{"label":"peer turn signal poke_yes"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — peer_turn_signal_poke decision → abstain. Input shape symptom. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — [peer turn signal poke_yes] wake daemon — symptom sample-6","output":{"label":"peer turn signal poke_yes"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Factory peer turn signal poke_escalate for peer_turn_signal_poke: fact_checker prefer-order","output":{"label":"peer turn signal poke_escalate"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Factory peer turn signal poke_yes for peer_turn_signal_poke: GDS cuFile forbidden","output":{"label":"peer turn signal poke_yes"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Factory unknown for peer_turn_signal_poke: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Niche peer_turn_signal_poke: label=peer turn signal poke_escalate | symptom | WORK_QUEUE Active empty","output":{"label":"peer turn signal poke_escalate"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — peer_turn_signal_poke decision → peer turn signal poke_escalate. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer turn signal poke_escalate"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"[unknown] wake daemon — symptom sample-16","output":{"label":"unknown"}}

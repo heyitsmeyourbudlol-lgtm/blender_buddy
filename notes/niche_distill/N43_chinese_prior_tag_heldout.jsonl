@@ -1,0 +1,16 @@
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_no. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory unknown for chinese_prior_tag: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as chinese prior tag_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leverage tag)","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [chinese prior tag_escalate] L6 — model sample-111","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_escalate | model | WORK_QUEUE Active empty","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_no. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_no. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=unknown | model | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[chinese prior tag_maybe] L6 — model sample-86","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as abstain. Context: sm_121a missing flag (leverage tag)","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Niche chinese_prior_tag: label=chinese prior tag_yes | model | peer_loop IDLE seed","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → abstain. Input shape model. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → abstain. Input shape model. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Classify chinese_prior_tag as chinese prior tag_no. Context: sm_121a missing flag (leverage tag)","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [chinese prior tag_escalate] L6 — model sample-81","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_escalate. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_escalate"}}

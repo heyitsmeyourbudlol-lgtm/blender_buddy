@@ -1,0 +1,16 @@
+{"niche_id":"N33","niche":"commit_msg_style","input":"[unknown] ship — diff sample-46","output":{"label":"unknown"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Classify commit_msg_style as commit msg style_no. Context: sm_121a missing flag (why-msg)","output":{"label":"commit msg style_no"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Factory abstain for commit_msg_style: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Niche commit_msg_style: label=unknown | diff | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — Classify commit_msg_style as commit msg style_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (why-msg)","output":{"label":"commit msg style_maybe"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — Factory commit msg style_escalate for commit_msg_style: fact_checker prefer-order","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — Classify commit_msg_style as abstain. Context: sm_121a missing flag (why-msg)","output":{"label":"abstain"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — Classify commit_msg_style as commit msg style_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (why-msg)","output":{"label":"commit msg style_yes"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"commit_msg_style decision → commit msg style_escalate. Input shape diff. RSS proposal 48GB reject","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"commit_msg_style decision → commit msg style_escalate. Input shape diff. RSS proposal 48GB reject","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — commit_msg_style decision → commit msg style_escalate. Input shape diff. RSS proposal 48GB reject","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Kit lock — [commit msg style_escalate] ship — diff sample-21","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Niche commit_msg_style: label=abstain | diff | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"[abstain] ship — diff sample-41","output":{"label":"abstain"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Classify commit_msg_style as commit msg style_escalate. Context: sm_121a missing flag (why-msg)","output":{"label":"commit msg style_escalate"}}
+{"niche_id":"N33","niche":"commit_msg_style","input":"Classify commit_msg_style as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (why-msg)","output":{"label":"unknown"}}

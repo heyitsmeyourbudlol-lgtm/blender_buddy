@@ -1,0 +1,10 @@
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[unknown] parallel peers — task sample-46","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"subagent_type_pick decision → subagent type pick_yes. Input shape task. continue_on_dirty HOLD","output":{"label":"subagent type pick_yes"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Kit lock — [subagent type pick_escalate] parallel peers — task sample-51","output":{"label":"subagent type pick_escalate"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Kit lock — [subagent type pick_maybe] parallel peers — task sample-26","output":{"label":"subagent type pick_maybe"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Kit lock — [subagent type pick_no] parallel peers — task sample-31","output":{"label":"subagent type pick_no"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"Niche subagent_type_pick: label=subagent type pick_maybe | task | peer_loop IDLE seed","output":{"label":"subagent type pick_maybe"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"subagent_type_pick decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"[abstain] parallel peers — task sample-41","output":{"label":"abstain"}}
+{"niche_id":"N88","niche":"subagent_type_pick","input":"subagent_type_pick decision → abstain. Input shape task. RSS proposal 48GB reject","output":{"label":"abstain"}}

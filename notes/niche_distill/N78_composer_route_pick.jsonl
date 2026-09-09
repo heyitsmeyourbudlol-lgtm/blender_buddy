@@ -1,0 +1,96 @@
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Niche composer_route_pick: label=composer route pick_no | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_escalate] niche_composer — task sample-111","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Factory composer route pick_maybe for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_yes for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_escalate | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Factory composer route pick_escalate for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_no. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory unknown for composer_route_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_escalate. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_escalate for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — composer_route_pick decision → composer route pick_yes. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_no. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_escalate | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory abstain for composer_route_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_yes | task | peer_loop IDLE seed","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_maybe for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_yes. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_escalate. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_escalate for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[unknown] niche_composer — task sample-76","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_no for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory abstain for composer_route_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [unknown] niche_composer — task sample-16","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_no. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → abstain. Input shape task. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_yes] niche_composer — task sample-96","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_escalate. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[abstain] niche_composer — task sample-101","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_yes | task | peer_loop IDLE seed","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Factory abstain for composer_route_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_yes] niche_composer — task sample-36","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_no] niche_composer — task sample-91","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_no for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Niche composer_route_pick: label=composer route pick_maybe | task | peer_loop IDLE seed","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_escalate] niche_composer — task sample-21","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Niche composer_route_pick: label=composer route pick_escalate | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_no | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_no. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_yes] niche_composer — task sample-66","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory unknown for composer_route_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as composer route pick_escalate. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [abstain] niche_composer — task sample-11","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_maybe] niche_composer — task sample-86","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → abstain. Input shape task. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_escalate] niche_composer — task sample-51","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Niche composer_route_pick: label=composer route pick_maybe | task | peer_loop IDLE seed","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_maybe for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as abstain. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as composer route pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_maybe] niche_composer — task sample-56","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_no] niche_composer — task sample-31","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Factory composer route pick_escalate for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_escalate] niche_composer — task sample-81","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as composer route pick_escalate. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[abstain] niche_composer — task sample-41","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_no. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_yes for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Niche composer_route_pick: label=composer route pick_maybe | task | peer_loop IDLE seed","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory unknown for composer_route_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as composer route pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (top-k niche IDs)","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_no for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as abstain. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_no. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_maybe] niche_composer — task sample-26","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_yes | task | peer_loop IDLE seed","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as abstain. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_escalate | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — composer_route_pick decision → composer route pick_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_no | task | WORK_QUEUE Active empty","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Classify composer_route_pick as abstain. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → abstain. Input shape task. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_yes. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Factory composer route pick_maybe for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — Classify composer_route_pick as composer route pick_no. Context: sm_121a missing flag (top-k niche IDs)","output":{"label":"composer route pick_no"}}

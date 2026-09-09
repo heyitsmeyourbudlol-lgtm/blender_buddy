@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N63",
+  "name": "lean_green_hold_paint",
+  "domain": "lean_green_hold_paint",
+  "helps": "peer_watch",
+  "weights": "notes/niche_distill/practice_n63/weights/n63_lean_green_hold_paint_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.028622006997466087,
+  "labels": [
+    "abstain",
+    "lean green hold paint_escalate",
+    "lean green hold paint_maybe",
+    "lean green hold paint_no",
+    "lean green hold paint_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N63 '<input>'"
+}

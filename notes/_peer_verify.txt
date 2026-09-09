@@ -1,0 +1,52 @@
+CMD ./scripts/peer heal-all rc=1
+STDOUT:
+# Self-heal — bottleneck tracker
+
+_Scanned 2026-09-03 21:55:09_ · enabled=True
+
+No bottlenecks detected.
+
+local: queue (10 tasks) — verify gate
+verify: trimmed 4 unittest worker(s) before gate
+verify: re-trimmed 1 unittest worker(s) during quiet-wait
+verify: quiet (agents=0, unittest=2, self-check=1)
+verify: skipped — another verify already running
+local: verify deferred — swarm/lock; not a gate failure
+[ok] self-heal: /home/arnavrastogi/Automation/scripts/peer self-heal
+[ok] compact-queue: removed=0 open=4 
+[FAIL] sync-queue: module 'project_automation' has no attribute 'promote_open_done_orphans'
+[ok] verify-gate: python3 /home/arnavrastogi/Automation/scripts/run_peer_tasks.py
+
+STDERR:
+
+
+CMD ./scripts/peer test-quick rc=0
+STDOUT:
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmpcitvhzk1/peer-wt
+dry-run: /repo/.worktrees/peer-1
+
+STDERR:
+(pass --execute to run; never uses --force)
+----------------------------------------------------------------------
+Ran 173 tests in 0.619s
+
+OK
+

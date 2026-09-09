@@ -1,0 +1,13 @@
+    \local cmd="${1-__missing__}";
+    \local cmd="${1-__missing__}";
+/tmp/f__final_paste.txt_370_30927f6f3be2
+/tmp/f__hits_only.txt_1045_efd69c1a1559
+/tmp/f_mk1qca
+/tmp/f__overseer_metrics.txt_370_30927f6f3be2
+370 /home/arnavrastogi/Automation/notes/_overseer_metrics.txt
+command: "env -i HOME=\"$HOME\" USER=\"$USER\" PATH=\"/usr/bin:/bin:/usr/local/bin:$HOME/.local/bin\" TERM=dumb bash --noprofile --norc -c '\nset +x\ncd /home/arnavrastogi/Automation || exit 1\nexec > notes/_overseer_metrics.txt 2>&1\necho \"=== clamp ===\"\npython3 -c \"import sys; sys.path.insert(0,\\\"scripts\\\"); import automation_config as ac; print(ac.cap_dgx_install_limits({\\\"dgx_unittest_cap\\\":96,\\\"dgx_host\\\":{\\\"dgx_unittest_cap\\\":96,\\\"dgx_max_cursor_agents\\\":48},\\\"dgx_utilization\\\":{\\\"target_agent_fill\\\":48,\\\"worktree_pool\\\":48}},cap=8))\"\necho \"=== unittest ===\"\npython3 -m unittest tests.test_automation -q; echo ut_rc=$?\necho \"=== test-quick ===\"\n./scripts/peer test-quick; echo tq_rc=$?\necho \"=== heal-all (tail) ===\"\n./scripts/peer heal-all 2>&1 | tail -40; echo heal_rc=$?\necho \"=== factory ===\"\npython3 -c \"import sys; sys.path.insert(0,\\\"scripts\\\"); import factory_progress as fp; p=fp.compute_factory_progress(); print(\\\"pct\\\", getattr(p,\\\"pct\\\",p))\"\necho \"=== self-check issues ===\"\npython3 scripts/peer_orchestrate.py --self-check 2>&1 | head -40\necho \"=== open active ===\"\npython3 -c \"\nimport sys; sys.path.insert(0,\\\"scripts\\\")\nimport project_automation as a\nitems=a._parse_phased_work_items(a.load_work_queue_md())\nprint(\\\"open\\\", len(items))\nfor i in items: print(\\\"-\\\", i[:100])\n\"\necho \"=== adapt heal ===\"\npython3 scripts/automation_adapt.py --heal --write 2>&1 | tail -20\n'\necho STARTED_PID=$!\n"
+EXIT:0
+    \local cmd="${1-__missing__}";
+    \local cmd="${1-__missing__}";
+    \local cmd="${1-__missing__}";
+    \local cmd="${1-__missing__}";

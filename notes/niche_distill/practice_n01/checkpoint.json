@@ -1,0 +1,16 @@
+{
+  "needle": "OVERSEER_NICHE_P0_PRACTICE_N01_2026_09_04",
+  "niche_id": "N01",
+  "niche": "queue_bullet_parse",
+  "checkpoint": "notes/niche_distill/practice_n01/checkpoint.json",
+  "weights": "notes/niche_distill/practice_n01/weights/n01_queue_bullet_parse_practice.pt",
+  "train_jsonl": "notes/niche_distill/N01_queue_bullet_parse.jsonl",
+  "heldout_jsonl": "notes/niche_distill/N01_queue_bullet_parse_heldout.jsonl",
+  "n_train": 36,
+  "n_heldout": 9,
+  "heldout_accuracy": 1.0,
+  "pass_bar": 0.9,
+  "passed": true,
+  "serve": "python3 scripts/niche_n01_practice.py --serve '<line>'",
+  "recipe": "notes/niche_distill/RECIPE.md"
+}

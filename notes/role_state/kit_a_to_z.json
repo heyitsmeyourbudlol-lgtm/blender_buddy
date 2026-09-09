@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "needle": "OVERSEER_AGENT_AMNESIA_RESEARCH_2026_09_07",
+  "role_id": "kit_a_to_z",
+  "assignment": "IDLE \u2014 Phase3 Doc2Api PR #1 done; A\u2192Z open=0; green lock holds. Wake only for new kit-run targets.",
+  "blocked": false,
+  "blocked_reason": "",
+  "files": [
+    "notes/FACTORY_A_TO_Z_PROOF.md"
+  ],
+  "verify_cmd": "python3 -m unittest tests.test_factory_kit_run -q",
+  "updated_ts": 1788800570.95585
+}

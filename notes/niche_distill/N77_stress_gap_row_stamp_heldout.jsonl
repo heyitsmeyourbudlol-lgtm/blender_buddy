@@ -1,0 +1,10 @@
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_escalate] P2 loop — miss class sample-51","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_yes. Input shape miss class. continue_on_dirty HOLD","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=unknown | miss class | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Niche stress_gap_row: label=abstain | miss class | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_maybe | miss class | peer_loop IDLE seed","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_maybe. Input shape miss class. continue_on_dirty HOLD","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as stress gap row_escalate. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[abstain] P2 loop — miss class sample-11","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — [stress gap row_escalate] P2 loop — miss class sample-21","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Factory unknown for stress_gap_row: GDS cuFile forbidden","output":{"label":"unknown"}}

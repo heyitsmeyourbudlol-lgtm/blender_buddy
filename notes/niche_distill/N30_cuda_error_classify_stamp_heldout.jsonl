@@ -1,0 +1,10 @@
+{"niche_id":"N30","niche":"cuda_error_classify","input":"cuda_error_classify decision → cuda error classify_yes. Input shape stderr. continue_on_dirty HOLD","output":{"label":"cuda error classify_yes"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"cuda_error_classify decision → cuda error classify_no. Input shape stderr. RSS proposal 48GB reject","output":{"label":"cuda error classify_no"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Kit lock — Niche cuda_error_classify: label=cuda error classify_maybe | stderr | peer_loop IDLE seed","output":{"label":"cuda error classify_maybe"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Classify cuda_error_classify as cuda error classify_no. Context: sm_121a missing flag (class)","output":{"label":"cuda error classify_no"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Kit lock — [cuda error classify_escalate] train/serve — stderr sample-51","output":{"label":"cuda error classify_escalate"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Classify cuda_error_classify as abstain. Context: sm_121a missing flag (class)","output":{"label":"abstain"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Kit lock — Classify cuda_error_classify as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (class)","output":{"label":"unknown"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Kit lock — Niche cuda_error_classify: label=cuda error classify_no | stderr | WORK_QUEUE Active empty","output":{"label":"cuda error classify_no"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"cuda_error_classify decision → unknown. Input shape stderr. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N30","niche":"cuda_error_classify","input":"Classify cuda_error_classify as cuda error classify_escalate. Context: sm_121a missing flag (class)","output":{"label":"cuda error classify_escalate"}}

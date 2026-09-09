@@ -1,0 +1,10 @@
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Factory hallucination block fill_yes for hallucination_block_fill: GDS cuFile forbidden","output":{"label":"hallucination block fill_yes"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Kit lock — [hallucination block fill_no] strategy ritual — task sample-31","output":{"label":"hallucination block fill_no"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Factory hallucination block fill_no for hallucination_block_fill: fact_checker prefer-order","output":{"label":"hallucination block fill_no"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Classify hallucination_block_fill as hallucination block fill_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Evidence/Hypothesis/Falsifier/Verify)","output":{"label":"hallucination block fill_maybe"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Niche hallucination_block_fill: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Kit lock — Classify hallucination_block_fill as hallucination block fill_escalate. Context: sm_121a missing flag (Evidence/Hypothesis/Falsifier/Verify)","output":{"label":"hallucination block fill_escalate"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"[hallucination block fill_escalate] strategy ritual — task sample-21","output":{"label":"hallucination block fill_escalate"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Factory hallucination block fill_escalate for hallucination_block_fill: fact_checker prefer-order","output":{"label":"hallucination block fill_escalate"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Factory hallucination block fill_maybe for hallucination_block_fill: GDS cuFile forbidden","output":{"label":"hallucination block fill_maybe"}}
+{"niche_id":"N07","niche":"hallucination_block_fill","input":"Niche hallucination_block_fill: label=hallucination block fill_maybe | task | peer_loop IDLE seed","output":{"label":"hallucination block fill_maybe"}}

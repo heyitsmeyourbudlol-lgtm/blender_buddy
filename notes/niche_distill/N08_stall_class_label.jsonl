@@ -1,0 +1,67 @@
+{"niche_id":"N08","input":{"status":"plan-gate BLOCKED role=factory_engineer","log":"Episodic hard-fail; skip primary dispatch"},"output":"plan_gate_blocked"}
+{"niche_id":"N08","input":{"status":"verify_ok=false failure_type=agent_exit","log":"last_cycle note=cursor-agent non-zero rc=1; test-quick not yet re-run"},"output":"verify_fail_agent_exit"}
+{"niche_id":"N08","input":{"status":"verify_ok=false failure_type=tests","log":"unittest FAIL: test_queue_drift AssertionError"},"output":"verify_fail_tests"}
+{"niche_id":"N08","input":{"status":"ADAPT_STALE should_re_adapt=true","log":"fingerprint vs dirty tree after scripts/peer_loop.py edit"},"output":"adapt_stale"}
+{"niche_id":"N08","input":{"status":"adapt_stale medium forever","log":"heal ran adapt; drift= WORK_QUEUE open count != self_improve_context Remaining"},"output":"queue_drift"}
+{"niche_id":"N08","input":{"status":"peer quiet >3m","log":"poke no-op; peer-loop.log no new lines; event wait hung"},"output":"peer_quiet"}
+{"niche_id":"N08","input":{"status":"oversight missing after everything fine","log":"config_namespace flipped automation → automation-hub; wrong LaunchAgent label"},"output":"namespace_flip"}
+{"niche_id":"N08","input":{"status":"oversight STOPPED","log":"peer_watch: oversight daemon not running; improve KeepAlive ok"},"output":"oversight_down"}
+{"niche_id":"N08","input":{"status":"LaunchAgent loaded-no-pid","log":"com.togi.automation-peer-loop loaded; ps finds no PID; needs bootout+reinstall"},"output":"loaded_no_pid"}
+{"niche_id":"N08","input":{"status":"stall_reason=noop_backoff","log":"Active open=4 kit items; last_cycle noop=true; idle theater"},"output":"noop_stall"}
+{"niche_id":"N08","input":{"status":"verify_ok=false failure_type=deferred lean_green","log":"deferred swarm; lean verify green; WAITING chrome; needs restamp"},"output":"deferred_lean_restamp"}
+{"niche_id":"N08","input":{"status":"verify_ok=true failure_type=deferred","log":"last_cycle poison: verify_ok=True with failure_type=deferred"},"output":"last_cycle_poison"}
+{"niche_id":"N08","input":{"status":"plan-gate skip primary + verify_ok=false","log":"nobody fixes verify; Episodic chicken-egg; soft warn ignored by agents"},"output":"chicken_egg"}
+{"niche_id":"N08","input":{"status":"git dirty; verify paint red","log":"porcelain only notes/WORK_QUEUE.md + notes/TEAM_CONTEXT.md; fingerprint ignores notes/"},"output":"dirty_tree_notes_only"}
+{"niche_id":"N08","input":{"status":"Cycle lean-green=no-HOLD verify=ok","log":"last_cycle verify_ok=true noop=false; Active kit flowing"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"plan-gate soft warn Self-correction","log":"diagnose high finding; soft — dispatch must continue"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"dual LaunchAgent hub+local","log":"both automation-hub-peer-loop and automation-peer-loop loaded"},"output":"namespace_flip"}
+{"niche_id":"N08","input":{"status":"verify quiet always quiet under full swarm","log":"agent_cap set to max_parallel_agent_procs=8; should be verify_quiet_max_agents 0-2"},"output":"verify_fail_agent_exit"}
+{"niche_id":"N08","input":{"status":"bottleneck id=queue_drift","log":"sync_queue_drift: bullet missing from self_improve_context Remaining work"},"output":"queue_drift"}
+{"niche_id":"N08","input":{"status":"bottleneck id=adapt_stale","log":"should_re_adapt() true after scripts change; queue files identical"},"output":"adapt_stale"}
+{"niche_id":"N08","input":{"status":"bottleneck id=verify_fail_hold","log":"Last cycle verify failed — dispatch held; failure_type=timeout note=git-clean wait timed out"},"output":"verify_fail_tests"}
+{"niche_id":"N08","input":{"status":"bottleneck id=noop_stall","log":"stall_since_ts set; Active non-empty; heal_noop_stall pending"},"output":"noop_stall"}
+{"niche_id":"N08","input":{"status":"bottleneck id=deferred_lean_restamp","log":"Deferred swarm last_cycle — lean verify green; restamp (no HOLD)"},"output":"deferred_lean_restamp"}
+{"niche_id":"N08","input":{"status":"bottleneck id=last_cycle_deferred_poison","log":"scrub poison + reseed last_cycle"},"output":"last_cycle_poison"}
+{"niche_id":"N08","input":{"status":"improve not 24/7","log":"LaunchAgent STOPPED wrong namespace; need improve-install force"},"output":"oversight_down"}
+{"niche_id":"N08","input":{"status":"niche agent rc=255","log":"one worker died; loop must continue; item still open — not whole factory dead"},"output":"verify_fail_agent_exit"}
+{"niche_id":"N08","input":{"status":"Active corrupt line","log":"queue title is pasted self-check stdout '✗ tests not ok…'; forever-blocks Institutional"},"output":"queue_drift"}
+{"niche_id":"N08","input":{"status":"WAITING deferred-swarm","log":"peer_watch paints WAITING while holds_primary_dispatch=false lean-green"},"output":"deferred_lean_restamp"}
+{"niche_id":"N08","input":{"status":"IDLE empty Active under self_sufficient","log":"seed before kqueue; not a stall if seed path runs"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"plan-gate BLOCKED + adapt_stale + queue drift","log":"classic chicken-egg: verify fail stamped plan-gate; heal must sync-queue then adapt"},"output":"chicken_egg"}
+{"niche_id":"N08","input":{"status":"phase=WORKING daemon_running=true git_clean=false queue_count=9","log":"peer_watch 2026-09-08: cursor-agent -p WORKING · auth_ready desktop login · bottleneck=none · last_log event watch unavailable fallback poll"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"WORKING cursor-agent · Daemon ok · Queue 9 open","log":"Cycle rc=0 · verify=ok · 28a8629 peer cycle: verify ok — continue_on_dirty; last_cycle verify_ok=true noop=false"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"● WORKING cursor-agent -p · STATE WORKING","log":"peer_watch live 2026-09-08: Cycle rc=0 · verify=ok · git dirty notes/; not a stall"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"niche agent rc=255","log":"one worker died; loop must continue — live stress keep non-zero rc"},"output":"verify_fail_agent_exit"}
+{"niche_id":"N08","input":{"status":"WORKING · Daemon ok pid · Auth cursor-agent desktop","log":"Cycle rc=0 · verify=ok · queue_fp advance; peer_watch Cycle row live stress P1-G7"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"improve LaunchAgent STOPPED","log":"wrong namespace peer-loop vs hub; need improve-install"},"output":"oversight_down"}
+{"niche_id":"N08","input":{"status":"Cycle bottleneck_id=adapt_stale","log":"peer_watch Cycle rows adapt fingerprint stale after git changes"},"output":"adapt_stale"}
+{"niche_id":"N08","input":{"status":"verify_ok","log":"last_cycle verify ok after retry; continue_on_dirty (tests ok, tree dirty); noop=false"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"plan-gate soft warn ignored; continuing","log":"dispatch allowed; soft warn only"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"plan-gate BLOCKED role=dataset_curator","log":"Episodic hard-fail skip primary; agent must not edit"},"output":"plan_gate_blocked"}
+{"niche_id":"N08","input":{"status":"verify_ok=false failure_type=agent_exit","log":"cursor-agent rc=1; dataset validate not run yet"},"output":"verify_fail_agent_exit"}
+{"niche_id":"N08","input":{"status":"verify_ok=false failure_type=tests","log":"niche_distill_validate.py exit 1: prune floor breach"},"output":"verify_fail_tests"}
+{"niche_id":"N08","input":{"status":"peer quiet >5m after validate land","log":"poke no-op; peer-loop.log stalled on event wait"},"output":"peer_quiet"}
+{"niche_id":"N08","input":{"status":"LaunchAgent loaded-no-pid hub-peer","log":"hub-peer LaunchAgent label loaded; no PID; bootout+reinstall"},"output":"loaded_no_pid"}
+{"niche_id":"N08","input":{"status":"git dirty notes-only","log":"porcelain notes/niche_distill/*.jsonl only; fingerprint ignores notes/"},"output":"dirty_tree_notes_only"}
+{"niche_id":"N08","input":{"status":"Cycle lean-green verify=ok","log":"last_cycle verify_ok=true; Active kit flowing after expand"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"plan-gate skip + verify_ok=false","log":"chicken-egg: nobody heals verify; soft warn ignored"},"output":"chicken_egg"}
+{"niche_id":"N08","input":{"status":"verify_ok=true continue_on_dirty tree dirty notes+scripts","log":"stall-watch: restamp verify_ok (continue_on_dirty; tests ok; clear WAITING)"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"last_cycle verify_ok failure_type=deferred","log":"poison: deferred soft-skip left verify_ok True with empty queue advance"},"output":"last_cycle_poison"}
+{"niche_id":"N08","input":{"status":"WORKING · Daemon ok · Auth cursor-agent desktop","log":"last_cycle rc=0 verify_ok=true queue_fp advance noop=false; note=continue_on_dirty (tests ok, tree dirty); git_head=219af0c peer cycle verify ok"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"diagnose: Adapt fingerprint stale after git changes","log":"should_re_adapt() true → ./scripts/peer adapt · peer-6 dataset_curator cycle 2026-09-08"},"output":"adapt_stale"}
+{"niche_id":"N08","input":{"status":"Cycle rc=0 · verify=ok","log":"last_cycle verify_ok=true; bottleneck_id=adapt_stale healed; factory dispatch clear"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"WORKING · Daemon ok","log":"Cycle rc=0 · verify=ok · residual adapt_stale mention after heal; continue_on_dirty"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"verify_ok=true continue_on_dirty","log":"last_cycle verify_ok=true noop=false note=continue_on_dirty (tests ok, tree dirty); queue_fp advance"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"should_re_adapt true","log":"Self-diagnosis Adapt fingerprint stale after git changes → ./scripts/peer adapt"},"output":"adapt_stale"}
+{"niche_id":"N08","input":{"status":"niche_distill_validate prune floor breach","log":"failure_type=tests niche_distill_validate.py exit 1: N08 count 39 < floor 40"},"output":"verify_fail_tests"}
+{"niche_id":"N08","input":{"status":"peer_up=false improve_up=false agents=29","log":"peer-progress-watch last_snap peer_up False improve_up False; oversight daemons not running"},"output":"oversight_down"}
+{"niche_id":"N08","input":{"status":"niche_bank_train --gen-only after expand","log":"gen_all skip_existing must not overwrite N02..N107 primary+heldout; wrote=[] skipped=107"},"output":"healthy"}
+{"niche_id":"N08","input":{"status":"peer log quiet","log":"updated 69.3h ago peer-loop.log · poke no-op"},"output":"peer_quiet"}
+{"niche_id":"N08","input":{"status":"Git 6 path(s) dirty","log":"notes-only porcelain: AUTOMATION_DIGEST IMPROVE_HORIZON — fingerprint ignores notes/"},"output":"dirty_tree_notes_only"}
+{"niche_id":"N08","input":{"status":"LaunchAgent loaded-no-pid hub-peer","log":"com.togi.automation-hub-peer-loop loaded; no PID; bootout+reinstall"},"output":"loaded_no_pid"}
+{"niche_id":"N08","input":{"status":"last_cycle verify_ok failure_type=deferred","log":"poison: deferred soft-skip left verify_ok True"},"output":"last_cycle_poison"}
+{"niche_id":"N08","input":{"status":"WORKING cursor-agent","log":"Queue 1 open · Hard-Fix #82 · Cycle rc=0 · verify=ok · continue_on_dirty"},"output":"healthy"}
+{"niche_id": "N08", "input": {"status": "WORKING · peer-loop verify_ok · queue_fp advance", "log": "last_cycle rc=0 verify_ok=true noop=false queue_fp=ef6b0c5971d3d458 note=continue_on_dirty (tests ok, tree dirty) git_head=bfae3c3 Fix verify type=tests"}, "output": "healthy"}
+{"niche_id": "N08", "input": {"status": "last_cycle verify_ok=True deferred poison", "log": "deferred soft-skip left verify_ok True without failure_type= key — triad must stay last_cycle_poison"}, "output": "last_cycle_poison"}
+{"niche_id": "N08", "input": {"status": "WORKING cursor-agent", "log": "last_cycle: verify_ok=true deferred — soft-skip stamp before queue advance"}, "output": "last_cycle_poison"}
+{"niche_id": "N08", "input": {"status": "STATE ● WORKING cursor-agent · Daemon ok · Queue 1 open · Cycle rc=0 · verify=ok", "log": "peer status UI: state S (log quiet until subprocess) · Log updated 71.9h ago peer-loop.log · continue_on_dirty — not peer_quiet stall"}, "output": "healthy"}

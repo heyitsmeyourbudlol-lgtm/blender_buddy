@@ -1,0 +1,16 @@
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"[unknown] plan-gate loops — plan blob sample-16","output":{"label":"unknown"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"plan_gate_self_check decision → plan gate self check_escalate. Input shape plan blob. RSS proposal 48GB reject","output":{"label":"plan gate self check_escalate"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Factory unknown for plan_gate_self_check: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Classify plan_gate_self_check as plan gate self check_escalate. Context: sm_121a missing flag (missing answers)","output":{"label":"plan gate self check_escalate"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Kit lock — Factory plan gate self check_maybe for plan_gate_self_check: GDS cuFile forbidden","output":{"label":"plan gate self check_maybe"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Kit lock — [abstain] plan-gate loops — plan blob sample-101","output":{"label":"abstain"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Niche plan_gate_self_check: label=abstain | plan blob | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Niche plan_gate_self_check: label=unknown | plan blob | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Factory abstain for plan_gate_self_check: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"plan_gate_self_check decision → plan gate self check_escalate. Input shape plan blob. RSS proposal 48GB reject","output":{"label":"plan gate self check_escalate"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"plan_gate_self_check decision → plan gate self check_maybe. Input shape plan blob. continue_on_dirty HOLD","output":{"label":"plan gate self check_maybe"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Factory abstain for plan_gate_self_check: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Kit lock — [plan gate self check_escalate] plan-gate loops — plan blob sample-21","output":{"label":"plan gate self check_escalate"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"[plan gate self check_escalate] plan-gate loops — plan blob sample-51","output":{"label":"plan gate self check_escalate"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"plan_gate_self_check decision → plan gate self check_no. Input shape plan blob. RSS proposal 48GB reject","output":{"label":"plan gate self check_no"}}
+{"niche_id":"N06","niche":"plan_gate_self_check","input":"Kit lock — Factory plan gate self check_yes for plan_gate_self_check: GDS cuFile forbidden","output":{"label":"plan gate self check_yes"}}

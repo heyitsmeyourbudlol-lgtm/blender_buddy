@@ -1,0 +1,291 @@
+l.";
+        else
+            nvm_echo_with_colors "Setting colors to: $(nvm_wrap_with_color_code "${INSTALLED_COLOR}" "${INSTALLED_COLOR}")$(nvm_wrap_with_color_code "${LTS_AND_SYSTEM_COLOR}" "${LTS_AND_SYSTEM_COLOR}")$(nvm_wrap_with_color_code "${CURRENT_COLOR}" "${CURRENT_COLOR}")$(nvm_wrap_with_color_code "${NOT_INSTALLED_COLOR}" "${NOT_INSTALLED_COLOR}")$(nvm_wrap_with_color_code "${DEFAULT_COLOR}" "${DEFAULT_COLOR}")";
+        fi;
+        export NVM_COLORS="$1";
+    else
+        return 17;
+    fi
+}
+nvm_stdout_is_terminal () 
+{ 
+    [ -t 1 ]
+}
+nvm_strip_iojs_prefix () 
+{ 
+    local NVM_IOJS_PREFIX;
+    NVM_IOJS_PREFIX="$(nvm_iojs_prefix)";
+    case "${1-}" in 
+        "${NVM_IOJS_PREFIX}")
+            nvm_echo
+        ;;
+        *)
+            nvm_echo "${1#"${NVM_IOJS_PREFIX}"-}"
+        ;;
+    esac
+}
+nvm_strip_path () 
+{ 
+    if [ -z "${NVM_DIR-}" ]; then
+        nvm_err '${NVM_DIR} not set!';
+        return 1;
+    fi;
+    command printf %s "${1-}" | command awk -v NVM_DIR="${NVM_DIR}" -v RS=: '
+  index($0, NVM_DIR) == 1 {
+    path = substr($0, length(NVM_DIR) + 1)
+    if (path ~ "^(/versions/[^/]*)?/[^/]*'"${2-}"'.*$") { next }
+  }
+  # The final RT will contain a colon if the input has a trailing colon, or a null string otherwise
+  { printf "%s%s", sep, $0; sep=RS } END { printf "%s", RT }'
+}
+nvm_supports_xz () 
+{ 
+    if [ -z "${1-}" ]; then
+        return 1;
+    fi;
+    local NVM_OS;
+    NVM_OS="$(nvm_get_os)";
+    if [ "_${NVM_OS}" = '_darwin' ]; then
+        local MACOS_VERSION;
+        MACOS_VERSION="$(sw_vers -productVersion)";
+        if nvm_version_greater "10.9.0" "${MACOS_VERSION}"; then
+            return 1;
+        fi;
+    else
+        if [ "_${NVM_OS}" = '_freebsd' ]; then
+            if ! [ -e '/usr/lib/liblzma.so' ]; then
+                return 1;
+            fi;
+        else
+            if ! command which xz > /dev/null 2>&1; then
+                return 1;
+            fi;
+        fi;
+    fi;
+    if nvm_is_merged_node_version "${1}"; then
+        return 0;
+    fi;
+    if nvm_version_greater_than_or_equal_to "${1}" "0.12.10" && nvm_version_greater "0.13.0" "${1}"; then
+        return 0;
+    fi;
+    if nvm_version_greater_than_or_equal_to "${1}" "0.10.42" && nvm_version_greater "0.11.0" "${1}"; then
+        return 0;
+    fi;
+    case "${NVM_OS}" in 
+        darwin)
+            nvm_version_greater_than_or_equal_to "${1}" "2.3.2"
+        ;;
+        *)
+            nvm_version_greater_than_or_equal_to "${1}" "1.0.0"
+        ;;
+    esac;
+    return $?
+}
+nvm_tree_contains_path () 
+{ 
+    local tree;
+    tree="${1-}";
+    local node_path;
+    node_path="${2-}";
+    if [ "@${tree}@" = "@@" ] || [ "@${node_path}@" = "@@" ]; then
+        nvm_err "both the tree and the node path are required";
+        return 2;
+    fi;
+    local previous_pathdir;
+    previous_pathdir="${node_path}";
+    local pathdir;
+    pathdir=$(dirname "${previous_pathdir}");
+    while [ "${pathdir}" != '' ] && [ "${pathdir}" != '.' ] && [ "${pathdir}" != '/' ] && [ "${pathdir}" != "${tree}" ] && [ "${pathdir}" != "${previous_pathdir}" ]; do
+        previous_pathdir="${pathdir}";
+        pathdir=$(dirname "${previous_pathdir}");
+    done;
+    [ "${pathdir}" = "${tree}" ]
+}
+nvm_use_if_needed () 
+{ 
+    if [ "_${1-}" = "_$(nvm_ls_current)" ]; then
+        return;
+    fi;
+    nvm use "$@"
+}
+nvm_validate_implicit_alias () 
+{ 
+    local NVM_IOJS_PREFIX;
+    NVM_IOJS_PREFIX="$(nvm_iojs_prefix)";
+    local NVM_NODE_PREFIX;
+    NVM_NODE_PREFIX="$(nvm_node_prefix)";
+    case "$1" in 
+        "stable" | "unstable" | "${NVM_IOJS_PREFIX}" | "${NVM_NODE_PREFIX}")
+            return
+        ;;
+        *)
+            nvm_err "Only implicit aliases 'stable', 'unstable', '${NVM_IOJS_PREFIX}', and '${NVM_NODE_PREFIX}' are supported.";
+            return 1
+        ;;
+    esac
+}
+nvm_version () 
+{ 
+    local PATTERN;
+    PATTERN="${1-}";
+    local VERSION;
+    if [ -z "${PATTERN}" ]; then
+        PATTERN='current';
+    fi;
+    if [ "${PATTERN}" = "current" ]; then
+        nvm_ls_current;
+        return $?;
+    fi;
+    local NVM_NODE_PREFIX;
+    NVM_NODE_PREFIX="$(nvm_node_prefix)";
+    case "_${PATTERN}" in 
+        "_${NVM_NODE_PREFIX}" | "_${NVM_NODE_PREFIX}-")
+            PATTERN="stable"
+        ;;
+    esac;
+    VERSION="$(nvm_ls "${PATTERN}" | command tail -1)";
+    if [ -z "${VERSION}" ] || [ "_${VERSION}" = "_N/A" ]; then
+        nvm_echo "N/A";
+        return 3;
+    fi;
+    nvm_echo "${VERSION}"
+}
+nvm_version_dir () 
+{ 
+    local NVM_WHICH_DIR;
+    NVM_WHICH_DIR="${1-}";
+    if [ -z "${NVM_WHICH_DIR}" ] || [ "${NVM_WHICH_DIR}" = "new" ]; then
+        nvm_echo "${NVM_DIR}/versions/node";
+    else
+        if [ "_${NVM_WHICH_DIR}" = "_iojs" ]; then
+            nvm_echo "${NVM_DIR}/versions/io.js";
+        else
+            if [ "_${NVM_WHICH_DIR}" = "_old" ]; then
+                nvm_echo "${NVM_DIR}";
+            else
+                nvm_err 'unknown version dir';
+                return 3;
+            fi;
+        fi;
+    fi
+}
+nvm_version_greater () 
+{ 
+    command awk 'BEGIN {
+    if (ARGV[1] == "" || ARGV[2] == "") exit(1)
+    split(ARGV[1], a, /\./);
+    split(ARGV[2], b, /\./);
+    for (i=1; i<=3; i++) {
+      if (a[i] && a[i] !~ /^[0-9]+$/) exit(2);
+      if (b[i] && b[i] !~ /^[0-9]+$/) { exit(0); }
+      if (a[i] < b[i]) exit(3);
+      else if (a[i] > b[i]) exit(0);
+    }
+    exit(4)
+  }' "${1#v}" "${2#v}"
+}
+nvm_version_greater_than_or_equal_to () 
+{ 
+    command awk 'BEGIN {
+    if (ARGV[1] == "" || ARGV[2] == "") exit(1)
+    split(ARGV[1], a, /\./);
+    split(ARGV[2], b, /\./);
+    for (i=1; i<=3; i++) {
+      if (a[i] && a[i] !~ /^[0-9]+$/) exit(2);
+      if (a[i] < b[i]) exit(3);
+      else if (a[i] > b[i]) exit(0);
+    }
+    exit(0)
+  }' "${1#v}" "${2#v}"
+}
+nvm_version_path () 
+{ 
+    local VERSION;
+    VERSION="${1-}";
+    if [ -z "${VERSION}" ]; then
+        nvm_err 'version is required';
+        return 3;
+    else
+        if nvm_is_iojs_version "${VERSION}"; then
+            nvm_echo "$(nvm_version_dir iojs)/$(nvm_strip_iojs_prefix "${VERSION}")";
+        else
+            if nvm_version_greater 0.12.0 "${VERSION}"; then
+                nvm_echo "$(nvm_version_dir old)/${VERSION}";
+            else
+                nvm_echo "$(nvm_version_dir new)/${VERSION}";
+            fi;
+        fi;
+    fi
+}
+nvm_wrap_with_color_code () 
+{ 
+    local CODE;
+    CODE="$(nvm_print_color_code "${1}" 2> /dev/null || :)";
+    local TEXT;
+    TEXT="${2-}";
+    if nvm_has_colors && [ -n "${CODE}" ]; then
+        nvm_echo_with_colors "\033[${CODE}${TEXT}\033[0m";
+    else
+        nvm_echo "${TEXT}";
+    fi
+}
+nvm_write_nvmrc () 
+{ 
+    local VERSION_STRING;
+    VERSION_STRING=$(nvm_version "${1-}");
+    if [ "${VERSION_STRING}" = '∞' ] || [ "${VERSION_STRING}" = 'N/A' ]; then
+        return 1;
+    fi;
+    echo "${VERSION_STRING}" | tee "$PWD"/.nvmrc > /dev/null || { 
+        if [ "${NVM_SILENT:-0}" -ne 1 ]; then
+            nvm_err "Warning: Unable to write version number ($VERSION_STRING) to .nvmrc";
+        fi;
+        return 3
+    };
+    if [ "${NVM_SILENT:-0}" -ne 1 ]; then
+        nvm_echo "Wrote version number ($VERSION_STRING) to .nvmrc";
+    fi
+}
+quote () 
+{ 
+    local quoted=${1//\'/\'\\\'\'};
+    printf "'%s'" "$quoted"
+}
+quote_readline () 
+{ 
+    local ret;
+    _quote_readline_by_ref "$1" ret;
+    printf %s "$ret"
+} ]]
++ builtin printf 'cursor_snap_%s=$(command base64 -d <<CURSOR_SNAP_EOF_%s
+' FUNCTIONS_B64 FUNCTIONS_B64
++ command base64
++ command tr -d '
+'
++ builtin printf '
+CURSOR_SNAP_EOF_%s
+' FUNCTIONS_B64
++ builtin printf ')
+'
++ builtin printf 'eval "$cursor_snap_%s"
+' FUNCTIONS_B64
++ _log_timing functions
++ :
++ local aliases
+++ builtin alias -p
++ aliases=
++ _emit_encoded '' ALIASES_B64
++ local content=
++ local var_name=ALIASES_B64
++ [[ -n '' ]]
++ _log_timing aliases
++ :
++ _emit '# end of bash state dump'
++ builtin printf '%s
+' '# end of bash state dump'
++ _emit __CURSOR_BASH_STATE_END__
++ builtin printf '%s
+' __CURSOR_BASH_STATE_END__
++ _log_timing finalize
++ :
++ builtin exit 0

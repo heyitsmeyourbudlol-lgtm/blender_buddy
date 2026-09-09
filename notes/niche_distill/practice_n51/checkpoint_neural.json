@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N51",
+  "name": "needle_mint",
+  "domain": "needle_mint",
+  "helps": "kit twins",
+  "weights": "notes/niche_distill/practice_n51/weights/n51_needle_mint_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.03562571108341217,
+  "labels": [
+    "abstain",
+    "needle mint_escalate",
+    "needle mint_maybe",
+    "needle mint_no",
+    "needle mint_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N51 '<input>'"
+}

@@ -1,0 +1,31 @@
+{
+  "needle": "OVERSEER_N01_NEURAL_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N01_plus_sidequest",
+  "domain": "queue_bullet_parse + sidequest knowledge locks",
+  "weights": "notes/niche_distill/practice_n01/weights/n01_queue_bullet_parse_neural.pt",
+  "param_count": 6871676,
+  "heldout": {
+    "n01_acc": 1.0,
+    "n01_kit_acc": 1.0,
+    "n01_n": 9,
+    "n03_acc": 1.0,
+    "n08_acc": 1.0,
+    "knowledge_acc": 1.0,
+    "knowledge_n": 50
+  },
+  "heldout_accuracy": 1.0,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 40,
+  "last_loss": 0.34344717860221863,
+  "local_only": true,
+  "not_stock_ollama": true,
+  "knowledge_corpus": "notes/niche_distill/sidequest_knowledge.json",
+  "n_knowledge_answers": 50,
+  "serve": "python3 scripts/niche_n01_neural_train.py --serve '<line>'",
+  "ask": "python3 scripts/niche_n01_neural_train.py --ask '<question>'",
+  "note": "First ~10M-class neural expert DONE. Catalog stamp N02–N100+ via niche_bank_train.py."
+}

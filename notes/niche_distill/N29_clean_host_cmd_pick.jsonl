@@ -1,0 +1,96 @@
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_maybe for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → clean host cmd pick_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as abstain. Context: sm_121a missing flag (exact cmd)","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [clean host cmd pick_maybe] CLEAN ops — intent sample-26","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Factory clean host cmd pick_escalate for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Classify clean_host_cmd_pick as clean host cmd pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_escalate for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_maybe for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[abstain] CLEAN ops — intent sample-71","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory unknown for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[unknown] CLEAN ops — intent sample-46","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Niche clean_host_cmd_pick: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[abstain] CLEAN ops — intent sample-41","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_yes] CLEAN ops — intent sample-96","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_no for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_escalate] CLEAN ops — intent sample-111","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as abstain. Context: sm_121a missing flag (exact cmd)","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_no | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_maybe | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_escalate. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_no for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Classify clean_host_cmd_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → unknown. Input shape intent. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_no. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as abstain. Context: sm_121a missing flag (exact cmd)","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Classify clean_host_cmd_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_maybe] CLEAN ops — intent sample-56","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Factory clean host cmd pick_no for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=abstain | intent | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → unknown. Input shape intent. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory abstain for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_escalate for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → clean host cmd pick_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → clean host cmd pick_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_no] CLEAN ops — intent sample-91","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_escalate | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [clean host cmd pick_yes] CLEAN ops — intent sample-6","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_yes for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_no. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_maybe | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[abstain] CLEAN ops — intent sample-101","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[unknown] CLEAN ops — intent sample-16","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_no. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Niche clean_host_cmd_pick: label=clean host cmd pick_yes | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_no] CLEAN ops — intent sample-61","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_no | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_yes for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory unknown for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_escalate] CLEAN ops — intent sample-51","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory unknown for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [clean host cmd pick_no] CLEAN ops — intent sample-31","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_maybe] CLEAN ops — intent sample-86","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Niche clean_host_cmd_pick: label=clean host cmd pick_escalate | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → unknown. Input shape intent. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_escalate] CLEAN ops — intent sample-21","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → clean host cmd pick_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory unknown for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[unknown] CLEAN ops — intent sample-76","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=unknown | intent | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_maybe for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_no. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [clean host cmd pick_yes] CLEAN ops — intent sample-66","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_escalate | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_yes for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory abstain for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [abstain] CLEAN ops — intent sample-11","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_no. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_yes | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_yes. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_no | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_maybe. Input shape intent. continue_on_dirty HOLD","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Factory clean host cmd pick_escalate for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_escalate. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_no] CLEAN ops — intent sample-1","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_escalate | intent | WORK_QUEUE Active empty","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → clean host cmd pick_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_escalate"}}

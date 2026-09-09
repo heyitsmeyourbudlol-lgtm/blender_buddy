@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N41",
+  "name": "l2_cache_priority",
+  "domain": "l2_cache_priority",
+  "helps": "cache hierarchy",
+  "weights": "notes/niche_distill/practice_n41/weights/n41_l2_cache_priority_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.05930737033486366,
+  "labels": [
+    "abstain",
+    "l2 cache priority_escalate",
+    "l2 cache priority_maybe",
+    "l2 cache priority_no",
+    "l2 cache priority_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N41 '<input>'"
+}
