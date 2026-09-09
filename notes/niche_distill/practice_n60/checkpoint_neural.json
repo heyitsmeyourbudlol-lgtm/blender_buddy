@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N60",
+  "name": "demote_note_scrub",
+  "domain": "demote_note_scrub",
+  "helps": "self_sufficient lies",
+  "weights": "notes/niche_distill/practice_n60/weights/n60_demote_note_scrub_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.028500795364379883,
+  "labels": [
+    "abstain",
+    "demote note scrub_escalate",
+    "demote note scrub_maybe",
+    "demote note scrub_no",
+    "demote note scrub_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N60 '<input>'"
+}

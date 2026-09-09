@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_TOP10_NEXT_T10_09_2026_09_07",
+  "heldout": {
+    "n": 39,
+    "model_correct": 27,
+    "keyword_correct": 5,
+    "model_acc": 0.6923,
+    "keyword_acc": 0.1282,
+    "lift": 0.5641,
+    "soft_n": 39,
+    "soft_model_acc": 0.6923,
+    "soft_keyword_acc": 0.1282
+  },
+  "train": {
+    "n": 290,
+    "model_correct": 288,
+    "keyword_correct": 266,
+    "model_acc": 0.9931,
+    "keyword_acc": 0.9172,
+    "lift": 0.0759,
+    "soft_n": 26,
+    "soft_model_acc": 1.0,
+    "soft_keyword_acc": 0.1923
+  }
+}

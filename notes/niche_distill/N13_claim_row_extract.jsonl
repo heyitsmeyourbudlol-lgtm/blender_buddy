@@ -1,0 +1,96 @@
+{"niche_id":"N13","niche":"claim_row_extract","input":"[unknown] fact_checker — prose sample-16","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_no] fact_checker — prose sample-31","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_no] fact_checker — prose sample-1","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=abstain | prose | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → abstain. Input shape prose. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=abstain | prose | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → abstain. Input shape prose. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_no for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_yes] fact_checker — prose sample-66","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=unknown | prose | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_no | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_yes for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[abstain] fact_checker — prose sample-41","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_yes | prose | peer_loop IDLE seed","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory abstain for claim_row_extract: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_escalate. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[unknown] fact_checker — prose sample-46","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_no for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_escalate | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory claim row extract_escalate for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory claim row extract_maybe for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_maybe. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory abstain for claim_row_extract: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as abstain. Context: sm_121a missing flag (claim rows)","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory unknown for claim_row_extract: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_escalate for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=abstain | prose | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_escalate | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → unknown. Input shape prose. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_no for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Classify claim_row_extract as abstain. Context: sm_121a missing flag (claim rows)","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[abstain] fact_checker — prose sample-11","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_maybe. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Classify claim_row_extract as claim row extract_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_no | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory claim row extract_yes for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory unknown for claim_row_extract: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_yes] fact_checker — prose sample-6","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Classify claim_row_extract as claim row extract_no. Context: sm_121a missing flag (claim rows)","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_escalate. Context: sm_121a missing flag (claim rows)","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory claim row extract_maybe for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=unknown | prose | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as abstain. Context: sm_121a missing flag (claim rows)","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Niche claim_row_extract: label=claim row extract_yes | prose | peer_loop IDLE seed","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_escalate | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_yes. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_escalate. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_maybe | prose | peer_loop IDLE seed","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → unknown. Input shape prose. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_maybe. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_maybe] fact_checker — prose sample-26","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_maybe] fact_checker — prose sample-56","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Classify claim_row_extract as claim row extract_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_escalate for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=unknown | prose | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as abstain. Context: sm_121a missing flag (claim rows)","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory abstain for claim_row_extract: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_maybe | prose | peer_loop IDLE seed","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=abstain | prose | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_escalate] fact_checker — prose sample-51","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_escalate for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory unknown for claim_row_extract: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_no. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_no] fact_checker — prose sample-61","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_yes] fact_checker — prose sample-96","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_no. Context: sm_121a missing flag (claim rows)","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_escalate | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[abstain] fact_checker — prose sample-71","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_maybe for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_yes | prose | peer_loop IDLE seed","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_maybe. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_no for claim_row_extract: fact_checker prefer-order","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=claim row extract_yes | prose | peer_loop IDLE seed","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — claim_row_extract decision → claim row extract_no. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_escalate. Context: sm_121a missing flag (claim rows)","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — [abstain] fact_checker — prose sample-101","output":{"label":"abstain"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Factory claim row extract_maybe for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (claim rows)","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — [claim row extract_no] fact_checker — prose sample-91","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Classify claim_row_extract as claim row extract_escalate. Context: sm_121a missing flag (claim rows)","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_no. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"claim_row_extract decision → claim row extract_no. Input shape prose. RSS proposal 48GB reject","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Niche claim_row_extract: label=claim row extract_no | prose | WORK_QUEUE Active empty","output":{"label":"claim row extract_no"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_maybe] fact_checker — prose sample-86","output":{"label":"claim row extract_maybe"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — claim_row_extract decision → claim row extract_yes. Input shape prose. continue_on_dirty HOLD","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — [unknown] fact_checker — prose sample-76","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Niche claim_row_extract: label=unknown | prose | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[claim row extract_escalate] fact_checker — prose sample-21","output":{"label":"claim row extract_escalate"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"Kit lock — Factory claim row extract_yes for claim_row_extract: GDS cuFile forbidden","output":{"label":"claim row extract_yes"}}
+{"niche_id":"N13","niche":"claim_row_extract","input":"[unknown] fact_checker — prose sample-106","output":{"label":"unknown"}}

@@ -1,0 +1,96 @@
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-71","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [null] kit land-proof — behavior sample-21","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-111","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [null] kit land-proof — behavior sample-51","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[needle] kit land-proof — behavior sample-86","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [needle] kit land-proof — behavior sample-6","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-41","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [needle] kit land-proof — behavior sample-76","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[needle] kit land-proof — behavior sample-96","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [needle] kit land-proof — behavior sample-106","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — [null] kit land-proof — behavior sample-101","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[needle] kit land-proof — behavior sample-26","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-81","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-11","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-31","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=null | behavior | WORK_QUEUE Active empty","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[needle] kit land-proof — behavior sample-16","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as needle. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test+needle)","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[needle] kit land-proof — behavior sample-56","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → needle. Input shape behavior. continue_on_dirty HOLD","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Classify unittest_name_suggest as null. Context: sm_121a missing flag (test+needle)","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Niche unittest_name_suggest: label=needle | behavior | peer_loop IDLE seed","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Factory null for unittest_name_suggest: fact_checker prefer-order","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — Factory needle for unittest_name_suggest: GDS cuFile forbidden","output":{"label":"needle"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"[null] kit land-proof — behavior sample-91","output":{"label":"null"}}
+{"niche_id":"N31","niche":"unittest_name_suggest","input":"Kit lock — unittest_name_suggest decision → null. Input shape behavior. RSS proposal 48GB reject","output":{"label":"null"}}

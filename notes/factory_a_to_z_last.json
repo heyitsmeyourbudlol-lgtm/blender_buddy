@@ -1,0 +1,75 @@
+{
+  "needle": "OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07",
+  "needle_ae": "OVERSEER_KIT_RUN_AE_2026_09_07",
+  "ts": "2026-09-09T06:30:21Z",
+  "repo": "blender_buddy",
+  "namespace": "blender_buddy",
+  "target": "/Users/togi/Downloads/blender_buddy",
+  "dry_run": false,
+  "stop_after": "E",
+  "steps": [
+    {
+      "cmd": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "/Users/togi/Automation/scripts/automation_adapt.py",
+        "--heal",
+        "--write",
+        "--quick",
+        "--target",
+        "/Users/togi/Downloads/blender_buddy"
+      ],
+      "cwd": "/Users/togi/Downloads/blender_buddy",
+      "exit": 0,
+      "stdout_tail": "sts.test_factory_kit_run -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_last_cycle_poison -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_self_heal -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_repo_research -q\n  [verify] SKIP quick: python3 -m unittest tests.test_pool_ensure_fastpath -q\n  [verify] SKIP quick: python3 -m unittest tests.test_peer_dual_research_linux_install -q\n  [verify] SKIP quick: python3 -m unittest tests.test_adapt_verify_protect -q\n  [verify] SKIP quick: python3 -m unittest tests.test_emit_inventory_ttl_list_skip -q\n  [verify] SKIP quick: python3 -m unittest tests.test_prepare_prompts_ttl -q\n  [verify] SKIP quick: python3 -m unittest tests.test_auth_live_soft -q\n  [verify] SKIP quick: python3 -m unittest tests.test_parse_phased_ttl -q\n  [verify] SKIP quick: python3 -m unittest tests.test_cache_path_fallback -q\n  [verify] SKIP quick: python3 -m unittest tests.test_self_check_dedup_measure -q\n\nPASSS:\n  [script] automation_adapt.py compiles\n  [config] automation.config.json valid\n  [local_profile] 20 verify command(s)\n  [adapt_state] adapt-state consistent\n  [verify] 20 command(s) listed (quick \u2014 run full audit to execute)\n  [queue] WORK_QUEUE \u2194 context in sync\n  [tasks] 51 templates, 20 verify cmds\n  [signals] stack=automation profile=automation\n\nVERIFY OUTPUT:\n  \u2713 (None) python3 scripts/peer_orchestrate.py --self-check\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_automation -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_run_peer_tasks -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_worktree -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_pen_test -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_remote -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_compact_land_proof -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_factory_kit_run -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_last_cycle_poison -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_self_heal -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_repo_research -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_pool_ensure_fastpath -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_peer_dual_research_linux_install -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_adapt_verify_protect -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_emit_inventory_ttl_list_skip -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_prepare_prompts_ttl -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_auth_live_soft -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_parse_phased_ttl -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_cache_path_fallback -q\n      trusted from local profile (quick audit)\n  \u2713 (None) python3 -m unittest tests.test_self_check_dedup_measure -q\n      trusted from local profile (quick audit)\n\nOUTPUT FILES:\n{\n  \"automation.config.json\": {\n    \"path\": \"/Users/togi/Downloads/blender_buddy/automation.config.json\",\n    \"exists\": true,\n    \"error\": null\n  },\n  \"profiles/local.json\": {\n    \"path\": \"/Users/togi/Downloads/blender_buddy/profiles/local.json\",\n    \"exists\": true,\n    \"error\": null\n  },\n  \"adapt-state.json\": {\n    \"path\": \"/Users/togi/.config/automation-hub/adapt-state.json\",\n    \"exists\": true,\n    \"error\": null\n  }\n}\n",
+      "stderr_tail": "",
+      "step": "A_adapt",
+      "ok": true,
+      "dry_run": false,
+      "needle_a_quick": "OVERSEER_KIT_RUN_A_QUICK_2026_09_08"
+    },
+    {
+      "step": "C_worktree",
+      "ok": true,
+      "dry_run": false,
+      "dirty": true,
+      "status": "worktree_added",
+      "add_exit": 0,
+      "add_stderr": "Preparing worktree (new branch 'peer/kit-a-to-z-20260909T06302213')\n",
+      "attempts": 1,
+      "needle": "OVERSEER_KIT_RUN_AE_2026_09_07",
+      "needle_c_origin": "OVERSEER_KIT_RUN_C_ORIGIN_MAIN_2026_09_08",
+      "stamp_collision_needle": "OVERSEER_KIT_WT_STAMP_COLLISION_2026_09_08",
+      "suggested_branch": "peer/kit-a-to-z-20260909T06302213",
+      "worktree_path": "/Users/togi/Downloads/blender_buddy-kit-a-to-z-20260909T06302213",
+      "target": "/Users/togi/Downloads/blender_buddy",
+      "hint": "git worktree add -b <branch> <path> origin/main|HEAD \u2014 dirty-main safe",
+      "start_ref": "origin/main"
+    },
+    {
+      "step": "B_verify",
+      "ok": false,
+      "dry_run": false,
+      "results": [
+        {
+          "cmd": [
+            "bash",
+            "-lc",
+            "python3 scripts/peer_orchestrate.py --self-check --quick"
+          ],
+          "cwd": "/Users/togi/Downloads/blender_buddy-kit-a-to-z-20260909T06302213",
+          "exit": 1,
+          "stdout_tail": "",
+          "stderr_tail": "Traceback (most recent call last):\n  File \"/Users/togi/Downloads/blender_buddy-kit-a-to-z-20260909T06302213/scripts/peer_orchestrate.py\", line 25, in <module>\n    import peer_roles as roles  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'peer_roles'\n",
+          "shell": "python3 scripts/peer_orchestrate.py --self-check --quick"
+        }
+      ],
+      "verify_cwd": "/Users/togi/Downloads/blender_buddy-kit-a-to-z-20260909T06302213",
+      "needle_b_clean_wt": "OVERSEER_KIT_RUN_B_ON_CLEAN_WT_2026_09_08",
+      "healed_from_head": [
+        "scripts/peer_orchestrate.py:donor"
+      ]
+    }
+  ],
+  "ok": false,
+  "blocked": "B_verify"
+}

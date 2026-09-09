@@ -1,0 +1,48 @@
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as abstain. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Niche stress_gap_row: label=stress gap row_maybe | miss class | peer_loop IDLE seed","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — [stress gap row_maybe] P2 loop — miss class sample-56","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_no] P2 loop — miss class sample-31","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_yes] P2 loop — miss class sample-6","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_yes | miss class | peer_loop IDLE seed","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory stress gap row_yes for stress_gap_row: GDS cuFile forbidden","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory stress gap row_escalate for stress_gap_row: fact_checker prefer-order","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as stress gap row_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory stress gap row_escalate for stress_gap_row: fact_checker prefer-order","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_yes | miss class | peer_loop IDLE seed","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[unknown] P2 loop — miss class sample-46","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Factory stress gap row_no for stress_gap_row: fact_checker prefer-order","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_no | miss class | WORK_QUEUE Active empty","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Niche stress_gap_row: label=abstain | miss class | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[unknown] P2 loop — miss class sample-16","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → abstain. Input shape miss class. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory unknown for stress_gap_row: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as stress gap row_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_no. Input shape miss class. RSS proposal 48GB reject","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as stress gap row_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_escalate | miss class | WORK_QUEUE Active empty","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory stress gap row_no for stress_gap_row: fact_checker prefer-order","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=unknown | miss class | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_maybe. Input shape miss class. continue_on_dirty HOLD","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory stress gap row_maybe for stress_gap_row: GDS cuFile forbidden","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as stress gap row_no. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_yes] P2 loop — miss class sample-36","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as abstain. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[abstain] P2 loop — miss class sample-41","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as stress gap row_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Factory stress gap row_yes for stress_gap_row: GDS cuFile forbidden","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_escalate | miss class | WORK_QUEUE Active empty","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → unknown. Input shape miss class. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_no. Input shape miss class. RSS proposal 48GB reject","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Classify stress_gap_row as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (STRESS_GAPS line)","output":{"label":"unknown"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_escalate. Input shape miss class. RSS proposal 48GB reject","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as stress gap row_escalate. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"stress gap row_escalate"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Classify stress_gap_row as stress gap row_no. Context: sm_121a missing flag (STRESS_GAPS line)","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Niche stress_gap_row: label=stress gap row_no | miss class | WORK_QUEUE Active empty","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → stress gap row_yes. Input shape miss class. continue_on_dirty HOLD","output":{"label":"stress gap row_yes"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_no] P2 loop — miss class sample-1","output":{"label":"stress gap row_no"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — Factory stress gap row_maybe for stress_gap_row: GDS cuFile forbidden","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"stress_gap_row decision → abstain. Input shape miss class. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"[stress gap row_maybe] P2 loop — miss class sample-26","output":{"label":"stress gap row_maybe"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Factory abstain for stress_gap_row: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N77","niche":"stress_gap_row","input":"Kit lock — stress_gap_row decision → stress gap row_escalate. Input shape miss class. RSS proposal 48GB reject","output":{"label":"stress gap row_escalate"}}

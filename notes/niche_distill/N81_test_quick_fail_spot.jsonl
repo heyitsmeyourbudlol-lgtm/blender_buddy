@@ -1,0 +1,96 @@
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[SPLIT] kit loops — unittest stderr sample-111","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[SPLIT] kit loops — unittest stderr sample-71","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[FAIL] kit loops — unittest stderr sample-101","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [PASS] kit loops — unittest stderr sample-16","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — test_quick_fail_spot decision → UNKNOWN. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → UNKNOWN. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[FAIL] kit loops — unittest stderr sample-1","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as SPLIT. Context: sm_121a missing flag (failing test id)","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[FAIL] kit loops — unittest stderr sample-41","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory SPLIT for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as SPLIT. Context: sm_121a missing flag (failing test id)","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → PASS. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [PASS] kit loops — unittest stderr sample-76","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as FAIL. Context: sm_121a missing flag (failing test id)","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → UNKNOWN. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → UNKNOWN. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[SPLIT] kit loops — unittest stderr sample-11","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[PASS] kit loops — unittest stderr sample-96","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → FAIL. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory SPLIT for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as PASS. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-26","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-86","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → FAIL. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [FAIL] kit loops — unittest stderr sample-61","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=SPLIT | unittest stderr | WORK_QUEUE Active empty","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as FAIL. Context: sm_121a missing flag (failing test id)","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=SPLIT | unittest stderr | WORK_QUEUE Active empty","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — test_quick_fail_spot decision → SPLIT. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-46","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-106","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[SPLIT] kit loops — unittest stderr sample-51","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory SPLIT for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[FAIL] kit loops — unittest stderr sample-81","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory SPLIT for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as PASS. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [SPLIT] kit loops — unittest stderr sample-31","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[PASS] kit loops — unittest stderr sample-56","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as SPLIT. Context: sm_121a missing flag (failing test id)","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as SPLIT. Context: sm_121a missing flag (failing test id)","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — test_quick_fail_spot decision → PASS. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory PASS for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=FAIL | unittest stderr | WORK_QUEUE Active empty","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=SPLIT | unittest stderr | WORK_QUEUE Active empty","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Niche test_quick_fail_spot: label=UNKNOWN | unittest stderr | peer_loop IDLE seed","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → PASS. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Classify test_quick_fail_spot as PASS. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=SPLIT | unittest stderr | WORK_QUEUE Active empty","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (failing test id)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as SPLIT. Context: sm_121a missing flag (failing test id)","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — test_quick_fail_spot decision → PASS. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as FAIL. Context: sm_121a missing flag (failing test id)","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → UNKNOWN. Input shape unittest stderr. continue_on_dirty HOLD","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[PASS] kit loops — unittest stderr sample-36","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[SPLIT] kit loops — unittest stderr sample-91","output":{"label":"SPLIT"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → FAIL. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=SPLIT | unittest stderr | WORK_QUEUE Active empty","output":{"label":"SPLIT"}}

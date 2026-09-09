@@ -1,0 +1,10 @@
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"peer_turn_signal_poke decision → peer turn signal poke_escalate. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer turn signal poke_escalate"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Factory peer turn signal poke_yes for peer_turn_signal_poke: GDS cuFile forbidden","output":{"label":"peer turn signal poke_yes"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — [unknown] wake daemon — symptom sample-46","output":{"label":"unknown"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Classify peer_turn_signal_poke as peer turn signal poke_no. Context: sm_121a missing flag (touch peer-turn.signal?)","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"peer_turn_signal_poke decision → peer turn signal poke_yes. Input shape symptom. continue_on_dirty HOLD","output":{"label":"peer turn signal poke_yes"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Niche peer_turn_signal_poke: label=peer turn signal poke_maybe | symptom | peer_loop IDLE seed","output":{"label":"peer turn signal poke_maybe"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"peer_turn_signal_poke decision → peer turn signal poke_no. Input shape symptom. RSS proposal 48GB reject","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Niche peer_turn_signal_poke: label=peer turn signal poke_no | symptom | WORK_QUEUE Active empty","output":{"label":"peer turn signal poke_no"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"[abstain] wake daemon — symptom sample-41","output":{"label":"abstain"}}
+{"niche_id":"N68","niche":"peer_turn_signal_poke","input":"Kit lock — Classify peer_turn_signal_poke as peer turn signal poke_escalate. Context: sm_121a missing flag (touch peer-turn.signal?)","output":{"label":"peer turn signal poke_escalate"}}

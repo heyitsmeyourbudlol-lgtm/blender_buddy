@@ -1,0 +1,49 @@
+{
+  "match_rules": [
+    {"template": "git_hygiene", "any": ["commit", "stash", "git dirty", "git not clean"], "priority": 5},
+    {"template": "automation_audit", "any": ["automation", "self-check", "peer_orchestrate"], "priority": 8},
+    {"template": "kit_adapt", "any": ["adapt", "heal", "probe", "local profile", "automation_adapt"], "priority": 12},
+    {"template": "kit_export", "any": ["export", "bundle", "tarball", "automation-kit"], "priority": 14},
+    {"template": "kit_bootstrap", "any": ["bootstrap", "import kit", "install.sh", "install kit"], "priority": 16},
+    {"template": "registry_hub", "any": ["registry.json", "repo audit", "registry hub"], "priority": 18},
+    {"template": "creative_loop", "any": ["forever loop", "peer loop", "kqueue", "noop backoff"], "priority": 20},
+    {"template": "generic_task", "any": ["implement", "fix", "add", "update", "ship", "build", "test"], "priority": 200}
+  ],
+  "task_templates": {
+    "kit_adapt": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": ["scripts/automation_adapt.py", "profiles/local.json"],
+      "prompt": "Run automation_adapt probe/heal/audit; fix verify drift; sync profiles/local.json with detected stack."
+    },
+    "kit_export": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": ["scripts/bundle_automation_kit.py", "scripts/automation_adapt.py"],
+      "prompt": "Export portable kit tarball; verify KIT_COPY_PATHS complete; run self-check after export script edits."
+    },
+    "kit_bootstrap": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["install.sh", "IMPORT.md", "automation.config.json"],
+      "prompt": "Bootstrap peer kit: config identity, self-check, adapt heal. Sync WORK_QUEUE ↔ self_improve_context."
+    },
+    "registry_hub": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": ["repos/registry.json", "scripts/automation_adapt.py"],
+      "prompt": "Update registry metadata (profile, status, notes). Hub-only — do not adapt-all unless user asked."
+    },
+    "generic_task": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "Implement the queue item with minimal diff. Match repo conventions. Run verify commands before done."
+    }
+  },
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "python3 -m unittest tests.test_automation -q",
+    "python3 -m unittest tests.test_run_peer_tasks -q"
+  ]
+}

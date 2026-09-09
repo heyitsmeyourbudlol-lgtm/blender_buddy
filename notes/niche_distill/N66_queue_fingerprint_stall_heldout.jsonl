@@ -1,0 +1,16 @@
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Kit lock — Factory adapt_stale for queue_fingerprint_stall: GDS cuFile forbidden","output":{"label":"adapt_stale"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Niche queue_fingerprint_stall: label=verify_fail_agent_exit | status snaps | peer_loop IDLE seed","output":{"label":"verify_fail_agent_exit"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"[verify_fail_tests] overseer dispatch — status snaps sample-21","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"[verify_fail_tests] overseer dispatch — status snaps sample-66","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Kit lock — [queue_drift] overseer dispatch — status snaps sample-41","output":{"label":"queue_drift"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Niche queue_fingerprint_stall: label=queue_drift | status snaps | peer_loop IDLE seed","output":{"label":"queue_drift"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"[unknown] overseer dispatch — status snaps sample-26","output":{"label":"unknown"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Niche queue_fingerprint_stall: label=noop_stall | status snaps | WORK_QUEUE Active empty","output":{"label":"noop_stall"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"queue_fingerprint_stall decision → unknown. Input shape status snaps. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Kit lock — Factory adapt_stale for queue_fingerprint_stall: fact_checker prefer-order","output":{"label":"adapt_stale"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"queue_fingerprint_stall decision → chicken_egg. Input shape status snaps. continue_on_dirty HOLD","output":{"label":"chicken_egg"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"queue_fingerprint_stall decision → verify_fail_tests. Input shape status snaps. RSS proposal 48GB reject","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"queue_fingerprint_stall decision → verify_fail_tests. Input shape status snaps. continue_on_dirty HOLD","output":{"label":"verify_fail_tests"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Kit lock — Classify queue_fingerprint_stall as healthy. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stall class)","output":{"label":"healthy"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Kit lock — [adapt_stale] overseer dispatch — status snaps sample-6","output":{"label":"adapt_stale"}}
+{"niche_id":"N66","niche":"queue_fingerprint_stall","input":"Niche queue_fingerprint_stall: label=healthy | status snaps | WORK_QUEUE Active empty","output":{"label":"healthy"}}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N48",
+  "name": "committee_merge",
+  "domain": "committee_merge",
+  "helps": "composer",
+  "weights": "notes/niche_distill/practice_n48/weights/n48_committee_merge_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00013841537293046713,
+  "labels": [
+    "abstain",
+    "committee merge_escalate",
+    "committee merge_maybe",
+    "committee merge_no",
+    "committee merge_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N48 '<input>'"
+}

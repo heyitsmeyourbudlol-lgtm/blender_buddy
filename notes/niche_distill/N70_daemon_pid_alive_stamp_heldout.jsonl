@@ -1,0 +1,10 @@
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_maybe | label+pid | peer_loop IDLE seed","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory daemon pid alive_maybe for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_escalate. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Classify daemon_pid_alive as abstain. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_maybe] peer_self_heal — label+pid sample-56","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory daemon pid alive_yes for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_yes | label+pid | peer_loop IDLE seed","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_no. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — [daemon pid alive_no] peer_self_heal — label+pid sample-1","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Factory daemon pid alive_escalate for daemon_pid_alive: fact_checker prefer-order","output":{"label":"daemon pid alive_escalate"}}

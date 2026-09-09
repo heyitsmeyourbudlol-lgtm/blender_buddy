@@ -1,0 +1,22 @@
+---
+description: Decompose approved plan docs into peer-loop tasks — do not make the user repeat plans
+alwaysApply: true
+---
+
+# Plan → peer tasks (automation team)
+
+When the user approves or updates a **plan doc**, decompose it into peer-loop work **without asking them to repeat it**.
+
+## Required steps
+
+1. Read the plan's **Implementation order** / phases / checklist.
+2. Add unchecked `[ ]` lines to **`notes/WORK_QUEUE.md`** and **`scripts/self_improve_context.md`** — **identical text** (automation drift check).
+3. For multi-step features, maintain **`notes/<NAME>_TASKS.md`** as the human-readable breakdown; link from the plan doc.
+4. Add or update **`scripts/peer_tasks.json`** templates + **`scripts/peer_orchestrate.py`** `_match_template` keys when new task types appear.
+5. Update **`notes/AUTOMATION.md`** template table and peer **`reads`** lists.
+6. Run **`python3 scripts/peer_orchestrate.py --self-check`** after `peer_tasks.json` edits.
+
+## Do not
+
+- Re-ask the user to summarize plans already written in repo docs.
+- Skip WORK_QUEUE ↔ self_improve_context sync.

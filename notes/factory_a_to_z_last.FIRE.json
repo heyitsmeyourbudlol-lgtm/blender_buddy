@@ -1,0 +1,42 @@
+{
+  "needle": "OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07",
+  "needle_ae": "OVERSEER_KIT_RUN_AE_2026_09_07",
+  "ts": "2026-09-08T04:00:00Z",
+  "repo": "F.I.R.E. Project",
+  "namespace": null,
+  "target": "/Users/togi/F.I.R.E. Project",
+  "ok": true,
+  "artifact_mode": "pr",
+  "pr_url": "https://github.com/heyitsmeyourbudlol-lgtm/FIRE-Project/pull/1",
+  "branch": "peer/kit-a-to-z-20260908T035519",
+  "worktree_path": "/Users/togi/F.I.R.E. Project-kit-a-to-z-20260908T035519",
+  "tip": "2ec9c7e",
+  "note": "Eleventh registry target MERGED. Initial D=blocked_receipt(no_origin_remote); Mac origin seed + gh PR #1 MERGED b28d11b @ tip 2ec9c7e. NO PAY. Sibling race T035616 superseded. Terminal CI heal deferred.",
+  "steps": [
+    {
+      "step": "A_adapt",
+      "ok": true
+    },
+    {
+      "step": "B_verify",
+      "ok": true
+    },
+    {
+      "step": "C_worktree",
+      "ok": true,
+      "worktree_path": "/Users/togi/F.I.R.E. Project-kit-a-to-z-20260908T035519"
+    },
+    {
+      "step": "D_artifact",
+      "ok": true,
+      "mode": "pr_merged",
+      "pr_url": "https://github.com/heyitsmeyourbudlol-lgtm/FIRE-Project/pull/1",
+      "merge_commit": "b28d11b"
+    },
+    {
+      "step": "E_writeback",
+      "ok": true
+    }
+  ],
+  "merge_commit": "b28d11b"
+}

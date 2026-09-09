@@ -1,0 +1,10 @@
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"agent_role_strength_match decision → abstain. Input shape queue title. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"[agent role strength match_yes] assign — queue title sample-36","output":{"label":"agent role strength match_yes"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Niche agent_role_strength_match: label=agent role strength match_yes | queue title | peer_loop IDLE seed","output":{"label":"agent role strength match_yes"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Kit lock — Factory agent role strength match_maybe for agent_role_strength_match: GDS cuFile forbidden","output":{"label":"agent role strength match_maybe"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Classify agent_role_strength_match as agent role strength match_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (agent_roles id)","output":{"label":"agent role strength match_maybe"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Classify agent_role_strength_match as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (agent_roles id)","output":{"label":"unknown"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Niche agent_role_strength_match: label=agent role strength match_no | queue title | WORK_QUEUE Active empty","output":{"label":"agent role strength match_no"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Kit lock — agent_role_strength_match decision → agent role strength match_yes. Input shape queue title. continue_on_dirty HOLD","output":{"label":"agent role strength match_yes"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Factory unknown for agent_role_strength_match: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N87","niche":"agent_role_strength_match","input":"Kit lock — Factory agent role strength match_escalate for agent_role_strength_match: fact_checker prefer-order","output":{"label":"agent role strength match_escalate"}}

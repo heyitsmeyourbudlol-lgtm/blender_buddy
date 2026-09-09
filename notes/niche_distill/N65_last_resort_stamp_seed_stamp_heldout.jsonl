@@ -1,0 +1,10 @@
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Classify last_resort_stamp_seed as abstain. Context: sm_121a missing flag (stamped kit line)","output":{"label":"abstain"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Niche last_resort_stamp_seed: label=last resort stamp seed_maybe | exhausted fallbacks | peer_loop IDLE seed","output":{"label":"last resort stamp seed_maybe"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"last_resort_stamp_seed decision → abstain. Input shape exhausted fallbacks. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Kit lock — last_resort_stamp_seed decision → last resort stamp seed_escalate. Input shape exhausted fallbacks. RSS proposal 48GB reject","output":{"label":"last resort stamp seed_escalate"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Factory abstain for last_resort_stamp_seed: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Kit lock — [last resort stamp seed_yes] kit-seed skip — exhausted fallbacks sample-6","output":{"label":"last resort stamp seed_yes"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Kit lock — Classify last_resort_stamp_seed as last resort stamp seed_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (stamped kit line)","output":{"label":"last resort stamp seed_yes"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Kit lock — last_resort_stamp_seed decision → last resort stamp seed_escalate. Input shape exhausted fallbacks. RSS proposal 48GB reject","output":{"label":"last resort stamp seed_escalate"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"Factory unknown for last_resort_stamp_seed: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N65","niche":"last_resort_stamp_seed","input":"last_resort_stamp_seed decision → last resort stamp seed_maybe. Input shape exhausted fallbacks. continue_on_dirty HOLD","output":{"label":"last resort stamp seed_maybe"}}

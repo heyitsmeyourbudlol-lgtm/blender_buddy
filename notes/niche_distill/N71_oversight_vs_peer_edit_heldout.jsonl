@@ -1,0 +1,16 @@
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as abstain. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"abstain"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Niche oversight_vs_peer_edit: label=oversight vs peer edit_yes | WQ diff author | peer_loop IDLE seed","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — oversight_vs_peer_edit decision → oversight vs peer edit_no. Input shape WQ diff author. RSS proposal 48GB reject","output":{"label":"oversight vs peer edit_no"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"[oversight vs peer edit_escalate] thrash debug — WQ diff author sample-21","output":{"label":"oversight vs peer edit_escalate"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as oversight vs peer edit_escalate. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"oversight vs peer edit_escalate"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"oversight_vs_peer_edit decision → oversight vs peer edit_yes. Input shape WQ diff author. continue_on_dirty HOLD","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Niche oversight_vs_peer_edit: label=oversight vs peer edit_yes | WQ diff author | peer_loop IDLE seed","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — Classify oversight_vs_peer_edit as oversight vs peer edit_escalate. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"oversight vs peer edit_escalate"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"[oversight vs peer edit_yes] thrash debug — WQ diff author sample-66","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as oversight vs peer edit_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overseer/peer/human)","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Factory unknown for oversight_vs_peer_edit: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as oversight vs peer edit_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overseer/peer/human)","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Factory oversight vs peer edit_yes for oversight_vs_peer_edit: GDS cuFile forbidden","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"[abstain] thrash debug — WQ diff author sample-71","output":{"label":"abstain"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — oversight_vs_peer_edit decision → oversight vs peer edit_escalate. Input shape WQ diff author. RSS proposal 48GB reject","output":{"label":"oversight vs peer edit_escalate"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"[abstain] thrash debug — WQ diff author sample-101","output":{"label":"abstain"}}

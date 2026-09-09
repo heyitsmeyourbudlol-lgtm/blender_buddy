@@ -1,0 +1,96 @@
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → reject. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory reject for p0_lane_protect: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[allow] RECIPE+ckpt gate — queue edit sample-21","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-76","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory pending for p0_lane_protect: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [allow] RECIPE+ckpt gate — queue edit sample-66","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as pending. Context: sm_121a missing flag (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [reject] RECIPE+ckpt gate — queue edit sample-106","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [allow] RECIPE+ckpt gate — queue edit sample-111","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory allow for p0_lane_protect: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory pending for p0_lane_protect: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory allow for p0_lane_protect: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: sm_121a missing flag (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory pending for p0_lane_protect: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: sm_121a missing flag (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as pending. Context: sm_121a missing flag (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as allow. Context: sm_121a missing flag (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-86","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [pending] RECIPE+ckpt gate — queue edit sample-56","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-46","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-31","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [allow] RECIPE+ckpt gate — queue edit sample-96","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as allow. Context: sm_121a missing flag (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → reject. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → reject. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory pending for p0_lane_protect: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-41","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory allow for p0_lane_protect: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory pending for p0_lane_protect: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → reject. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[allow] RECIPE+ckpt gate — queue edit sample-6","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-101","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Niche p0_lane_protect: label=allow | queue edit | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → reject. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-91","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory reject for p0_lane_protect: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory allow for p0_lane_protect: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: sm_121a missing flag (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — p0_lane_protect decision → reject. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory allow for p0_lane_protect: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory pending for p0_lane_protect: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Niche p0_lane_protect: label=pending | queue edit | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as pending. Context: sm_121a missing flag (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — p0_lane_protect decision → allow. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as reject. Context: sm_121a missing flag (allow close P0?)","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=reject | queue edit | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory reject for p0_lane_protect: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — p0_lane_protect decision → reject. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[allow] RECIPE+ckpt gate — queue edit sample-51","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as pending. Context: sm_121a missing flag (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-71","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — [allow] RECIPE+ckpt gate — queue edit sample-36","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-26","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory pending for p0_lane_protect: GDS cuFile forbidden","output":{"label":"pending"}}

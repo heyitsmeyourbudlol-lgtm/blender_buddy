@@ -1,0 +1,10 @@
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Niche json_only_extract: label=json only extract_escalate | dump | WORK_QUEUE Active empty","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → json only extract_yes. Input shape dump. continue_on_dirty HOLD","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as abstain. Context: sm_121a missing flag (single JSON)","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Niche json_only_extract: label=json only extract_maybe | dump | peer_loop IDLE seed","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory json only extract_no for json_only_extract: fact_checker prefer-order","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory unknown for json_only_extract: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Classify json_only_extract as json only extract_escalate. Context: sm_121a missing flag (single JSON)","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=json only extract_no | dump | WORK_QUEUE Active empty","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_escalate] parse thrash — dump sample-51","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → abstain. Input shape dump. RSS proposal 48GB reject","output":{"label":"abstain"}}

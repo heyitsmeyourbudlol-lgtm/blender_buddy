@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/case.py", line 420, in __init__
+    testMethod = getattr(self, methodName)
+AttributeError: 'AdaptHelperTests' object has no attribute 'test_lean_automation_verify_strips_discover'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    suite.addTest(a.AdaptHelperTests("test_lean_automation_verify_strips_discover"))
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/case.py", line 425, in __init__
+    raise ValueError("no such test method in %s: %s" %
+          (self.__class__, methodName))
+ValueError: no such test method in <class 'tests.test_automation_adapt.AdaptHelperTests'>: test_lean_automation_verify_strips_discover
+rc:1

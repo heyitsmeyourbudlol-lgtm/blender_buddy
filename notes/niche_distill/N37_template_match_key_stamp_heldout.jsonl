@@ -1,0 +1,10 @@
+{"niche_id":"N37","niche":"template_match_key","input":"[template match key_yes] orchestrate — title sample-6","output":{"label":"template match key_yes"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Niche template_match_key: label=template match key_no | title | WORK_QUEUE Active empty","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Niche template_match_key: label=template match key_escalate | title | WORK_QUEUE Active empty","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — [abstain] orchestrate — title sample-11","output":{"label":"abstain"}}
+{"niche_id":"N37","niche":"template_match_key","input":"template_match_key decision → template match key_escalate. Input shape title. RSS proposal 48GB reject","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — template_match_key decision → template match key_maybe. Input shape title. continue_on_dirty HOLD","output":{"label":"template match key_maybe"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_escalate. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"template match key_escalate"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Kit lock — Factory template match key_no for template_match_key: fact_checker prefer-order","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_no. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"template match key_no"}}
+{"niche_id":"N37","niche":"template_match_key","input":"Classify template_match_key as template match key_escalate. Context: sm_121a missing flag (peer_tasks key)","output":{"label":"template match key_escalate"}}

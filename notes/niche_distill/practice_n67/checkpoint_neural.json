@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N67",
+  "name": "worktree_dispatch_dirty",
+  "domain": "worktree_dispatch_dirty",
+  "helps": "continue_on_dirty",
+  "weights": "notes/niche_distill/practice_n67/weights/n67_worktree_dispatch_dirty_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.004104195162653923,
+  "labels": [
+    "CLEAN",
+    "hub",
+    "wrong_host"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N67 '<input>'"
+}

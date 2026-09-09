@@ -1,0 +1,16 @@
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_yes for composer_route_pick: GDS cuFile forbidden","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — composer_route_pick decision → composer route pick_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [composer route pick_yes] niche_composer — task sample-6","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory composer route pick_no for composer_route_pick: fact_checker prefer-order","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_yes | task | peer_loop IDLE seed","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_no. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[unknown] niche_composer — task sample-106","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Kit lock — [unknown] niche_composer — task sample-46","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Niche composer_route_pick: label=composer route pick_maybe | task | peer_loop IDLE seed","output":{"label":"composer route pick_maybe"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"Factory unknown for composer_route_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_yes. Input shape task. continue_on_dirty HOLD","output":{"label":"composer route pick_yes"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_no] niche_composer — task sample-1","output":{"label":"composer route pick_no"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_escalate. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[abstain] niche_composer — task sample-71","output":{"label":"abstain"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"composer_route_pick decision → composer route pick_escalate. Input shape task. RSS proposal 48GB reject","output":{"label":"composer route pick_escalate"}}
+{"niche_id":"N78","niche":"composer_route_pick","input":"[composer route pick_no] niche_composer — task sample-61","output":{"label":"composer route pick_no"}}

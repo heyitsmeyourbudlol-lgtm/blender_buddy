@@ -1,0 +1,16 @@
+{"niche_id":"N53","niche":"creative_vs_executable","input":"creative_vs_executable decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Classify creative_vs_executable as abstain. Context: sm_121a missing flag (demote/keep)","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Factory creative vs executable_escalate for creative_vs_executable: fact_checker prefer-order","output":{"label":"creative vs executable_escalate"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"[abstain] meter mode — item sample-41","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — Niche creative_vs_executable: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Classify creative_vs_executable as creative vs executable_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (demote/keep)","output":{"label":"creative vs executable_yes"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Niche creative_vs_executable: label=creative vs executable_maybe | item | peer_loop IDLE seed","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Factory abstain for creative_vs_executable: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — creative_vs_executable decision → creative vs executable_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"creative vs executable_escalate"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Factory creative vs executable_maybe for creative_vs_executable: GDS cuFile forbidden","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Niche creative_vs_executable: label=creative vs executable_maybe | item | peer_loop IDLE seed","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — Niche creative_vs_executable: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Niche creative_vs_executable: label=creative vs executable_escalate | item | WORK_QUEUE Active empty","output":{"label":"creative vs executable_escalate"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Kit lock — [creative vs executable_escalate] meter mode — item sample-81","output":{"label":"creative vs executable_escalate"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"Factory creative vs executable_maybe for creative_vs_executable: GDS cuFile forbidden","output":{"label":"creative vs executable_maybe"}}
+{"niche_id":"N53","niche":"creative_vs_executable","input":"creative_vs_executable decision → creative vs executable_no. Input shape item. RSS proposal 48GB reject","output":{"label":"creative vs executable_no"}}

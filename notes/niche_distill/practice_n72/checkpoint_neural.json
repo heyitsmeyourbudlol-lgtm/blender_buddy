@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N72",
+  "name": "land_needle_premature",
+  "domain": "land_needle_premature",
+  "helps": "false land-proof",
+  "weights": "notes/niche_distill/practice_n72/weights/n72_land_needle_premature_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.00437347125262022,
+  "labels": [
+    "failed",
+    "pending",
+    "ready"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N72 '<input>'"
+}

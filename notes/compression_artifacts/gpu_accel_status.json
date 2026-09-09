@@ -1,0 +1,86 @@
+{
+  "needle": "OVERSEER_COMPRESSION_GPU_2026_09_05",
+  "ts": "2026-09-08T02:24:15Z",
+  "device": "NVIDIA GB10",
+  "cuda": true,
+  "billing": "local_cuda_free",
+  "svd_scale_sweep": {
+    "kind": "svd_scale_sweep",
+    "seconds": 0.1368,
+    "device": "NVIDIA GB10",
+    "rows": [
+      {
+        "r": 1,
+        "d": 1024,
+        "n_logic": 1048576,
+        "u_unique": 2049,
+        "S": 511.7501,
+        "recon_mse": 0.057877831161022186,
+        "arith_short_of_s100": false,
+        "nvfp4_mb": 0.000977
+      },
+      {
+        "r": 2,
+        "d": 1024,
+        "n_logic": 1048576,
+        "u_unique": 4098,
+        "S": 255.8751,
+        "recon_mse": 0.032662492245435715,
+        "arith_short_of_s100": false,
+        "nvfp4_mb": 0.001954
+      },
+      {
+        "r": 4,
+        "d": 1024,
+        "n_logic": 1048576,
+        "u_unique": 8196,
+        "S": 127.9375,
+        "recon_mse": 0.02000095695257187,
+        "arith_short_of_s100": false,
+        "nvfp4_mb": 0.003908
+      },
+      {
+        "r": 8,
+        "d": 1024,
+        "n_logic": 1048576,
+        "u_unique": 16392,
+        "S": 63.9688,
+        "recon_mse": 0.011207456700503826,
+        "arith_short_of_s100": true,
+        "nvfp4_mb": 0.007816
+      }
+    ],
+    "best_S": 511.7501
+  },
+  "kd_gpu_step": {
+    "kind": "kd_gpu_step",
+    "seconds": 0.0638,
+    "heldout_proxy_mse": 141.06288146972656,
+    "unique_U": 2048,
+    "S_vs_dense": 128.0,
+    "nvfp4_mb": 0.000977,
+    "data_prune": false
+  },
+  "t4_ratio_check": {
+    "kind": "t4_ratio_check",
+    "seconds": 0.0,
+    "n_logic": 10000000,
+    "unique_U": 74576,
+    "S": 134.0914,
+    "arith_short_of_s100": false,
+    "nvfp4_pack_mb": 0.0356,
+    "packed_bytes_alloc": 37288,
+    "objective": "min U / min RAM @ NVFP4"
+  },
+  "t4_ratio_check_1e8": {
+    "kind": "t4_ratio_check",
+    "seconds": 0.0,
+    "n_logic": 100000000,
+    "unique_U": 524576,
+    "S": 190.6301,
+    "arith_short_of_s100": false,
+    "nvfp4_pack_mb": 0.2501,
+    "packed_bytes_alloc": 262288,
+    "objective": "min U / min RAM @ NVFP4"
+  }
+}

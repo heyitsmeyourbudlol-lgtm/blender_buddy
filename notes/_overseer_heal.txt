@@ -1,0 +1,19 @@
+# Self-heal — bottleneck tracker
+
+_Scanned 2026-09-03 20:18:55_ · enabled=True
+
+| Severity | Category | Bottleneck | Status | Hits |
+|----------|----------|------------|--------|------|
+| high | verify | Last cycle verify failed — dispatch held | deferred | 69 |
+| medium | verify | Verify failure/timeout storm | deferred | 107 |
+
+local: queue (10 tasks) — verify gate
+verify: trimmed 1 unittest worker(s) before gate
+verify: quiet (agents=1, unittest=2, self-check=1)
+verify: notes-only fingerprint ok
+verify: deferred — self-check at cap (1>=1)
+local: verify deferred — swarm/lock; not a gate failure
+[ok] self-heal: /home/arnavrastogi/Automation/scripts/peer self-heal
+[ok] compact-queue: removed=0 open=0 
+[ok] sync-queue: healed=0 warns=0
+[ok] verify-gate: python3 /home/arnavrastogi/Automation/scripts/run_peer_tasks.py

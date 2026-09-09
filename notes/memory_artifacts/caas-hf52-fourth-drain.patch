@@ -1,0 +1,281 @@
+From b7f2211df2c5d1ffe7e96d93839ca384ff0e65a4 Mon Sep 17 00:00:00 2001
+From: Newdrop Agent <hello@getnewdrop.com>
+Date: Tue, 8 Sep 2026 00:41:04 -0400
+Subject: [PATCH] Close Hard-Fix #52 residual: fourth Hobby publish drain via
+ billing-reconcile.
+
+Nest multi-round publishDueScheduledUpdates at 06:15 UTC between publish-scheduled and clone-spike; fail-soft. Paid hourly still open. UI untouched.
+
+Co-authored-by: Cursor <cursoragent@cursor.com>
+---
+ AGENT_MEMORY.md                               |  3 +-
+ CHANGELOG.md                                  |  6 ++
+ docs/playbooks/HARD_FIXES_PLAN.md             |  2 +-
+ scripts/check-compliance-controls.sh          |  4 ++
+ .../api/cron/billing-reconcile/route.test.ts  | 64 +++++++++++++++++--
+ src/app/api/cron/billing-reconcile/route.ts   | 49 +++++++++++---
+ 6 files changed, 113 insertions(+), 15 deletions(-)
+
+diff --git a/AGENT_MEMORY.md b/AGENT_MEMORY.md
+index 9c51c09d..87879d13 100644
+--- a/AGENT_MEMORY.md
++++ b/AGENT_MEMORY.md
+@@ -5,7 +5,8 @@
+ **Update when:** User makes a durable decision, or a roadmap phase ships/parks.  
+ **Deep docs:** `docs/product/BUSINESS_ANALYSIS.md` · `docs/playbooks/MARKETING_SCHEME.md` · `docs/playbooks/THE_SELL.md` · `docs/playbooks/DEV_DX_PLAN.md` · `docs/playbooks/AI_CODER_GTM.md` · `docs/product/LONG_TERM.md` · `docs/product/ROADMAP.md` · `docs/product/EXPERIENCE_ROADMAP.md` · `docs/playbooks/HARD_FIXES_PLAN.md` · `docs/agent/AGENT_WORKFLOW.md` · `docs/playbooks/MARKETING_HOWTO.md` · `docs/playbooks/MARKETING.md` · `docs/playbooks/CONVERSION.md` · `docs/playbooks/CLONE_PLAYBOOK.md` · `docs/playbooks/SALES_STALL.md` · `docs/playbooks/STEAL_WHAT_FITS.md` · `docs/playbooks/DEMO_PLAN.md` · `docs/playbooks/VIDEO_CRAFT.md` · `dev-snowball/FORMULA.md`
+ 
+-**Last compressed:** September 8, 2026 (clone-spike publish nest #52)
++**Last compressed:** September 8, 2026 (billing-reconcile publish nest #52)
++- **Fourth Hobby publish drain (#52, Sep 8):** `/api/cron/billing-reconcile` nests multi-round `publishDueScheduledUpdates` (06:15 UTC) between publish-scheduled (05:00) and clone-spike (07:10); fail-soft; paid hourly still open.
+ - **Third Hobby publish drain (#52, Sep 8):** `/api/cron/clone-spike` nests multi-round `publishDueScheduledUpdates` (07:10 UTC) after purge-abuse (03:30) + publish-scheduled (05:00); fail-soft; paid hourly still open.
+ - **Product observability alerts (#87, Sep 8):** webhook fail / notify truncate / unlock RL → `logSecurityEvent` emergency; founder `security_events` query in AGENT_WORKFLOW.
+ - **Editor email on publish (#91, Sep 8):** `notifyEditorsOnPublish` emails owner + active editors on publish paths; Advanced opt-out deferred; no UI chrome.
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index f4356c40..97bb7aa3 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -2,6 +2,12 @@
+ 
+ All notable changes ship through [Newdrop](https://getnewdrop.com).
+ 
++## Fourth Hobby publish drain via billing-reconcile (#52) — 2026-09-08
++
++### Fixed
++
++- **Hard-Fix #52 residual** — `/api/cron/billing-reconcile` (06:15 UTC) nests the same multi-round `publishDueScheduledUpdates` drain used by publish-scheduled + purge-abuse + clone-spike. Fail-soft if nested publish errors. Paid hourly / queue worker still open. UI untouched.
++
+ ## Third Hobby publish drain via clone-spike (#52) — 2026-09-08
+ 
+ ### Fixed
+diff --git a/docs/playbooks/HARD_FIXES_PLAN.md b/docs/playbooks/HARD_FIXES_PLAN.md
+index 2fac6ec6..719d2807 100644
+--- a/docs/playbooks/HARD_FIXES_PLAN.md
++++ b/docs/playbooks/HARD_FIXES_PLAN.md
+@@ -692,7 +692,7 @@ Elegant statue: harden trust/money/isolation — do **not** add suite surface.
+ 
+ ### #52 — Hobby cron = daily; opportunistic flush elsewhere {#fix-52}
+ 
+-- **Status:** [~] (2026-09-08 — multi-round drain 100×5 + `backlogRemaining`; Hobby daily ticks: purge-abuse nest 03:30 + publish-scheduled 05:00 + **clone-spike nest 07:10**; paid hourly / queue worker still open)
++- **Status:** [~] (2026-09-08 — multi-round drain 100×5 + `backlogRemaining`; Hobby daily ticks: purge-abuse nest 03:30 + publish-scheduled 05:00 + **billing-reconcile nest 06:15** + clone-spike nest 07:10; paid hourly / queue worker still open)
+ - **Wave:** 4
+ - **Severity:** Debt · **Category:** Publish / notify · **Effort:** H
+ - **Goal:** Scheduled posts late unless dashboard/widget traffic hits.
+diff --git a/scripts/check-compliance-controls.sh b/scripts/check-compliance-controls.sh
+index bb6ae26d..928c107a 100755
+--- a/scripts/check-compliance-controls.sh
++++ b/scripts/check-compliance-controls.sh
+@@ -151,6 +151,10 @@ check "Clone-spike cron nests publish drain (#52)" \
+   grep -q 'publishDueScheduledUpdates' src/app/api/cron/clone-spike/route.ts
+ check "Clone-spike cron publish nest fail-soft (#52)" \
+   grep -q 'clone-spike nested publish-scheduled failed' src/app/api/cron/clone-spike/route.ts
++check "Billing-reconcile cron nests publish drain (#52)" \
++  grep -q 'publishDueScheduledUpdates' src/app/api/cron/billing-reconcile/route.ts
++check "Billing-reconcile cron publish nest fail-soft (#52)" \
++  grep -q 'billing-reconcile nested publish-scheduled failed' src/app/api/cron/billing-reconcile/route.ts
+ 
+ check "Embed.js short CDN TTL (#88)" \
+   grep -q 's-maxage=5' next.config.ts
+diff --git a/src/app/api/cron/billing-reconcile/route.test.ts b/src/app/api/cron/billing-reconcile/route.test.ts
+index c14d342a..028777d5 100644
+--- a/src/app/api/cron/billing-reconcile/route.test.ts
++++ b/src/app/api/cron/billing-reconcile/route.test.ts
+@@ -1,6 +1,7 @@
+-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
++import { beforeEach, describe, expect, it, vi } from "vitest";
+ 
+ const runBillingReconcile = vi.fn();
++const publishDueScheduledUpdates = vi.fn();
+ const cronAuthorized = vi.fn();
+ const cronSecretConfigured = vi.fn();
+ const stripeSecretConfigured = vi.fn();
+@@ -14,6 +15,16 @@ vi.mock("@/lib/billing/billing-reconcile", async (importOriginal) => {
+   };
+ });
+ 
++vi.mock("@/lib/changelog/publish-scheduled", async (importOriginal) => {
++  const actual =
++    await importOriginal<typeof import("@/lib/changelog/publish-scheduled")>();
++  return {
++    ...actual,
++    publishDueScheduledUpdates: (...args: unknown[]) =>
++      publishDueScheduledUpdates(...args),
++  };
++});
++
+ vi.mock("@/lib/security/secrets", () => ({
+   cronAuthorized: (...args: unknown[]) => cronAuthorized(...args),
+   cronSecretConfigured: (...args: unknown[]) => cronSecretConfigured(...args),
+@@ -24,18 +35,26 @@ vi.mock("@/lib/billing/stripe-checkout-gate", () => ({
+     stripeSecretConfigured(...args),
+ }));
+ 
++import {
++  PUBLISH_SCHEDULED_CRON_BATCH,
++  PUBLISH_SCHEDULED_CRON_MAX_ROUNDS,
++} from "@/lib/changelog/publish-scheduled";
+ import { GET as billingReconcileGet } from "./route";
+ 
+-afterEach(() => {
+-  vi.restoreAllMocks();
+-});
+-
+ beforeEach(() => {
+   runBillingReconcile.mockReset();
++  publishDueScheduledUpdates.mockReset();
+   cronAuthorized.mockReset();
+   cronSecretConfigured.mockReset();
+   stripeSecretConfigured.mockReset();
+   cronSecretConfigured.mockReturnValue(true);
++  publishDueScheduledUpdates.mockResolvedValue({
++    published: 1,
++    scanned: 10,
++    backlogRemaining: 0,
++    rounds: 1,
++    drained: true,
++  });
+ });
+ 
+ describe("cron billing-reconcile fail-closed", () => {
+@@ -50,6 +69,7 @@ describe("cron billing-reconcile fail-closed", () => {
+     });
+     expect(cronAuthorized).not.toHaveBeenCalled();
+     expect(runBillingReconcile).not.toHaveBeenCalled();
++    expect(publishDueScheduledUpdates).not.toHaveBeenCalled();
+   });
+ 
+   it("returns 401 when cron auth fails", async () => {
+@@ -60,6 +80,7 @@ describe("cron billing-reconcile fail-closed", () => {
+     expect(res.status).toBe(401);
+     await expect(res.json()).resolves.toEqual({ error: "unauthorized" });
+     expect(runBillingReconcile).not.toHaveBeenCalled();
++    expect(publishDueScheduledUpdates).not.toHaveBeenCalled();
+   });
+ 
+   it("returns 503 stripe_not_configured before runBillingReconcile", async () => {
+@@ -73,6 +94,7 @@ describe("cron billing-reconcile fail-closed", () => {
+       error: "stripe_not_configured",
+     });
+     expect(runBillingReconcile).not.toHaveBeenCalled();
++    expect(publishDueScheduledUpdates).not.toHaveBeenCalled();
+   });
+ 
+   it("runs reconcile when authorized and Stripe secret present", async () => {
+@@ -94,7 +116,39 @@ describe("cron billing-reconcile fail-closed", () => {
+       failed: 0,
+       orphans: 0,
+       orphanDetails: [],
++      publish: {
++        published: 1,
++        scanned: 10,
++        backlogRemaining: 0,
++        rounds: 1,
++        drained: true,
++      },
+     });
+     expect(runBillingReconcile).toHaveBeenCalledOnce();
++    expect(publishDueScheduledUpdates).toHaveBeenCalledWith({
++      limit: PUBLISH_SCHEDULED_CRON_BATCH,
++      maxRounds: PUBLISH_SCHEDULED_CRON_MAX_ROUNDS,
++    });
++  });
++});
++
++describe("cron billing-reconcile nested publish drain (#52)", () => {
++  it("keeps reconcile ok when nested publish throws", async () => {
++    cronAuthorized.mockReturnValue(true);
++    stripeSecretConfigured.mockReturnValue(true);
++    runBillingReconcile.mockResolvedValue({
++      synced: 0,
++      failed: 0,
++      orphans: 0,
++      orphanDetails: [],
++    });
++    publishDueScheduledUpdates.mockRejectedValue(new Error("boom"));
++    const res = await billingReconcileGet(
++      new Request("http://localhost/api/cron/billing-reconcile"),
++    );
++    expect(res.status).toBe(200);
++    const body = await res.json();
++    expect(body.ok).toBe(true);
++    expect(body.publish).toEqual({ error: "publish_failed" });
+   });
+ });
+diff --git a/src/app/api/cron/billing-reconcile/route.ts b/src/app/api/cron/billing-reconcile/route.ts
+index 613e32d6..22d77bce 100644
+--- a/src/app/api/cron/billing-reconcile/route.ts
++++ b/src/app/api/cron/billing-reconcile/route.ts
+@@ -4,9 +4,18 @@ import {
+   runBillingReconcile,
+ } from "@/lib/billing/billing-reconcile";
+ import { stripeSecretConfigured } from "@/lib/billing/stripe-checkout-gate";
++import {
++  PUBLISH_SCHEDULED_CRON_BATCH,
++  PUBLISH_SCHEDULED_CRON_MAX_ROUNDS,
++  publishDueScheduledUpdates,
++} from "@/lib/changelog/publish-scheduled";
+ import { cronAuthorized, cronSecretConfigured } from "@/lib/security/secrets";
+ 
+-/** #9 — Stripe ↔ accounts drift reconcile. */
++/**
++ * #9 — Stripe ↔ accounts drift reconcile.
++ * Also nests scheduled-publish drain (#52) so Hobby gets a fourth daily
++ * publish pass (06:15 UTC) between publish-scheduled (05:00) and clone-spike (07:10).
++ */
+ export async function GET(request: Request) {
+   if (!cronSecretConfigured()) {
+     return NextResponse.json(
+@@ -26,15 +35,17 @@ export async function GET(request: Request) {
+     );
+   }
+ 
++  let synced: number;
++  let failed: number;
++  let orphans: number;
++  let orphanDetails: unknown;
++
+   try {
+     const result = await runBillingReconcile();
+-    return NextResponse.json({
+-      ok: true,
+-      synced: result.synced,
+-      failed: result.failed,
+-      orphans: result.orphans,
+-      orphanDetails: result.orphanDetails,
+-    });
++    synced = result.synced;
++    failed = result.failed;
++    orphans = result.orphans;
++    orphanDetails = result.orphanDetails;
+   } catch (err) {
+     if (err instanceof BillingReconcileNotConfiguredError) {
+       return NextResponse.json(
+@@ -52,4 +63,26 @@ export async function GET(request: Request) {
+     console.error("billing reconcile", err);
+     return NextResponse.json({ error: "reconcile_failed" }, { status: 500 });
+   }
++
++  // Hard-Fix #52 residual — fourth daily Hobby publish drain (06:15 UTC)
++  // after purge-abuse (03:30), publish-scheduled (05:00), before clone-spike (07:10).
++  let publish: unknown = null;
++  try {
++    publish = await publishDueScheduledUpdates({
++      limit: PUBLISH_SCHEDULED_CRON_BATCH,
++      maxRounds: PUBLISH_SCHEDULED_CRON_MAX_ROUNDS,
++    });
++  } catch (err) {
++    console.error("billing-reconcile nested publish-scheduled failed", err);
++    publish = { error: "publish_failed" };
++  }
++
++  return NextResponse.json({
++    ok: true,
++    synced,
++    failed,
++    orphans,
++    orphanDetails,
++    publish,
++  });
+ }
+-- 
+2.43.0
+

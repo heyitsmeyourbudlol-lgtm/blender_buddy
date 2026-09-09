@@ -1,0 +1,24 @@
+{
+  "peers": {
+    "implement": {
+      "subagent_type": "generalPurpose",
+      "reads": ["AGENTS.md", "README.md"],
+      "description": "Implement scoped Rust changes — minimal diff"
+    },
+    "verify": {
+      "subagent_type": "shell",
+      "reads": ["AGENTS.md"],
+      "description": "Run cargo test/clippy — no edits"
+    }
+  },
+  "match_rules": [
+    {"template": "git_hygiene", "any": ["commit", "stash", "git dirty"], "priority": 5},
+    {"template": "automation_audit", "any": ["automation", "self-check"], "priority": 8},
+    {"template": "generic_task", "any": ["implement", "fix", "add", "ship", "test"], "priority": 200}
+  ],
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "cargo test --quiet",
+    "cargo clippy -- -D warnings"
+  ]
+}

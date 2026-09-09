@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N85",
+  "name": "phase_heading_normalize",
+  "domain": "phase_heading_normalize",
+  "helps": "compact",
+  "weights": "notes/niche_distill/practice_n85/weights/n85_phase_heading_normalize_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 6.0717295127687976e-05,
+  "labels": [
+    "abstain",
+    "phase heading normalize_escalate",
+    "phase heading normalize_maybe",
+    "phase heading normalize_no",
+    "phase heading normalize_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N85 '<input>'"
+}

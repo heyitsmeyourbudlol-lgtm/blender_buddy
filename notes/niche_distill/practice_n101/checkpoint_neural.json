@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N101",
+  "name": "bank_train_status_read",
+  "domain": "bank_train_status_read",
+  "helps": "train UI",
+  "weights": "notes/niche_distill/practice_n101/weights/n101_bank_train_status_read_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.0030888328328728676,
+  "labels": [
+    "failed",
+    "pending",
+    "ready"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N101 '<input>'"
+}

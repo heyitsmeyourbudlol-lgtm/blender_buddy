@@ -1,0 +1,48 @@
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[chinese prior tag_maybe] L6 — model sample-26","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory chinese prior tag_no for chinese_prior_tag: fact_checker prefer-order","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Niche chinese_prior_tag: label=chinese prior tag_yes | model | peer_loop IDLE seed","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=unknown | model | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_no | model | WORK_QUEUE Active empty","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory unknown for chinese_prior_tag: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Classify chinese_prior_tag as chinese prior tag_no. Context: sm_121a missing flag (leverage tag)","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_yes. Input shape model. continue_on_dirty HOLD","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → abstain. Input shape model. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → abstain. Input shape model. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Niche chinese_prior_tag: label=chinese prior tag_maybe | model | peer_loop IDLE seed","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory chinese prior tag_yes for chinese_prior_tag: GDS cuFile forbidden","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Factory chinese prior tag_escalate for chinese_prior_tag: fact_checker prefer-order","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_maybe. Input shape model. continue_on_dirty HOLD","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — chinese_prior_tag decision → unknown. Input shape model. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Niche chinese_prior_tag: label=unknown | model | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory abstain for chinese_prior_tag: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as abstain. Context: sm_121a missing flag (leverage tag)","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [abstain] L6 — model sample-41","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [chinese prior tag_escalate] L6 — model sample-51","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Niche chinese_prior_tag: label=abstain | model | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_escalate. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_no | model | WORK_QUEUE Active empty","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as chinese prior tag_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leverage tag)","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [chinese prior tag_no] L6 — model sample-1","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_escalate | model | WORK_QUEUE Active empty","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory chinese prior tag_maybe for chinese_prior_tag: GDS cuFile forbidden","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Classify chinese_prior_tag as chinese prior tag_no. Context: sm_121a missing flag (leverage tag)","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_no. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Classify chinese_prior_tag as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leverage tag)","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_yes | model | peer_loop IDLE seed","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory chinese prior tag_escalate for chinese_prior_tag: fact_checker prefer-order","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as chinese prior tag_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leverage tag)","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory unknown for chinese_prior_tag: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[chinese prior tag_maybe] L6 — model sample-56","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_yes. Input shape model. continue_on_dirty HOLD","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[unknown] L6 — model sample-16","output":{"label":"unknown"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as abstain. Context: sm_121a missing flag (leverage tag)","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=abstain | model | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_escalate | model | WORK_QUEUE Active empty","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — Classify chinese_prior_tag as chinese prior tag_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (leverage tag)","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Classify chinese_prior_tag as chinese prior tag_escalate. Context: sm_121a missing flag (leverage tag)","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Factory chinese prior tag_no for chinese_prior_tag: fact_checker prefer-order","output":{"label":"chinese prior tag_no"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Kit lock — [abstain] L6 — model sample-11","output":{"label":"abstain"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"Niche chinese_prior_tag: label=chinese prior tag_maybe | model | peer_loop IDLE seed","output":{"label":"chinese prior tag_maybe"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[chinese prior tag_yes] L6 — model sample-6","output":{"label":"chinese prior tag_yes"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"[chinese prior tag_escalate] L6 — model sample-21","output":{"label":"chinese prior tag_escalate"}}
+{"niche_id":"N43","niche":"chinese_prior_tag","input":"chinese_prior_tag decision → chinese prior tag_escalate. Input shape model. RSS proposal 48GB reject","output":{"label":"chinese prior tag_escalate"}}

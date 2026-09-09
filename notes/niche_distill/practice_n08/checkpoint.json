@@ -1,0 +1,16 @@
+{
+  "needle": "OVERSEER_NICHE_P1_N03_N08_2026_09_06",
+  "niche_id": "N08",
+  "niche": "stall_class_label",
+  "checkpoint": "notes/niche_distill/practice_n08/checkpoint.json",
+  "weights": "notes/niche_distill/practice_n08/weights/n08_stall_class_label_practice.pt",
+  "train_jsonl": "notes/niche_distill/N08_stall_class_label.jsonl",
+  "heldout_jsonl": "notes/niche_distill/N08_stall_class_label_heldout.jsonl",
+  "n_train": 32,
+  "n_heldout": 7,
+  "heldout_accuracy": 1.0,
+  "pass_bar": 0.9,
+  "passed": true,
+  "serve": "python3 scripts/niche_n08_practice.py --serve '{\"status\":\"…\",\"log\":\"…\"}'",
+  "recipe": "notes/niche_distill/RECIPE.md"
+}

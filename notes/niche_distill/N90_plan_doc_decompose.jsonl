@@ -1,0 +1,96 @@
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_maybe. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_escalate. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_yes. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [plan doc decompose_maybe] plan-to-peer — plan section sample-56","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_yes | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_maybe. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_no. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as abstain. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_yes] plan-to-peer — plan section sample-66","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [unknown] plan-to-peer — plan section sample-16","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_no. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as abstain. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → unknown. Input shape plan section. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_escalate] plan-to-peer — plan section sample-51","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_escalate] plan-to-peer — plan section sample-111","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_no for plan_doc_decompose: fact_checker prefer-order","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_no | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_no. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_no for plan_doc_decompose: fact_checker prefer-order","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_yes | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory abstain for plan_doc_decompose: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_yes. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory unknown for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_maybe] plan-to-peer — plan section sample-26","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_yes for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_no. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=abstain | plan section | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_no. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_escalate | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_yes | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_maybe. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_yes. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_escalate] plan-to-peer — plan section sample-21","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Niche plan_doc_decompose: label=plan doc decompose_maybe | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory abstain for plan_doc_decompose: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → abstain. Input shape plan section. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_maybe for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_no. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as abstain. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[abstain] plan-to-peer — plan section sample-71","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_maybe for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [unknown] plan-to-peer — plan section sample-46","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_no | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [abstain] plan-to-peer — plan section sample-11","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory unknown for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=unknown | plan section | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Factory plan doc decompose_yes for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_maybe | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_escalate. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_escalate] plan-to-peer — plan section sample-81","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Classify plan_doc_decompose as plan doc decompose_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_escalate. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_yes. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_escalate for plan_doc_decompose: fact_checker prefer-order","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Niche plan_doc_decompose: label=abstain | plan section | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_maybe. Input shape plan section. continue_on_dirty HOLD","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_escalate | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [plan doc decompose_maybe] plan-to-peer — plan section sample-86","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_no. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory abstain for plan_doc_decompose: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_escalate. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_escalate for plan_doc_decompose: fact_checker prefer-order","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[abstain] plan-to-peer — plan section sample-101","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[unknown] plan-to-peer — plan section sample-76","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory unknown for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory unknown for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as abstain. Context: sm_121a missing flag (WQ `[ ]` bullets)","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → unknown. Input shape plan section. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → plan doc decompose_no. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Niche plan_doc_decompose: label=plan doc decompose_escalate | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=unknown | plan section | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — [plan doc decompose_yes] plan-to-peer — plan section sample-96","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_no] plan-to-peer — plan section sample-61","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_maybe for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_no] plan-to-peer — plan section sample-31","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_no | plan section | WORK_QUEUE Active empty","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_no] plan-to-peer — plan section sample-91","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → plan doc decompose_escalate. Input shape plan section. RSS proposal 48GB reject","output":{"label":"plan doc decompose_escalate"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"[plan doc decompose_yes] plan-to-peer — plan section sample-36","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"plan_doc_decompose decision → unknown. Input shape plan section. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_yes for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_yes"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — plan_doc_decompose decision → abstain. Input shape plan section. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Kit lock — Factory plan doc decompose_maybe for plan_doc_decompose: GDS cuFile forbidden","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=plan doc decompose_maybe | plan section | peer_loop IDLE seed","output":{"label":"plan doc decompose_maybe"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Niche plan_doc_decompose: label=unknown | plan section | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Factory plan doc decompose_no for plan_doc_decompose: fact_checker prefer-order","output":{"label":"plan doc decompose_no"}}
+{"niche_id":"N90","niche":"plan_doc_decompose","input":"Classify plan_doc_decompose as plan doc decompose_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (WQ `[ ]` bullets)","output":{"label":"plan doc decompose_yes"}}

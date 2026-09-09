@@ -1,0 +1,4 @@
+test_checks_proof_green_leaves_unknown (tests.test_close_landed_done_orphans.CloseLandedDoneOrphansTests.test_checks_proof_green_leaves_unknown) ... ok
+test_compact_wires_close_before_promote (tests.test_close_landed_done_orphans.CloseLandedDoneOrphansTests.test_compact_wires_close_before_promote) ... ok
+test_heal_queue_drift_closes_landed_done_orphans (unittest.loader._FailedTest.test_heal_queue_drift_closes_landed_done_orphans) ... ERROR
+test_heal_queue_drift_strips_open_done_twins (tests.test_automation_adapt.AdaptHealTests.test_heal_queue_drift_strips_open_done_twins) ... 

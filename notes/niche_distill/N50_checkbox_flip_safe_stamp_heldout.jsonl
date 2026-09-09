@@ -1,0 +1,10 @@
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"[reject] false land — bullet+proof sample-46","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Factory reject for checkbox_flip_safe: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"checkbox_flip_safe decision → pending. Input shape bullet+proof. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=pending | bullet+proof | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=reject | bullet+proof | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=reject | bullet+proof | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Classify checkbox_flip_safe as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — checkbox_flip_safe decision → pending. Input shape bullet+proof. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — checkbox_flip_safe decision → pending. Input shape bullet+proof. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — [allow] false land — bullet+proof sample-51","output":{"label":"allow"}}

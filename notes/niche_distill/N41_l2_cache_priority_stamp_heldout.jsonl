@@ -1,0 +1,10 @@
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[abstain] cache hierarchy — tensors sample-11","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_escalate | tensors | WORK_QUEUE Active empty","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_maybe for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_escalate. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_maybe | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → abstain. Input shape tensors. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Niche l2_cache_priority: label=l2 cache priority_yes | tensors | peer_loop IDLE seed","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_escalate] cache hierarchy — tensors sample-21","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as abstain. Context: sm_121a missing flag (pin order)","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_yes. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_yes"}}

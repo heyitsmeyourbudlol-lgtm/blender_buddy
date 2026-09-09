@@ -1,0 +1,14 @@
+metrics_ok True
+metrics_green_src_has_git_clean_and True
+metrics_green:
+ def metrics_green(live: auto.LiveState) -> bool:
+    """Tests (+ RSS) green — not git_clean (WORKING + continue_on_dirty).
+
+    OVERSEER_LAND_2026_09_04 — hub-protect needle: metrics ≠ porcelain.
+    """
+    return bool(live.tests_ok) and auto.success_metrics_ok(live)
+
+ready (0, True)
+soften False False ['soften:1', 'gate-clear']
+close_landed 1 True
+OK

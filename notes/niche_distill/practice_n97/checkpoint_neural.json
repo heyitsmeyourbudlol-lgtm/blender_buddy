@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N97",
+  "name": "gds_import_ban",
+  "domain": "gds_import_ban",
+  "helps": "C4",
+  "weights": "notes/niche_distill/practice_n97/weights/n97_gds_import_ban_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 9.695850167190656e-05,
+  "labels": [
+    "abstain",
+    "gds import ban_escalate",
+    "gds import ban_maybe",
+    "gds import ban_no",
+    "gds import ban_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N97 '<input>'"
+}

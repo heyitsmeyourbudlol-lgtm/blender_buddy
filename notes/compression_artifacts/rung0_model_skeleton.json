@@ -1,0 +1,20 @@
+{
+  "needle": "OVERSEER_COMPRESSION_TRAIN_RUNG0_2026_09_05",
+  "ts": "2026-09-08T02:41:40Z",
+  "stack": "ALBERT-BitMoE + LoRA",
+  "hot_dtype": "NVFP4",
+  "data_prune": false,
+  "n_logic": 10000000,
+  "k_share": 200,
+  "r_svd": 1,
+  "r_lora": 2,
+  "layers": 16,
+  "d_in": 256,
+  "d_out": 256,
+  "unique_U": 74576,
+  "S": 134.09139669598798,
+  "nvfp4_pack_bytes": 37288.0,
+  "nvfp4_pack_mb": 0.03556060791015625,
+  "objective": "minimize U and resident RAM; maximize S toward 100",
+  "min_ram": false
+}

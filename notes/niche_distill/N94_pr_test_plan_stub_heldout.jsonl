@@ -1,0 +1,16 @@
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"pr_test_plan_stub decision → pr test plan stub_no. Input shape change type. RSS proposal 48GB reject","output":{"label":"pr test plan stub_no"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory unknown for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Niche pr_test_plan_stub: label=pr test plan stub_yes | change type | peer_loop IDLE seed","output":{"label":"pr test plan stub_yes"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory pr test plan stub_no for pr_test_plan_stub: fact_checker prefer-order","output":{"label":"pr test plan stub_no"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Niche pr_test_plan_stub: label=pr test plan stub_maybe | change type | peer_loop IDLE seed","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Kit lock — pr_test_plan_stub decision → pr test plan stub_no. Input shape change type. RSS proposal 48GB reject","output":{"label":"pr test plan stub_no"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory pr test plan stub_yes for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"pr test plan stub_yes"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Niche pr_test_plan_stub: label=pr test plan stub_escalate | change type | WORK_QUEUE Active empty","output":{"label":"pr test plan stub_escalate"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[pr test plan stub_yes] PR factory — change type sample-36","output":{"label":"pr test plan stub_yes"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[pr test plan stub_maybe] PR factory — change type sample-56","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"pr_test_plan_stub decision → pr test plan stub_maybe. Input shape change type. continue_on_dirty HOLD","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"pr_test_plan_stub decision → abstain. Input shape change type. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory abstain for pr_test_plan_stub: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Kit lock — Factory pr test plan stub_maybe for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory pr test plan stub_maybe for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Niche pr_test_plan_stub: label=pr test plan stub_maybe | change type | peer_loop IDLE seed","output":{"label":"pr test plan stub_maybe"}}

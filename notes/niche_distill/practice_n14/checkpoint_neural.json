@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N14",
+  "name": "verdict_pass_fail_unknown",
+  "domain": "verdict_pass_fail_unknown",
+  "helps": "ledger",
+  "weights": "notes/niche_distill/practice_n14/weights/n14_verdict_pass_fail_unknown_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 40,
+  "last_loss": 8.750391862122342e-05,
+  "labels": [
+    "abstain",
+    "unknown",
+    "verdict pass fail unknown_escalate",
+    "verdict pass fail unknown_maybe",
+    "verdict pass fail unknown_no",
+    "verdict pass fail unknown_yes"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N14 '<input>'"
+}

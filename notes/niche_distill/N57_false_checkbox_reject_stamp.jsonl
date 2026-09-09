@@ -1,0 +1,48 @@
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Niche false_checkbox_reject: label=pending | `[x]` line + land proof | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → reject. Input shape `[x]` line + land proof. continue_on_dirty HOLD","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory pending for false_checkbox_reject: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[reject] anti false-close — `[x]` line + land proof sample-1","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Niche false_checkbox_reject: label=reject | `[x]` line + land proof | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — [pending] anti false-close — `[x]` line + land proof sample-56","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory reject for false_checkbox_reject: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Factory reject for false_checkbox_reject: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → allow. Input shape `[x]` line + land proof. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — false_checkbox_reject decision → pending. Input shape `[x]` line + land proof. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Niche false_checkbox_reject: label=pending | `[x]` line + land proof | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[reject] anti false-close — `[x]` line + land proof sample-16","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=reject | `[x]` line + land proof | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[allow] anti false-close — `[x]` line + land proof sample-51","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as reject. Context: sm_121a missing flag (keep / reopen)","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=pending | `[x]` line + land proof | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → allow. Input shape `[x]` line + land proof. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as allow. Context: sm_121a missing flag (keep / reopen)","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=allow | `[x]` line + land proof | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[reject] anti false-close — `[x]` line + land proof sample-31","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Classify false_checkbox_reject as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (keep / reopen)","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (keep / reopen)","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Factory allow for false_checkbox_reject: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as reject. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (keep / reopen)","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as allow. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (keep / reopen)","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → pending. Input shape `[x]` line + land proof. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → reject. Input shape `[x]` line + land proof. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — [pending] anti false-close — `[x]` line + land proof sample-41","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[reject] anti false-close — `[x]` line + land proof sample-46","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory allow for false_checkbox_reject: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → allow. Input shape `[x]` line + land proof. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"false_checkbox_reject decision → pending. Input shape `[x]` line + land proof. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=pending | `[x]` line + land proof | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory reject for false_checkbox_reject: GDS cuFile forbidden","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory allow for false_checkbox_reject: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[allow] anti false-close — `[x]` line + land proof sample-21","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Classify false_checkbox_reject as reject. Context: sm_121a missing flag (keep / reopen)","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — false_checkbox_reject decision → allow. Input shape `[x]` line + land proof. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Classify false_checkbox_reject as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (keep / reopen)","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=reject | `[x]` line + land proof | WORK_QUEUE Active empty","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[pending] anti false-close — `[x]` line + land proof sample-11","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Niche false_checkbox_reject: label=reject | `[x]` line + land proof | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory allow for false_checkbox_reject: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"[allow] anti false-close — `[x]` line + land proof sample-36","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Kit lock — Niche false_checkbox_reject: label=allow | `[x]` line + land proof | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory pending for false_checkbox_reject: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Classify false_checkbox_reject as pending. Context: sm_121a missing flag (keep / reopen)","output":{"label":"pending"}}
+{"niche_id":"N57","niche":"false_checkbox_reject","input":"Factory pending for false_checkbox_reject: GDS cuFile forbidden","output":{"label":"pending"}}

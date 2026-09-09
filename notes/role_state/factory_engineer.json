@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "needle": "OVERSEER_AGENT_AMNESIA_RESEARCH_2026_09_07",
+  "role_id": "factory_engineer",
+  "assignment": "top10 pack-gate",
+  "blocked": false,
+  "blocked_reason": "",
+  "files": [
+    "scripts/peer_commands.py"
+  ],
+  "verify_cmd": "./scripts/peer test-quick",
+  "updated_ts": 1788795844.9868312
+}

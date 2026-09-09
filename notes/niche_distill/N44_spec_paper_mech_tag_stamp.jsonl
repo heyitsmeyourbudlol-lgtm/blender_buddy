@@ -1,0 +1,48 @@
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Classify spec_paper_mech_tag as spec paper mech tag_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Classify spec_paper_mech_tag as abstain. Context: sm_121a missing flag (Medusa/EAGLE/MTP/…)","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_escalate for spec_paper_mech_tag: fact_checker prefer-order","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=unknown | abstract | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=abstain | abstract | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=unknown | abstract | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=spec paper mech tag_yes | abstract | peer_loop IDLE seed","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=spec paper mech tag_yes | abstract | peer_loop IDLE seed","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[spec paper mech tag_yes] L3 — abstract sample-36","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Classify spec_paper_mech_tag as spec paper mech tag_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_no for spec_paper_mech_tag: fact_checker prefer-order","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Niche spec_paper_mech_tag: label=abstain | abstract | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_escalate. Input shape abstract. RSS proposal 48GB reject","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory unknown for spec_paper_mech_tag: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory unknown for spec_paper_mech_tag: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_yes for spec_paper_mech_tag: GDS cuFile forbidden","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_no for spec_paper_mech_tag: fact_checker prefer-order","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Niche spec_paper_mech_tag: label=spec paper mech tag_no | abstract | WORK_QUEUE Active empty","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — [spec paper mech tag_escalate] L3 — abstract sample-51","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_escalate. Input shape abstract. RSS proposal 48GB reject","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[unknown] L3 — abstract sample-16","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Factory abstain for spec_paper_mech_tag: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_escalate for spec_paper_mech_tag: fact_checker prefer-order","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Classify spec_paper_mech_tag as spec paper mech tag_escalate. Context: sm_121a missing flag (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[spec paper mech tag_no] L3 — abstract sample-31","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[spec paper mech tag_escalate] L3 — abstract sample-21","output":{"label":"spec paper mech tag_escalate"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — [spec paper mech tag_maybe] L3 — abstract sample-26","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_yes. Input shape abstract. continue_on_dirty HOLD","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[spec paper mech tag_yes] L3 — abstract sample-6","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_maybe. Input shape abstract. continue_on_dirty HOLD","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Classify spec_paper_mech_tag as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"[abstain] L3 — abstract sample-11","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_no. Input shape abstract. RSS proposal 48GB reject","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — [unknown] L3 — abstract sample-46","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Classify spec_paper_mech_tag as spec paper mech tag_no. Context: sm_121a missing flag (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Niche spec_paper_mech_tag: label=spec paper mech tag_maybe | abstract | peer_loop IDLE seed","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_maybe for spec_paper_mech_tag: GDS cuFile forbidden","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → abstain. Input shape abstract. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → unknown. Input shape abstract. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_no. Input shape abstract. RSS proposal 48GB reject","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Classify spec_paper_mech_tag as spec paper mech tag_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Factory spec paper mech tag_yes for spec_paper_mech_tag: GDS cuFile forbidden","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Classify spec_paper_mech_tag as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"unknown"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"spec_paper_mech_tag decision → spec paper mech tag_yes. Input shape abstract. continue_on_dirty HOLD","output":{"label":"spec paper mech tag_yes"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Classify spec_paper_mech_tag as spec paper mech tag_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — [spec paper mech tag_maybe] L3 — abstract sample-56","output":{"label":"spec paper mech tag_maybe"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Classify spec_paper_mech_tag as spec paper mech tag_no. Context: sm_121a missing flag (Medusa/EAGLE/MTP/…)","output":{"label":"spec paper mech tag_no"}}
+{"niche_id":"N44","niche":"spec_paper_mech_tag","input":"Kit lock — Niche spec_paper_mech_tag: label=spec paper mech tag_escalate | abstract | WORK_QUEUE Active empty","output":{"label":"spec paper mech tag_escalate"}}

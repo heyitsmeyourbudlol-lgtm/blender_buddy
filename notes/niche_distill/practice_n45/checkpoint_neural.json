@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N45",
+  "name": "quality_vs_serve_split",
+  "domain": "quality_vs_serve_split",
+  "helps": "honesty",
+  "weights": "notes/niche_distill/practice_n45/weights/n45_quality_vs_serve_split_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.030542006716132164,
+  "labels": [
+    "abstain",
+    "quality vs serve split_escalate",
+    "quality vs serve split_maybe",
+    "quality vs serve split_no",
+    "quality vs serve split_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N45 '<input>'"
+}

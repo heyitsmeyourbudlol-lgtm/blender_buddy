@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N13",
+  "name": "claim_row_extract",
+  "domain": "claim_row_extract",
+  "helps": "fact_checker",
+  "weights": "notes/niche_distill/practice_n13/weights/n13_claim_row_extract_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.01888478919863701,
+  "labels": [
+    "abstain",
+    "claim row extract_escalate",
+    "claim row extract_maybe",
+    "claim row extract_no",
+    "claim row extract_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N13 '<input>'"
+}

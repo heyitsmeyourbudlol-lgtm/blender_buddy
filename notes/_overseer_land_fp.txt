@@ -1,0 +1,9 @@
+promote_open_done_orphans: True
+open_done_orphan_items: True
+success_metrics_ok_no_git_clean: False
+quick_cache_guards_tests_ok: True
+global_agent_cap_clamps: True
+run_local_cycle_ready_no_git_clean_and: True
+product_constraints_no_48: True
+adapt_plan_gate_uses_report2: True
+probe_output_has_external_init: True

@@ -1,0 +1,39 @@
+{"niche_id": "N107", "niche": "domain_classifier", "input": "kit wrapup writeup after idle ticks", "output": {"domain_id": "oversight_progress"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "upsert routing table for assignment-to-specialist map", "output": {"domain_id": "agent_builder"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "coding sandbox dirty blocks forever runner fanout", "output": {"domain_id": "peer_runtime"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "hazard when stamps go stale on kit", "output": {"domain_id": "adapt_heal"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "kit board gauges panel chrome", "output": {"domain_id": "dashboard_ui"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "sticky ritual writeups index pointer", "output": {"domain_id": "docs_sops"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "local board server static page refresh", "output": {"domain_id": "dashboard_ui"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "reconcile twin file lines with open bullets", "output": {"domain_id": "queue_sync"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "budget watcher flapping forever runner on machine", "output": {"domain_id": "dgx_ram"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "ballast stop when box video memory low", "output": {"domain_id": "dgx_ram"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "scattered citations relay instead of stuffing archive", "output": {"domain_id": "memory_remembrance"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "watcher flaps when digest-only mode stuck", "output": {"domain_id": "oversight_progress"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "improve context twin file drifted from open bullets", "output": {"domain_id": "queue_sync"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "output compare missed expected smoke bars", "output": {"domain_id": "verify_tests"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "writers contribution path for operator guides", "output": {"domain_id": "docs_sops"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "why spawn prep skipped after clearance finished", "output": {"domain_id": "peer_runtime"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "layout stylesheet for kit board panels", "output": {"domain_id": "dashboard_ui"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "student practice lanes bank status json", "output": {"domain_id": "compression_bitnet"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "forever fuel must keep open bullets nonempty", "output": {"domain_id": "queue_sync"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "sticky index for cold assistants first open", "output": {"domain_id": "memory_remembrance"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "cross-agent messaging outlook digest", "output": {"domain_id": "comms_glink"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "spend lock free-desktop only before pen exercise", "output": {"domain_id": "safety_rules"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "binder handoff for communications engineer", "output": {"domain_id": "comms_glink"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "credentials guarded by catalog shutdown digest", "output": {"domain_id": "safety_rules"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "irreversible push blocked by human-in-loop blocklist", "output": {"domain_id": "safety_rules"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "assignment-to-specialist map upsert routing table", "output": {"domain_id": "agent_builder"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "smoke bars mismatch on output compare", "output": {"domain_id": "verify_tests"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "stall class chicken-egg lookup card", "output": {"domain_id": "adapt_heal"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "operator guides section in automation digest", "output": {"domain_id": "docs_sops"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "demo widget specialist spin up from assignment text", "output": {"domain_id": "agent_builder"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "brain machine ops fabric roster expand", "output": {"domain_id": "dgx_ram"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "agent messaging pipe handshake traffic", "output": {"domain_id": "comms_glink"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "kit watcher percent idle-event", "output": {"domain_id": "oversight_progress"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "mechanical spawn prep before desktop session launch", "output": {"domain_id": "peer_runtime"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "lossless share rung without paid teacher calls", "output": {"domain_id": "compression_bitnet"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "triage red battery before DONE declaration", "output": {"domain_id": "verify_tests"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "ownership chart path to specialist without deep browse", "output": {"domain_id": "memory_remembrance"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "local accelerator keep-alive for four-bit sidequest", "output": {"domain_id": "compression_bitnet"}, "split": "heldout", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "chokepoints cleared mechanically on brain machine", "output": {"domain_id": "adapt_heal"}, "split": "heldout", "kind": "soft"}

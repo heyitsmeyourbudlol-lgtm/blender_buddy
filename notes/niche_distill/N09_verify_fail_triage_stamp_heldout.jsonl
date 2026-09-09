@@ -1,0 +1,10 @@
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Niche verify_fail_triage: label=abstain | last_cycle | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Factory verify fail triage_yes for verify_fail_triage: GDS cuFile forbidden","output":{"label":"verify fail triage_yes"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Kit lock — Niche verify_fail_triage: label=abstain | last_cycle | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Niche verify_fail_triage: label=verify fail triage_no | last_cycle | WORK_QUEUE Active empty","output":{"label":"verify fail triage_no"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Factory verify fail triage_no for verify_fail_triage: fact_checker prefer-order","output":{"label":"verify fail triage_no"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Kit lock — Classify verify_fail_triage as verify fail triage_escalate. Context: sm_121a missing flag (class)","output":{"label":"verify fail triage_escalate"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Niche verify_fail_triage: label=verify fail triage_escalate | last_cycle | WORK_QUEUE Active empty","output":{"label":"verify fail triage_escalate"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Kit lock — Niche verify_fail_triage: label=verify fail triage_no | last_cycle | WORK_QUEUE Active empty","output":{"label":"verify fail triage_no"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Factory verify fail triage_yes for verify_fail_triage: GDS cuFile forbidden","output":{"label":"verify fail triage_yes"}}
+{"niche_id":"N09","niche":"verify_fail_triage","input":"Kit lock — Classify verify_fail_triage as verify fail triage_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (class)","output":{"label":"verify fail triage_maybe"}}

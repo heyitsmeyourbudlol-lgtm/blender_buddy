@@ -1,0 +1,10 @@
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Factory oversight vs peer edit_no for oversight_vs_peer_edit: fact_checker prefer-order","output":{"label":"oversight vs peer edit_no"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — Classify oversight_vs_peer_edit as oversight vs peer edit_no. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"oversight vs peer edit_no"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as abstain. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"abstain"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — [oversight vs peer edit_yes] thrash debug — WQ diff author sample-6","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — Factory oversight vs peer edit_maybe for oversight_vs_peer_edit: GDS cuFile forbidden","output":{"label":"oversight vs peer edit_maybe"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Niche oversight_vs_peer_edit: label=oversight vs peer edit_yes | WQ diff author | peer_loop IDLE seed","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"oversight_vs_peer_edit decision → oversight vs peer edit_yes. Input shape WQ diff author. continue_on_dirty HOLD","output":{"label":"oversight vs peer edit_yes"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Kit lock — Classify oversight_vs_peer_edit as oversight vs peer edit_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overseer/peer/human)","output":{"label":"oversight vs peer edit_maybe"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"Classify oversight_vs_peer_edit as oversight vs peer edit_no. Context: sm_121a missing flag (overseer/peer/human)","output":{"label":"oversight vs peer edit_no"}}
+{"niche_id":"N71","niche":"oversight_vs_peer_edit","input":"[oversight vs peer edit_yes] thrash debug — WQ diff author sample-36","output":{"label":"oversight vs peer edit_yes"}}

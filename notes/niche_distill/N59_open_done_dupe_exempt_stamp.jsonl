@@ -1,0 +1,48 @@
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — open_done_dupe_exempt decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_no. Input shape item. RSS proposal 48GB reject","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_escalate] compact thrash — item sample-51","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Classify open_done_dupe_exempt as open done dupe exempt_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip-open-done exempt?)","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[unknown] compact thrash — item sample-46","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Niche open_done_dupe_exempt: label=open done dupe exempt_no | item | WORK_QUEUE Active empty","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_escalate for open_done_dupe_exempt: fact_checker prefer-order","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_maybe] compact thrash — item sample-56","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_escalate for open_done_dupe_exempt: fact_checker prefer-order","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_yes for open_done_dupe_exempt: GDS cuFile forbidden","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — [abstain] compact thrash — item sample-11","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — open_done_dupe_exempt decision → open done dupe exempt_no. Input shape item. RSS proposal 48GB reject","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_yes] compact thrash — item sample-6","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Classify open_done_dupe_exempt as abstain. Context: sm_121a missing flag (strip-open-done exempt?)","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — open_done_dupe_exempt decision → open done dupe exempt_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Niche open_done_dupe_exempt: label=open done dupe exempt_maybe | item | peer_loop IDLE seed","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Factory open done dupe exempt_no for open_done_dupe_exempt: fact_checker prefer-order","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Factory unknown for open_done_dupe_exempt: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Classify open_done_dupe_exempt as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip-open-done exempt?)","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Niche open_done_dupe_exempt: label=open done dupe exempt_escalate | item | WORK_QUEUE Active empty","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[unknown] compact thrash — item sample-16","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=open done dupe exempt_maybe | item | peer_loop IDLE seed","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_maybe for open_done_dupe_exempt: GDS cuFile forbidden","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — [abstain] compact thrash — item sample-41","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Classify open_done_dupe_exempt as open done dupe exempt_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip-open-done exempt?)","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Classify open_done_dupe_exempt as open done dupe exempt_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip-open-done exempt?)","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Classify open_done_dupe_exempt as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip-open-done exempt?)","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — open_done_dupe_exempt decision → unknown. Input shape item. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_yes for open_done_dupe_exempt: GDS cuFile forbidden","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory unknown for open_done_dupe_exempt: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"open done dupe exempt_maybe"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Classify open_done_dupe_exempt as open done dupe exempt_escalate. Context: sm_121a missing flag (strip-open-done exempt?)","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_yes] compact thrash — item sample-36","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Kit lock — Niche open_done_dupe_exempt: label=open done dupe exempt_no | item | WORK_QUEUE Active empty","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_no] compact thrash — item sample-31","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=open done dupe exempt_yes | item | peer_loop IDLE seed","output":{"label":"open done dupe exempt_yes"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"open_done_dupe_exempt decision → open done dupe exempt_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Niche open_done_dupe_exempt: label=open done dupe exempt_escalate | item | WORK_QUEUE Active empty","output":{"label":"open done dupe exempt_escalate"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"Factory open done dupe exempt_no for open_done_dupe_exempt: fact_checker prefer-order","output":{"label":"open done dupe exempt_no"}}
+{"niche_id":"N59","niche":"open_done_dupe_exempt","input":"[open done dupe exempt_escalate] compact thrash — item sample-21","output":{"label":"open done dupe exempt_escalate"}}

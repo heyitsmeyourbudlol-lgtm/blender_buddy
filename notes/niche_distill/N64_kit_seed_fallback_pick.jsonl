@@ -1,0 +1,96 @@
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[abstain] empty Active — known+landed sample-71","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_maybe. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_no] empty Active — known+landed sample-1","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_maybe] empty Active — known+landed sample-56","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_escalate. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_yes. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_no for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Niche kit_seed_fallback_pick: label=kit seed fallback pick_yes | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Classify kit_seed_fallback_pick as kit seed fallback pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_no] empty Active — known+landed sample-31","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_maybe for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_yes] empty Active — known+landed sample-36","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Classify kit_seed_fallback_pick as kit seed fallback pick_no. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [kit seed fallback pick_maybe] empty Active — known+landed sample-26","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — kit_seed_fallback_pick decision → kit seed fallback pick_yes. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Niche kit_seed_fallback_pick: label=unknown | known+landed | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Niche kit_seed_fallback_pick: label=kit seed fallback pick_maybe | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=unknown | known+landed | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_yes for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_no for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → abstain. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=unknown | known+landed | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory unknown for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [kit seed fallback pick_no] empty Active — known+landed sample-91","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_no | known+landed | WORK_QUEUE Active empty","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_no. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_yes. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [unknown] empty Active — known+landed sample-16","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_no. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory abstain for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Niche kit_seed_fallback_pick: label=abstain | known+landed | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as abstain. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_no. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_no. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [kit seed fallback pick_escalate] empty Active — known+landed sample-81","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_escalate. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=unknown | known+landed | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_no for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [abstain] empty Active — known+landed sample-101","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory kit seed fallback pick_maybe for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [kit seed fallback pick_escalate] empty Active — known+landed sample-111","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → abstain. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_yes | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_yes] empty Active — known+landed sample-66","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_escalate | known+landed | WORK_QUEUE Active empty","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory abstain for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_escalate for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory kit seed fallback pick_maybe for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_no. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=abstain | known+landed | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_maybe] empty Active — known+landed sample-86","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_yes] empty Active — known+landed sample-96","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_yes | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory kit seed fallback pick_escalate for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_maybe | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=abstain | known+landed | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [abstain] empty Active — known+landed sample-11","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → unknown. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory abstain for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → unknown. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — kit_seed_fallback_pick decision → kit seed fallback pick_escalate. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as abstain. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[unknown] empty Active — known+landed sample-46","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as abstain. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_yes] empty Active — known+landed sample-6","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory unknown for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — [unknown] empty Active — known+landed sample-76","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[abstain] empty Active — known+landed sample-41","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_maybe. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_no. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory unknown for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Niche kit_seed_fallback_pick: label=kit seed fallback pick_escalate | known+landed | WORK_QUEUE Active empty","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory kit seed fallback pick_yes for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_escalate] empty Active — known+landed sample-51","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_no | known+landed | WORK_QUEUE Active empty","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_escalate | known+landed | WORK_QUEUE Active empty","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_maybe | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"[kit seed fallback pick_no] empty Active — known+landed sample-61","output":{"label":"kit seed fallback pick_no"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as abstain. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — kit_seed_fallback_pick decision → abstain. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory kit seed fallback pick_escalate for kit_seed_fallback_pick: fact_checker prefer-order","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_escalate. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_escalate. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Factory unknown for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_escalate. Context: sm_121a missing flag (next peer-script seed)","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — kit_seed_fallback_pick decision → kit seed fallback pick_escalate. Input shape known+landed. RSS proposal 48GB reject","output":{"label":"kit seed fallback pick_escalate"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=kit seed fallback pick_yes | known+landed | peer_loop IDLE seed","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"kit_seed_fallback_pick decision → kit seed fallback pick_maybe. Input shape known+landed. continue_on_dirty HOLD","output":{"label":"kit seed fallback pick_maybe"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Niche kit_seed_fallback_pick: label=abstain | known+landed | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Classify kit_seed_fallback_pick as kit seed fallback pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (next peer-script seed)","output":{"label":"kit seed fallback pick_yes"}}
+{"niche_id":"N64","niche":"kit_seed_fallback_pick","input":"Kit lock — Factory kit seed fallback pick_yes for kit_seed_fallback_pick: GDS cuFile forbidden","output":{"label":"kit seed fallback pick_yes"}}

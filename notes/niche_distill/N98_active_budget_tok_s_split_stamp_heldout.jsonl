@@ -1,0 +1,10 @@
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Niche active_budget_tok_s_split: label=unknown | log line | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Factory active budget tok s split_yes for active_budget_tok_s_split: GDS cuFile forbidden","output":{"label":"active budget tok s split_yes"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Niche active_budget_tok_s_split: label=active budget tok s split_escalate | log line | WORK_QUEUE Active empty","output":{"label":"active budget tok s split_escalate"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Kit lock — Niche active_budget_tok_s_split: label=active budget tok s split_yes | log line | peer_loop IDLE seed","output":{"label":"active budget tok s split_yes"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Classify active_budget_tok_s_split as active budget tok s split_escalate. Context: sm_121a missing flag (prompt vs Writing field)","output":{"label":"active budget tok s split_escalate"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Niche active_budget_tok_s_split: label=active budget tok s split_maybe | log line | peer_loop IDLE seed","output":{"label":"active budget tok s split_maybe"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Factory active budget tok s split_yes for active_budget_tok_s_split: GDS cuFile forbidden","output":{"label":"active budget tok s split_yes"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Classify active_budget_tok_s_split as active budget tok s split_no. Context: sm_121a missing flag (prompt vs Writing field)","output":{"label":"active budget tok s split_no"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"Kit lock — Factory unknown for active_budget_tok_s_split: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N98","niche":"active_budget_tok_s_split","input":"active_budget_tok_s_split decision → active budget tok s split_no. Input shape log line. RSS proposal 48GB reject","output":{"label":"active budget tok s split_no"}}

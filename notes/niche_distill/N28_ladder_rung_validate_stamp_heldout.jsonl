@@ -1,0 +1,10 @@
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"[collision] R0–R8 — rung row sample-46","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=missing | rung row | peer_loop IDLE seed","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Factory missing for ladder_rung_validate: GDS cuFile forbidden","output":{"label":"missing"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Classify ladder_rung_validate as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (arith OK)","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — Niche ladder_rung_validate: label=ok | rung row | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Factory collision for ladder_rung_validate: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"ladder_rung_validate decision → ok. Input shape rung row. continue_on_dirty HOLD","output":{"label":"ok"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [collision] R0–R8 — rung row sample-1","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Niche ladder_rung_validate: label=collision | rung row | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N28","niche":"ladder_rung_validate","input":"Kit lock — [ok] R0–R8 — rung row sample-36","output":{"label":"ok"}}

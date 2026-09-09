@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N05",
+  "name": "done_gate_checklist",
+  "domain": "done_gate_checklist",
+  "helps": "false done",
+  "weights": "notes/niche_distill/practice_n05/weights/n05_done_gate_checklist_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 7.5945299613522366e-06,
+  "labels": [
+    "allow",
+    "pending",
+    "reject"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N05 '<input>'"
+}

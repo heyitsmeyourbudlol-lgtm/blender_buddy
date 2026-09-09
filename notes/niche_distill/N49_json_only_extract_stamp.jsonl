@@ -1,0 +1,48 @@
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — json_only_extract decision → json only extract_no. Input shape dump. RSS proposal 48GB reject","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Factory json only extract_yes for json_only_extract: GDS cuFile forbidden","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as abstain. Context: sm_121a missing flag (single JSON)","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — [unknown] parse thrash — dump sample-16","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — [json only extract_yes] parse thrash — dump sample-6","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[abstain] parse thrash — dump sample-41","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → json only extract_escalate. Input shape dump. RSS proposal 48GB reject","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=json only extract_yes | dump | peer_loop IDLE seed","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[abstain] parse thrash — dump sample-11","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_no. Context: sm_121a missing flag (single JSON)","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=json only extract_yes | dump | peer_loop IDLE seed","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Classify json_only_extract as json only extract_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Factory json only extract_yes for json_only_extract: GDS cuFile forbidden","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=json only extract_maybe | dump | peer_loop IDLE seed","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_maybe] parse thrash — dump sample-56","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[unknown] parse thrash — dump sample-46","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — [json only extract_yes] parse thrash — dump sample-36","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=unknown | dump | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_no. Context: sm_121a missing flag (single JSON)","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=json only extract_escalate | dump | WORK_QUEUE Active empty","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory json only extract_escalate for json_only_extract: fact_checker prefer-order","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_maybe] parse thrash — dump sample-26","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_no] parse thrash — dump sample-1","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory json only extract_escalate for json_only_extract: fact_checker prefer-order","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=abstain | dump | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → json only extract_maybe. Input shape dump. continue_on_dirty HOLD","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Factory json only extract_no for json_only_extract: fact_checker prefer-order","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → json only extract_yes. Input shape dump. continue_on_dirty HOLD","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — json_only_extract decision → json only extract_no. Input shape dump. RSS proposal 48GB reject","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Factory json only extract_maybe for json_only_extract: GDS cuFile forbidden","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=unknown | dump | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Niche json_only_extract: label=abstain | dump | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Niche json_only_extract: label=json only extract_no | dump | WORK_QUEUE Active empty","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → abstain. Input shape dump. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_escalate. Context: sm_121a missing flag (single JSON)","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → unknown. Input shape dump. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory json only extract_maybe for json_only_extract: GDS cuFile forbidden","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — json_only_extract decision → json only extract_maybe. Input shape dump. continue_on_dirty HOLD","output":{"label":"json only extract_maybe"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory unknown for json_only_extract: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"json_only_extract decision → json only extract_escalate. Input shape dump. RSS proposal 48GB reject","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"unknown"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_no] parse thrash — dump sample-31","output":{"label":"json only extract_no"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"[json only extract_escalate] parse thrash — dump sample-21","output":{"label":"json only extract_escalate"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Classify json_only_extract as json only extract_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (single JSON)","output":{"label":"json only extract_yes"}}
+{"niche_id":"N49","niche":"json_only_extract","input":"Kit lock — Factory abstain for json_only_extract: fact_checker prefer-order","output":{"label":"abstain"}}

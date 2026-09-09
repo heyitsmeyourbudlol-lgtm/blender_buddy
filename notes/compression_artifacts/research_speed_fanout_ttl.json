@@ -1,0 +1,19 @@
+{
+  "needle": "OVERSEER_FANOUT_AGENT_COUNT_TTL_2026_09_08",
+  "role": "research_speed_engineer",
+  "cid": "20260908T110110Z",
+  "before_median_ms": 18.983,
+  "after_hit_median_ms": 0.000272,
+  "speedup_approx": 69803.9,
+  "lane": "CT-C",
+  "agents_ge_floor": false,
+  "paths": [
+    "scripts/factory_fanout.py",
+    "tests/test_factory_fanout.py",
+    "notes/RESEARCH_SPEED_TRAINING.md"
+  ],
+  "passed": true,
+  "agents": 5,
+  "floor": 8,
+  "verify_ok": true
+}

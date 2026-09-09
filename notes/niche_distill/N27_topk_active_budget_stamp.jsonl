@@ -1,0 +1,48 @@
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=abstain | size,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=abstain | size,k | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — [topk active budget_escalate] ≤20GB — size,k sample-21","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_maybe. Input shape size,k. continue_on_dirty HOLD","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=unknown | size,k | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Classify topk_active_budget as topk active budget_escalate. Context: sm_121a missing flag (active GB)","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (active GB)","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_maybe. Input shape size,k. continue_on_dirty HOLD","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — topk_active_budget decision → abstain. Input shape size,k. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory topk active budget_maybe for topk_active_budget: GDS cuFile forbidden","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Factory topk active budget_maybe for topk_active_budget: GDS cuFile forbidden","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory topk active budget_no for topk_active_budget: fact_checker prefer-order","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory unknown for topk_active_budget: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory abstain for topk_active_budget: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — [topk active budget_yes] ≤20GB — size,k sample-6","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → abstain. Input shape size,k. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=topk active budget_no | size,k | WORK_QUEUE Active empty","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Classify topk_active_budget as topk active budget_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (active GB)","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory topk active budget_escalate for topk_active_budget: fact_checker prefer-order","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_escalate. Input shape size,k. RSS proposal 48GB reject","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Niche topk_active_budget: label=topk active budget_escalate | size,k | WORK_QUEUE Active empty","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — topk_active_budget decision → topk active budget_yes. Input shape size,k. continue_on_dirty HOLD","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"[topk active budget_yes] ≤20GB — size,k sample-36","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Classify topk_active_budget as topk active budget_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (active GB)","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=topk active budget_no | size,k | WORK_QUEUE Active empty","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory topk active budget_no for topk_active_budget: fact_checker prefer-order","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=topk active budget_maybe | size,k | peer_loop IDLE seed","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Classify topk_active_budget as abstain. Context: sm_121a missing flag (active GB)","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — [topk active budget_maybe] ≤20GB — size,k sample-56","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"[topk active budget_escalate] ≤20GB — size,k sample-51","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as abstain. Context: sm_121a missing flag (active GB)","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as topk active budget_no. Context: sm_121a missing flag (active GB)","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (active GB)","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory unknown for topk_active_budget: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Factory topk active budget_yes for topk_active_budget: GDS cuFile forbidden","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_yes. Input shape size,k. continue_on_dirty HOLD","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=topk active budget_escalate | size,k | WORK_QUEUE Active empty","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as topk active budget_escalate. Context: sm_121a missing flag (active GB)","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"[topk active budget_no] ≤20GB — size,k sample-31","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=unknown | size,k | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Niche topk_active_budget: label=topk active budget_yes | size,k | peer_loop IDLE seed","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_no. Input shape size,k. RSS proposal 48GB reject","output":{"label":"topk active budget_no"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"[unknown] ≤20GB — size,k sample-16","output":{"label":"unknown"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Classify topk_active_budget as topk active budget_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (active GB)","output":{"label":"topk active budget_maybe"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"[abstain] ≤20GB — size,k sample-41","output":{"label":"abstain"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"topk_active_budget decision → topk active budget_escalate. Input shape size,k. RSS proposal 48GB reject","output":{"label":"topk active budget_escalate"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — Niche topk_active_budget: label=topk active budget_yes | size,k | peer_loop IDLE seed","output":{"label":"topk active budget_yes"}}
+{"niche_id":"N27","niche":"topk_active_budget","input":"Kit lock — [topk active budget_maybe] ≤20GB — size,k sample-26","output":{"label":"topk active budget_maybe"}}

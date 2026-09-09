@@ -1,0 +1,48 @@
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=needle mint_maybe | title | peer_loop IDLE seed","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory needle mint_yes for needle_mint: GDS cuFile forbidden","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_escalate. Input shape title. RSS proposal 48GB reject","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — [needle mint_no] kit twins — title sample-1","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Classify needle_mint as needle mint_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Classify needle_mint as needle mint_escalate. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[needle mint_escalate] kit twins — title sample-51","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → abstain. Input shape title. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — needle_mint decision → needle mint_yes. Input shape title. continue_on_dirty HOLD","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Factory needle mint_no for needle_mint: fact_checker prefer-order","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=abstain | title | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[needle mint_yes] kit twins — title sample-6","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — needle_mint decision → needle mint_maybe. Input shape title. continue_on_dirty HOLD","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — [needle mint_escalate] kit twins — title sample-21","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → unknown. Input shape title. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[needle mint_maybe] kit twins — title sample-26","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory needle mint_maybe for needle_mint: GDS cuFile forbidden","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as needle mint_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as needle mint_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[unknown] kit twins — title sample-46","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=needle mint_yes | title | peer_loop IDLE seed","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=needle mint_yes | title | peer_loop IDLE seed","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Niche needle_mint: label=needle mint_maybe | title | peer_loop IDLE seed","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — [needle mint_maybe] kit twins — title sample-56","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as needle mint_no. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — [needle mint_yes] kit twins — title sample-36","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Niche needle_mint: label=needle mint_no | title | WORK_QUEUE Active empty","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_maybe. Input shape title. continue_on_dirty HOLD","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_escalate. Input shape title. RSS proposal 48GB reject","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[abstain] kit twins — title sample-41","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as abstain. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_no. Input shape title. RSS proposal 48GB reject","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_yes. Input shape title. continue_on_dirty HOLD","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → abstain. Input shape title. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Factory needle mint_maybe for needle_mint: GDS cuFile forbidden","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[unknown] kit twins — title sample-16","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=unknown | title | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Classify needle_mint as needle mint_escalate. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[abstain] kit twins — title sample-11","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=needle mint_escalate | title | WORK_QUEUE Active empty","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Factory unknown for needle_mint: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Classify needle_mint as abstain. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Factory needle mint_escalate for needle_mint: fact_checker prefer-order","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=unknown | title | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory unknown for needle_mint: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory needle mint_no for needle_mint: fact_checker prefer-order","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"needle_mint decision → needle mint_no. Input shape title. RSS proposal 48GB reject","output":{"label":"needle mint_no"}}

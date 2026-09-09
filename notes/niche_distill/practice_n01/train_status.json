@@ -1,0 +1,22 @@
+{
+  "needle": "OVERSEER_N01_NEURAL_TRAIN_2026_09_06",
+  "status": "completed",
+  "ts": "2026-09-07T01:34:12Z",
+  "param_count": 6871676,
+  "device": "cuda",
+  "epoch": 40,
+  "step": 1560,
+  "loss": 0.34344717860221863,
+  "heldout": {
+    "n01_acc": 1.0,
+    "n01_kit_acc": 1.0,
+    "n01_n": 9,
+    "n03_acc": 1.0,
+    "n08_acc": 1.0,
+    "knowledge_acc": 1.0,
+    "knowledge_n": 50
+  },
+  "passed": true,
+  "checkpoint": "notes/niche_distill/practice_n01/checkpoint_neural.json",
+  "weights": "notes/niche_distill/practice_n01/weights/n01_queue_bullet_parse_neural.pt"
+}

@@ -1,0 +1,20 @@
+{
+  "needle": "COMPRESSION_KEEP_ALIVE_WAVE_UNLOAD_2026_09_07",
+  "skip_boot_needle": "COMPRESSION_KEEP_ALIVE_SKIP_BOOT_WAVE_2026_09_07",
+  "ts": "2026-09-07T16:13:18Z",
+  "role": "compression_engineer",
+  "mb_before_cgroup": 11312.8,
+  "mb_after_cgroup": 991.5,
+  "mb_saved_cgroup": 10321.3,
+  "main_mb_before_restart": 353.1,
+  "unittest": "tests.test_compression_keep_alive 7/7 OK",
+  "paths": [
+    "scripts/compression_keep_alive.py",
+    "scripts/beat-mac-clobber.sh",
+    "tests/test_compression_keep_alive.py"
+  ],
+  "clean_units": "4x active",
+  "stress_status": "PASS",
+  "publish_model": false,
+  "note": "Restored Mac-clobbered prune_wave_rss + skip_boot_wave; beat heal_one pinned"
+}

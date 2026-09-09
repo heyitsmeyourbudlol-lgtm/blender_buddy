@@ -1,0 +1,850 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "ts": "2026-09-07T11:58:20Z",
+  "n_catalog": 105,
+  "n_ready": 105,
+  "n_pending": 0,
+  "experts": [
+    {
+      "id": "N01",
+      "name": "queue_bullet_parse",
+      "passed": true,
+      "param_count": 6871676,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N02",
+      "name": "queue_kit_vs_research",
+      "passed": true,
+      "param_count": 5788164,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N03",
+      "name": "land_proof_needle_match",
+      "passed": true,
+      "param_count": 5787650,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N04",
+      "name": "active_empty_seed_pick",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N05",
+      "name": "done_gate_checklist",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N06",
+      "name": "plan_gate_self_check",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N07",
+      "name": "hallucination_block_fill",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N08",
+      "name": "stall_class_label",
+      "passed": true,
+      "param_count": 5789449,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N09",
+      "name": "verify_fail_triage",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N10",
+      "name": "peer_log_skip_reason",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N11",
+      "name": "launchagent_loaded_nopid",
+      "passed": true,
+      "param_count": 5789449,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N12",
+      "name": "worktree_path_safe",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N13",
+      "name": "claim_row_extract",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N14",
+      "name": "verdict_pass_fail_unknown",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N15",
+      "name": "overclaim_phrase_spot",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N16",
+      "name": "gds_forbidden_scan",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N17",
+      "name": "meter_prompt_vs_writing",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N18",
+      "name": "rss_envelope_read",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N19",
+      "name": "fp4_byte_arith",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N20",
+      "name": "expert_grain_arith",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N21",
+      "name": "citation_url_shape",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N22",
+      "name": "bitnet_upstream_issue_triage",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N23",
+      "name": "sm121_flag_spot",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N24",
+      "name": "uma_stream_plan",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N25",
+      "name": "moe_celebrity_score",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N26",
+      "name": "mtp_gamma_sanity",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N27",
+      "name": "topk_active_budget",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N28",
+      "name": "ladder_rung_validate",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N29",
+      "name": "clean_host_cmd_pick",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N30",
+      "name": "cuda_error_classify",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N31",
+      "name": "unittest_name_suggest",
+      "passed": true,
+      "param_count": 5787650,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N32",
+      "name": "diff_risk_label",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N33",
+      "name": "commit_msg_style",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N34",
+      "name": "pr_summary_bullets",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N35",
+      "name": "playbook_error_lookup",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N36",
+      "name": "peer_command_suggest",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N37",
+      "name": "template_match_key",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N38",
+      "name": "sync_wq_context_diff",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N39",
+      "name": "python_inline_import_spot",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N40",
+      "name": "secret_leak_scan",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N41",
+      "name": "l2_cache_priority",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N42",
+      "name": "near_vs_far_grain",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N43",
+      "name": "chinese_prior_tag",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N44",
+      "name": "spec_paper_mech_tag",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N45",
+      "name": "quality_vs_serve_split",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N46",
+      "name": "poc_param_budget",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N47",
+      "name": "distill_slice_spec",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N48",
+      "name": "committee_merge",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N49",
+      "name": "json_only_extract",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N50",
+      "name": "checkbox_flip_safe",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N51",
+      "name": "needle_mint",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N52",
+      "name": "status_box_compress",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N53",
+      "name": "creative_vs_executable",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N54",
+      "name": "t0_lane_exempt_spot",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N55",
+      "name": "improve_opp_file_scope",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N56",
+      "name": "rss_cap_reject",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N57",
+      "name": "false_checkbox_reject",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N58",
+      "name": "p0_lane_protect",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N59",
+      "name": "open_done_dupe_exempt",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N60",
+      "name": "demote_note_scrub",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N61",
+      "name": "ensure_lane_needed",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N62",
+      "name": "continue_on_dirty_classify",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N63",
+      "name": "lean_green_hold_paint",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N64",
+      "name": "kit_seed_fallback_pick",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N65",
+      "name": "last_resort_stamp_seed",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N66",
+      "name": "queue_fingerprint_stall",
+      "passed": true,
+      "param_count": 5789449,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N67",
+      "name": "worktree_dispatch_dirty",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N68",
+      "name": "peer_turn_signal_poke",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N69",
+      "name": "launchagent_label_resolve",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N70",
+      "name": "daemon_pid_alive",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N71",
+      "name": "oversight_vs_peer_edit",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N72",
+      "name": "land_needle_premature",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N73",
+      "name": "jsonl_count_gate",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N74",
+      "name": "heldout_split_ok",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N75",
+      "name": "recipe_ckpt_path_parse",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N76",
+      "name": "replicate_niche_scaffold",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N77",
+      "name": "stress_gap_row",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N78",
+      "name": "composer_route_pick",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N79",
+      "name": "composer_escalate",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N80",
+      "name": "numeric_claim_divert",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N81",
+      "name": "test_quick_fail_spot",
+      "passed": true,
+      "param_count": 5788164,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N82",
+      "name": "self_check_issue_parse",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N83",
+      "name": "automation_config_key",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N84",
+      "name": "notes_vs_scripts_scope",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N85",
+      "name": "phase_heading_normalize",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N86",
+      "name": "remaining_work_sync_line",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N87",
+      "name": "agent_role_strength_match",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N88",
+      "name": "subagent_type_pick",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N89",
+      "name": "max_parallel_peers_cap",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N90",
+      "name": "plan_doc_decompose",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N91",
+      "name": "todo_merge_safe",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N92",
+      "name": "secret_env_name_only",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N93",
+      "name": "commit_scope_kit_vs_product",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N94",
+      "name": "pr_test_plan_stub",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N95",
+      "name": "dgx_vs_hub_path",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N96",
+      "name": "rss_smoke_json_validate",
+      "passed": true,
+      "param_count": 5788164,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N97",
+      "name": "gds_import_ban",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N98",
+      "name": "active_budget_tok_s_split",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N99",
+      "name": "factory_meter_mode_read",
+      "passed": true,
+      "param_count": 6871676,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N100",
+      "name": "niche_bank_expand_propose",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 0.9,
+      "status": "DONE"
+    },
+    {
+      "id": "N101",
+      "name": "bank_train_status_read",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N102",
+      "name": "niche_serve_route",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N103",
+      "name": "sidequest_lock_recall",
+      "passed": true,
+      "param_count": 5788678,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N104",
+      "name": "neural_vs_rule_pick",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    },
+    {
+      "id": "N105",
+      "name": "param_grain_check",
+      "passed": true,
+      "param_count": 5787907,
+      "heldout_accuracy": 1.0,
+      "status": "DONE"
+    }
+  ],
+  "local_only": true
+}

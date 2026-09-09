@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N91",
+  "name": "todo_merge_safe",
+  "domain": "todo_merge_safe",
+  "helps": "TodoWrite",
+  "weights": "notes/niche_distill/practice_n91/weights/n91_todo_merge_safe_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00019162707030773163,
+  "labels": [
+    "abstain",
+    "todo merge safe_escalate",
+    "todo merge safe_maybe",
+    "todo merge safe_no",
+    "todo merge safe_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N91 '<input>'"
+}

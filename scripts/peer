@@ -1,0 +1,540 @@
+#!/usr/bin/env bash
+# Unified peer automation entrypoint
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# Prefer hub checkout for adapt/heal/ensure-pool: stale .worktrees/peer-N scripts
+# lack refuse-null and can poison ~/.config/automation-hub/adapt-state.json.
+HUB_ROOT="$ROOT"
+case "$ROOT" in
+  */.worktrees/*) HUB_ROOT="${ROOT%%/.worktrees/*}" ;;
+esac
+cd "$ROOT"
+CMD="${1:-help}"
+shift || true
+case "$CMD" in
+  check)    exec python3 scripts/peer_orchestrate.py --self-check "$@" ;;
+  audit)    exec python3 "$HUB_ROOT/scripts/automation_adapt.py" --audit "$@" ;;
+  audit-json) exec python3 "$HUB_ROOT/scripts/automation_adapt.py" --audit --audit-json "$@" ;;
+  adapt)    exec python3 "$HUB_ROOT/scripts/automation_adapt.py" --heal --write --quick "$@" ;;
+  adapt-deep) exec python3 "$HUB_ROOT/scripts/automation_adapt.py" --heal --write --force "$@" ;;
+  adapt-all) exec python3 "$HUB_ROOT/scripts/automation_adapt.py" --all --heal --write --quick "$@" ;;
+  export)   exec python3 scripts/bundle_automation_kit.py --tar "$@" ;;
+  plan)     exec python3 scripts/peer_orchestrate.py --dry-run "$@" ;;
+  improve)  exec python3 scripts/automation_improve.py "$@" ;;
+  improve-plan) exec python3 scripts/automation_improve.py --plan --write "$@" ;;
+  improve-run) exec python3 scripts/automation_improve.py --execute --write "$@" ;;
+  improve-loop) exec python3 scripts/automation_improve.py --forever --research "$@" ;;
+  improve-install) exec python3 scripts/automation_improve.py --install "$@" ;;
+  improve-uninstall) exec python3 scripts/automation_improve.py --uninstall "$@" ;;
+  improve-status) exec python3 scripts/automation_improve.py --status "$@" ;;
+  improve-watch) exec python3 scripts/automation_improve.py --watch "$@" ;;
+  stop-ram-peer) launchctl bootout "gui/$(id -u)/com.togi.ram-peer-loop" 2>/dev/null || true; echo "stopped com.togi.ram-peer-loop (sibling — use automation-hub only)" ;;
+  dgx-setup) exec "$ROOT/scripts/dgx_setup.sh" "$@" ;;
+  dgx-offload) exec "$ROOT/scripts/dgx_mac_offload.sh" "$@" ;;
+  dgx-restore) exec "$ROOT/scripts/dgx_mac_restore.sh" "$@" ;;
+  dgx-watch) exec python3 "$ROOT/scripts/dgx_watch.py" "$@" ;;
+  dgx-status) exec python3 "$ROOT/scripts/dgx_watch.py" --status "$@" ;;
+  resource-status) exec python3 "$ROOT/scripts/dgx_resource_poll.py" --snapshot "$@" ;;
+  resource-poll) exec python3 "$ROOT/scripts/dgx_resource_poll.py" --once "$@" ;;
+  resource-fix-now) exec python3 "$ROOT/scripts/dgx_resource_poll.py" --once --force-agent "$@" ;;
+  dgx-sync-repos) exec "$ROOT/scripts/dgx_sync_repos.sh" "$@" ;;
+  factory-fanout) exec python3 "$ROOT/scripts/factory_fanout.py" "$@" ;;
+  factory-sprint) exec python3 "$ROOT/scripts/factory_sprint.py" "$@" ;;
+  ram-accel) exec python3 "$ROOT/scripts/dgx_ram_accel.py" "$@" ;;
+  ram-fill) exec python3 "$ROOT/scripts/dgx_ram_accel.py" --fill-only "$@" ;;
+  knowledge-index) exec python3 "$ROOT/scripts/knowledge_index.py" "$@" ;;
+  knowledge-search) exec python3 "$ROOT/scripts/knowledge_index.py" --query "$@" ;;
+  mamba-status) exec python3 "$ROOT/scripts/knowledge_mamba.py" --status "$@" ;;
+  mamba-warmup) exec python3 "$ROOT/scripts/knowledge_mamba.py" --warmup "$@" ;;
+  mamba-setup) exec bash "$ROOT/scripts/knowledge_mamba_setup.sh" "$@" ;;
+  automations) exec python3 "$ROOT/scripts/automation_engine.py" "$@" ;;
+  progress) exec python3 scripts/factory_progress.py "$@" ;;
+  factory-a-plus) exec python3 "$ROOT/scripts/peer_factory_a_plus.py" "$@" ;;
+  factory-a-plus-install) exec python3 "$ROOT/scripts/peer_factory_a_plus.py" --phase0 --write "$@" ;;
+  a-to-z) exec python3 "$ROOT/scripts/peer_factory_a_to_z.py" "$@" ;;
+  kit-run) exec python3 "$ROOT/scripts/factory_kit_run.py" "$@" ;;
+  kit-run-list) exec python3 "$ROOT/scripts/factory_kit_run.py" --list "$@" ;;
+  kit-heal-false-green) exec python3 "$ROOT/scripts/factory_kit_run.py" --heal-false-green "$@" ;;
+  agents)   exec python3 scripts/peer_agent_board.py "$@" ;;
+  niche-mint) exec python3 scripts/niche_mint.py "$@" ;;
+  agents-watch) exec python3 scripts/peer_agent_board.py --watch "$@" ;;
+  debrief) exec python3 scripts/peer_debrief.py "$@" ;;
+  self-heal) exec python3 "$HUB_ROOT/scripts/peer_self_heal.py" --heal --write "$@" ;;
+  self-heal-scan) exec python3 "$HUB_ROOT/scripts/peer_self_heal.py" --scan "$@" ;;
+  self-heal-status) exec python3 "$HUB_ROOT/scripts/peer_self_heal.py" --status "$@" ;;
+  rule-shutdown) exec python3 "$HUB_ROOT/scripts/peer_rule_shutdown.py" "$@" ;;
+  rule-shutdown-digest) exec python3 "$HUB_ROOT/scripts/peer_rule_shutdown.py" write-digest "$@" ;;
+  rule-shutdown-expire) exec python3 "$HUB_ROOT/scripts/peer_rule_shutdown.py" write-digest "$@" ;;
+  progress-watch) exec python3 "$HUB_ROOT/scripts/peer_progress_watch.py" --once "$@" ;;
+  progress-watch-forever) exec python3 "$HUB_ROOT/scripts/peer_progress_watch.py" --forever "$@" ;;
+  comms) exec python3 scripts/peer_agent_comms.py --status "$@" ;;
+  comms-init) exec python3 scripts/peer_agent_comms.py --init "$@" ;;
+  comms-bus) exec python3 scripts/peer_agent_comms.py --bus "$@" ;;
+  comms-improve) exec python3 scripts/automation_comms_improve.py --write --research "$@" ;;
+  comms-improve-loop) exec python3 scripts/automation_comms_improve.py --forever --research "$@" ;;
+  comms-improve-install) exec python3 scripts/automation_comms_improve.py --install "$@" ;;
+  comms-improve-uninstall) exec python3 scripts/automation_comms_improve.py --uninstall "$@" ;;
+  comms-improve-status) exec python3 scripts/automation_comms_improve.py --status "$@" ;;
+  comms-verify) exec python3 scripts/automation_comms_improve.py --verify "$@" ;;
+  comms-research) exec python3 scripts/automation_comms_research.py --refresh --write "$@" ;;
+  flaw-scan) exec python3 scripts/peer_flaw_scan.py "$@" ;;
+  flaw-scan-preview) exec python3 scripts/peer_flaw_scan.py --preview "$@" ;;
+  ensure-pool) exec python3 "$HUB_ROOT/scripts/peer_worktree.py" ensure-pool "$@" ;;
+  stall-pivot) exec python3 scripts/peer_stall_pivot.py --preview "$@" ;;
+  dashboard)
+    PORT="${1:-8765}"
+    echo "HORIZON dashboard → http://127.0.0.1:${PORT}/"
+    echo "  /progress — factory readiness (real outcomes)"
+    echo "  /agents — 8-worker birds-eye + per-niche detail"
+    echo "  /horizon  — over the horizon (live)"
+    echo "  /asi      — toward true ASI + milestones (harness)"
+    exec python3 dashboard/server.py --port "$PORT"
+    ;;
+  dashboard-install) exec python3 dashboard/server.py --install "$@" ;;
+  dashboard-uninstall) exec python3 dashboard/server.py --uninstall "$@" ;;
+  dashboard-status) exec python3 dashboard/server.py --status "$@" ;;
+  dashboard-restart) exec python3 dashboard/server.py --restart "$@" ;;
+  research) exec python3 scripts/automation_research.py "$@" ;;
+  once)     exec python3 scripts/peer_loop.py --once --background "$@" ;;
+  loop)     exec python3 scripts/peer_loop.py --forever --background "$@" ;;
+  watch)    exec python3 scripts/peer_watch.py "$@" ;;
+  install)  exec python3 scripts/peer_loop.py --install "$@" ;;
+  uninstall) exec python3 scripts/peer_loop.py --uninstall "$@" ;;
+  status)   exec python3 scripts/peer_loop.py --status "$@" ;;
+  poke)     touch "$(cd "$ROOT/scripts" && python3 -c 'import automation_config as c; print(c.config_dir())')/peer-turn.signal"; echo "poked" ;;
+  # --- Overseer / digest ---
+  investigate) exec python3 scripts/peer_investigate.py --once "$@" ;;
+  investigate-force) exec python3 scripts/peer_investigate.py --once --force "$@" ;;
+  investigate-status) exec python3 scripts/peer_investigate.py --status "$@" ;;
+  digest) exec python3 scripts/peer_investigate.py --once --digest-only "$@" ;;
+  # --- Oversight (continuous system watch) ---
+  oversight) exec python3 scripts/peer_oversight.py --once "$@" ;;
+  oversight-force) exec python3 scripts/peer_oversight.py --once --force "$@" ;;
+  oversight-digest) exec python3 scripts/peer_oversight.py --once --no-dispatch "$@" ;;
+  oversight-status) exec python3 scripts/peer_oversight.py --status "$@" ;;
+  oversight-install) exec python3 scripts/peer_oversight.py --install "$@" ;;
+  oversight-uninstall) exec python3 scripts/peer_oversight.py --uninstall "$@" ;;
+  # Progress Monitor = always-on oversight niche (24/7)
+  progress-monitor) exec python3 scripts/peer_oversight.py --status "$@" ;;
+  progress-monitor-once) exec python3 scripts/peer_oversight.py --once "$@" ;;
+  progress-monitor-force) exec python3 scripts/peer_oversight.py --once --force "$@" ;;
+  progress-monitor-install) exec python3 scripts/peer_oversight.py --install "$@" ;;
+  # --- Repo flaw research ---
+  repo-research) exec python3 scripts/peer_repo_research.py --once "$@" ;;
+  repo-research-digest) exec python3 scripts/peer_repo_research.py --once --digest-only "$@" ;;
+  repo-research-status) exec python3 scripts/peer_repo_research.py --status "$@" ;;
+  repo-research-install) exec python3 scripts/peer_repo_research.py --install "$@" ;;
+  repo-research-uninstall) exec python3 scripts/peer_repo_research.py --uninstall "$@" ;;
+  # --- Pen-test / defensive hardening ---
+  pen-test) exec python3 scripts/peer_pen_test.py --once "$@" ;;
+  pen-test-digest) exec python3 scripts/peer_pen_test.py --once --digest-only "$@" ;;
+  pen-test-status) exec python3 scripts/peer_pen_test.py --status "$@" ;;
+  # --- Error playbook ---
+  playbook) exec python3 scripts/peer_playbook.py --from-cycle "$@" ;;
+  playbook-lookup) exec python3 scripts/peer_playbook.py --lookup "$@" ;;
+  playbook-sync) exec python3 scripts/peer_playbook.py --sync "$@" ;;
+  playbook-status) exec python3 scripts/peer_playbook.py --status "$@" ;;
+  playbook-add) exec python3 scripts/peer_playbook.py --add "$@" ;;
+  # --- Product drive ---
+  product) exec python3 scripts/product_drive.py --once "$@" ;;
+  product-status) exec python3 scripts/product_drive.py --status "$@" ;;
+  product-forge) exec python3 scripts/peer_product_forge.py "$@" ;;
+  # --- Verify / test ---
+  test) exec python3 -m unittest discover -s tests -q "$@" ;;
+    # OVERSEER_TEST_QUICK_PEN_2026_09_04 — match peer_commands.py (include pen_test)
+  # OVERSEER_TEST_QUICK_LAST_CYCLE_POISON_2026_09_04 — catch transcript clobber (note=ok fixture)
+  test-quick) exec python3 -m unittest tests.test_automation tests.test_run_peer_tasks tests.test_peer_worktree tests.test_peer_pen_test tests.test_peer_tasks_constraints tests.test_factory_grid tests.test_peer_last_cycle_poison -q "$@" ;;
+  verify-gate) exec python3 scripts/run_peer_tasks.py "$@" ;;
+  verify-gate-quick) exec python3 scripts/run_peer_tasks.py --quick "$@" ;;
+  local-cycle) exec python3 scripts/run_peer_tasks.py "$@" ;;
+  orchestrate-json) exec python3 scripts/peer_orchestrate.py --json --loop "$@" ;;
+  # --- Queue ---
+  compact-queue) exec python3 scripts/peer_commands.py inner compact-queue "$@" ;;
+  sync-queue) exec python3 scripts/peer_commands.py inner sync-queue "$@" ;;
+  queue-status) exec python3 scripts/peer_commands.py inner queue-status "$@" ;;
+  # --- Worktrees ---
+  worktree-list) exec python3 scripts/peer_worktree.py list "$@" ;;
+  # --- RAM ---
+  ram-status) exec python3 scripts/dgx_ram_budget.py "$@" ;;
+  ram-purge) exec python3 scripts/dgx_ram_budget.py --rebalance "$@" ;;
+  ram-cap-flags) exec python3 scripts/dgx_ram_budget.py --ram-snapshot "$@" ;;
+  ram-govern) exec python3 scripts/dgx_ram_budget.py --govern "$@" ;;
+  # --- Improve one-shot ---
+  improve-write) exec python3 scripts/automation_improve.py --write --research --plan --execute "$@" ;;
+  trends) exec python3 scripts/automation_research.py --refresh --write "$@" ;;
+  # --- Ops ---
+  autonomous-repair) exec python3 scripts/peer_commands.py inner autonomous-repair "$@" ;;
+  commands-list) exec python3 scripts/peer_commands.py --list "$@" ;;
+  commands-md) exec python3 scripts/peer_commands.py --write-md "$@" ;;
+  commands-build) exec python3 scripts/peer_command_builder.py --prompt "$@" ;;
+  commands-digest) exec python3 scripts/peer_command_builder.py --digest "$@" ;;
+  commands-harvest) exec python3 scripts/peer_command_builder.py --harvest "$@" ;;
+  factory-dynamics) exec python3 scripts/factory_dynamics.py --snapshot "$@" ;;
+  command-coverage) exec python3 scripts/command_ecosystem.py --write "$@" ;;
+  # OVERSEER_COVERAGE_GATE_2026_09_08 — fail-closed n_gaps
+  coverage-gate) exec python3 scripts/peer_commands.py inner coverage-gate "$@" ;;
+  command-coverage-enqueue) exec python3 scripts/command_ecosystem.py --write --enqueue "$@" ;;
+  command-dispatch-audit) exec python3 scripts/command_ecosystem.py --dispatch-audit "$@" ;;
+  command-ecosystem-finish) exec python3 scripts/command_ecosystem.py --finish "$@" ;;
+  mini-app-promote) exec python3 scripts/command_ecosystem.py --mini-app-promote "$@" ;;
+  niche-bank-status) exec python3 scripts/niche_bank_train.py --status "$@" ;;
+  niche-bank-eval) exec python3 scripts/niche_bank_eval.py "$@" ;;
+  niche-serve) exec python3 scripts/niche_composer.py --serve "$@" ;;
+  niche-assist-once) exec python3 scripts/niche_assist_once.py "$@" ;;
+  niche-mint-train) exec python3 scripts/niche_mint_train.py "$@" ;;
+  team-context) exec python3 scripts/peer_team_context.py --write "$@" ;;
+  learn) exec python3 scripts/peer_project_learning.py --write "$@" ;;
+  learn-record) exec python3 scripts/peer_project_learning.py --record "$@" ;;
+  lessons) exec python3 scripts/peer_lessons.py --status "$@" ;;
+  lessons-harvest) exec python3 scripts/peer_lessons.py --harvest "$@" ;;
+  lessons-squeeze) exec python3 scripts/peer_lessons.py --squeeze --write "$@" ;;
+  think) exec python3 scripts/peer_critical_thinking.py --write "$@" ;;
+  check-questions) exec python3 scripts/peer_critical_thinking.py --questions "$@" ;;
+  precision) exec python3 scripts/peer_precision_habits.py --write "$@" ;;
+  precision-record) exec python3 scripts/peer_precision_habits.py --record "$@" ;;
+  output-compare) exec python3 scripts/peer_output_compare.py "$@" ;;
+  mini-apps) exec python3 scripts/peer_agent_mini_apps.py "$@" ;;
+  assign) exec python3 scripts/peer_work_assign.py --assign "$@" ;;
+  eta) exec python3 scripts/peer_work_assign.py --eta "$@" ;;
+  assignments) exec python3 scripts/peer_work_assign.py --list "$@" ;;
+  work-assign) exec python3 scripts/peer_work_assign.py --write "$@" ;;
+  memory) exec python3 scripts/peer_memory_span.py --write "$@" ;;
+  memory-record) exec python3 scripts/peer_memory_span.py --record "$@" ;;
+  memory-recall) exec python3 scripts/peer_memory_span.py --recall "$@" ;;
+  memory-pack) exec python3 scripts/peer_memory_span.py --pack "$@" ;;
+  memory-compress) exec python3 scripts/peer_memory_compress.py --compress "$@" ;;
+  memory-compress-verify) exec python3 scripts/peer_memory_compress.py --verify "$@" ;;
+  memory-pack-gate) exec python3 scripts/peer_commands.py run memory-pack-gate "$@" ;;
+  role-state) exec python3 scripts/peer_role_state.py "$@" ;;
+  niche-domain-classify) exec python3 scripts/niche_domain_classify.py "$@" ;;
+  memory-audit) exec python3 scripts/peer_memory_auditor.py "$@" ;;
+  memory-quiz) exec python3 scripts/peer_memory_quiz.py "$@" ;;
+  memory-health) exec python3 scripts/peer_memory_health.py "$@" ;;
+  memory-episodic) exec python3 scripts/peer_memory_episodic.py "$@" ;;
+  fact-query) exec python3 scripts/peer_fact_librarian.py "$@" ;;
+  fact-domains) exec python3 scripts/peer_fact_librarian.py --list-domains "$@" ;;
+  domain-owners) exec python3 scripts/peer_fact_librarian.py --write-owners "$@" ;;
+  session-ledger-append) exec python3 scripts/peer_session_amnesia.py append "$@" ;;
+  session-distill) exec python3 scripts/peer_session_amnesia.py distill "$@" ;;
+  session-claim) exec python3 scripts/peer_session_amnesia.py claim "$@" ;;
+  session-sticky-status) exec python3 scripts/peer_session_amnesia.py sticky-status "$@" ;;
+  session-hub-rules) exec python3 scripts/peer_session_amnesia.py hub-rules "$@" ;;
+  top10) exec python3 scripts/peer_top10_next.py --list "$@" ;;
+  top10-refresh) exec python3 scripts/peer_top10_next.py --refresh "$@" ;;
+  top10-next) exec python3 scripts/peer_top10_next.py --next "$@" ;;
+  production-power|scoreboard-write) exec python3 scripts/production_power_scoreboard.py --write "$@" ;;
+  agent-build) exec python3 scripts/peer_agent_builder.py "$@" ;;
+  agent-build-list) exec python3 scripts/peer_agent_builder.py --list "$@" ;;
+  agent-build-validate) exec python3 scripts/peer_agent_builder.py --validate "$@" ;;
+  agent-who) exec python3 scripts/peer_agent_builder.py --who "$@" ;;
+  # OVERSEER_COMPRESSION_KEEP_ALIVE_2026_09_05 — --check only (safe; no forever)
+  compression-keep-alive) exec python3 scripts/compression_keep_alive.py --check "$@" ;;
+  # OVERSEER_COMMAND_BUILDER_HARVEST_WRAP_2026_09_08 — top coverage gaps (safe defaults)
+  bitnet-fp4-expert-rss-smoke) exec python3 scripts/bitnet_fp4_expert_rss_smoke.py --json "$@" ;;
+  compression-ablation-schedule) exec python3 scripts/compression_ablation_schedule.py --json "$@" ;;
+  compression-auto-train) exec python3 scripts/compression_auto_train.py --check "$@" ;;
+  compression-gpu-worker) exec python3 scripts/compression_gpu_worker.py --once "$@" ;;
+  compression-logit-expand) exec python3 scripts/compression_logit_expand.py "$@" ;;
+  compression-result-watch) exec python3 scripts/compression_result_watch.py --once "$@" ;;
+  compression-stress-suite) exec python3 scripts/compression_stress_suite.py --json "$@" ;;
+  compression-t0-pack) exec python3 scripts/compression_t0_pack.py --json "$@" ;;
+  compression-t1-share) exec python3 scripts/compression_t1_share.py --json "$@" ;;
+  compression-t2-svd) exec python3 scripts/compression_t2_svd.py --json "$@" ;;
+  compression-t3-bitdistill) exec python3 scripts/compression_t3_bitdistill.py --json "$@" ;;
+  compression-t4-scale) exec python3 scripts/compression_t4_scale.py --json "$@" ;;
+  compression-t5-serve) exec python3 scripts/compression_t5_serve.py --json "$@" ;;
+  compression-t6-quality) exec python3 scripts/compression_t6_quality.py --json "$@" ;;
+  compression-train-profile) exec python3 scripts/compression_train_profile.py --json "$@" ;;
+  # OVERSEER_COMMAND_BUILDER_RESIDUAL_WRAP_2026_09_08 — hub verbs + factory gaps
+  github-feedback-fetch) exec python3 scripts/github_feedback.py fetch "$@" ;;
+  github-feedback-list) exec python3 scripts/github_feedback.py list "$@" ;;
+  github-feedback-render) exec python3 scripts/github_feedback.py render "$@" ;;
+  production-power|scoreboard-write) exec python3 scripts/production_power_scoreboard.py --write "$@" ;;
+  niche-bank-compress) exec python3 scripts/niche_bank_compress.py "$@" ;;
+  niche-hot-path) exec python3 scripts/niche_hot_path.py --inventory --json "$@" ;;
+  factory-niche-runtime) exec python3 scripts/factory_niche_runtime.py --json "$@" ;;
+  factory-lora-train) exec python3 scripts/factory_lora_train.py "$@" ;;
+  compression-train-rung0) exec python3 scripts/compression_train_rung0.py --once "$@" ;;
+  gpu-profile-once) exec python3 scripts/gpu_profile_once.py --json "$@" ;;
+  dgx-resource-priority) exec python3 scripts/dgx_resource_priority.py --snapshot --json "$@" ;;
+  niche-domain-classifier-train) exec python3 scripts/niche_domain_classifier_train.py --eval-only --json "$@" ;;
+  agent-survival) exec python3 scripts/peer_agent_survival.py --compact "$@" ;;
+  # OVERSEER_COMMAND_BUILDER_NEXT18_WRAP_2026_09_08 — remaining coverage gaps
+  cursor-self-improve) exec python3 scripts/cursor_self_improve.py --dry-run "$@" ;;
+  dgx-gpu-compute) exec python3 scripts/dgx_gpu_compute.py --status --json "$@" ;;
+  dgx-gpu-events) exec python3 scripts/dgx_gpu_events.py --snapshot --json "$@" ;;
+  dgx-local-ram-guard) exec python3 scripts/dgx_local_ram_guard.py --once "$@" ;;
+  dgx-ram-events) exec python3 scripts/dgx_ram_events.py --snapshot --json "$@" ;;
+  dgx-ram-priority) exec python3 scripts/dgx_ram_priority.py --snapshot --json "$@" ;;
+  dgx-utilization) exec python3 scripts/dgx_utilization.py --snapshot --json "$@" ;;
+  niche-n01-neural-train) exec python3 scripts/niche_n01_neural_train.py --eval-only --json "$@" ;;
+  niche-n01-practice) exec python3 scripts/niche_n01_practice.py --eval-only --json "$@" ;;
+  # OVERSEER_NICHE_PRACTICE_N02_WRAP_2026_09_08 — coverage gap; eval-only JSON
+  niche-n02-practice) exec python3 scripts/niche_n02_practice.py --eval-only --json "$@" ;;
+  niche-n03-practice) exec python3 scripts/niche_n03_practice.py --eval-only --json "$@" ;;
+  # OVERSEER_NICHE_PRACTICE_N04_2026_09_07 — remaining coverage gap; eval-only JSON
+  niche-n04-practice) exec python3 scripts/niche_n04_practice.py --eval-only --json "$@" ;;
+  # OVERSEER_NICHE_DISTILL_VALIDATE_WRAP_2026_09_08 — sole COMMAND_COVERAGE gap; schema+floors JSON
+  niche-distill-validate) exec python3 scripts/niche_distill_validate.py --json "$@" ;;
+  # OVERSEER_RESEARCH_CLAIM_ARITH_WRAP_2026_09_08 — sole COMMAND_COVERAGE gap; cache check JSON (no train/write)
+  research-claim-arith) exec python3 scripts/research_claim_arith.py --check-cache --json "$@" ;;
+  niche-n07-practice) exec python3 scripts/niche_n07_practice.py --eval-only --json "$@" ;;
+  niche-n08-practice) exec python3 scripts/niche_n08_practice.py --eval-only --json "$@" ;;
+  niche-retrieval) exec python3 scripts/niche_retrieval.py Active "$@" ;;
+  peer-error-adapt) exec python3 scripts/peer_error_adapt.py --from-gate "$@" ;;
+  peer-glink-paste) exec python3 scripts/peer_glink_paste.py done --demo --json "$@" ;;
+  kit-progress) exec python3 scripts/peer_kit_progress.py --json "$@" ;;
+  land-hold) exec python3 scripts/peer_land_hold.py "$@" ;;
+  improve-poll-cache) exec python3 scripts/run_improve_poll_cache.py --status "$@" ;;
+  diagnose) exec python3 scripts/peer_self_diagnose.py --scan "$@" ;;
+  diagnose-quick) exec python3 scripts/peer_self_diagnose.py --scan --quick "$@" ;;
+  hallucination-guard) exec python3 scripts/peer_hallucination_guard.py --write "$@" ;;
+  hallucination-strategy) exec python3 scripts/peer_hallucination_guard.py --strategy "$@" ;;
+  plan-gate) exec python3 scripts/peer_agent_gates.py --plan-gate "$@" ;;
+  done-gate) exec python3 scripts/peer_agent_gates.py --done-gate "$@" ;;
+  agent-gates) exec python3 scripts/peer_agent_gates.py --write "$@" ;;
+  agent-gap) exec python3 scripts/peer_agent_human_gap.py --write "$@" ;;
+  idea-articulate) exec python3 scripts/peer_idea_synthesis.py --articulate "$@" ;;
+  idea-record) exec python3 scripts/peer_idea_synthesis.py --record "$@" ;;
+  idea-synthesis) exec python3 scripts/peer_idea_synthesis.py --write "$@" ;;
+  dual-research) exec python3 scripts/peer_dual_research.py --once "$@" ;;
+  dual-research-status) exec python3 scripts/peer_dual_research.py --status "$@" ;;
+  company-org) exec python3 scripts/peer_company_org.py --audit --write-md "$@" ;;
+  company-org-md) exec python3 scripts/peer_company_org.py --write-md "$@" ;;
+  company-org-enqueue) exec python3 scripts/peer_company_org.py --enqueue-missing "$@" ;;
+  company-org-stubs) exec python3 scripts/peer_company_org.py --stubs "$@" ;;
+  commands-digest) exec python3 scripts/peer_command_builder.py --digest "$@" ;;
+  persona-rules) exec python3 scripts/peer_persona_rules.py "$@" ;;
+  # --- Compound recipes (pivotal) ---
+  bootstrap|heal-all|green|install-all|pre-dispatch|post-cycle|standup|noop-break|stagnation-break|soft-hub-writeback|soft-soft-land-status|commands-sync|commands-cycle|dev-fast|dev-heal|idle-gate|factory-a-plus-init|compression-ladder)
+    exec python3 scripts/peer_commands.py run "$CMD" "$@"
+    ;;
+  soft-soft-status)
+    exec python3 scripts/peer_commands.py run soft-soft-status "$@"
+    ;;
+  help|*)
+    cat <<'EOF'
+Usage: ./scripts/peer <command>
+
+Compound (pivotal — run these instead of reinventing loops):
+  bootstrap       — install daemons → self-heal → compact → check → digest
+  heal-all        — self-heal → compact → sync-queue → memory-pack-gate → verify-gate
+  green           — check + progress + self-heal-scan (exit 1 if blocked)
+  install-all     — peer + improve LaunchAgents
+  pre-dispatch    — compact → memory-pack-gate → plan-gate → check → ensure-pool
+  post-cycle      — verify-gate → done-gate → self-heal → digest (after agent lands diff)
+  plan-gate       — all agent-vs-human countermeasures before first edit
+  done-gate       — diagnose + output-compare before DONE
+  standup         — digest → rule-shutdown-digest → improve-status → progress → self-heal-status
+  noop-break      — compact → poke → investigate-force
+  stagnation-break — heal-all → noop-break → progress (overseer noop/unblock)
+  soft-hub-writeback — Soft Soft land hub writeback: scoreboard → sync-queue → poke
+  soft-soft-land-status — Soft Soft Active opens + Soft Soft proof mtimes → queue-status
+  commands-sync   — regenerate AGENT_COMMANDS.md → self-check (after command edits)
+  commands-cycle  — wake Command Builder: harvest gaps → digest + prompt
+  dev-fast        — compact → test-quick → check (fast local dev gate)
+  dev-heal        — self-heal → commands-sync
+  idle-gate       — progress → compact-queue → pen-test-digest (healthy-idle affirm)
+  top10           — print ranked TOP10_NEXT list (top10_implementer SoT)
+  top10-refresh   — mechanical re-rank open-first + write notes/TOP10_NEXT.md
+  top10-next      — print highest-rank open TOP10_NEXT item only
+  production-power — refresh notes/PRODUCTION_POWER_SCOREBOARD.md (scoreboard-write alias)
+  github-feedback-fetch — pull sanitized GitHub feedback inbox
+  github-feedback-list — list GitHub feedback inbox
+  github-feedback-render — render untrusted feedback markdown
+  niche-bank-compress — pack niche-bank weights to NVFP4-ish sidecars
+  niche-hot-path — N01 hot-path inventory JSON
+  factory-niche-runtime — niche route+serve snapshot (--json)
+  factory-lora-train — factory LoRA scaffold (pass --train/--ask)
+  compression-train-rung0 — rung0 skeleton once (--once; no train/forever)
+  gpu-profile-once — DGX util + CLEAN FP4 meters (--json)
+  dgx-resource-priority — DGX RAM/GPU priority snapshot (--json)
+  niche-domain-classifier-train — domain classifier heldout eval (--eval-only)
+  agent-survival — compact survival briefing prompt block
+  cursor-self-improve — self-improve dry-run (no paste)
+  dgx-gpu-compute — GPU worker status JSON
+  dgx-gpu-events — GPU event snapshot JSON
+  dgx-local-ram-guard — RAM guard once
+  dgx-ram-events — RAM event snapshot JSON
+  dgx-ram-priority — RAM priority snapshot JSON
+  dgx-utilization — util snapshot JSON
+  niche-n01-neural-train — N01 neural eval-only JSON
+  niche-n01-practice — N01 practice eval-only JSON
+  niche-n02-practice — N02 practice eval-only JSON
+  niche-n03-practice — N03 practice eval-only JSON
+  niche-n04-practice — N04 practice eval-only JSON
+  niche-distill-validate — niche distill schema + anti-prune floor JSON
+  research-claim-arith — arith research prefilter cache check (--check-cache --json)
+  niche-n07-practice — N07 practice eval-only JSON
+  niche-n08-practice — N08 practice eval-only JSON
+  niche-retrieval — niche bank retrieve (Active)
+  peer-error-adapt — adapt from plan-gate
+  peer-glink-paste — GLink DONE shrink demo JSON
+  kit-progress — kit progress JSON
+  land-hold — land-hold age/pause status
+  improve-poll-cache — improve poll-cache --status
+  agent-build     — Agent Builder: --dry-run/--write/--spec (provision specialist)
+  agent-build-list — list roles with template/match coverage
+  agent-build-validate — validate one role id (template + match_rules)
+  agent-who       — task→worker: print role + template for a queue line
+  compression-keep-alive — compression keep-alive --check JSON (no fanout/forever)
+  compression-ladder — T0–T6 compression probes as JSON (status ladder)
+  compression-auto-train — auto-train gate status (--check; no start/watch)
+  compression-result-watch — result stall watchdog one tick (--once)
+  a-to-z          — sequencing lock: next open Factory A→Z phase (kit_a_to_z)
+  kit-run         — adapt → verify → worktree receipt (./scripts/peer kit-run --repo CPT)
+  kit-heal-false-green — force A→Z PROOF red when green lacks eligible PR/merge_note
+
+Command Builder (committed — agents execute peer commands; this niche builds them):
+  commands-build  — print Command Builder agent prompt
+  commands-digest — refresh notes/COMMAND_BUILDER.md gap probe
+  commands-harvest — harvest repeated shell loops → gaps + prompt
+  commands-md     — regenerate notes/AGENT_COMMANDS.md only
+  factory-dynamics — snapshot niche CPU/GPU balance knobs
+  command-coverage — regenerate notes/COMMAND_COVERAGE.md
+  coverage-gate — fail-closed CLI wrap coverage (exit 1 if unwrapped gaps)
+  command-coverage-enqueue — coverage + top gaps → Backlog
+
+Rule-change proposals (propose-only → human review):
+  rule-shutdown         — propose/ack/list/accept/reject/reinstate/make-permanent
+  rule-shutdown-digest  — refresh notes/RULE_SHUTDOWN_DIGEST.md
+
+Overseer / digest:
+  digest              — refresh notes/AUTOMATION_DIGEST.md (mechanical)
+  investigate         — overseer tick (heal + compact + optional agent)
+  investigate-force   — overseer now (ignore cooldown)
+  investigate-status  — cooldown + last run
+
+Verify / test:
+  check           — peer_orchestrate self-check (primary gate)
+  test            — full unittest discover -s tests
+  test-quick      — tests.test_automation + tests.test_run_peer_tasks
+  verify-gate     — configured verify_commands
+  verify-gate-quick — cached verify until git changes
+  audit           — adapt self-audit
+  audit-json      — audit JSON to stdout
+  comms-verify    — comms kit self-test gate
+
+Queue:
+  compact-queue   — strip adapt dupes, dedupe, cap Active to 12
+  sync-queue      — heal WORK_QUEUE ↔ self_improve_context drift
+  queue-status    — open item count + preview
+
+Adapt / improve:
+  adapt           — quick adapt/heal (cached verify)
+  adapt-deep      — full re-probe + rewrite profiles
+  adapt-all       — adapt every registry repo
+  improve-plan    — save plan-only prompt
+  improve-run     — save execute prompt
+  improve-write   — plan + execute + write + research (one shot)
+  improve-status  — improve daemon + horizon board
+  improve-watch   — live IMPROVE_HORIZON refresh
+  trends          — refresh industry trends doc
+  research        — trend scan + kit gap mapping
+
+Factory / product:
+  progress        — factory readiness (real outcomes)
+  product         — external-proof sprint + registry fanout
+  product-status  — product drive cooldown + queue
+  factory-sprint  — launch external-repo cursor-agent lanes
+  factory-fanout  — parallel adapt probe on registry repos
+  agents          — 8-niche agent board
+  plan            — dry-run peer prompt
+
+Worktrees / dispatch:
+  ensure-pool     — create .worktrees/peer-0..N pool
+  worktree-list   — list git worktrees
+  stall-pivot     — preview stall-pivot prompt
+
+Daemons:
+  install         — peer-loop LaunchAgent
+  improve-install — improve-loop LaunchAgent
+  dashboard-install — dashboard LaunchAgent
+  loop            — peer forever (foreground)
+  improve-loop    — improve forever (foreground)
+  once            — single peer-loop cycle
+  watch           — peer-loop terminal dashboard
+  status          — peer-loop snapshot
+  poke            — wake blocked loop
+
+RAM / DGX:
+  ram-status      — RAM budget + pressure level
+  ram-purge       — rebalance (trim storms + productive fill)
+  ram-cap-flags   — dispatch_allowed + agent cap snapshot
+  ram-govern      — priority governor
+  dgx-status      — DGX watch snapshot
+  dgx-watch       — DGX watch loop
+
+Ops / comms:
+  self-heal       — scan bottlenecks + mechanical heals
+  self-heal-scan  — detect bottlenecks only
+  self-heal-status — bottleneck registry table
+  autonomous-repair — dedupe queue + clear test cache + git identity
+  debrief         — AAR / post-mortem + KPI snapshot
+  flaw-scan       — daily cross-review status
+  pen-test        — defensive pen-test scan hub + product-forge (enqueue + harden)
+  pen-test-digest — pen-test mechanical only
+  pen-test-status — last pen-test run
+  comms-init      — init GLink bus + agent vaults
+  comms-bus       — tail structured comms bus
+  export          — tar automation kit to dist/
+
+Meta:
+  commands-list   — all registered commands (see notes/AGENT_COMMANDS.md)
+  commands-md     — regenerate notes/AGENT_COMMANDS.md
+
+Legacy / detailed help (same commands, longer descriptions):
+  check   — peer_orchestrate self-check
+  audit   — adapt self-audit (script + config + verify output)
+  audit-json — same as audit, JSON to stdout
+  adapt   — quick adapt/heal (cached verify, skip re-probe if git unchanged)
+  adapt-deep — full re-probe + rewrite profiles/local.json
+  adapt-all — adapt every registry repo on disk
+  export  — write dist/automation-kit-YYYY-MM-DD.tar.gz
+  plan    — dry-run peer prompt
+  improve — plan + execute prompts to improve automation
+  improve-plan — save plan-only prompt to config dir
+  improve-run  — save execute prompt (after plan)
+  improve-loop — forever improve (foreground)
+  improve-install — LaunchAgent: improve forever daemon
+  improve-uninstall — stop improve forever daemon
+  improve-status — improve daemon + horizon (NOW / NEXT / HORIZON / ASI)
+  improve-watch  — live refresh of notes/IMPROVE_HORIZON.md
+  progress — factory readiness overview (real outcomes; not ASI %)
+  agents  — birds-eye board of 8 niches + orchestrator (JSON or terminal)
+  niche-mint — on-demand tiny niche propose/start when agents find a local speedup
+  agents-watch — live terminal refresh of agent board
+  debrief — AAR/post-mortem capture, KPI snapshot, Optimization Unit prompt
+  self-heal — scan bottlenecks + apply mechanical heals (daemons, locks, drift)
+  self-heal-scan — detect bottlenecks only (no writes)
+  self-heal-status — registry + latest bottleneck table
+  comms — GLink bus + per-agent vault status
+  comms-init — create shared bus + 8 agent vaults
+  comms-bus — tail shared bus (structured JSONL)
+  comms-improve — write comms plan+execute prompts + horizon (one shot)
+  comms-improve-loop — comms improve forever (foreground)
+  comms-improve-install — LaunchAgent: comms improve daemon
+  comms-improve-uninstall — stop comms improve daemon
+  comms-improve-status — comms horizon + daemon state
+  comms-verify — green/red self-test gate for comms kit
+  comms-research — refresh notes/COMMS_TRENDS.md from web + curated map
+  flaw-scan — daily cross-review status (56 scans → 7 reviews per agent → triage)
+  flaw-scan-preview — print today's flaw-scan orchestrator prompt
+  ensure-pool — create .worktrees/peer-0..N for 8 parallel Task peers
+  stall-pivot — preview stall-pivot prompt (what else can I do while blocked)
+  dashboard — live web UI http://127.0.0.1:8765 (/agents + /progress + horizon + ASI)
+  dashboard-install — KeepAlive LaunchAgent (survives reboot)
+  dashboard-uninstall — stop dashboard LaunchAgent
+  dashboard-status — dashboard agent RUNNING/STOPPED
+  dashboard-restart — reload LaunchAgent after new dashboard routes/pages
+  research  — industry trends + kit gap mapping (--refresh for HN)
+  once    — single peer-loop cycle
+  loop    — peer forever loop (foreground)
+  watch   — peer-loop terminal dashboard
+  install — peer-loop LaunchAgent
+  uninstall — stop peer-loop LaunchAgent
+  status  — peer-loop snapshot
+  poke    — wake blocked loop
+EOF
+    ;;
+esac

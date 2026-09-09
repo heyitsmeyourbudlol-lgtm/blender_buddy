@@ -1,0 +1,10 @@
+{"niche_id":"N51","niche":"needle_mint","input":"Niche needle_mint: label=needle mint_no | title | WORK_QUEUE Active empty","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory needle mint_yes for needle_mint: GDS cuFile forbidden","output":{"label":"needle mint_yes"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Niche needle_mint: label=needle mint_escalate | title | WORK_QUEUE Active empty","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"[needle mint_no] kit twins — title sample-31","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory needle mint_escalate for needle_mint: fact_checker prefer-order","output":{"label":"needle mint_escalate"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as needle mint_no. Context: sm_121a missing flag (OVERSEER_* candidate)","output":{"label":"needle mint_no"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as needle mint_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"needle mint_maybe"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Classify needle_mint as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (OVERSEER_* candidate)","output":{"label":"unknown"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Factory abstain for needle_mint: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N51","niche":"needle_mint","input":"Kit lock — Niche needle_mint: label=abstain | title | WORK_QUEUE Active empty","output":{"label":"abstain"}}

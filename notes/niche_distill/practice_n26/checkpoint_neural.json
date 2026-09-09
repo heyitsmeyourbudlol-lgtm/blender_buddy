@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N26",
+  "name": "mtp_gamma_sanity",
+  "domain": "mtp_gamma_sanity",
+  "helps": "Reading=Writing",
+  "weights": "notes/niche_distill/practice_n26/weights/n26_mtp_gamma_sanity_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.004061238840222359,
+  "labels": [
+    "collision",
+    "missing",
+    "ok"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N26 '<input>'"
+}

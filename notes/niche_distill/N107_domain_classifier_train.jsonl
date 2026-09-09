@@ -1,0 +1,96 @@
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_escalate | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_no] agent on-demand — text sample-31","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory domain classifier train_no for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=unknown | text | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_yes. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[unknown] agent on-demand — text sample-16","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Niche domain_classifier_train: label=domain classifier train_maybe | text | peer_loop IDLE seed","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_escalate. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Classify domain_classifier_train as domain classifier train_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_no. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_no. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_no. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_no] agent on-demand — text sample-91","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → domain classifier train_maybe. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as abstain. Context: sm_121a missing flag (label)","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [domain classifier train_no] agent on-demand — text sample-1","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_yes] agent on-demand — text sample-6","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[unknown] agent on-demand — text sample-76","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_no for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=abstain | text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_no for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_yes] agent on-demand — text sample-36","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory domain classifier train_escalate for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → abstain. Input shape text. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_escalate. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_yes for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [domain classifier train_yes] agent on-demand — text sample-66","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_yes. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_yes | text | peer_loop IDLE seed","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[unknown] agent on-demand — text sample-46","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → abstain. Input shape text. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_maybe for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=unknown | text | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_escalate] agent on-demand — text sample-21","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → unknown. Input shape text. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_maybe | text | peer_loop IDLE seed","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_no | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Classify domain_classifier_train as abstain. Context: sm_121a missing flag (label)","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_escalate. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_maybe. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_escalate for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory unknown for domain_classifier_train: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=abstain | text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory unknown for domain_classifier_train: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Classify domain_classifier_train as domain classifier train_escalate. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_maybe for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as abstain. Context: sm_121a missing flag (label)","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory abstain for domain_classifier_train: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [abstain] agent on-demand — text sample-41","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_yes] agent on-demand — text sample-96","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_escalate] agent on-demand — text sample-51","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[unknown] agent on-demand — text sample-106","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [domain classifier train_escalate] agent on-demand — text sample-111","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as abstain. Context: sm_121a missing flag (label)","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Classify domain_classifier_train as domain classifier train_no. Context: sm_121a missing flag (label)","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_no for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=abstain | text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_escalate | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_no | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_escalate | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory abstain for domain_classifier_train: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_no. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[domain classifier train_escalate] agent on-demand — text sample-81","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [domain classifier train_no] agent on-demand — text sample-61","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_maybe | text | peer_loop IDLE seed","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [abstain] agent on-demand — text sample-71","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory unknown for domain_classifier_train: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_escalate. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_no. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → unknown. Input shape text. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Classify domain_classifier_train as domain classifier train_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (label)","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → abstain. Input shape text. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"[abstain] agent on-demand — text sample-11","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_maybe. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_maybe | text | peer_loop IDLE seed","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_escalate for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory domain classifier train_maybe for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → domain classifier train_maybe. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — [domain classifier train_maybe] agent on-demand — text sample-86","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_escalate | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — domain_classifier_train decision → domain classifier train_escalate. Input shape text. RSS proposal 48GB reject","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory abstain for domain_classifier_train: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory domain classifier train_maybe for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_maybe"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Niche domain_classifier_train: label=domain classifier train_yes | text | peer_loop IDLE seed","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory domain classifier train_escalate for domain_classifier_train: fact_checker prefer-order","output":{"label":"domain classifier train_escalate"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Factory unknown for domain_classifier_train: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Niche domain_classifier_train: label=domain classifier train_no | text | WORK_QUEUE Active empty","output":{"label":"domain classifier train_no"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"Kit lock — Factory domain classifier train_yes for domain_classifier_train: GDS cuFile forbidden","output":{"label":"domain classifier train_yes"}}
+{"niche_id":"N107","niche":"domain_classifier_train","input":"domain_classifier_train decision → domain classifier train_yes. Input shape text. continue_on_dirty HOLD","output":{"label":"domain classifier train_yes"}}

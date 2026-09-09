@@ -1,0 +1,10 @@
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Factory continue on dirty classify_no for continue_on_dirty_classify: fact_checker prefer-order","output":{"label":"continue on dirty classify_no"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"continue_on_dirty_classify decision → continue on dirty classify_no. Input shape git status + config. RSS proposal 48GB reject","output":{"label":"continue on dirty classify_no"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Kit lock — Classify continue_on_dirty_classify as continue on dirty classify_no. Context: sm_121a missing flag (wait / skip / HOLD paint)","output":{"label":"continue on dirty classify_no"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Kit lock — Classify continue_on_dirty_classify as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (wait / skip / HOLD paint)","output":{"label":"unknown"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Kit lock — Niche continue_on_dirty_classify: label=continue on dirty classify_escalate | git status + config | WORK_QUEUE Active empty","output":{"label":"continue on dirty classify_escalate"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Factory abstain for continue_on_dirty_classify: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Kit lock — [continue on dirty classify_escalate] verify FAIL paint — git status + config sample-21","output":{"label":"continue on dirty classify_escalate"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Kit lock — [abstain] verify FAIL paint — git status + config sample-11","output":{"label":"abstain"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Factory unknown for continue_on_dirty_classify: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N62","niche":"continue_on_dirty_classify","input":"Factory continue on dirty classify_yes for continue_on_dirty_classify: GDS cuFile forbidden","output":{"label":"continue on dirty classify_yes"}}

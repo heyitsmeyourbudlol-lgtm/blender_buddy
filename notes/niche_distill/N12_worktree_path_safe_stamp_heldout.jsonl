@@ -1,0 +1,10 @@
+{"niche_id":"N12","niche":"worktree_path_safe","input":"worktree_path_safe decision → missing. Input shape cwd. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Classify worktree_path_safe as ok. Context: sm_121a missing flag (ok/collision)","output":{"label":"ok"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Kit lock — Classify worktree_path_safe as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/collision)","output":{"label":"missing"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Niche worktree_path_safe: label=ok | cwd | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Factory collision for worktree_path_safe: GDS cuFile forbidden","output":{"label":"collision"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Kit lock — Factory ok for worktree_path_safe: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Classify worktree_path_safe as missing. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok/collision)","output":{"label":"missing"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Kit lock — [missing] parallel peers — cwd sample-11","output":{"label":"missing"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Factory collision for worktree_path_safe: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N12","niche":"worktree_path_safe","input":"Kit lock — Factory ok for worktree_path_safe: fact_checker prefer-order","output":{"label":"ok"}}

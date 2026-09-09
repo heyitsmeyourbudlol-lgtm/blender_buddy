@@ -1,0 +1,48 @@
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — daemon_pid_alive decision → abstain. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=abstain | label+pid | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory daemon pid alive_escalate for daemon_pid_alive: fact_checker prefer-order","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — [daemon pid alive_maybe] peer_self_heal — label+pid sample-26","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=unknown | label+pid | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Factory daemon pid alive_no for daemon_pid_alive: fact_checker prefer-order","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory daemon pid alive_yes for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory daemon pid alive_maybe for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_yes] peer_self_heal — label+pid sample-6","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_maybe. Input shape label+pid. continue_on_dirty HOLD","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_escalate. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_no | label+pid | WORK_QUEUE Active empty","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_maybe. Input shape label+pid. continue_on_dirty HOLD","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_escalate. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_no] peer_self_heal — label+pid sample-31","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_yes. Input shape label+pid. continue_on_dirty HOLD","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=unknown | label+pid | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[abstain] peer_self_heal — label+pid sample-41","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[unknown] peer_self_heal — label+pid sample-16","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_escalate] peer_self_heal — label+pid sample-21","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[unknown] peer_self_heal — label+pid sample-46","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → unknown. Input shape label+pid. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Niche daemon_pid_alive: label=abstain | label+pid | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_no. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Classify daemon_pid_alive as daemon pid alive_no. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[abstain] peer_self_heal — label+pid sample-11","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — daemon_pid_alive decision → abstain. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Classify daemon_pid_alive as daemon pid alive_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Classify daemon_pid_alive as abstain. Context: sm_121a missing flag (live / zombie / missing)","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Factory daemon pid alive_no for daemon_pid_alive: fact_checker prefer-order","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Factory unknown for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_maybe | label+pid | peer_loop IDLE seed","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"daemon pid alive_maybe"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — daemon_pid_alive decision → daemon pid alive_no. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_yes. Input shape label+pid. continue_on_dirty HOLD","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"daemon_pid_alive decision → daemon pid alive_escalate. Input shape label+pid. RSS proposal 48GB reject","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_yes] peer_self_heal — label+pid sample-36","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_escalate | label+pid | WORK_QUEUE Active empty","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory unknown for daemon_pid_alive: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Factory abstain for daemon_pid_alive: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Classify daemon_pid_alive as daemon pid alive_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (live / zombie / missing)","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_escalate | label+pid | WORK_QUEUE Active empty","output":{"label":"daemon pid alive_escalate"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Kit lock — Niche daemon_pid_alive: label=daemon pid alive_no | label+pid | WORK_QUEUE Active empty","output":{"label":"daemon pid alive_no"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"Niche daemon_pid_alive: label=daemon pid alive_yes | label+pid | peer_loop IDLE seed","output":{"label":"daemon pid alive_yes"}}
+{"niche_id":"N70","niche":"daemon_pid_alive","input":"[daemon pid alive_escalate] peer_self_heal — label+pid sample-51","output":{"label":"daemon pid alive_escalate"}}

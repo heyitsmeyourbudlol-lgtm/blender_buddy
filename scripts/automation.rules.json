@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "verify-ok-post-hook",
+      "enabled": true,
+      "on": "peer.verify.ok",
+      "actions": [{ "type": "post_cycle_hook" }]
+    },
+    {
+      "id": "verify-fail-auto-repair",
+      "enabled": true,
+      "on": "peer.verify.fail",
+      "cooldown_sec": 45,
+      "actions": [
+        { "type": "auto_repair_verify" },
+        { "type": "wake_peer" }
+      ]
+    },
+    {
+      "id": "verify-fail-enqueue",
+      "enabled": false,
+      "on": "peer.verify.fail",
+      "cooldown_sec": 120,
+      "actions": [
+        {
+          "type": "enqueue",
+          "prefix": "auto",
+          "title": "Fix verify gate",
+          "detail": "Peer cycle verify failed — repair tests before next dispatch"
+        }
+      ]
+    },
+    {
+      "id": "verify-fail-wake-after-fix",
+      "enabled": false,
+      "on": "peer.verify.ok",
+      "when": { "note_contains": "after retry" },
+      "actions": [{ "type": "wake_peer" }]
+    },
+    {
+      "id": "noop-cycle-nudge",
+      "enabled": true,
+      "on": "peer.cycle.end",
+      "when": { "noop": true, "verify_ok": true },
+      "cooldown_sec": 300,
+      "actions": [
+        {
+          "type": "enqueue",
+          "prefix": "auto",
+          "title": "Break noop loop",
+          "detail": "Queue fingerprint unchanged after ok cycle — shrink or advance queue"
+        }
+      ]
+    },
+    {
+      "id": "webhook-ci-success",
+      "enabled": true,
+      "on": "webhook.ci",
+      "when": { "status": "success" },
+      "actions": [{ "type": "wake_peer" }]
+    },
+    {
+      "id": "webhook-generic-wake",
+      "enabled": true,
+      "on": "webhook.received",
+      "when": { "wake": true },
+      "actions": [{ "type": "wake_peer" }]
+    },
+    {
+      "id": "improve-cycle-wake",
+      "enabled": true,
+      "on": "improve.cycle.end",
+      "when": { "enqueued": true },
+      "actions": [{ "type": "wake_peer" }]
+    },
+    {
+      "id": "schedule-daily-flaw-scan",
+      "enabled": false,
+      "on": "schedule.tick",
+      "when": { "slot": "flaw_scan" },
+      "actions": [{ "type": "wake_peer" }]
+    }
+  ]
+}

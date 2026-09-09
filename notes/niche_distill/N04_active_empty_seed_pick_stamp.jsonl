@@ -1,0 +1,96 @@
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=abstain | empty Active | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_yes | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_yes] kit-seed thrash — empty Active sample-36","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → active empty seed pick_maybe. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_no for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_escalate] kit-seed thrash — empty Active sample-51","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_maybe] kit-seed thrash — empty Active sample-56","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_no for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [unknown] kit-seed thrash — empty Active sample-76","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_yes] kit-seed thrash — empty Active sample-6","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_maybe for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [active empty seed pick_yes] kit-seed thrash — empty Active sample-66","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → active empty seed pick_escalate. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → unknown. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as active empty seed pick_no. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_escalate] kit-seed thrash — empty Active sample-81","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Factory active empty seed pick_yes for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → abstain. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=abstain | empty Active | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=active empty seed pick_escalate | empty Active | WORK_QUEUE Active empty","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[abstain] kit-seed thrash — empty Active sample-41","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_no. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_escalate | empty Active | WORK_QUEUE Active empty","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → unknown. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_escalate | empty Active | WORK_QUEUE Active empty","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_yes for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=abstain | empty Active | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as abstain. Context: sm_121a missing flag (kit seed)","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → active empty seed pick_maybe. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_no] kit-seed thrash — empty Active sample-61","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=unknown | empty Active | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_yes. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_escalate for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[abstain] kit-seed thrash — empty Active sample-101","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_escalate. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [active empty seed pick_maybe] kit-seed thrash — empty Active sample-86","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [active empty seed pick_escalate] kit-seed thrash — empty Active sample-111","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_maybe | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_maybe for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory abstain for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as abstain. Context: sm_121a missing flag (kit seed)","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory abstain for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → unknown. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → active empty seed pick_maybe. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Factory active empty seed pick_no for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Factory active empty seed pick_no for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_no] kit-seed thrash — empty Active sample-31","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_maybe for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as active empty seed pick_escalate. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Factory abstain for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Factory active empty seed pick_maybe for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_escalate. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory unknown for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory unknown for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=unknown | empty Active | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_yes | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[abstain] kit-seed thrash — empty Active sample-71","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [active empty seed pick_yes] kit-seed thrash — empty Active sample-96","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_maybe. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_escalate for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory unknown for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_escalate for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=unknown | empty Active | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_maybe | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=active empty seed pick_no | empty Active | WORK_QUEUE Active empty","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → active empty seed pick_no. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as active empty seed pick_no. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_yes. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as abstain. Context: sm_121a missing flag (kit seed)","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_escalate. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as active empty seed pick_no. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=active empty seed pick_maybe | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_escalate. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — active_empty_seed_pick decision → abstain. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[active empty seed pick_maybe] kit-seed thrash — empty Active sample-26","output":{"label":"active empty seed pick_maybe"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory active empty seed pick_escalate for active_empty_seed_pick: fact_checker prefer-order","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as abstain. Context: sm_121a missing flag (kit seed)","output":{"label":"abstain"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=active empty seed pick_escalate | empty Active | WORK_QUEUE Active empty","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Niche active_empty_seed_pick: label=active empty seed pick_yes | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_yes. Input shape empty Active. continue_on_dirty HOLD","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — [active empty seed pick_escalate] kit-seed thrash — empty Active sample-21","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Classify active_empty_seed_pick as active empty seed pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (kit seed)","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Niche active_empty_seed_pick: label=active empty seed pick_yes | empty Active | peer_loop IDLE seed","output":{"label":"active empty seed pick_yes"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[unknown] kit-seed thrash — empty Active sample-16","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Factory unknown for active_empty_seed_pick: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"Kit lock — Classify active_empty_seed_pick as active empty seed pick_escalate. Context: sm_121a missing flag (kit seed)","output":{"label":"active empty seed pick_escalate"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"active_empty_seed_pick decision → active empty seed pick_no. Input shape empty Active. RSS proposal 48GB reject","output":{"label":"active empty seed pick_no"}}
+{"niche_id":"N04","niche":"active_empty_seed_pick","input":"[abstain] kit-seed thrash — empty Active sample-11","output":{"label":"abstain"}}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N27",
+  "name": "topk_active_budget",
+  "domain": "topk_active_budget",
+  "helps": "\u226420GB",
+  "weights": "notes/niche_distill/practice_n27/weights/n27_topk_active_budget_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.11979091167449951,
+  "labels": [
+    "abstain",
+    "topk active budget_escalate",
+    "topk active budget_maybe",
+    "topk active budget_no",
+    "topk active budget_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N27 '<input>'"
+}

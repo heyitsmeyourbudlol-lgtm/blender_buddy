@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N76",
+  "name": "replicate_niche_scaffold",
+  "domain": "replicate_niche_scaffold",
+  "helps": "P1 stamp",
+  "weights": "notes/niche_distill/practice_n76/weights/n76_replicate_niche_scaffold_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 1.3033296454523224e-05,
+  "labels": [
+    "abstain",
+    "replicate niche scaffold_escalate",
+    "replicate niche scaffold_maybe",
+    "replicate niche scaffold_no",
+    "replicate niche scaffold_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N76 '<input>'"
+}

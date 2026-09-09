@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N22",
+  "name": "bitnet_upstream_issue_triage",
+  "domain": "bitnet_upstream_issue_triage",
+  "helps": "Darwin pins",
+  "weights": "notes/niche_distill/practice_n22/weights/n22_bitnet_upstream_issue_triage_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00014355227176565677,
+  "labels": [
+    "abstain",
+    "bitnet upstream issue triage_escalate",
+    "bitnet upstream issue triage_maybe",
+    "bitnet upstream issue triage_no",
+    "bitnet upstream issue triage_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N22 '<input>'"
+}

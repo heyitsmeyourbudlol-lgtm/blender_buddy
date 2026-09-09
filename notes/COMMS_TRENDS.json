@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-09-08T20:19:28.651429+00:00",
+  "curated_count": 8,
+  "gap_count": 2,
+  "partial_count": 2,
+  "trends": [
+    {
+      "id": "glink_file_bus",
+      "theme": "Structured file bus (GLink) vs English",
+      "summary": "Text agents gain more from append-only JSONL buses than from natural-language standups.",
+      "kit_status": "partial",
+      "opportunity": "Extend GLink schema: binary refs, path hashes, REQ/ACK correlation ids.",
+      "efficiency_note": "~10\u201350\u00d7 fewer tokens than prose status updates when agents use STAT/DIFF codes.",
+      "sources": [
+        "https://techcrunch.com/2025/03/05/gibberlink-lets-ai-agents-call-each-other-in-robo-language/"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "gibberlink_audio",
+      "theme": "GibberLink / GGWave (audio A2A)",
+      "summary": "Voice-channel agents can switch to GGWave tones; file-based agents should not copy audio.",
+      "kit_status": "gap",
+      "opportunity": "Document when to use GLink (disk) vs MCP (RPC) vs GGWave (voice) \u2014 no audio in peer_loop.",
+      "efficiency_note": "GGWave wins on phone calls; JSONL bus wins on Cursor text peers.",
+      "sources": [
+        "https://github.com/PennyroyalTea/gibberlink"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "mcp_tool_layer",
+      "theme": "MCP / tool protocol for structured calls",
+      "summary": "GLink REQ\u2192MCP landed (PROTOCOL=1): need=mcp:<tool> or need=mcp+args.tool \u2192 mcp=1 + args.tool; fixed codes vfy|adapt|heal|sync|assign|review|audit|comms|rsusp|rchg; free-text need rejected; open threads via materialize_open_reqs_mcp; bus records intent \u2014 Cursor MCP namespaces execute tools.",
+      "kit_status": "have",
+      "opportunity": "Dogfood mcp:<tool> on bus for Cursor MCP namespaces; optional live RPC bridge later. Schema: glink_schema().mcp_prefix / validators.mcp_need.",
+      "efficiency_note": "Schema-bound args beat free-text handoffs for verify/adapt triggers.",
+      "sources": [
+        "https://modelcontextprotocol.io/",
+        "scripts/peer_agent_comms.py"
+      ],
+      "priority": 25
+    },
+    {
+      "id": "blackboard_memory",
+      "theme": "Shared blackboard + private scratchpads",
+      "summary": "Broadcast facts on a bus; keep todos/summaries in per-agent vaults.",
+      "kit_status": "have",
+      "opportunity": "Auto-summarize bus \u2192 vault SUM lines; prune bus after N messages.",
+      "efficiency_note": "O(1) append broadcast; agents read tail only.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blackboard_system"
+      ],
+      "priority": 18
+    },
+    {
+      "id": "compact_encoding",
+      "theme": "Compact encodings (msgpack / CBOR / columnar)",
+      "summary": "Beyond JSON: binary or columnar logs for high-frequency agent telemetry.",
+      "kit_status": "gap",
+      "opportunity": "Optional msgpack line mode for bus.jsonl when message rate > threshold.",
+      "efficiency_note": "Smaller disk + parse cost at scale; JSONL fine until ~1k msgs/day.",
+      "sources": [
+        "https://msgpack.org/"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "a2a_google",
+      "theme": "Agent2Agent (A2A) task delegation",
+      "summary": "Cards/tasks with explicit capability negotiation between agents.",
+      "kit_status": "have",
+      "opportunity": "Map GLink REQ/ACK to A2A-style task cards for cross-repo agents.",
+      "efficiency_note": "Structured delegation reduces ambiguous handoffs.",
+      "sources": [
+        "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+      ],
+      "priority": 35
+    },
+    {
+      "id": "event_sourcing",
+      "theme": "Event-sourced agent memory",
+      "summary": "Append-only logs as source of truth; materialized views for dashboards.",
+      "kit_status": "partial",
+      "opportunity": "Dashboard /api/comms streams bus tail; materialize per-role last STAT.",
+      "efficiency_note": "Replay bus to rebuild state without re-running agents.",
+      "sources": [
+        "https://martinfowler.com/eaaDev/EventSourcing.html"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "coordination_vs_chatter",
+      "theme": "Hub-and-spoke vs mesh P2P",
+      "summary": "Orchestrator + shared bus beats N\u00b2 direct chats for 8 fixed niches.",
+      "kit_status": "have",
+      "opportunity": "Keep targeted GLink `to:` field; discourage English side-channels.",
+      "efficiency_note": "8 agents \u00d7 bus read << 56 pairwise chat sessions.",
+      "sources": [
+        "notes/OPERATING_SYSTEM.md"
+      ],
+      "priority": 15
+    }
+  ],
+  "headlines": [
+    {
+      "title": "Show HN: Toq protocol \u2013 An open-source, agent-to-agent communication protocol",
+      "url": "https://github.com/toqprotocol/toq",
+      "source": "hn",
+      "points": 2
+    },
+    {
+      "title": "Beacon Protocol \u2013 Agent-to-Agent Communication Protocol",
+      "url": "http://50.28.86.131:8070/beacon/",
+      "source": "hn",
+      "points": 1
+    },
+    {
+      "title": "Show HN: Ziran, security testing for AI agents",
+      "url": "https://github.com/taoq-ai/ziran",
+      "source": "hn",
+      "points": 1
+    },
+    {
+      "title": "A2H: A Protocol for Agent-to-Human Communication",
+      "url": "https://www.twilio.com/en-us/blog/products/introducing-a2h-agent-to-human-communication-protocol",
+      "source": "hn",
+      "points": 2
+    },
+    {
+      "title": "Show HN: A2A Protocol \u2013 Infrastructure for an Agent-to-Agent Economy",
+      "url": "",
+      "source": "hn",
+      "points": 4
+    },
+    {
+      "title": "Show HN: AI-powered web service combining FastAPI, Pydantic-AI, and MCP servers",
+      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+      "source": "hn",
+      "points": 46
+    },
+    {
+      "title": "Show HN: Axon \u2013 A Kubernetes-native framework for AI coding agents",
+      "url": "https://github.com/axon-core/axon",
+      "source": "hn",
+      "points": 1
+    },
+    {
+      "title": "I Built LiveAuth: POW and Lightning Network Authentication for AI Agents",
+      "url": "",
+      "source": "hn",
+      "points": 1
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gibberlink_audio",
+      "theme": "GibberLink / GGWave (audio A2A)",
+      "summary": "Voice-channel agents can switch to GGWave tones; file-based agents should not copy audio.",
+      "kit_status": "gap",
+      "opportunity": "Document when to use GLink (disk) vs MCP (RPC) vs GGWave (voice) \u2014 no audio in peer_loop.",
+      "efficiency_note": "GGWave wins on phone calls; JSONL bus wins on Cursor text peers.",
+      "sources": [
+        "https://github.com/PennyroyalTea/gibberlink"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "compact_encoding",
+      "theme": "Compact encodings (msgpack / CBOR / columnar)",
+      "summary": "Beyond JSON: binary or columnar logs for high-frequency agent telemetry.",
+      "kit_status": "gap",
+      "opportunity": "Optional msgpack line mode for bus.jsonl when message rate > threshold.",
+      "efficiency_note": "Smaller disk + parse cost at scale; JSONL fine until ~1k msgs/day.",
+      "sources": [
+        "https://msgpack.org/"
+      ],
+      "priority": 45
+    }
+  ],
+  "partials": [
+    {
+      "id": "glink_file_bus",
+      "theme": "Structured file bus (GLink) vs English",
+      "summary": "Text agents gain more from append-only JSONL buses than from natural-language standups.",
+      "kit_status": "partial",
+      "opportunity": "Extend GLink schema: binary refs, path hashes, REQ/ACK correlation ids.",
+      "efficiency_note": "~10\u201350\u00d7 fewer tokens than prose status updates when agents use STAT/DIFF codes.",
+      "sources": [
+        "https://techcrunch.com/2025/03/05/gibberlink-lets-ai-agents-call-each-other-in-robo-language/"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event_sourcing",
+      "theme": "Event-sourced agent memory",
+      "summary": "Append-only logs as source of truth; materialized views for dashboards.",
+      "kit_status": "partial",
+      "opportunity": "Dashboard /api/comms streams bus tail; materialize per-role last STAT.",
+      "efficiency_note": "Replay bus to rebuild state without re-running agents.",
+      "sources": [
+        "https://martinfowler.com/eaaDev/EventSourcing.html"
+      ],
+      "priority": 30
+    }
+  ]
+}

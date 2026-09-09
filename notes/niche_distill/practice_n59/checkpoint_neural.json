@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N59",
+  "name": "open_done_dupe_exempt",
+  "domain": "open_done_dupe_exempt",
+  "helps": "compact thrash",
+  "weights": "notes/niche_distill/practice_n59/weights/n59_open_done_dupe_exempt_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 40,
+  "last_loss": 9.097292786464095e-05,
+  "labels": [
+    "abstain",
+    "open done dupe exempt_escalate",
+    "open done dupe exempt_maybe",
+    "open done dupe exempt_no",
+    "open done dupe exempt_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N59 '<input>'"
+}

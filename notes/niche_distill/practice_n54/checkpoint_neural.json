@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N54",
+  "name": "t0_lane_exempt_spot",
+  "domain": "t0_lane_exempt_spot",
+  "helps": "ensure_t0",
+  "weights": "notes/niche_distill/practice_n54/weights/n54_t0_lane_exempt_spot_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 3.191206633346155e-05,
+  "labels": [
+    "abstain",
+    "t0 lane exempt spot_escalate",
+    "t0 lane exempt spot_maybe",
+    "t0 lane exempt spot_no",
+    "t0 lane exempt spot_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N54 '<input>'"
+}

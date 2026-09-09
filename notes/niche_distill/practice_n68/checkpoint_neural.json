@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N68",
+  "name": "peer_turn_signal_poke",
+  "domain": "peer_turn_signal_poke",
+  "helps": "wake daemon",
+  "weights": "notes/niche_distill/practice_n68/weights/n68_peer_turn_signal_poke_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.021734796464443207,
+  "labels": [
+    "abstain",
+    "peer turn signal poke_escalate",
+    "peer turn signal poke_maybe",
+    "peer turn signal poke_no",
+    "peer turn signal poke_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N68 '<input>'"
+}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N39",
+  "name": "python_inline_import_spot",
+  "domain": "python_inline_import_spot",
+  "helps": "team rule",
+  "weights": "notes/niche_distill/practice_n39/weights/n39_python_inline_import_spot_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 40,
+  "last_loss": 0.00010794255649670959,
+  "labels": [
+    "abstain",
+    "python inline import spot_escalate",
+    "python inline import spot_maybe",
+    "python inline import spot_no",
+    "python inline import spot_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N39 '<input>'"
+}

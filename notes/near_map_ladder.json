@@ -1,0 +1,24 @@
+{
+  "needle": "OVERSEER_NEAR_MAP_LADDER_SCAFFOLD_2026_09_06",
+  "status": "SCAFFOLD_ONLY",
+  "execute_doubles": false,
+  "t1_go": false,
+  "rss_budget_gb": 20,
+  "expert_width_approx": 610000000,
+  "top_k": 16,
+  "active_approx": 9800000000,
+  "rungs": [
+    {"rung": 0, "n_experts": 64, "total_params": 3.90625e10},
+    {"rung": 1, "n_experts": 128, "total_params": 7.8125e10},
+    {"rung": 2, "n_experts": 256, "total_params": 1.5625e11},
+    {"rung": 3, "n_experts": 512, "total_params": 3.125e11},
+    {"rung": 4, "n_experts": 1024, "total_params": 6.25e11},
+    {"rung": 5, "n_experts": 2048, "total_params": 1.25e12},
+    {"rung": 6, "n_experts": 4096, "total_params": 2.5e12},
+    {"rung": 7, "n_experts": 8192, "total_params": 5e12},
+    {"rung": 8, "n_experts": 16384, "total_params": 1e13, "label": "near_map_10T"}
+  ],
+  "far_map_default_expert_width": 10000000,
+  "north_star_params": 1e15,
+  "note": "Shape map only. NO-GO on doubles until T1. 1Q = horizon after R8 + shrink experts."
+}

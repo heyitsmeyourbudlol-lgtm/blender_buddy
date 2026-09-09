@@ -1,0 +1,96 @@
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_no. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_no for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory abstain for committee_merge: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_yes] composer — k niche JSONs sample-96","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_maybe] composer — k niche JSONs sample-56","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [unknown] composer — k niche JSONs sample-16","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → unknown. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Factory committee merge_maybe for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_escalate for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_maybe | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_escalate for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_escalate. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_maybe | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_yes. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory abstain for committee_merge: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_yes for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_maybe. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[unknown] composer — k niche JSONs sample-76","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_maybe. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as committee merge_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_no for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_maybe for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_no for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=abstain | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Niche committee_merge: label=unknown | k niche JSONs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[abstain] composer — k niche JSONs sample-41","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory abstain for committee_merge: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_yes for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_no | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_no. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[abstain] composer — k niche JSONs sample-101","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_yes | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[abstain] composer — k niche JSONs sample-71","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_maybe | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Niche committee_merge: label=unknown | k niche JSONs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_escalate for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as committee merge_no. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → committee merge_yes. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as abstain. Context: sm_121a missing flag (one action)","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [committee merge_yes] composer — k niche JSONs sample-36","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → committee merge_escalate. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → committee merge_escalate. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_yes] composer — k niche JSONs sample-6","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Factory committee merge_maybe for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [abstain] composer — k niche JSONs sample-11","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory unknown for committee_merge: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_yes | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → abstain. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_maybe for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Niche committee_merge: label=abstain | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory unknown for committee_merge: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [committee merge_no] composer — k niche JSONs sample-1","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_escalate] composer — k niche JSONs sample-21","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_escalate | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_no | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as abstain. Context: sm_121a missing flag (one action)","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [committee merge_maybe] composer — k niche JSONs sample-86","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_escalate | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory unknown for committee_merge: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → abstain. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as committee merge_no. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_yes for committee_merge: GDS cuFile forbidden","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → unknown. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — committee_merge decision → committee merge_escalate. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_maybe. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_no | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=unknown | k niche JSONs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [committee merge_no] composer — k niche JSONs sample-91","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as abstain. Context: sm_121a missing flag (one action)","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=unknown | k niche JSONs | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as committee merge_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_escalate. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_yes] composer — k niche JSONs sample-66","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_no. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=abstain | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as abstain. Context: sm_121a missing flag (one action)","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — [committee merge_escalate] composer — k niche JSONs sample-111","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_escalate] composer — k niche JSONs sample-81","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_no] composer — k niche JSONs sample-61","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_yes | k niche JSONs | peer_loop IDLE seed","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Factory committee merge_escalate for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"[committee merge_no] composer — k niche JSONs sample-31","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=abstain | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_no. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Niche committee_merge: label=committee merge_escalate | k niche JSONs | WORK_QUEUE Active empty","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → committee merge_yes. Input shape k niche JSONs. continue_on_dirty HOLD","output":{"label":"committee merge_yes"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Factory committee merge_no for committee_merge: fact_checker prefer-order","output":{"label":"committee merge_no"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Kit lock — Classify committee_merge as committee merge_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (one action)","output":{"label":"committee merge_maybe"}}
+{"niche_id":"N48","niche":"committee_merge","input":"Classify committee_merge as committee merge_escalate. Context: sm_121a missing flag (one action)","output":{"label":"committee merge_escalate"}}
+{"niche_id":"N48","niche":"committee_merge","input":"committee_merge decision → abstain. Input shape k niche JSONs. RSS proposal 48GB reject","output":{"label":"abstain"}}

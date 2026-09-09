@@ -1,0 +1,10 @@
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_escalate for ensure_lane_needed: fact_checker prefer-order","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_yes | Active snapshot | peer_loop IDLE seed","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as abstain. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[ensure lane needed_no] peer_loop ticks — Active snapshot sample-1","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=unknown | Active snapshot | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_no | Active snapshot | WORK_QUEUE Active empty","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_maybe. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=abstain | Active snapshot | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_escalate | Active snapshot | WORK_QUEUE Active empty","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Niche ensure_lane_needed: label=ensure lane needed_maybe | Active snapshot | peer_loop IDLE seed","output":{"label":"ensure lane needed_maybe"}}

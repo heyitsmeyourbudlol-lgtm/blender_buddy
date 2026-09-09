@@ -1,0 +1,16 @@
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Niche done_gate_checklist: label=reject | diff+claim | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"[pending] false done — diff+claim sample-86","output":{"label":"pending"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — [allow] false done — diff+claim sample-51","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Classify done_gate_checklist as reject. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"reject"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Factory allow for done_gate_checklist: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Factory allow for done_gate_checklist: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Factory reject for done_gate_checklist: fact_checker prefer-order","output":{"label":"reject"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Niche done_gate_checklist: label=allow | diff+claim | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Niche done_gate_checklist: label=pending | diff+claim | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — Classify done_gate_checklist as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"pending"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Classify done_gate_checklist as reject. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"reject"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Classify done_gate_checklist as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"pending"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Classify done_gate_checklist as allow. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"[allow] false done — diff+claim sample-111","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — [allow] false done — diff+claim sample-21","output":{"label":"allow"}}
+{"niche_id":"N05","niche":"done_gate_checklist","input":"Kit lock — done_gate_checklist decision → allow. Input shape diff+claim. RSS proposal 48GB reject","output":{"label":"allow"}}

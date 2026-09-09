@@ -1,0 +1,10 @@
+{"niche_id":"N105","niche":"param_grain_check","input":"Factory ok for param_grain_check: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"param_grain_check decision → ok. Input shape param_count. RSS proposal 48GB reject","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[collision] anti-inflate — param_count sample-16","output":{"label":"collision"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=ok | param_count | WORK_QUEUE Active empty","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — param_grain_check decision → missing. Input shape param_count. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[ok] anti-inflate — param_count sample-51","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Niche param_grain_check: label=ok | param_count | peer_loop IDLE seed","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Classify param_grain_check as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ok_10m_class / too_fat / too_thin)","output":{"label":"ok"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"[missing] anti-inflate — param_count sample-41","output":{"label":"missing"}}
+{"niche_id":"N105","niche":"param_grain_check","input":"Kit lock — Factory ok for param_grain_check: fact_checker prefer-order","output":{"label":"ok"}}

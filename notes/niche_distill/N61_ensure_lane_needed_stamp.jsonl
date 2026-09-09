@@ -1,0 +1,48 @@
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_yes for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_escalate | Active snapshot | WORK_QUEUE Active empty","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Classify ensure_lane_needed as ensure lane needed_escalate. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Niche ensure_lane_needed: label=abstain | Active snapshot | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Niche ensure_lane_needed: label=ensure lane needed_yes | Active snapshot | peer_loop IDLE seed","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [ensure lane needed_maybe] peer_loop ticks — Active snapshot sample-56","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_no. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Classify ensure_lane_needed as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [abstain] peer_loop ticks — Active snapshot sample-11","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [abstain] peer_loop ticks — Active snapshot sample-41","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory unknown for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Factory abstain for ensure_lane_needed: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_escalate. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=unknown | Active snapshot | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_maybe. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_no. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Classify ensure_lane_needed as ensure lane needed_no. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_maybe | Active snapshot | peer_loop IDLE seed","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_escalate for ensure_lane_needed: fact_checker prefer-order","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory unknown for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_no for ensure_lane_needed: fact_checker prefer-order","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[unknown] peer_loop ticks — Active snapshot sample-46","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_no for ensure_lane_needed: fact_checker prefer-order","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as ensure lane needed_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — ensure_lane_needed decision → ensure lane needed_escalate. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [ensure lane needed_yes] peer_loop ticks — Active snapshot sample-6","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — ensure_lane_needed decision → abstain. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → unknown. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → abstain. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [ensure lane needed_no] peer_loop ticks — Active snapshot sample-31","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_yes. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[ensure lane needed_escalate] peer_loop ticks — Active snapshot sample-51","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Factory ensure lane needed_yes for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Factory ensure lane needed_maybe for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[unknown] peer_loop ticks — Active snapshot sample-16","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_escalate. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Niche ensure_lane_needed: label=ensure lane needed_no | Active snapshot | WORK_QUEUE Active empty","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"unknown"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Factory ensure lane needed_maybe for ensure_lane_needed: GDS cuFile forbidden","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Classify ensure_lane_needed as abstain. Context: sm_121a missing flag (which ensure_* to run)","output":{"label":"abstain"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[ensure lane needed_escalate] peer_loop ticks — Active snapshot sample-21","output":{"label":"ensure lane needed_escalate"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — ensure_lane_needed decision → ensure lane needed_yes. Input shape Active snapshot. continue_on_dirty HOLD","output":{"label":"ensure lane needed_yes"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"ensure_lane_needed decision → ensure lane needed_no. Input shape Active snapshot. RSS proposal 48GB reject","output":{"label":"ensure lane needed_no"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — Classify ensure_lane_needed as ensure lane needed_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (which ensure_* to run)","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"Kit lock — [ensure lane needed_maybe] peer_loop ticks — Active snapshot sample-26","output":{"label":"ensure lane needed_maybe"}}
+{"niche_id":"N61","niche":"ensure_lane_needed","input":"[ensure lane needed_yes] peer_loop ticks — Active snapshot sample-36","output":{"label":"ensure lane needed_yes"}}

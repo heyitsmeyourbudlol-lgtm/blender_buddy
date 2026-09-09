@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N100",
+  "name": "niche_bank_expand_propose",
+  "domain": "niche_bank_expand_propose",
+  "helps": "growing catalog",
+  "weights": "notes/niche_distill/practice_n100/weights/n100_niche_bank_expand_propose_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 6.474668771261349e-05,
+  "labels": [
+    "abstain",
+    "niche bank expand propose_escalate",
+    "niche bank expand propose_maybe",
+    "niche bank expand propose_no",
+    "niche bank expand propose_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N100 '<input>'"
+}

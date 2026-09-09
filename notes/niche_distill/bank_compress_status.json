@@ -1,0 +1,10 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_COMPRESS_2026_09_07",
+  "ts": "2026-09-08T02:41:37Z",
+  "n_total": 0,
+  "n_ok": 0,
+  "skipped": true,
+  "reason": "torch_missing",
+  "note": "Cold NVFP4-ish nibble pack needs torch. Fail-soft on this host; run on CLEAN/brain when torch is available. Pack = residency demo, not TE.",
+  "local_only": true
+}

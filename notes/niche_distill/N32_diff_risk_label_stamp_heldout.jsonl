@@ -1,0 +1,10 @@
+{"niche_id":"N32","niche":"diff_risk_label","input":"Niche diff_risk_label: label=diff risk label_no | files | WORK_QUEUE Active empty","output":{"label":"diff risk label_no"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"[diff risk label_maybe] review — files sample-56","output":{"label":"diff risk label_maybe"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Niche diff_risk_label: label=diff risk label_escalate | files | WORK_QUEUE Active empty","output":{"label":"diff risk label_escalate"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"diff_risk_label decision → diff risk label_escalate. Input shape files. RSS proposal 48GB reject","output":{"label":"diff risk label_escalate"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"[diff risk label_yes] review — files sample-6","output":{"label":"diff risk label_yes"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Classify diff_risk_label as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (risk bucket)","output":{"label":"unknown"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Factory diff risk label_escalate for diff_risk_label: fact_checker prefer-order","output":{"label":"diff risk label_escalate"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Kit lock — Classify diff_risk_label as abstain. Context: sm_121a missing flag (risk bucket)","output":{"label":"abstain"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Niche diff_risk_label: label=diff risk label_maybe | files | peer_loop IDLE seed","output":{"label":"diff risk label_maybe"}}
+{"niche_id":"N32","niche":"diff_risk_label","input":"Niche diff_risk_label: label=diff risk label_maybe | files | peer_loop IDLE seed","output":{"label":"diff risk label_maybe"}}

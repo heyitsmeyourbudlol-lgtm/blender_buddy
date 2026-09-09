@@ -1,0 +1,10 @@
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [FAIL] kit loops — unittest stderr sample-21","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Factory FAIL for test_quick_fail_spot: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[FAIL] kit loops — unittest stderr sample-1","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — Classify test_quick_fail_spot as FAIL. Context: sm_121a missing flag (failing test id)","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Kit lock — [PASS] kit loops — unittest stderr sample-16","output":{"label":"PASS"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"test_quick_fail_spot decision → FAIL. Input shape unittest stderr. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Factory UNKNOWN for test_quick_fail_spot: GDS cuFile forbidden","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-46","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"[UNKNOWN] kit loops — unittest stderr sample-26","output":{"label":"UNKNOWN"}}
+{"niche_id":"N81","niche":"test_quick_fail_spot","input":"Niche test_quick_fail_spot: label=PASS | unittest stderr | peer_loop IDLE seed","output":{"label":"PASS"}}

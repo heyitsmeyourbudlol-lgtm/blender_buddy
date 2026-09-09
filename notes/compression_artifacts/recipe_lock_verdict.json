@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_COMPRESSION_RECIPE_LOCK_REJECT_2026_09_08",
+  "role": "recipe_lock_steward",
+  "ts": "2026-09-08T11:30:26Z",
+  "cycle_id": "20260908T1129Z-recipe-lock",
+  "recipe_status": "TRAIN-LOCKED",
+  "recipe_locked_gate": false,
+  "train_unlocked": false,
+  "unlock_approved": false,
+  "arch_drift": 0,
+  "arch_match": {
+    "stack_primary": "ALBERT-BitMoE",
+    "rung0_stack": "ALBERT-BitMoE + LoRA",
+    "hot_dtype": "NVFP4",
+    "data_prune": false
+  },
+  "evidence": [
+    "notes/COMPRESSION_TRAIN_RECIPE.md:3 Status TRAIN-LOCKED (not **LOCKED**)",
+    "compression_auto_train.recipe_locked → false",
+    "notes/compression_artifacts/train_unlock.json prior train_unlocked=true (unauthorized)",
+    "dual_sot_report hub_unlock_ignored=true train_unlocked=false"
+  ],
+  "action": "revoked train_unlock.json train_unlocked→false; unlock NOT documented as approved",
+  "note": "T0–T4 proxy green ≠ train unlock; hub unlock stamp ignored by Dual SoT; steward hard-revoked stamp"
+}

@@ -1,0 +1,107 @@
+{
+  "needle": "OVERSEER_RESEARCH_CLAIM_ARITH_2026_09_08",
+  "train_unlocked": false,
+  "blocks_rung0": false,
+  "recipe_locked": true,
+  "min_arith": 50.0,
+  "rows": [
+    {
+      "stack": "ALBERT-BitMoE",
+      "n_logic": 100000.0,
+      "u_unique": 1200.0,
+      "s_arith": 83.33333333333333,
+      "payload_bytes": 150,
+      "packed_bytes": 166,
+      "pass_arith": true,
+      "pass_pack": true,
+      "passed": true,
+      "quality": "UNKNOWN",
+      "detail": {
+        "L": 100,
+        "B_body": 1000,
+        "r": 1,
+        "lora_d_in": 1,
+        "lora_d_out": 1,
+        "u_lora": 200,
+        "formula": "U = B_body + L*r*(d_in+d_out); N_L = L*B_body"
+      },
+      "contradiction": null
+    },
+    {
+      "stack": "ALBERT-BitMoE",
+      "n_logic": 1000000.0,
+      "u_unique": 10200.0,
+      "s_arith": 98.03921568627452,
+      "payload_bytes": 1275,
+      "packed_bytes": 1291,
+      "pass_arith": true,
+      "pass_pack": true,
+      "passed": true,
+      "quality": "UNKNOWN",
+      "detail": {
+        "L": 100,
+        "B_body": 10000,
+        "r": 1,
+        "lora_d_in": 1,
+        "lora_d_out": 1,
+        "u_lora": 200,
+        "formula": "U = B_body + L*r*(d_in+d_out); N_L = L*B_body"
+      },
+      "contradiction": null
+    },
+    {
+      "stack": "LoRA-Hive",
+      "n_logic": 100000.0,
+      "u_unique": 1002.0,
+      "s_arith": 99.8003992015968,
+      "payload_bytes": 126,
+      "packed_bytes": 142,
+      "pass_arith": true,
+      "pass_pack": true,
+      "passed": true,
+      "quality": "UNKNOWN",
+      "detail": {
+        "E": 100,
+        "B_hive": 100000,
+        "r": 1,
+        "lora_d_in": 1,
+        "lora_d_out": 1,
+        "u_hive_amortized": 1000,
+        "u_lora_amortized": 2,
+        "formula": "U_e = B_hive/E + r*(d_in+d_out); N_L = B_hive"
+      },
+      "contradiction": null
+    },
+    {
+      "stack": "LoRA-Hive",
+      "n_logic": 1000000.0,
+      "u_unique": 10002.0,
+      "s_arith": 99.98000399920016,
+      "payload_bytes": 1251,
+      "packed_bytes": 1267,
+      "pass_arith": true,
+      "pass_pack": true,
+      "passed": true,
+      "quality": "UNKNOWN",
+      "detail": {
+        "E": 100,
+        "B_hive": 1000000,
+        "r": 1,
+        "lora_d_in": 1,
+        "lora_d_out": 1,
+        "u_hive_amortized": 10000,
+        "u_lora_amortized": 2,
+        "formula": "U_e = B_hive/E + r*(d_in+d_out); N_L = B_hive"
+      },
+      "contradiction": null
+    }
+  ],
+  "all_passed": true,
+  "refs": {
+    "S06": "arith-only prefilter before quality",
+    "S14": "U, N/U, bytes@1-bit closed-form",
+    "S11": "claim-range peer fanout",
+    "S12": "--scaffold falsifier stubs"
+  },
+  "fp": "07f07c5ddf515c26"
+}

@@ -1,0 +1,16 @@
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_maybe] TodoWrite — todo write sample-86","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_escalate for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → unknown. Input shape todo write. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_yes for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_escalate. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_escalate] TodoWrite — todo write sample-81","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=abstain | todo write | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_yes] TodoWrite — todo write sample-66","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_maybe for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_no. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_maybe | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory abstain for todo_merge_safe: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_maybe. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → abstain. Input shape todo write. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_escalate. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_yes"}}

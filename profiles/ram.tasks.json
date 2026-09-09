@@ -1,0 +1,295 @@
+{
+  "peers": {
+    "reclaim": {
+      "subagent_type": "generalPurpose",
+      "reads": ["notes/RAM_VALUE_STACK.md", "notes/SAFETY_GATES.md", "notes/CREATIVE_RECLAIM.md"],
+      "description": "Maximize safe RAM reclaim — compress in place, never auto-quit"
+    },
+    "footprint": {
+      "subagent_type": "generalPurpose",
+      "reads": ["notes/RAM_VALUE_STACK.md", "CORE.md", "notes/AUTOMATION.md", "notes/GAUGE_UI.md"],
+      "description": "Keep ram-park and Gauge server cold import under 28 MB"
+    },
+    "safety": {
+      "subagent_type": "generalPurpose",
+      "reads": ["notes/SAFETY_GATES.md", "AGENTS.md"],
+      "description": "BLOCK or PASS — consent, Cursor, browsers/media guards"
+    },
+    "verify": {
+      "subagent_type": "shell",
+      "reads": ["notes/AUTOMATION.md", "LAUNCH.md"],
+      "description": "Run tests, footprint, ram once, self-check"
+    },
+    "launch": {
+      "subagent_type": "generalPurpose",
+      "reads": ["LAUNCH.md", "MONETIZATION.md", "CHANGELOG.md", "notes/FEEDBACK.md", "notes/GAUGE_UI.md", "notes/GAUGE_TASKS.md", "CONFIG.md", "AGENTS.md"],
+      "description": "Pro + distribution phases 0–6 — customer as god; no paid blasts before Setapp"
+    }
+  },
+  "task_templates": {
+    "gauge_lazy": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": ["ram_ui_api.py", "ram_snapshot.py", "ram_ui_server.py"],
+      "prompt": "Gauge: snapshot-only reads via ram_snapshot; load ram-park.py only for _PARK_ACTIONS (watcher, picker, cleanup, once, quit, pagesweep_apply). compress_apply and jetsam_thaw stay lightweight."
+    },
+    "gauge_ia": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["ram_ui/index.html", "ram_ui_server.py"],
+      "prompt": "Gauge IA per notes/GAUGE_UI.md + notes/GAUGE_TASKS.md: sidebar nav, Smart Reclaim home, hide engine module grid on Home. One primary CTA. Read CONFIG.md — ship UI only; Advanced behind Settings."
+    },
+    "gauge_smart_reclaim": {
+      "peer": "reclaim",
+      "safety_tier": "green",
+      "scope": ["ram_ui_api.py", "ram_ui_server.py", "ram-park.py"],
+      "prompt": "Smart Reclaim per GAUGE_UI.md: one bundled action — attention gate, compress idle apps, freeze clean tabs. Never quit in this action. POST endpoint + summary payload (apps compressed, tabs frozen, MB). dry_run banner when preview."
+    },
+    "gauge_motion": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["ram_ui/index.html"],
+      "prompt": "Gauge motion per GAUGE_UI.md: ring stroke ease ~600ms, reclaim progress arc, post-run summary card animate-in. Avoid motion on Advanced panel."
+    },
+    "gauge_menubar": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["ram_gauge_hotkey.swift", "ram_ui_server.py", "ram_ui/"],
+      "prompt": "Menu bar popover per GAUGE_UI.md: free GB, pressure word + tint, compressed MB, last reclaim age, Smart Reclaim button, Open Gauge. Native host wraps same web IA/API."
+    },
+    "gauge_settings": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["ram_ui/index.html", "config.defaults.json", "ram_config.py"],
+      "prompt": "Gauge Settings: Work/Gaming/Battery presets map to attention+battery keys in ship defaults only. Optional sound toggle (off in browser dev dashboard, on default for menu bar app). No personal app lists in defaults."
+    },
+    "config_ship": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": ["config.defaults.json", "ram_config.py", "CONFIG.md", "config.examples/"],
+      "prompt": "Verify CONFIG.md ship split: config.defaults.json universal (dry_run false, minimal never_quit); new installs seed {}; config.local.json gitignored maintainer-only; config-apply-local applies local overrides. tests/test_ram_config.py passes."
+    },
+    "launchd_rss": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": ["ram-park.py"],
+      "prompt": "launchd `ram once`: bind attention early; skip arc/mmap when disabled; battery+normal skips run_compression_reclaim entirely. Measure RSS before/after."
+    },
+    "reclaim_crash": {
+      "peer": "reclaim",
+      "safety_tier": "green",
+      "scope": ["ram_tlb.py", "contrib/coalition.py"],
+      "prompt": "Ensure pass_runner and experience imports present; ram once must not self-destruct."
+    },
+    "idle_attention": {
+      "peer": "reclaim",
+      "safety_tier": "green",
+      "scope": ["ram-park.py", "ram_snapshot.py"],
+      "prompt": "idle_minutes_for_app must delegate to attention.idle_minutes_for (unknown app = 999m idle, compress-eligible)."
+    },
+    "gauge_cleanup": {
+      "peer": "reclaim",
+      "safety_tier": "green",
+      "scope": ["ram_ui_api.py"],
+      "prompt": "Gauge cleanup calls run_compression_reclaim (full compress stack, no quits) with attention bound."
+    },
+    "battery_defer": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": ["ram-park.py", "battery/policy.py"],
+      "prompt": "Gate tlb/mmap/cpucache/mach_ipc with battery_policy; skip heavy reclaim on battery normal ticks."
+    },
+    "pass_runner": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_pass.py"],
+      "prompt": "Extend iter_pass_targets — preserve idle/front/browser guards."
+    },
+    "compress_path": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_compact.py", "ram_pagesweep.py"],
+      "prompt": "Tier-1 reclaim per RAM_VALUE_STACK; game defer + only_background."
+    },
+    "creative_presence": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_electron.py", "ram_chrome.py"],
+      "prompt": "Presence-weighted discard/freeze — idle past learned return time only. Never unsaved work."
+    },
+    "creative_coalition": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["contrib/coalition.py", "contrib/remap.py"],
+      "prompt": "Safe subset of duplicate mmap invalidate — read-only scan first, sudo gated."
+    },
+    "creative_gpu": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["contrib/gpu.py", "ram-park.py"],
+      "prompt": "Idle GPU texture / IOSurface flush for background apps — defer on battery; never kill host."
+    },
+    "creative_xpc": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_xpc.py", "ram-park.py"],
+      "prompt": "Trim idle XPC proxy services attached to heavy apps — no host quit."
+    },
+    "creative_launchd": {
+      "peer": "footprint",
+      "safety_tier": "green",
+      "scope": ["ram-park.py", "ram_lazy.py", "battery/policy.py"],
+      "prompt": "launchd tick budget — normal+battery skip contrib import; warn/critical only load full reclaim stack."
+    },
+    "creative_loop": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": ["scripts/cursor_self_improve.py", "scripts/peer_orchestrate.py", "scripts/ram_automation.py"],
+      "prompt": "Improve peer loop UX — auto-build next prompt from CREATIVE_RECLAIM; --clipboard-only fresh chat hint."
+    },
+    "creative_compressor": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_vm.py", "ram-park.py"],
+      "prompt": "Compressor-aware compress targeting — anonymous vs file-backed pressure."
+    },
+    "creative_mine": {
+      "peer": "reclaim",
+      "safety_tier": "green",
+      "scope": ["notes/CREATIVE_RECLAIM.md", "notes/RAM_VALUE_STACK.md", "scripts/ram_automation.py"],
+      "prompt": "Mine non-obvious compress-in-place wins: audit tiers 1–2 + anti-patterns; add ≥3 experiments to CREATIVE_RECLAIM; implement highest ROI; set ## Loop: exhausted only if truly nothing clever remains."
+    },
+    "creative_jetsam": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_jetsam.py"],
+      "prompt": "Jetsam soft-hint / compress-first — picker candidates only, never auto-quit; Cursor excluded; AFK+critical gated."
+    },
+    "creative_wire": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_wire_budget.py"],
+      "prompt": "Idle wire-budget throttle / hysteresis — browsers only after leaving frontmost; never Cursor; restore on focus."
+    },
+    "creative_filecache": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_filecache.py"],
+      "prompt": "Presence-weighted purgeable file cache — learned return + AFK; skip recent touch."
+    },
+    "creative_shared_cache": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_shared_cache.py"],
+      "prompt": "Idle shared-cache advise for non-browser/media; never demote browsers/media/Cursor."
+    },
+    "creative_attention": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_attention.py"],
+      "prompt": "Presence aggressiveness ramp — scale reclaim intensity by learned absence; keep defer-while-in-use."
+    },
+    "creative_chrome_media": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": ["ram_chrome.py"],
+      "prompt": "Paused-tab media buffer flush — clean idle tabs only; no unsaved work; never auto-close."
+    },
+    "generic_reclaim": {
+      "peer": "reclaim",
+      "safety_tier": "yellow",
+      "scope": [],
+      "prompt": "Implement queue item; apps stay open; read SAFETY_GATES + CREATIVE_RECLAIM. Prefer backtick module scopes in the item over guessing electron/chrome."
+    },
+    "git_hygiene": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "git add (no .config/ secrets), commit with clear message, confirm clean tree."
+    },
+    "automation_audit": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": ["scripts/"],
+      "prompt": "Run peer_orchestrate --self-check and tests.test_automation; fix ISSUES; sync WORK_QUEUE with self_improve_context."
+    },
+    "launch_newdrop": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["CHANGELOG.md", "ram_ui_server.py", "ram_ui/index.html"],
+      "prompt": "LAUNCH Phase 0.1: Newdrop at getnewdrop.com — git-sync CHANGELOG.md, public /c/ram-park, Gauge What's New embed stub. Update CHANGELOG.md; do not publish secrets."
+    },
+    "launch_pro_gauge": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["ram_ui_server.py", "ram_gauge_hotkey.swift", "ram_ui/"],
+      "prompt": "LAUNCH Phase 0.2 umbrella: follow notes/GAUGE_TASKS.md order (IA → Smart Reclaim → motion → menu bar → Settings). Read notes/GAUGE_UI.md + CONFIG.md. Free CLI + safety gates unchanged."
+    },
+    "launch_billing": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": [],
+      "prompt": "LAUNCH Phase 0.3: Pro billing Stripe/Paddle $10/mo + $79/yr, cancel anytime. Never paywall safety/consent reclaim. See MONETIZATION.md."
+    },
+    "launch_landing": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["docs/index.html", "README.md"],
+      "prompt": "LAUNCH Phase 0.4–0.5: landing page + demo assets checklist; free vs Pro matrix; link Newdrop changelog."
+    },
+    "launch_github": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["README.md", "LICENSE", "CHANGELOG.md"],
+      "prompt": "LAUNCH Phase 1: GitHub public + v0.1.0 release + topics. Repo private until Phase 0 exit criteria met (LAUNCH.md)."
+    },
+    "launch_setapp": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["LAUNCH.md", "MONETIZATION.md"],
+      "prompt": "LAUNCH Phase 3: Setapp application + onboard if accepted. Primary curated Mac blast. Human submits developer.setapp.com — prepare pitch + notarized Pro assets."
+    },
+    "launch_spike": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["LAUNCH.md"],
+      "prompt": "LAUNCH Phase 4: free spike (Product Hunt / Show HN / Crowdstax / MacStories tip). Only after Phase 2 soft launch stable. Human posts — agent prepares copy/assets from LAUNCH.md."
+    },
+    "launch_paid_gate": {
+      "peer": "launch",
+      "safety_tier": "red",
+      "scope": ["LAUNCH.md", "MONETIZATION.md"],
+      "prompt": "LAUNCH Phase 6: paid newsletter sponsorship — BLOCK automation. Gate: Setapp live ≥30d OR $1k/mo organic. Human decision only; do not purchase ads."
+    },
+    "launch_ops": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["MONETIZATION.md", "notes/FEEDBACK.md"],
+      "prompt": "LAUNCH Phase 0.7: customer-first ops — refund path, support email, Newdrop Publish checklist on each user-facing release."
+    }
+  },
+  "verify_commands": [
+    "python3 -m unittest discover -s tests -q",
+    "python3 -m unittest tests.test_ram_footprint tests.test_automation -v",
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "./ram status 2>&1 | head -12",
+    "./ram once 2>&1 | tail -5"
+  ],
+  "product_constraints": [
+    "Using = alive; idle = compress (ram_attention)",
+    "Consent: compress aggressively, never auto-quit apps/tabs",
+    "Cursor never closed; browsers/media never E-core demoted",
+    "Smart tab freeze: clean tabs only, learned return times, AFK >= 90s",
+    "Closing apps = cheating (no efficiency gain) — compress in place",
+    "Launch: follow LAUNCH.md phases 0→6 in order; Phase 0 ship before Phase 4 spikes",
+    "No paid newsletter sponsorship before Setapp live (Phase 6 gate — human only)",
+    "Pro: customer as god — never paywall safety or consent",
+    "User-facing release: update CHANGELOG.md then Newdrop Publish",
+    "Ship config: config.defaults.json universal; maintainer overrides in config.local.json only (CONFIG.md)",
+    "Gauge UI: Smart Reclaim bundles compress + tab freeze; no quit in primary CTA (notes/GAUGE_UI.md)"
+  ],
+  "stop_metrics": {
+    "import_rss_mb_max": 28,
+    "min_tests": 48
+  }
+}

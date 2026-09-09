@@ -1,0 +1,10 @@
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — [defer] demote / meter mode — bullet sample-11","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — queue_kit_vs_research decision → creative. Input shape bullet. continue_on_dirty HOLD","output":{"label":"creative"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — Factory kit for queue_kit_vs_research: GDS cuFile forbidden","output":{"label":"kit"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — Niche queue_kit_vs_research: label=kit | bullet | peer_loop IDLE seed","output":{"label":"kit"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"[defer] demote / meter mode — bullet sample-51","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Kit lock — queue_kit_vs_research decision → kit. Input shape bullet. continue_on_dirty HOLD","output":{"label":"kit"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Niche queue_kit_vs_research: label=defer | bullet | WORK_QUEUE Active empty","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"queue_kit_vs_research decision → defer. Input shape bullet. RSS proposal 48GB reject","output":{"label":"defer"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"Factory kit for queue_kit_vs_research: GDS cuFile forbidden","output":{"label":"kit"}}
+{"niche_id":"N02","niche":"queue_kit_vs_research","input":"[research] demote / meter mode — bullet sample-41","output":{"label":"research"}}

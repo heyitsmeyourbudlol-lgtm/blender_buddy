@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N09",
+  "name": "verify_fail_triage",
+  "domain": "verify_fail_triage",
+  "helps": "dirty-tree paint",
+  "weights": "notes/niche_distill/practice_n09/weights/n09_verify_fail_triage_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.02013353630900383,
+  "labels": [
+    "abstain",
+    "unknown",
+    "verify fail triage_escalate",
+    "verify fail triage_maybe",
+    "verify fail triage_no",
+    "verify fail triage_yes"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N09 '<input>'"
+}

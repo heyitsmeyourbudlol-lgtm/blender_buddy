@@ -1,0 +1,16 @@
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Niche recipe_ckpt_path_parse: label=unknown | RECIPE.md | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"recipe_ckpt_path_parse decision → abstain. Input shape RECIPE.md. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Factory abstain for recipe_ckpt_path_parse: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Factory recipe ckpt path parse_no for recipe_ckpt_path_parse: fact_checker prefer-order","output":{"label":"recipe ckpt path parse_no"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=unknown | RECIPE.md | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Classify recipe_ckpt_path_parse as recipe ckpt path parse_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ckpt path or missing)","output":{"label":"recipe ckpt path parse_yes"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"recipe_ckpt_path_parse decision → unknown. Input shape RECIPE.md. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"[recipe ckpt path parse_escalate] P0 land proof — RECIPE.md sample-111","output":{"label":"recipe ckpt path parse_escalate"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Factory recipe ckpt path parse_no for recipe_ckpt_path_parse: fact_checker prefer-order","output":{"label":"recipe ckpt path parse_no"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Classify recipe_ckpt_path_parse as abstain. Context: sm_121a missing flag (ckpt path or missing)","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=recipe ckpt path parse_yes | RECIPE.md | peer_loop IDLE seed","output":{"label":"recipe ckpt path parse_yes"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Classify recipe_ckpt_path_parse as recipe ckpt path parse_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ckpt path or missing)","output":{"label":"recipe ckpt path parse_yes"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"[recipe ckpt path parse_no] P0 land proof — RECIPE.md sample-1","output":{"label":"recipe ckpt path parse_no"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Niche recipe_ckpt_path_parse: label=abstain | RECIPE.md | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"[recipe ckpt path parse_maybe] P0 land proof — RECIPE.md sample-26","output":{"label":"recipe ckpt path parse_maybe"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=recipe ckpt path parse_escalate | RECIPE.md | WORK_QUEUE Active empty","output":{"label":"recipe ckpt path parse_escalate"}}

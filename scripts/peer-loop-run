@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Forever peer loop — background terminal by default ($0, no clipboard, no Cursor UI).
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+exec /usr/bin/python3 "$ROOT/scripts/peer_loop.py" --forever --background "$@"

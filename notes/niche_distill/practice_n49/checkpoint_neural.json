@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N49",
+  "name": "json_only_extract",
+  "domain": "json_only_extract",
+  "helps": "parse thrash",
+  "weights": "notes/niche_distill/practice_n49/weights/n49_json_only_extract_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.01728297956287861,
+  "labels": [
+    "abstain",
+    "json only extract_escalate",
+    "json only extract_maybe",
+    "json only extract_no",
+    "json only extract_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N49 '<input>'"
+}

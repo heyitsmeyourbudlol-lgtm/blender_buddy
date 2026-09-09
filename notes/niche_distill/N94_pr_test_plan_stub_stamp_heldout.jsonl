@@ -1,0 +1,10 @@
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Kit lock — Classify pr_test_plan_stub as pr test plan stub_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test-plan checklist)","output":{"label":"pr test plan stub_maybe"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"pr_test_plan_stub decision → pr test plan stub_escalate. Input shape change type. RSS proposal 48GB reject","output":{"label":"pr test plan stub_escalate"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Factory unknown for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[abstain] PR factory — change type sample-41","output":{"label":"abstain"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Kit lock — Factory unknown for pr_test_plan_stub: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Classify pr_test_plan_stub as pr test plan stub_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (test-plan checklist)","output":{"label":"pr test plan stub_yes"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"Kit lock — Niche pr_test_plan_stub: label=pr test plan stub_no | change type | WORK_QUEUE Active empty","output":{"label":"pr test plan stub_no"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[pr test plan stub_no] PR factory — change type sample-1","output":{"label":"pr test plan stub_no"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[pr test plan stub_escalate] PR factory — change type sample-21","output":{"label":"pr test plan stub_escalate"}}
+{"niche_id":"N94","niche":"pr_test_plan_stub","input":"[pr test plan stub_escalate] PR factory — change type sample-51","output":{"label":"pr test plan stub_escalate"}}

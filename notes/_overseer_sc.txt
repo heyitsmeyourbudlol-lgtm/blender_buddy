@@ -1,0 +1,14 @@
+=== automation self-check ===
+
+ISSUES: none
+
+TIPS:
+  → Many implementation peers — merge logic may need tuning.
+  → Loop preview source: creative
+  → Role roster: 8 job title(s) assigned this cycle
+  → Worker pool: 8/8 niches (full hub pool)
+  → Hub worktrees on disk: 8/8 (ready)
+  → adapt audit [adapt_state]: git fingerprint stale — re-run adapt --heal
+
+PLAN PREVIEW:
+Orchestrate Automation peers (speed × intelligence). **TIME BOMB:** crown-era custom loop ends early–mid 2027 (top 5–15% parity). **Also stress:** ladder speed→distribution→ecosystem (hub gravity); keep queue/verify/constraints, drop daemon when native ~80%; meta = exit each loop when it becomes the floor; bank users+primitives now — not kit polish. Full frame: notes/LOOP_STRATEGY.md. Live: git: 65 changed path(s) (54 modified, 11 untracked) · tests: Ran 91 tests in 0.338s (cached, git unchanged) · import RSS: (disabled — set rss_budget_mb in automation.config.json). Queue source: empty. Constraints: **North star (100%):** true Artificial Super Intelligence (ASI) — unachievable by today's standards; progress meter is weighted evidence 0–100 (see AUTOMATION.md / IMPROVE_HORIZON Progress log…

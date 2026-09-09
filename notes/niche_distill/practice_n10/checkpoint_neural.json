@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N10",
+  "name": "peer_log_skip_reason",
+  "domain": "peer_log_skip_reason",
+  "helps": "improve debug",
+  "weights": "notes/niche_distill/practice_n10/weights/n10_peer_log_skip_reason_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00014657039719168097,
+  "labels": [
+    "abstain",
+    "peer log skip reason_escalate",
+    "peer log skip reason_maybe",
+    "peer log skip reason_no",
+    "peer log skip reason_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N10 '<input>'"
+}

@@ -1,0 +1,10 @@
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Kit lock — Factory self check issue parse_yes for self_check_issue_parse: GDS cuFile forbidden","output":{"label":"self check issue parse_yes"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Kit lock — Niche self_check_issue_parse: label=unknown | self-check output | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Kit lock — Factory self check issue parse_yes for self_check_issue_parse: GDS cuFile forbidden","output":{"label":"self check issue parse_yes"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Kit lock — [self check issue parse_maybe] peer_orchestrate — self-check output sample-56","output":{"label":"self check issue parse_maybe"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"[abstain] peer_orchestrate — self-check output sample-11","output":{"label":"abstain"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Factory self check issue parse_maybe for self_check_issue_parse: GDS cuFile forbidden","output":{"label":"self check issue parse_maybe"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Kit lock — Niche self_check_issue_parse: label=self check issue parse_no | self-check output | WORK_QUEUE Active empty","output":{"label":"self check issue parse_no"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Factory unknown for self_check_issue_parse: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"self_check_issue_parse decision → abstain. Input shape self-check output. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N82","niche":"self_check_issue_parse","input":"Classify self_check_issue_parse as self check issue parse_escalate. Context: sm_121a missing flag (issue list)","output":{"label":"self check issue parse_escalate"}}

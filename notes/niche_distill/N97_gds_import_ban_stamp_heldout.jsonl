@@ -1,0 +1,10 @@
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=unknown | python file | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Factory gds import ban_maybe for gds_import_ban: GDS cuFile forbidden","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"[gds import ban_maybe] C4 — python file sample-26","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=unknown | python file | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=gds import ban_maybe | python file | peer_loop IDLE seed","output":{"label":"gds import ban_maybe"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Classify gds_import_ban as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (forbidden import hits)","output":{"label":"unknown"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Niche gds_import_ban: label=gds import ban_no | python file | WORK_QUEUE Active empty","output":{"label":"gds import ban_no"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"gds_import_ban decision → gds import ban_yes. Input shape python file. continue_on_dirty HOLD","output":{"label":"gds import ban_yes"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"[gds import ban_no] C4 — python file sample-1","output":{"label":"gds import ban_no"}}
+{"niche_id":"N97","niche":"gds_import_ban","input":"Kit lock — Classify gds_import_ban as abstain. Context: sm_121a missing flag (forbidden import hits)","output":{"label":"abstain"}}

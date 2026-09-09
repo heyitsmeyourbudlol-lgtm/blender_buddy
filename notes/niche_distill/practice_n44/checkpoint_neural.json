@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N44",
+  "name": "spec_paper_mech_tag",
+  "domain": "spec_paper_mech_tag",
+  "helps": "L3",
+  "weights": "notes/niche_distill/practice_n44/weights/n44_spec_paper_mech_tag_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.030586352571845055,
+  "labels": [
+    "abstain",
+    "spec paper mech tag_escalate",
+    "spec paper mech tag_maybe",
+    "spec paper mech tag_no",
+    "spec paper mech tag_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N44 '<input>'"
+}

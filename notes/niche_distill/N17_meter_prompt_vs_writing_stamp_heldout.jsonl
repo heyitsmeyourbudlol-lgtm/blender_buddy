@@ -1,0 +1,10 @@
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → abstain. Input shape JSON/log. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — Niche meter_prompt_vs_writing: label=meter prompt vs writing_escalate | JSON/log | WORK_QUEUE Active empty","output":{"label":"meter prompt vs writing_escalate"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → meter prompt vs writing_maybe. Input shape JSON/log. continue_on_dirty HOLD","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Niche meter_prompt_vs_writing: label=meter prompt vs writing_maybe | JSON/log | peer_loop IDLE seed","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Niche meter_prompt_vs_writing: label=unknown | JSON/log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — [meter prompt vs writing_escalate] anti brochure-10k — JSON/log sample-21","output":{"label":"meter prompt vs writing_escalate"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Factory meter prompt vs writing_yes for meter_prompt_vs_writing: GDS cuFile forbidden","output":{"label":"meter prompt vs writing_yes"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Factory meter prompt vs writing_maybe for meter_prompt_vs_writing: GDS cuFile forbidden","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → meter prompt vs writing_yes. Input shape JSON/log. continue_on_dirty HOLD","output":{"label":"meter prompt vs writing_yes"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → meter prompt vs writing_yes. Input shape JSON/log. continue_on_dirty HOLD","output":{"label":"meter prompt vs writing_yes"}}

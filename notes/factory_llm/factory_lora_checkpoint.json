@@ -1,0 +1,12 @@
+{
+  "needle": "OVERSEER_FACTORY_LORA_LLM_2026_09_07",
+  "kind": "factory_lora_lm",
+  "status": "TRAINED",
+  "param_count": 568064,
+  "steps": 40,
+  "last_loss": 7.684410095214844,
+  "weights": "notes/factory_llm/factory_lora_student.pt",
+  "local_only": true,
+  "not_stock_ollama": true,
+  "note": "Tiny LoRA-LM on kit/sidequest text \u2014 our trained chat-ish student (not Ollama)."
+}

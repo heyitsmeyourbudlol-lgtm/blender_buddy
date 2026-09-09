@@ -1,0 +1,16 @@
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-1","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Factory allow for p0_lane_protect: GDS cuFile forbidden","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Classify p0_lane_protect as allow. Context: sm_121a missing flag (allow close P0?)","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Factory allow for p0_lane_protect: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Classify p0_lane_protect as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow close P0?)","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-16","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[reject] RECIPE+ckpt gate — queue edit sample-61","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → pending. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=pending | queue edit | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[pending] RECIPE+ckpt gate — queue edit sample-11","output":{"label":"pending"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. RSS proposal 48GB reject","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"p0_lane_protect decision → allow. Input shape queue edit. continue_on_dirty HOLD","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Kit lock — Niche p0_lane_protect: label=reject | queue edit | peer_loop IDLE seed","output":{"label":"reject"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"Niche p0_lane_protect: label=allow | queue edit | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N58","niche":"p0_lane_protect","input":"[allow] RECIPE+ckpt gate — queue edit sample-81","output":{"label":"allow"}}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N33",
+  "name": "commit_msg_style",
+  "domain": "commit_msg_style",
+  "helps": "ship",
+  "weights": "notes/niche_distill/practice_n33/weights/n33_commit_msg_style_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00016535491158720106,
+  "labels": [
+    "abstain",
+    "commit msg style_escalate",
+    "commit msg style_maybe",
+    "commit msg style_no",
+    "commit msg style_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N33 '<input>'"
+}

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N64",
+  "name": "kit_seed_fallback_pick",
+  "domain": "kit_seed_fallback_pick",
+  "helps": "empty Active",
+  "weights": "notes/niche_distill/practice_n64/weights/n64_kit_seed_fallback_pick_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.048755016177892685,
+  "labels": [
+    "abstain",
+    "kit seed fallback pick_escalate",
+    "kit seed fallback pick_maybe",
+    "kit seed fallback pick_no",
+    "kit seed fallback pick_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N64 '<input>'"
+}

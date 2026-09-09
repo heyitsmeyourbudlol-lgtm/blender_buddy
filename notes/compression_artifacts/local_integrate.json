@@ -1,0 +1,16 @@
+{
+  "needle": "OVERSEER_COMPRESSION_STRESS_THEN_INTEGRATE_2026_09_06",
+  "local_only_needle": "OVERSEER_MODEL_LOCAL_ONLY_2026_09_06",
+  "ts": "2026-09-07T01:19:45Z",
+  "integrated": true,
+  "integrate_scope": "local_workflow_only",
+  "publish_model": false,
+  "stress_status": "PASS",
+  "integrate_allowed": true,
+  "rung0_train_complete": true,
+  "north_star_1b_complete": false,
+  "checkpoint": "notes/compression_artifacts/rung0_checkpoints/rung0_latest.pt",
+  "stress_bars": "notes/compression_artifacts/stress_bars.json",
+  "proof": "notes/INTEGRATION_PROOF_COMPRESSION_RUNG0.md",
+  "note": "Local Automation factory wire only — never public model publish."
+}

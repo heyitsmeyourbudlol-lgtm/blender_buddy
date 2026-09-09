@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N30",
+  "name": "cuda_error_classify",
+  "domain": "cuda_error_classify",
+  "helps": "train/serve",
+  "weights": "notes/niche_distill/practice_n30/weights/n30_cuda_error_classify_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.021916652098298073,
+  "labels": [
+    "abstain",
+    "cuda error classify_escalate",
+    "cuda error classify_maybe",
+    "cuda error classify_no",
+    "cuda error classify_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N30 '<input>'"
+}

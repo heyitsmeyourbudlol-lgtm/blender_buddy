@@ -1,0 +1,16 @@
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Classify checkbox_flip_safe as reject. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=allow | bullet+proof | WORK_QUEUE Active empty","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — checkbox_flip_safe decision → reject. Input shape bullet+proof. continue_on_dirty HOLD","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Factory allow for checkbox_flip_safe: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=allow | bullet+proof | peer_loop IDLE seed","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=pending | bullet+proof | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Classify checkbox_flip_safe as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (allow `[x]`?)","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Classify checkbox_flip_safe as pending. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Factory pending for checkbox_flip_safe: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — checkbox_flip_safe decision → reject. Input shape bullet+proof. RSS proposal 48GB reject","output":{"label":"reject"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Niche checkbox_flip_safe: label=pending | bullet+proof | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"[allow] false land — bullet+proof sample-6","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Kit lock — Factory allow for checkbox_flip_safe: fact_checker prefer-order","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"checkbox_flip_safe decision → pending. Input shape bullet+proof. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"Classify checkbox_flip_safe as allow. Context: sm_121a missing flag (allow `[x]`?)","output":{"label":"allow"}}
+{"niche_id":"N50","niche":"checkbox_flip_safe","input":"[allow] false land — bullet+proof sample-21","output":{"label":"allow"}}

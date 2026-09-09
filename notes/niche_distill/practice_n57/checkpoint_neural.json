@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N57",
+  "name": "false_checkbox_reject",
+  "domain": "false_checkbox_reject",
+  "helps": "anti false-close",
+  "weights": "notes/niche_distill/practice_n57/weights/n57_false_checkbox_reject_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.049370478838682175,
+  "labels": [
+    "allow",
+    "pending",
+    "reject"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N57 '<input>'"
+}

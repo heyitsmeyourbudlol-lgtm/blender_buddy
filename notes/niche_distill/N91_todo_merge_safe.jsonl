@@ -1,0 +1,96 @@
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_escalate. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_escalate for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_yes | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_maybe. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_escalate] TodoWrite — todo write sample-51","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_escalate | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_no] TodoWrite — todo write sample-1","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_yes for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory unknown for todo_merge_safe: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_escalate | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → abstain. Input shape todo write. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_escalate for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_escalate. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_yes] TodoWrite — todo write sample-6","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [abstain] TodoWrite — todo write sample-11","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as abstain. Context: sm_121a missing flag (merge vs replace)","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_maybe] TodoWrite — todo write sample-26","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → unknown. Input shape todo write. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_no. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_no. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_maybe | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory abstain for todo_merge_safe: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_no for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_no | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_yes | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_no. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_maybe for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as abstain. Context: sm_121a missing flag (merge vs replace)","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=todo merge safe_maybe | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [unknown] TodoWrite — todo write sample-106","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_yes for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as abstain. Context: sm_121a missing flag (merge vs replace)","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_escalate for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_maybe] TodoWrite — todo write sample-56","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=todo merge safe_no | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_no for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=todo merge safe_escalate | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [unknown] TodoWrite — todo write sample-16","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=abstain | todo write | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=unknown | todo write | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_escalate. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_no. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → todo merge safe_no. Input shape todo write. RSS proposal 48GB reject","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_yes] TodoWrite — todo write sample-36","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_maybe. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — todo_merge_safe decision → unknown. Input shape todo write. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_no] TodoWrite — todo write sample-91","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory unknown for todo_merge_safe: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[unknown] TodoWrite — todo write sample-76","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_escalate | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=unknown | todo write | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_yes] TodoWrite — todo write sample-96","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=unknown | todo write | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_escalate] TodoWrite — todo write sample-111","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [todo merge safe_escalate] TodoWrite — todo write sample-21","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_escalate. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[unknown] TodoWrite — todo write sample-46","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_maybe. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=todo merge safe_maybe | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_escalate. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_escalate"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory unknown for todo_merge_safe: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory abstain for todo_merge_safe: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[abstain] TodoWrite — todo write sample-71","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_yes | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — [abstain] TodoWrite — todo write sample-101","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_no for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_yes | todo write | peer_loop IDLE seed","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_no for todo_merge_safe: fact_checker prefer-order","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=todo merge safe_no | todo write | WORK_QUEUE Active empty","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_no] TodoWrite — todo write sample-61","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (merge vs replace)","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Niche todo_merge_safe: label=abstain | todo write | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → abstain. Input shape todo write. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[todo merge safe_no] TodoWrite — todo write sample-31","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=abstain | todo write | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as todo merge safe_no. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_no"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"todo_merge_safe decision → todo merge safe_yes. Input shape todo write. continue_on_dirty HOLD","output":{"label":"todo merge safe_yes"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Classify todo_merge_safe as abstain. Context: sm_121a missing flag (merge vs replace)","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Niche todo_merge_safe: label=unknown | todo write | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"[abstain] TodoWrite — todo write sample-41","output":{"label":"abstain"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory unknown for todo_merge_safe: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Kit lock — Factory todo merge safe_maybe for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Factory todo merge safe_maybe for todo_merge_safe: GDS cuFile forbidden","output":{"label":"todo merge safe_maybe"}}
+{"niche_id":"N91","niche":"todo_merge_safe","input":"Classify todo_merge_safe as todo merge safe_no. Context: sm_121a missing flag (merge vs replace)","output":{"label":"todo merge safe_no"}}

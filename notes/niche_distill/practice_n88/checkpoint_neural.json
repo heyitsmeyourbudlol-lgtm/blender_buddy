@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N88",
+  "name": "subagent_type_pick",
+  "domain": "subagent_type_pick",
+  "helps": "parallel peers",
+  "weights": "notes/niche_distill/practice_n88/weights/n88_subagent_type_pick_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.024400824680924416,
+  "labels": [
+    "abstain",
+    "subagent type pick_escalate",
+    "subagent type pick_maybe",
+    "subagent type pick_no",
+    "subagent type pick_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N88 '<input>'"
+}

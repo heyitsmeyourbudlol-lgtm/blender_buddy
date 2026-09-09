@@ -1,0 +1,48 @@
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Niche land_needle_premature: label=ready | needle in README without artifact | peer_loop IDLE seed","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → ready. Input shape needle in README without artifact. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Niche land_needle_premature: label=pending | needle in README without artifact | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → pending. Input shape needle in README without artifact. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[failed] false land-proof — needle in README without artifact sample-11","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Factory ready for land_needle_premature: GDS cuFile forbidden","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Classify land_needle_premature as failed. Context: sm_121a missing flag (pending)","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → pending. Input shape needle in README without artifact. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[failed] false land-proof — needle in README without artifact sample-41","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Classify land_needle_premature as pending. Context: sm_121a missing flag (pending)","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[pending] false land-proof — needle in README without artifact sample-16","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Niche land_needle_premature: label=ready | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=ready | needle in README without artifact | peer_loop IDLE seed","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Niche land_needle_premature: label=pending | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory ready for land_needle_premature: fact_checker prefer-order","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pending)","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory pending for land_needle_premature: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=failed | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Factory failed for land_needle_premature: fact_checker prefer-order","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[ready] false land-proof — needle in README without artifact sample-21","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as failed. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pending)","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[failed] false land-proof — needle in README without artifact sample-26","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory failed for land_needle_premature: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as ready. Context: sm_121a missing flag (pending)","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=failed | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[ready] false land-proof — needle in README without artifact sample-36","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Niche land_needle_premature: label=ready | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=pending | needle in README without artifact | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Classify land_needle_premature as pending. Context: sm_121a missing flag (pending)","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as failed. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pending)","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → failed. Input shape needle in README without artifact. continue_on_dirty HOLD","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[ready] false land-proof — needle in README without artifact sample-6","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → ready. Input shape needle in README without artifact. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=failed | needle in README without artifact | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as ready. Context: sm_121a missing flag (pending)","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory ready for land_needle_premature: GDS cuFile forbidden","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"[failed] false land-proof — needle in README without artifact sample-56","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Classify land_needle_premature as failed. Context: sm_121a missing flag (pending)","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pending)","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — [pending] false land-proof — needle in README without artifact sample-31","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"land_needle_premature decision → failed. Input shape needle in README without artifact. RSS proposal 48GB reject","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=failed | needle in README without artifact | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory pending for land_needle_premature: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Niche land_needle_premature: label=pending | needle in README without artifact | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Factory failed for land_needle_premature: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — Factory ready for land_needle_premature: fact_checker prefer-order","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Kit lock — [ready] false land-proof — needle in README without artifact sample-51","output":{"label":"ready"}}
+{"niche_id":"N72","niche":"land_needle_premature","input":"Classify land_needle_premature as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pending)","output":{"label":"pending"}}

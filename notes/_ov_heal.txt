@@ -1,0 +1,13 @@
+self-heal: hub_protect_timer_stopped → enable --now timer+path; paused; timer still inactive
+# Self-heal — bottleneck tracker
+
+_Scanned 2026-09-04 05:05:09_ · enabled=True
+
+| Severity | Category | Bottleneck | Status | Hits |
+|----------|----------|------------|--------|------|
+| high | daemon | hub-protect-restore.timer stopped — Mac rsync can clobber WORKING lands | healed | 66 |
+
+## Last heals
+
+- hub_protect_timer_stopped: enable --now timer+path; paused; timer still inactive
+

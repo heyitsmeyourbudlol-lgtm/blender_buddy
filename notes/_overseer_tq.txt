@@ -1,0 +1,5 @@
+  File "/home/arnavrastogi/Automation/scripts/peer", line 9
+    */.worktrees/*) HUB_ROOT="${ROOT%%/.worktrees/*}" ;;
+                  ^
+SyntaxError: unmatched ')'
+done_tq:1

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N47",
+  "name": "distill_slice_spec",
+  "domain": "distill_slice_spec",
+  "helps": "data gen",
+  "weights": "notes/niche_distill/practice_n47/weights/n47_distill_slice_spec_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.05890475586056709,
+  "labels": [
+    "abstain",
+    "distill slice spec_escalate",
+    "distill slice spec_maybe",
+    "distill slice spec_no",
+    "distill slice spec_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N47 '<input>'"
+}

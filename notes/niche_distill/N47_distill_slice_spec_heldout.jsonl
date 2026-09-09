@@ -1,0 +1,16 @@
+{"niche_id":"N47","niche":"distill_slice_spec","input":"[abstain] data gen — niche ID sample-101","output":{"label":"abstain"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Niche distill_slice_spec: label=distill slice spec_yes | niche ID | peer_loop IDLE seed","output":{"label":"distill slice spec_yes"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"[distill slice spec_no] data gen — niche ID sample-31","output":{"label":"distill slice spec_no"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Kit lock — Classify distill_slice_spec as distill slice spec_escalate. Context: sm_121a missing flag (teacher prompt schema)","output":{"label":"distill slice spec_escalate"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Factory distill slice spec_yes for distill_slice_spec: GDS cuFile forbidden","output":{"label":"distill slice spec_yes"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Kit lock — Classify distill_slice_spec as distill slice spec_no. Context: sm_121a missing flag (teacher prompt schema)","output":{"label":"distill slice spec_no"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"[distill slice spec_no] data gen — niche ID sample-91","output":{"label":"distill slice spec_no"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"[abstain] data gen — niche ID sample-41","output":{"label":"abstain"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Factory distill slice spec_escalate for distill_slice_spec: fact_checker prefer-order","output":{"label":"distill slice spec_escalate"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Niche distill_slice_spec: label=distill slice spec_maybe | niche ID | peer_loop IDLE seed","output":{"label":"distill slice spec_maybe"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Kit lock — Factory distill slice spec_escalate for distill_slice_spec: fact_checker prefer-order","output":{"label":"distill slice spec_escalate"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Kit lock — distill_slice_spec decision → distill slice spec_no. Input shape niche ID. RSS proposal 48GB reject","output":{"label":"distill slice spec_no"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Niche distill_slice_spec: label=unknown | niche ID | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"distill_slice_spec decision → distill slice spec_no. Input shape niche ID. RSS proposal 48GB reject","output":{"label":"distill slice spec_no"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Classify distill_slice_spec as distill slice spec_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (teacher prompt schema)","output":{"label":"distill slice spec_maybe"}}
+{"niche_id":"N47","niche":"distill_slice_spec","input":"Classify distill_slice_spec as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (teacher prompt schema)","output":{"label":"unknown"}}

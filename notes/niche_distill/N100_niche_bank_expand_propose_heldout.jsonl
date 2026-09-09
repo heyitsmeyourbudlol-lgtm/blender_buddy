@@ -1,0 +1,16 @@
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Classify niche_bank_expand_propose as niche bank expand propose_escalate. Context: sm_121a missing flag (new N### niche draft)","output":{"label":"niche bank expand propose_escalate"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Niche niche_bank_expand_propose: label=abstain | stress gap | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Factory niche bank expand propose_maybe for niche_bank_expand_propose: GDS cuFile forbidden","output":{"label":"niche bank expand propose_maybe"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"[abstain] growing catalog — stress gap sample-101","output":{"label":"abstain"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"[niche bank expand propose_no] growing catalog — stress gap sample-61","output":{"label":"niche bank expand propose_no"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Classify niche_bank_expand_propose as abstain. Context: sm_121a missing flag (new N### niche draft)","output":{"label":"abstain"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Factory niche bank expand propose_escalate for niche_bank_expand_propose: fact_checker prefer-order","output":{"label":"niche bank expand propose_escalate"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"niche_bank_expand_propose decision → niche bank expand propose_yes. Input shape stress gap. continue_on_dirty HOLD","output":{"label":"niche bank expand propose_yes"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Factory niche bank expand propose_no for niche_bank_expand_propose: fact_checker prefer-order","output":{"label":"niche bank expand propose_no"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"niche_bank_expand_propose decision → niche bank expand propose_no. Input shape stress gap. RSS proposal 48GB reject","output":{"label":"niche bank expand propose_no"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Kit lock — Factory niche bank expand propose_escalate for niche_bank_expand_propose: fact_checker prefer-order","output":{"label":"niche bank expand propose_escalate"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"niche_bank_expand_propose decision → unknown. Input shape stress gap. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Niche niche_bank_expand_propose: label=abstain | stress gap | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Niche niche_bank_expand_propose: label=niche bank expand propose_no | stress gap | WORK_QUEUE Active empty","output":{"label":"niche bank expand propose_no"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Kit lock — Classify niche_bank_expand_propose as niche bank expand propose_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (new N### niche draft)","output":{"label":"niche bank expand propose_maybe"}}
+{"niche_id":"N100","niche":"niche_bank_expand_propose","input":"Classify niche_bank_expand_propose as abstain. Context: sm_121a missing flag (new N### niche draft)","output":{"label":"abstain"}}

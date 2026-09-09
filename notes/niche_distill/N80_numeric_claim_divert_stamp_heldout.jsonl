@@ -1,0 +1,10 @@
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_maybe] honesty — sentence sample-26","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — [numeric claim divert_escalate] honesty — sentence sample-51","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"numeric_claim_divert decision → numeric claim divert_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"numeric claim divert_maybe"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Niche numeric_claim_divert: label=numeric claim divert_no | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_no"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (fact_checker required?)","output":{"label":"unknown"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=numeric claim divert_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Classify numeric_claim_divert as abstain. Context: sm_121a missing flag (fact_checker required?)","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Niche numeric_claim_divert: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — numeric_claim_divert decision → numeric claim divert_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"numeric claim divert_escalate"}}
+{"niche_id":"N80","niche":"numeric_claim_divert","input":"Kit lock — Factory numeric claim divert_yes for numeric_claim_divert: GDS cuFile forbidden","output":{"label":"numeric claim divert_yes"}}

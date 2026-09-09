@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N84",
+  "name": "notes_vs_scripts_scope",
+  "domain": "notes_vs_scripts_scope",
+  "helps": "peer scope",
+  "weights": "notes/niche_distill/practice_n84/weights/n84_notes_vs_scripts_scope_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 1.8735345292952843e-05,
+  "labels": [
+    "abstain",
+    "notes vs scripts scope_escalate",
+    "notes vs scripts scope_maybe",
+    "notes vs scripts scope_no",
+    "notes vs scripts scope_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N84 '<input>'"
+}

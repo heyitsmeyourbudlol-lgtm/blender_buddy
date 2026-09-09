@@ -1,0 +1,96 @@
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_escalate] ensure_t0 — item sample-21","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [abstain] ensure_t0 — item sample-11","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[unknown] ensure_t0 — item sample-46","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=t0 lane exempt spot_yes | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_maybe] ensure_t0 — item sample-26","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as abstain. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Factory t0 lane exempt spot_no for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory abstain for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_yes] ensure_t0 — item sample-96","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_yes | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_no | item | WORK_QUEUE Active empty","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_yes for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → unknown. Input shape item. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → unknown. Input shape item. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_yes] ensure_t0 — item sample-66","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_maybe for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Classify t0_lane_exempt_spot as t0 lane exempt spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → t0 lane exempt spot_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → t0 lane exempt spot_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_escalate for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → t0 lane exempt spot_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [unknown] ensure_t0 — item sample-16","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[abstain] ensure_t0 — item sample-41","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=t0 lane exempt spot_escalate | item | WORK_QUEUE Active empty","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [t0 lane exempt spot_maybe] ensure_t0 — item sample-86","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_no] ensure_t0 — item sample-91","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → t0 lane exempt spot_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_no | item | WORK_QUEUE Active empty","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_maybe for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Classify t0_lane_exempt_spot as t0 lane exempt spot_no. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [t0 lane exempt spot_escalate] ensure_t0 — item sample-111","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [t0 lane exempt spot_maybe] ensure_t0 — item sample-56","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_maybe for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_yes] ensure_t0 — item sample-6","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Classify t0_lane_exempt_spot as t0 lane exempt spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_maybe | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_no. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_no for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_yes] ensure_t0 — item sample-36","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_maybe | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [unknown] ensure_t0 — item sample-76","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_no. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=unknown | item | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Niche t0_lane_exempt_spot: label=t0 lane exempt spot_yes | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Classify t0_lane_exempt_spot as abstain. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_yes for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_escalate. Input shape item. RSS proposal 48GB reject","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → unknown. Input shape item. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_escalate. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_escalate | item | WORK_QUEUE Active empty","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=abstain | item | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as abstain. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_maybe | item | peer_loop IDLE seed","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — t0_lane_exempt_spot decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Factory t0 lane exempt spot_escalate for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as abstain. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory unknown for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_yes. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Factory t0 lane exempt spot_escalate for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory unknown for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Niche t0_lane_exempt_spot: label=t0 lane exempt spot_escalate | item | WORK_QUEUE Active empty","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory unknown for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory abstain for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_escalate. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[abstain] ensure_t0 — item sample-101","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → abstain. Input shape item. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_escalate for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — Factory t0 lane exempt spot_maybe for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"t0 lane exempt spot_maybe"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[unknown] ensure_t0 — item sample-106","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"[t0 lane exempt spot_escalate] ensure_t0 — item sample-51","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_no for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory t0 lane exempt spot_no for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_no. Input shape item. RSS proposal 48GB reject","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory unknown for t0_lane_exempt_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_escalate. Context: sm_121a missing flag (T0-exempt?)","output":{"label":"t0 lane exempt spot_escalate"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Classify t0_lane_exempt_spot as t0 lane exempt spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (T0-exempt?)","output":{"label":"t0 lane exempt spot_yes"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Kit lock — [t0 lane exempt spot_no] ensure_t0 — item sample-61","output":{"label":"t0 lane exempt spot_no"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"Factory abstain for t0_lane_exempt_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N54","niche":"t0_lane_exempt_spot","input":"t0_lane_exempt_spot decision → t0 lane exempt spot_maybe. Input shape item. continue_on_dirty HOLD","output":{"label":"t0 lane exempt spot_maybe"}}

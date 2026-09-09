@@ -1,0 +1,66 @@
+(pass --execute to run; never uses --force)
+======================================================================
+FAIL: test_live_from_quick_cache_skips_unusable_tests_fail (tests.test_automation.PeerLoopTests.test_live_from_quick_cache_skips_unusable_tests_fail)
+Git-valid FAIL / smoke-fail must miss — never poison tests_ok=False as cached.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_automation.py", line 773, in test_live_from_quick_cache_skips_unusable_tests_fail
+    self.assertTrue(auto._quick_cache_valid(fail_cache))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_metrics_green (tests.test_automation.PeerLoopTests.test_metrics_green)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_automation.py", line 307, in test_metrics_green
+    self.assertFalse(peer_loop.metrics_green(bad))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_quick_measure_runs_self_check_not_full_suite (tests.test_automation.PeerLoopTests.test_quick_measure_runs_self_check_not_full_suite)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_automation.py", line 691, in test_quick_measure_runs_self_check_not_full_suite
+    run_mock.assert_called_once()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/arnavrastogi/miniconda3/lib/python3.13/unittest/mock.py", line 958, in assert_called_once
+    raise AssertionError(msg)
+AssertionError: Expected '_run' to have been called once. Called 2 times.
+Calls: [call(['git', '-C', '/home/arnavrastogi/Automation', 'status', '--porcelain=v2', '--branch'], timeout=60.0),
+ call(['python3', '-m', 'unittest', 'tests.test_automation', 'tests.test_peer_worktree', 'tests.test_mark_local_verify_gate', '-q'], timeout=30.0, env={'AUTOMATION_SKIP_TEST_MEASURE': '1'})].
+
+======================================================================
+FAIL: test_quick_measure_uses_cache_without_rerunning_tests (tests.test_automation.PeerLoopTests.test_quick_measure_uses_cache_without_rerunning_tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_automation.py", line 671, in test_quick_measure_uses_cache_without_rerunning_tests
+    self.assertIn("cached", detail)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: 'cached' not found in "tests: FAIL — <MagicMock name='_run().stderr.strip().splitlines().__getitem__()' id='272568285044016'>"
+
+----------------------------------------------------------------------
+Ran 167 tests in 0.403s
+
+FAILED (failures=4)
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmp680k6z56/peer-wt
+dry-run: /repo/.worktrees/peer-1

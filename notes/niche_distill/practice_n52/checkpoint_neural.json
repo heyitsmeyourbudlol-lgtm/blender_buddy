@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N52",
+  "name": "status_box_compress",
+  "domain": "status_box_compress",
+  "helps": "stall ticks",
+  "weights": "notes/niche_distill/practice_n52/weights/n52_status_box_compress_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.023765908554196358,
+  "labels": [
+    "abstain",
+    "status box compress_escalate",
+    "status box compress_maybe",
+    "status box compress_no",
+    "status box compress_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N52 '<input>'"
+}

@@ -1,0 +1,26 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N02",
+  "name": "queue_kit_vs_research",
+  "domain": "queue_kit_vs_research",
+  "helps": "demote / meter mode",
+  "weights": "notes/niche_distill/practice_n02/weights/n02_queue_kit_vs_research_neural.pt",
+  "param_count": 5788164,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.013519123196601868,
+  "labels": [
+    "creative",
+    "defer",
+    "kit",
+    "research"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N02 '<input>'"
+}

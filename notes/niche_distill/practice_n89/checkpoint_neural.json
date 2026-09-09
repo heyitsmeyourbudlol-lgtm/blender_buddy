@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N89",
+  "name": "max_parallel_peers_cap",
+  "domain": "max_parallel_peers_cap",
+  "helps": "never solo",
+  "weights": "notes/niche_distill/practice_n89/weights/n89_max_parallel_peers_cap_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 16,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 50,
+  "last_loss": 2.1183872377150692e-05,
+  "labels": [
+    "abstain",
+    "max parallel peers cap_escalate",
+    "max parallel peers cap_maybe",
+    "max parallel peers cap_no",
+    "max parallel peers cap_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N89 '<input>'"
+}

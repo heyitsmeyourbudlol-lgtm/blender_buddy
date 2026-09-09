@@ -1,0 +1,16 @@
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"rss_smoke_json_validate decision → FAIL. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"[SPLIT] T0 meters — smoke JSON sample-11","output":{"label":"SPLIT"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Classify rss_smoke_json_validate as PASS. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (schema ok/fail)","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Classify rss_smoke_json_validate as SPLIT. Context: sm_121a missing flag (schema ok/fail)","output":{"label":"SPLIT"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"rss_smoke_json_validate decision → FAIL. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"FAIL"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — Classify rss_smoke_json_validate as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (schema ok/fail)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Factory FAIL for rss_smoke_json_validate: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Factory PASS for rss_smoke_json_validate: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — Factory PASS for rss_smoke_json_validate: GDS cuFile forbidden","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — [FAIL] T0 meters — smoke JSON sample-21","output":{"label":"FAIL"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — Factory FAIL for rss_smoke_json_validate: fact_checker prefer-order","output":{"label":"FAIL"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Classify rss_smoke_json_validate as UNKNOWN. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (schema ok/fail)","output":{"label":"UNKNOWN"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Niche rss_smoke_json_validate: label=PASS | smoke JSON | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"rss_smoke_json_validate decision → PASS. Input shape smoke JSON. continue_on_dirty HOLD","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — Niche rss_smoke_json_validate: label=PASS | smoke JSON | peer_loop IDLE seed","output":{"label":"PASS"}}
+{"niche_id":"N96","niche":"rss_smoke_json_validate","input":"Kit lock — rss_smoke_json_validate decision → SPLIT. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"SPLIT"}}

@@ -1,0 +1,16 @@
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Classify demote_note_scrub as demote note scrub_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (strip demoted theater)","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → unknown. Input shape bullet. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_escalate] self_sufficient lies — bullet sample-51","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[abstain] self_sufficient lies — bullet sample-41","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_escalate. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Factory abstain for demote_note_scrub: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"[demote note scrub_yes] self_sufficient lies — bullet sample-6","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as demote note scrub_escalate. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Classify demote_note_scrub as abstain. Context: sm_121a missing flag (strip demoted theater)","output":{"label":"abstain"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — [unknown] self_sufficient lies — bullet sample-106","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Niche demote_note_scrub: label=unknown | bullet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"demote_note_scrub decision → demote note scrub_yes. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_yes"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — Niche demote_note_scrub: label=unknown | bullet | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — demote_note_scrub decision → demote note scrub_maybe. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_maybe"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Factory demote note scrub_escalate for demote_note_scrub: fact_checker prefer-order","output":{"label":"demote note scrub_escalate"}}
+{"niche_id":"N60","niche":"demote_note_scrub","input":"Kit lock — demote_note_scrub decision → demote note scrub_yes. Input shape bullet. continue_on_dirty HOLD","output":{"label":"demote note scrub_yes"}}

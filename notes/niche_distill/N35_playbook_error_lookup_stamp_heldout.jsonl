@@ -1,0 +1,10 @@
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Factory ok for playbook_error_lookup: GDS cuFile forbidden","output":{"label":"ok"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"playbook_error_lookup decision → missing. Input shape error. RSS proposal 48GB reject","output":{"label":"missing"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Classify playbook_error_lookup as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (playbook key)","output":{"label":"ok"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Kit lock — Niche playbook_error_lookup: label=collision | error | WORK_QUEUE Active empty","output":{"label":"collision"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Factory collision for playbook_error_lookup: fact_checker prefer-order","output":{"label":"collision"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Classify playbook_error_lookup as collision. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (playbook key)","output":{"label":"collision"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"[collision] AGENT_ERROR_PLAYBOOK — error sample-31","output":{"label":"collision"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Factory ok for playbook_error_lookup: fact_checker prefer-order","output":{"label":"ok"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Kit lock — [collision] AGENT_ERROR_PLAYBOOK — error sample-46","output":{"label":"collision"}}
+{"niche_id":"N35","niche":"playbook_error_lookup","input":"Classify playbook_error_lookup as ok. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (playbook key)","output":{"label":"ok"}}

@@ -1,0 +1,16 @@
+{
+  "needle": "OVERSEER_COMPRESSION_T4_GPU_EVIDENCE_2026_09_05",
+  "ts": "2026-09-08T02:24:15Z",
+  "t4": {
+    "kind": "t4_ratio_check",
+    "seconds": 0.0,
+    "n_logic": 10000000,
+    "unique_U": 74576,
+    "S": 134.0914,
+    "arith_short_of_s100": false,
+    "nvfp4_pack_mb": 0.0356,
+    "packed_bytes_alloc": 37288,
+    "objective": "min U / min RAM @ NVFP4"
+  },
+  "note": "GPU scale arith evidence \u2014 peers must still mark TRAIN_READY T4 Done + recipe LOCKED"
+}

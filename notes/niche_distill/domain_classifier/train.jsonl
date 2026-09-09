@@ -1,0 +1,290 @@
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with task→worker in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with self_improve_context in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about lora", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/SYSTEM_OVERSIGHT.md", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with documentation in docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/OUTPUT_COMPARE.md for verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/OUTPUT_COMPARE.md", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=agent_builder title=Agent Builder / task→worker", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about styles.css", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about pack", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with ACK in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=peer_runtime title=Peer loop / orchestrate / gates", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with comms in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with adapt in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path ROLE_IMPORTANCE.md", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Work queue + context twin — role queue_steward", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with orchestrat in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with monitor in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/BITNET_RESEARCH_TASKS.md for compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with distill in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Verify / unittest / gates", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with factory% in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read scripts/self_improve_context.md for queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about progress", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with pack in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read scripts/peer_agent_comms.py for comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Compression / BitNet / niche distill", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about self-check", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path AGENTS.md", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path scripts/peer_agent_comms.py", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Oversight / factory progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about bus", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "box free video memory before ballast stop", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path scripts/peer_tasks.json", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "forever runner fanout when coding sandbox is dirty", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about documentation", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Agent Builder / task→worker — role agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about orchestrat", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Memory span / pack / librarian — role factory_engineer", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about docs", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about test", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with safety in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with ram in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about horizon", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about no_pay", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about always-read", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with agent-who in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: DGX / RAM / GPU ops", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/SOP_AGENT_REMEMBRANCE.md", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about sop", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/BITNET_RESEARCH_TASKS.md", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about peer_loop", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "battery red after repair — triage before DONE", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with active in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with gpu in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "mechanical clear chokepoints on brain machine", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about oversight", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "gauges and panel chrome on kit board", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with done-gate in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read scripts/peer_tasks.json for agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with verify in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about niche", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/SYSTEM_OVERSIGHT.md for oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "four-bit sidequest keep-alive on local accelerator", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "index pointer for sticky ritual writeups", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "spin up demo widget specialist from assignment text", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Docs / SOPs / tech writing", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about provision role", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Agent Builder / task→worker", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path scripts/self_improve_context.md", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=safety_rules title=Safety / rules / secrets", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with work_queue in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with survival in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about comms", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about monitor", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Dashboard / static UI", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read AGENTS.md for safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with bus in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Adapt / self-heal / playbook", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with always-read in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "forever runner skipped spawning after clearance finished", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about compact-queue", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about verify-gate", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/SOP_INDEX.md for docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "bank status json for student practice lanes", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=dashboard_ui title=Dashboard / static UI", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with compression in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with dgx in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with agent-build in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about heal-all", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about done-gate", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Verify / unittest / gates — role verify_runner", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about bottleneck", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with plan-gate in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about librarian", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path dashboard/server.py", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with bottleneck in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about survival", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "route scattered citations without stuffing whole archive", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with bitnet in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with niche in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/COMPRESSION_NORTH_STAR.md", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "contribution path for writers of operator guides", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with nvfp4 in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/COMMS_HORIZON.md", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/COMMS_HORIZON.md for comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with heal-all in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with stagnation in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "roster expand for brain machine ops fabric", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with readme in docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about agent-who", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AGENT_GATES.md for peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with tech_writer in docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with test in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about agents.html", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "idle ticks then kit wrapup writeup", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AGENT_ERROR_PLAYBOOK.md for adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about unittest", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with memory in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "cold assistants must open the sticky index first", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about REQ", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=dgx_ram title=DGX / RAM / GPU ops", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with clean host in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read dashboard/server.py for dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/SOP_INDEX.md", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/GAUGE_UI.md for dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AGENT_ERROR_PLAYBOOK.md for verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about rule-shutdown", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with librarian in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Peer loop / orchestrate / gates — role factory_engineer", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/README.md for docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/WORK_QUEUE.md", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "handshake traffic on the agent messaging pipe", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with agent_builder in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with lora in compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about self-heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Safety / rules / secrets", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AGENT_ERROR_PLAYBOOK.md", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AGENT_WORKING_MEMORY.md", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AGENT_WORKING_MEMORY.md for memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about memory", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "align this bullet line to a durable specialist", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Peer loop / orchestrate / gates", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about vault", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about ACK", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Docs / SOPs / tech writing — role tech_writer", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about nvfp4", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about readme", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with debrief in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/SAFETY_GATES.md for safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AGENT_SURVIVAL.md for adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with horizon in dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about secret", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with agents.html in dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/WORK_QUEUE.md for queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with compress in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with progress in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about compress", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=oversight_progress title=Oversight / factory progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about HITL", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about agent-build", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with REQ in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with no_pay in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with docs in docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Compression / BitNet / niche distill — role compression_engineer", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with progress in dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about queue", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about task→worker", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about dgx", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about playbook", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about pytest", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about plan-gate", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=docs_sops title=Docs / SOPs / tech writing", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about noop", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with verify-gate in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/RULE_CATALOG.md for safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about active", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/KIT_PROGRESS.md for oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/RULE_CATALOG.md", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with HITL in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Work queue + context twin", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/DGX_ROSTER_EXPAND.md for dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "GLink / agent comms — role communications_engineer", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with spark in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about self_improve_context", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Oversight / factory progress — role progress_monitor", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "communications engineer binder handoff note", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/MEMORY_SPAN.md for memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about factory%", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "static page refresh on the local board server", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/PEER_ORCHESTRATION.md", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with rule-shutdown in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/KIT_PROGRESS.md", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "human-in-loop blocklist before irreversible push", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "open bullets drifted from twin file — reconcile", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with pen-test in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with queue in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "script exit code before declaring DONE", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Adapt / self-heal / playbook — role adapt_specialist", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/SOP_AGENT_REMEMBRANCE.md for memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=adapt_heal title=Adapt / self-heal / playbook", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with nvlink in dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about safety", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/SOP_AGENT_BUILDER.md", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with self-heal in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=memory_remembrance title=Memory span / pack / librarian", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read ROLE_IMPORTANCE.md for dgx_ram", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with compact-queue in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about clean host", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/README.md", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about verify", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/COMPRESSION_NORTH_STAR.md for compression_bitnet", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about sync-queue", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with secret in safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with oversight in oversight_progress", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/PEER_ORCHESTRATION.md for peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "catalog shutdown digest guarding credentials", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about debrief", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with styles.css in dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/DGX_ROSTER_EXPAND.md", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain safety_rules", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Safety / rules / secrets — role safety_auditor", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about gpu", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with unittest in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with dashboard in dashboard_ui", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AGENT_GATES.md", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about adapt", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about tech_writer", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with remembrance in memory_remembrance", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: GLink / agent comms", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=comms_glink title=GLink / agent comms", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about compression", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with pre-dispatch in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "DGX / RAM / GPU ops — role dgx_ops", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "twin open bullets with improve context twin file", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/GAUGE_UI.md", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AGENT_ERROR_PLAYBOOK.md", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "percent idle-event on kit watcher", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=compression_bitnet title=Compression / BitNet / niche distill", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=queue_sync title=Work queue + context twin", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about distill", "output": {"domain_id": "compression_bitnet"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with provision role in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/SOP_AGENT_BUILDER.md for agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about pen-test", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AGENT_SURVIVAL.md", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with pytest in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "fact-query --domain agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/SAFETY_GATES.md", "output": {"domain_id": "safety_rules"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about match_rules", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with self-check in verify_tests", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with peer_loop in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about dashboard", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with sop in docs_sops", "output": {"domain_id": "docs_sops"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path IMPORT.md", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about nvlink", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with playbook in adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with noop in peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about stagnation", "output": {"domain_id": "oversight_progress"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with glink in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read IMPORT.md for adapt_heal", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Kit lock — classify SME lane for: Memory span / pack / librarian", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "title"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "read notes/AUTOMATION.md for peer_runtime", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/AUTOMATION.md", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about spark", "output": {"domain_id": "dgx_ram"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "SoT path notes/MEMORY_SPAN.md", "output": {"domain_id": "memory_remembrance"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with match_rules in agent_builder", "output": {"domain_id": "agent_builder"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about work_queue", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "domain_id=verify_tests title=Verify / unittest / gates", "output": {"domain_id": "verify_tests"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "chicken-egg stall class lookup card", "output": {"domain_id": "adapt_heal"}, "split": "train", "kind": "soft"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with vault in comms_glink", "output": {"domain_id": "comms_glink"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "Dashboard / static UI — role frontend_engineer", "output": {"domain_id": "dashboard_ui"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "please open notes about pre-dispatch", "output": {"domain_id": "peer_runtime"}, "split": "train", "kind": "hard"}
+{"niche_id": "N107", "niche": "domain_classifier", "input": "help with sync-queue in queue_sync", "output": {"domain_id": "queue_sync"}, "split": "train", "kind": "hard"}

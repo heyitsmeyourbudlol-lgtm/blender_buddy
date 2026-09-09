@@ -1,0 +1,16 @@
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → unknown. Input shape tensors. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory abstain for l2_cache_priority: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_escalate for l2_cache_priority: fact_checker prefer-order","output":{"label":"l2 cache priority_escalate"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_yes. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — l2_cache_priority decision → l2 cache priority_yes. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory l2 cache priority_maybe for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as l2 cache priority_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — [l2 cache priority_yes] cache hierarchy — tensors sample-36","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Factory unknown for l2_cache_priority: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Factory l2 cache priority_maybe for l2_cache_priority: GDS cuFile forbidden","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Classify l2_cache_priority as l2 cache priority_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (pin order)","output":{"label":"l2 cache priority_yes"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[l2 cache priority_maybe] cache hierarchy — tensors sample-26","output":{"label":"l2 cache priority_maybe"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"Kit lock — Classify l2_cache_priority as l2 cache priority_no. Context: sm_121a missing flag (pin order)","output":{"label":"l2 cache priority_no"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → unknown. Input shape tensors. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"[unknown] cache hierarchy — tensors sample-106","output":{"label":"unknown"}}
+{"niche_id":"N41","niche":"l2_cache_priority","input":"l2_cache_priority decision → l2 cache priority_maybe. Input shape tensors. continue_on_dirty HOLD","output":{"label":"l2 cache priority_maybe"}}

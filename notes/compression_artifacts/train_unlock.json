@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_COMPRESSION_TRAIN_UNLOCK_2026_09_05",
+  "block_needle": "OVERSEER_RECIPE_LOCK_NVFP4_BLOCK_2026_09_08",
+  "auto_train_needle": "OVERSEER_COMPRESSION_AUTO_TRAIN_2026_09_05",
+  "ts": "2026-09-08T11:32:35Z",
+  "train_unlocked": false,
+  "steward_reject": true,
+  "steward_role": "recipe_lock_steward",
+  "steward_cycle_id": "20260908T1131Z-recipe-lock",
+  "reason": "REJECTED \u2014 recipe card remains TRAIN-LOCKED stub (no Status=LOCKED / UNLOCK_NEEDLE fill). Dual SoT green \u2260 unlock. NVFP4 hot is recipe-aligned (NVFP4_LOCK_APPLICABILITY); unlock stamp alone was the violation.",
+  "prior_claim": {
+    "train_unlocked": true,
+    "ts": "2026-09-08T02:30:52Z",
+    "reason": "all research gates green; min-RAM NVFP4 train",
+    "disposition": "REJECTED \u2014 gates green \u2260 TRAIN-LOCK card fill"
+  },
+  "north_star": {
+    "logical_params": 1000000000,
+    "unique_target": 10000000,
+    "S": 100,
+    "hot_dtype": "NVFP4",
+    "data_prune": false,
+    "objective": "max efficiency / min resident RAM for unique store"
+  },
+  "arch_drift": false,
+  "approved_unlock": false,
+  "steward_needle": "OVERSEER_COMPRESSION_RECIPE_LOCK_HOLD_2026_09_08"
+}

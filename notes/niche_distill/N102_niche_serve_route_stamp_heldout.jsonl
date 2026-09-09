@@ -1,0 +1,10 @@
+{"niche_id":"N102","niche":"niche_serve_route","input":"[unknown] composer — task text sample-46","output":{"label":"unknown"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Kit lock — Factory niche serve route_maybe for niche_serve_route: GDS cuFile forbidden","output":{"label":"niche serve route_maybe"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Classify niche_serve_route as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (niche_id)","output":{"label":"unknown"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Kit lock — niche_serve_route decision → niche serve route_no. Input shape task text. RSS proposal 48GB reject","output":{"label":"niche serve route_no"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"[niche serve route_yes] composer — task text sample-36","output":{"label":"niche serve route_yes"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Kit lock — Factory unknown for niche_serve_route: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"niche_serve_route decision → abstain. Input shape task text. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Niche niche_serve_route: label=abstain | task text | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Factory niche serve route_yes for niche_serve_route: GDS cuFile forbidden","output":{"label":"niche serve route_yes"}}
+{"niche_id":"N102","niche":"niche_serve_route","input":"Niche niche_serve_route: label=niche serve route_yes | task text | peer_loop IDLE seed","output":{"label":"niche serve route_yes"}}

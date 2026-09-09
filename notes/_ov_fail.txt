@@ -1,0 +1,27 @@
+test_self_check_at_cap_defers_not_skip_pass (tests.test_run_peer_tasks.RunVerifyCommandsClassifyTests.test_self_check_at_cap_defers_not_skip_pass)
+Workers ≥ dgx_self_check_cap must soft-defer — never continue (false PASS). ... FAIL
+test_live_from_quick_cache_skips_unusable_tests_fail (tests.test_automation.PeerLoopTests.test_live_from_quick_cache_skips_unusable_tests_fail)
+FAIL cache must miss — never poison tests_ok=False as cached. ... ok
+test_metrics_green (tests.test_automation.PeerLoopTests.test_metrics_green) ... ok
+
+======================================================================
+FAIL: test_self_check_at_cap_defers_not_skip_pass (tests.test_run_peer_tasks.RunVerifyCommandsClassifyTests.test_self_check_at_cap_defers_not_skip_pass)
+Workers ≥ dgx_self_check_cap must soft-defer — never continue (false PASS).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_run_peer_tasks.py", line 164, in test_self_check_at_cap_defers_not_skip_pass
+    self.assertEqual((failures, kind), (-1, "deferred"))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (0, None) != (-1, 'deferred')
+
+First differing element 0:
+0
+-1
+
+- (0, None)
++ (-1, 'deferred')
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.056s
+
+FAILED (failures=1)

@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N06",
+  "name": "plan_gate_self_check",
+  "domain": "plan_gate_self_check",
+  "helps": "plan-gate loops",
+  "weights": "notes/niche_distill/practice_n06/weights/n06_plan_gate_self_check_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.0001074657411663793,
+  "labels": [
+    "abstain",
+    "plan gate self check_escalate",
+    "plan gate self check_maybe",
+    "plan gate self check_no",
+    "plan gate self check_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N06 '<input>'"
+}

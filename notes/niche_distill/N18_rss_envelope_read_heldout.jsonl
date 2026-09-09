@@ -1,0 +1,16 @@
+{"niche_id":"N18","niche":"rss_envelope_read","input":"[abstain] T0 meters — smoke JSON sample-41","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_no | smoke JSON | WORK_QUEUE Active empty","output":{"label":"rss envelope read_no"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=abstain | smoke JSON | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — Factory unknown for rss_envelope_read: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"[abstain] T0 meters — smoke JSON sample-11","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_maybe | smoke JSON | peer_loop IDLE seed","output":{"label":"rss envelope read_maybe"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"rss_envelope_read decision → rss envelope read_maybe. Input shape smoke JSON. continue_on_dirty HOLD","output":{"label":"rss envelope read_maybe"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_maybe | smoke JSON | peer_loop IDLE seed","output":{"label":"rss envelope read_maybe"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — [rss envelope read_yes] T0 meters — smoke JSON sample-66","output":{"label":"rss envelope read_yes"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Factory unknown for rss_envelope_read: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"rss_envelope_read decision → rss envelope read_escalate. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"rss envelope read_escalate"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Factory abstain for rss_envelope_read: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Classify rss_envelope_read as abstain. Context: sm_121a missing flag (RSS Δ)","output":{"label":"abstain"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Kit lock — Factory rss envelope read_yes for rss_envelope_read: GDS cuFile forbidden","output":{"label":"rss envelope read_yes"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"Niche rss_envelope_read: label=rss envelope read_yes | smoke JSON | peer_loop IDLE seed","output":{"label":"rss envelope read_yes"}}
+{"niche_id":"N18","niche":"rss_envelope_read","input":"rss_envelope_read decision → abstain. Input shape smoke JSON. RSS proposal 48GB reject","output":{"label":"abstain"}}

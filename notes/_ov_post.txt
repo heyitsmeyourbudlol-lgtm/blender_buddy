@@ -1,0 +1,60 @@
+(pass --execute to run; never uses --force)
+======================================================================
+FAIL: test_self_check_at_cap_defers_not_skip_pass (tests.test_run_peer_tasks.RunVerifyCommandsClassifyTests.test_self_check_at_cap_defers_not_skip_pass)
+Workers ≥ dgx_self_check_cap must soft-defer — never continue (false PASS).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/arnavrastogi/Automation/tests/test_run_peer_tasks.py", line 164, in test_self_check_at_cap_defers_not_skip_pass
+    self.assertEqual((failures, kind), (-1, "deferred"))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (0, None) != (-1, 'deferred')
+
+First differing element 0:
+0
+-1
+
+- (0, None)
++ (-1, 'deferred')
+
+----------------------------------------------------------------------
+Ran 168 tests in 1.413s
+
+FAILED (failures=1)
+usage: peer_worktree.py [-h] [--root ROOT]
+                        {list,spawn,ensure-pool,add,remove} ...
+
+Helpers for parallel-peer git worktrees. peer_loop inventories trees each
+continuous cycle; add/remove stay opt-in.
+
+positional arguments:
+  {list,spawn,ensure-pool,add,remove}
+    list                List worktrees (git worktree list --porcelain)
+    spawn               Spawn one parallel-peer worktree (optional --slot or
+                        --label)
+    ensure-pool         Ensure .worktrees/peer-0..N for 8+ parallel peers
+    add                 Add a worktree (optional --dry-run)
+    remove              Remove a worktree (dry-run by default; never --force)
+
+options:
+  -h, --help            show this help message and exit
+  --root ROOT           Git repo root (default: Automation hub ROOT)
+dry-run: git worktree remove /tmp/tmpfvtae8v0/peer-wt
+dry-run: /repo/.worktrees/peer-1
+TEST_QUICK_RC:1
+healed=0 warns=0
+poked
+investigate: digest → notes/AUTOMATION_DIGEST.md
+investigate: cursor-agent deferred to oversight (event/stagnation)
+investigate: agent dispatch disabled — digest only
+{
+  "dispatched": false,
+  "actions": [
+    "agent deferred: oversight event mode"
+  ],
+  "phase": "WORKING",
+  "digest": "/home/arnavrastogi/Automation/notes/AUTOMATION_DIGEST.md",
+  "focus": "automation_improve"
+}
+[ok] compact-queue: removed=6 open=7 promoted 6 open-done orphan(s) to Active
+[ok] poke: /home/arnavrastogi/Automation/scripts/peer poke
+[ok] investigate-force: /home/arnavrastogi/Automation/scripts/peer investigate-force

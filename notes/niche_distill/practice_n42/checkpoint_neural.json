@@ -1,0 +1,25 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N42",
+  "name": "near_vs_far_grain",
+  "domain": "near_vs_far_grain",
+  "helps": "map",
+  "weights": "notes/niche_distill/practice_n42/weights/n42_near_vs_far_grain_neural.pt",
+  "param_count": 5787907,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.0021780759561806917,
+  "labels": [
+    "far",
+    "near",
+    "poc"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N42 '<input>'"
+}

@@ -1,0 +1,16 @@
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Niche notes_vs_scripts_scope: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Kit lock — Factory abstain for notes_vs_scripts_scope: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"notes_vs_scripts_scope decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"notes_vs_scripts_scope decision → notes vs scripts scope_no. Input shape task. RSS proposal 48GB reject","output":{"label":"notes vs scripts scope_no"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Kit lock — notes_vs_scripts_scope decision → unknown. Input shape task. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"[notes vs scripts scope_yes] peer scope — task sample-6","output":{"label":"notes vs scripts scope_yes"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Kit lock — Niche notes_vs_scripts_scope: label=notes vs scripts scope_escalate | task | WORK_QUEUE Active empty","output":{"label":"notes vs scripts scope_escalate"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Classify notes_vs_scripts_scope as notes vs scripts scope_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (notes-only / scripts / both)","output":{"label":"notes vs scripts scope_maybe"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Classify notes_vs_scripts_scope as notes vs scripts scope_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (notes-only / scripts / both)","output":{"label":"notes vs scripts scope_yes"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Kit lock — notes_vs_scripts_scope decision → notes vs scripts scope_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"notes vs scripts scope_maybe"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Niche notes_vs_scripts_scope: label=unknown | task | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Factory notes vs scripts scope_yes for notes_vs_scripts_scope: GDS cuFile forbidden","output":{"label":"notes vs scripts scope_yes"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Niche notes_vs_scripts_scope: label=abstain | task | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"notes_vs_scripts_scope decision → notes vs scripts scope_escalate. Input shape task. RSS proposal 48GB reject","output":{"label":"notes vs scripts scope_escalate"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"notes_vs_scripts_scope decision → notes vs scripts scope_maybe. Input shape task. continue_on_dirty HOLD","output":{"label":"notes vs scripts scope_maybe"}}
+{"niche_id":"N84","niche":"notes_vs_scripts_scope","input":"Kit lock — Niche notes_vs_scripts_scope: label=notes vs scripts scope_yes | task | peer_loop IDLE seed","output":{"label":"notes vs scripts scope_yes"}}

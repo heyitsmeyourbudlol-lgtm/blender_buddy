@@ -1,0 +1,96 @@
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_maybe for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → unknown. Input shape sentence. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as overclaim phrase spot_no. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_maybe] honesty — sentence sample-26","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_yes for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_escalate] honesty — sentence sample-81","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory unknown for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory abstain for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_no. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_maybe | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as overclaim phrase spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_yes] honesty — sentence sample-36","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as abstain. Context: sm_121a missing flag (overclaim span)","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as overclaim phrase spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → overclaim phrase spot_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as abstain. Context: sm_121a missing flag (overclaim span)","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Factory overclaim phrase spot_no for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_yes] honesty — sentence sample-96","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_yes | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_maybe | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[unknown] honesty — sentence sample-16","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[abstain] honesty — sentence sample-71","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as abstain. Context: sm_121a missing flag (overclaim span)","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_maybe for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_yes] honesty — sentence sample-66","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → overclaim phrase spot_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Factory overclaim phrase spot_escalate for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_no for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_yes. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_escalate. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_no. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory unknown for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[unknown] honesty — sentence sample-76","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory abstain for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_escalate] honesty — sentence sample-21","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → overclaim phrase spot_yes. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_no. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_no] honesty — sentence sample-61","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_no | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_maybe] honesty — sentence sample-56","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_maybe] honesty — sentence sample-86","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [abstain] honesty — sentence sample-41","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [unknown] honesty — sentence sample-106","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory abstain for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_no | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Factory unknown for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_escalate for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[abstain] honesty — sentence sample-11","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_escalate for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_yes. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_maybe for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_escalate | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [abstain] honesty — sentence sample-101","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_escalate for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_yes for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_no | sentence | WORK_QUEUE Active empty","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=unknown | sentence | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_escalate] honesty — sentence sample-51","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as abstain. Context: sm_121a missing flag (overclaim span)","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → abstain. Input shape sentence. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_no. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_maybe for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (overclaim span)","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_yes | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_yes] honesty — sentence sample-6","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=overclaim phrase spot_yes | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory unknown for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Niche overclaim_phrase_spot: label=overclaim phrase spot_maybe | sentence | peer_loop IDLE seed","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_no for overclaim_phrase_spot: fact_checker prefer-order","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → overclaim phrase spot_maybe. Input shape sentence. continue_on_dirty HOLD","output":{"label":"overclaim phrase spot_maybe"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Classify overclaim_phrase_spot as overclaim phrase spot_escalate. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → unknown. Input shape sentence. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [unknown] honesty — sentence sample-46","output":{"label":"unknown"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Factory overclaim phrase spot_yes for overclaim_phrase_spot: GDS cuFile forbidden","output":{"label":"overclaim phrase spot_yes"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"[overclaim phrase spot_no] honesty — sentence sample-1","output":{"label":"overclaim phrase spot_no"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — overclaim_phrase_spot decision → abstain. Input shape sentence. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — Classify overclaim_phrase_spot as overclaim phrase spot_escalate. Context: sm_121a missing flag (overclaim span)","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Kit lock — [overclaim phrase spot_escalate] honesty — sentence sample-111","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"overclaim_phrase_spot decision → overclaim phrase spot_escalate. Input shape sentence. RSS proposal 48GB reject","output":{"label":"overclaim phrase spot_escalate"}}
+{"niche_id":"N15","niche":"overclaim_phrase_spot","input":"Niche overclaim_phrase_spot: label=abstain | sentence | WORK_QUEUE Active empty","output":{"label":"abstain"}}

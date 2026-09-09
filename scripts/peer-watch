@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Live terminal dashboard: WORKING vs IDLE for the peer loop.
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+exec /usr/bin/python3 "$ROOT/scripts/peer_watch.py" "$@"

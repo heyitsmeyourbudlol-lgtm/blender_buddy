@@ -1,0 +1,10 @@
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[abstain] knowledge — lock question sample-41","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Niche sidequest_lock_recall: label=sidequest lock recall_escalate | lock question | WORK_QUEUE Active empty","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → sidequest lock recall_escalate. Input shape lock question. RSS proposal 48GB reject","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory unknown for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Classify sidequest_lock_recall as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (short answer)","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[sidequest lock recall_no] knowledge — lock question sample-1","output":{"label":"sidequest lock recall_no"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"sidequest_lock_recall decision → abstain. Input shape lock question. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"[unknown] knowledge — lock question sample-16","output":{"label":"unknown"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_escalate for sidequest_lock_recall: fact_checker prefer-order","output":{"label":"sidequest lock recall_escalate"}}
+{"niche_id":"N103","niche":"sidequest_lock_recall","input":"Factory sidequest lock recall_yes for sidequest_lock_recall: GDS cuFile forbidden","output":{"label":"sidequest lock recall_yes"}}

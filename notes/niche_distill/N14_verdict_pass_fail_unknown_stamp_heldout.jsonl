@@ -1,0 +1,10 @@
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Factory unknown for verdict_pass_fail_unknown: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Kit lock — verdict_pass_fail_unknown decision → verdict pass fail unknown_yes. Input shape claim+snippets. continue_on_dirty HOLD","output":{"label":"verdict pass fail unknown_yes"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Kit lock — [unknown] ledger — claim+snippets sample-46","output":{"label":"unknown"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Classify verdict_pass_fail_unknown as verdict pass fail unknown_no. Context: sm_121a missing flag (verdict)","output":{"label":"verdict pass fail unknown_no"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Classify verdict_pass_fail_unknown as verdict pass fail unknown_no. Context: sm_121a missing flag (verdict)","output":{"label":"verdict pass fail unknown_no"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Kit lock — Factory verdict pass fail unknown_no for verdict_pass_fail_unknown: fact_checker prefer-order","output":{"label":"verdict pass fail unknown_no"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"[verdict pass fail unknown_no] ledger — claim+snippets sample-31","output":{"label":"verdict pass fail unknown_no"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Niche verdict_pass_fail_unknown: label=verdict pass fail unknown_no | claim+snippets | WORK_QUEUE Active empty","output":{"label":"verdict pass fail unknown_no"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Kit lock — [abstain] ledger — claim+snippets sample-11","output":{"label":"abstain"}}
+{"niche_id":"N14","niche":"verdict_pass_fail_unknown","input":"Classify verdict_pass_fail_unknown as verdict pass fail unknown_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (verdict)","output":{"label":"verdict pass fail unknown_yes"}}

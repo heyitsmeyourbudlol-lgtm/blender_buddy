@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+"""Event-based stagnation detection for Cursor oversight dispatch."""
+
+from __future__ import annotations
+
+import time
+from dataclasses import dataclass, field
+from typing import Any
+
+import automation_config as cfg_mod
+import project_automation as auto
+
+
+@dataclass
+class StagnationReport:
+    stagnant: bool
+    score: int = 0
+    reasons: list[str] = field(default_factory=list)
+    should_dispatch: bool = False
+    critical: bool = False
+
+
+def _cfg() -> dict[str, Any]:
+    raw = cfg_mod.CFG.get("oversight") or {}
+    return raw if isinstance(raw, dict) else {}
+
+
+def agent_dispatch_mode() -> str:
+    raw = str(
+        _cfg().get("agent_dispatch_mode")
+        or cfg_mod.CFG.get("oversight_agent_dispatch_mode")
+        or "event"
+    ).strip().lower()
+    return raw if raw in ("event", "interval") else "event"
+
+
+def agent_min_interval_sec() -> float:
+    try:
+        val = _cfg().get("agent_min_interval_sec") or cfg_mod.CFG.get("oversight_agent_min_interval_sec") or 300
+        return max(60.0, float(val))
+    except (TypeError, ValueError):
+        return 300.0
+
+
+def agent_max_interval_sec() -> float:
+    try:
+        val = _cfg().get("agent_max_interval_sec")
+        if val is None:
+            val = cfg_mod.CFG.get("oversight_agent_max_interval_sec", 0)
+        return max(0.0, float(val))
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def agent_interval_sec() -> float:
+    try:
+        val = _cfg().get("agent_interval_sec") or cfg_mod.CFG.get("oversight_agent_interval_sec") or 900
+        return max(120.0, float(val))
+    except (TypeError, ValueError):
+        return 900.0
+
+
+def stagnation_cycles_threshold() -> int:
+    try:
+        val = _cfg().get("stagnation_cycles") or cfg_mod.CFG.get("oversight_stagnation_cycles") or 2
+        return max(1, int(val))
+    except (TypeError, ValueError):
+        return 2
+
+
+def high_expectations_enabled() -> bool:
+    if "high_expectations" in _cfg():
+        return bool(_cfg()["high_expectations"])
+    return bool(cfg_mod.CFG.get("oversight_high_expectations", True))
+
+
+def metric_snapshot(ctx: dict[str, Any], flaws: dict[str, Any]) -> dict[str, Any]:
+    kit = ctx.get("kit") or {}
+    last = ctx.get("last_cycle") or {}
+    try:
+        import peer_transcript as transcript
+
+        fp, _ = transcript.current_queue_fingerprint()
+    except Exception:  # noqa: BLE001
+        fp = str(last.get("queue_fp") or "")
+    return {
+        "ts": time.time(),
+        "factory_pct": kit.get("factory_pct"),
+        "asi_pct": kit.get("asi_pct"),
+        "queue_count": int(ctx.get("queue_count") or 0),
+        "queue_fp": fp,
+        "git_head": str(last.get("git_head") or ""),
+        "verify_ok": last.get("verify_ok"),
+        "noop": bool(last.get("noop")),
+        "phase": str(ctx.get("phase") or ""),
+        "open_flaws": int(flaws.get("open") or 0),
+    }
+
+
+def record_snapshot(state: dict[str, Any], snap: dict[str, Any]) -> dict[str, Any]:
+    history: list[dict[str, Any]] = state.get("snapshots") or []
+    if not isinstance(history, list):
+        history = []
+    history.append(snap)
+    state["snapshots"] = history[-20:]
+    return state
+
+
+def evaluate_stagnation(
+    ctx: dict[str, Any],
+    flaws: dict[str, Any],
+    *,
+    state: dict[str, Any],
+) -> StagnationReport:
+    report = StagnationReport(stagnant=False)
+    last = ctx.get("last_cycle") or {}
+    kit = ctx.get("kit") or {}
+    history: list[dict[str, Any]] = state.get("snapshots") or []
+    if not isinstance(history, list):
+        history = []
+
+    def add(reason: str, points: int, *, critical: bool = False) -> None:
+        report.reasons.append(reason)
+        report.score += points
+        report.stagnant = True
+        if critical:
+            report.critical = True
+
+    if last.get("verify_ok") is False:
+        add("verify gate FAIL — automation stuck on broken tree", 50, critical=True)
+    if last.get("noop"):
+        add("noop cycle — verify ok but queue fingerprint unchanged", 45, critical=True)
+    if int(ctx.get("noop_backoff_sec") or 0) > 0:
+        add(f"noop backoff active ({int(ctx.get('noop_backoff_sec') or 0)}s)", 35, critical=True)
+    if flaws.get("critical"):
+        add(f"{flaws.get('critical')} critical repo flaw(s)", 40, critical=True)
+    if any(b.get("severity") == "critical" for b in ctx.get("bottlenecks") or []):
+        add("critical bottleneck(s) open", 40, critical=True)
+    if int(ctx.get("queue_count") or 0) > 20:
+        add(f"queue bloat ({ctx.get('queue_count')} open)", 25)
+    if int(flaws.get("high") or 0) >= 5:
+        add(f"{flaws.get('high')} high-severity repo flaws", 20)
+
+    cur_fp = metric_snapshot(ctx, flaws).get("queue_fp")
+    if history and cur_fp:
+        same_fp = sum(1 for h in history[-5:] if h.get("queue_fp") == cur_fp)
+        if same_fp >= stagnation_cycles_threshold():
+            add(f"queue fingerprint unchanged {same_fp} snapshots", 30)
+
+    cur_factory = kit.get("factory_pct")
+    if history and cur_factory is not None:
+        prev = [h.get("factory_pct") for h in history[-5:] if h.get("factory_pct") is not None]
+        if prev and all(cur_factory <= p for p in prev[-stagnation_cycles_threshold() :]):
+            add(f"factory readiness flat at {cur_factory}%", 28)
+
+    cur_asi = kit.get("asi_pct")
+    if history and cur_asi is not None:
+        prev = [h.get("asi_pct") for h in history[-5:] if h.get("asi_pct") is not None]
+        if prev and all(cur_asi <= p for p in prev[-stagnation_cycles_threshold() :]):
+            add(f"harness rubric flat at {cur_asi}%", 22)
+
+    cur_git = str(last.get("git_head") or "")
+    if history and cur_git and ctx.get("phase") == "WORKING":
+        same_git = sum(1 for h in history[-4:] if h.get("git_head") == cur_git and cur_git)
+        if same_git >= stagnation_cycles_threshold():
+            add("git HEAD unchanged while WORKING — no landed diffs", 26)
+
+    if ctx.get("phase") in ("IDLE", "WAITING") and int(ctx.get("queue_count") or 0) > 0:
+        add(f"phase {ctx.get('phase')} with open queue — not consuming work", 24)
+
+    stagnant_cycles = int(state.get("stagnation_cycles") or 0)
+    if report.stagnant:
+        stagnant_cycles += 1
+    else:
+        stagnant_cycles = 0
+    state["stagnation_cycles"] = stagnant_cycles
+
+    threshold = 20 if high_expectations_enabled() else 35
+    report.should_dispatch = report.critical or report.score >= threshold
+    return report
+
+
+def should_dispatch(
+    ctx: dict[str, Any],
+    flaws: dict[str, Any],
+    *,
+    state: dict[str, Any],
+    dispatch_enabled: bool,
+    force: bool = False,
+    stagnation: StagnationReport | None = None,
+) -> tuple[bool, StagnationReport, list[str]]:
+    hold: list[str] = []
+    if force:
+        rep = stagnation or StagnationReport(stagnant=True, should_dispatch=True, reasons=["forced"])
+        return True, rep, hold
+    if not dispatch_enabled:
+        hold.append("dispatch disabled")
+        return False, StagnationReport(), hold
+
+    since_last = time.time() - float(state.get("last_agent_ts") or 0)
+    min_gap = agent_min_interval_sec() if agent_dispatch_mode() == "event" else agent_interval_sec()
+    cooldown_left = max(0.0, min_gap - since_last)
+
+    rep = stagnation or evaluate_stagnation(ctx, flaws, state=state)
+
+    if agent_dispatch_mode() == "interval":
+        if cooldown_left > 0:
+            hold.append(f"interval cooldown {cooldown_left:.0f}s")
+            return False, rep, hold
+        return True, rep, hold
+
+    if not rep.should_dispatch:
+        max_iv = agent_max_interval_sec()
+        if max_iv > 0 and since_last >= max_iv:
+            rep.reasons.append(f"safety net: {max_iv:.0f}s without review")
+            return True, rep, hold
+        hold.append("factory advancing — no stagnation trigger")
+        return False, rep, hold
+
+    if cooldown_left > 0 and not rep.critical:
+        hold.append(f"min gap {cooldown_left:.0f}s (non-critical)")
+        return False, rep, hold
+
+    return True, rep, hold
+
+
+def cooldown_remaining(state: dict[str, Any]) -> float:
+    since_last = time.time() - float(state.get("last_agent_ts") or 0)
+    gap = agent_min_interval_sec() if agent_dispatch_mode() == "event" else agent_interval_sec()
+    return max(0.0, gap - since_last)

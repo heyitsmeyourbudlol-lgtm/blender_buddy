@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N70",
+  "name": "daemon_pid_alive",
+  "domain": "daemon_pid_alive",
+  "helps": "peer_self_heal",
+  "weights": "notes/niche_distill/practice_n70/weights/n70_daemon_pid_alive_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 12,
+  "last_loss": 0.03259439766407013,
+  "labels": [
+    "abstain",
+    "daemon pid alive_escalate",
+    "daemon pid alive_maybe",
+    "daemon pid alive_no",
+    "daemon pid alive_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N70 '<input>'"
+}

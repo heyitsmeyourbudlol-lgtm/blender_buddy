@@ -1,0 +1,16 @@
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Factory clean host cmd pick_maybe for clean_host_cmd_pick: GDS cuFile forbidden","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as clean host cmd pick_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_maybe | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory abstain for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — clean_host_cmd_pick decision → clean host cmd pick_escalate. Input shape intent. RSS proposal 48GB reject","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Classify clean_host_cmd_pick as abstain. Context: sm_121a missing flag (exact cmd)","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [unknown] CLEAN ops — intent sample-106","output":{"label":"unknown"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_maybe | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"[clean host cmd pick_yes] CLEAN ops — intent sample-36","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Classify clean_host_cmd_pick as clean host cmd pick_escalate. Context: sm_121a missing flag (exact cmd)","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Niche clean_host_cmd_pick: label=clean host cmd pick_yes | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_yes"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — [clean host cmd pick_escalate] CLEAN ops — intent sample-81","output":{"label":"clean host cmd pick_escalate"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Kit lock — Classify clean_host_cmd_pick as clean host cmd pick_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (exact cmd)","output":{"label":"clean host cmd pick_maybe"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Factory clean host cmd pick_no for clean_host_cmd_pick: fact_checker prefer-order","output":{"label":"clean host cmd pick_no"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"clean_host_cmd_pick decision → abstain. Input shape intent. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N29","niche":"clean_host_cmd_pick","input":"Niche clean_host_cmd_pick: label=clean host cmd pick_yes | intent | peer_loop IDLE seed","output":{"label":"clean host cmd pick_yes"}}

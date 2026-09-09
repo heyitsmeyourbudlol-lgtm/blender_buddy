@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N53",
+  "name": "creative_vs_executable",
+  "domain": "creative_vs_executable",
+  "helps": "meter mode",
+  "weights": "notes/niche_distill/practice_n53/weights/n53_creative_vs_executable_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.00017288216622546315,
+  "labels": [
+    "abstain",
+    "creative vs executable_escalate",
+    "creative vs executable_maybe",
+    "creative vs executable_no",
+    "creative vs executable_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N53 '<input>'"
+}

@@ -1,0 +1,60 @@
+{
+  "needle": "OVERSEER_COMPRESSION_RECIPE_LOCK_HOLD_2026_09_08",
+  "ts": "2026-09-08T11:33:54Z",
+  "steward": "recipe_lock_steward",
+  "cycle_id": "20260908T1132Z-recipe-lock-peer7",
+  "worktree": "peer-7",
+  "verdict": "LOCK_HELD",
+  "approved_unlock": false,
+  "train_unlocked": false,
+  "recipe_status": "TRAIN-LOCKED",
+  "unlock_decision": "REJECT",
+  "unlock_documented": false,
+  "arch_drift": false,
+  "arch_note": "Hot dtype NVFP4 aligned with user lock NVFP4_LOCK_APPLICABILITY + recipe Bitwidth row. 1-bit/ternary = cold/research pack only. Corrected unlock north_star.hot_dtype 1-bit\u2192NVFP4; orphan train_unlocked=true remains blocked.",
+  "diff": {
+    "train_unlock_before": true,
+    "train_unlock_after": false,
+    "unlock_hot_dtype": "NVFP4",
+    "block": "orphan train_unlocked=true without recipe Status=LOCKED / UNLOCK_NEEDLE card fill",
+    "rung0_hot_dtype": "NVFP4",
+    "rung0_stack": "ALBERT-BitMoE + LoRA",
+    "rung0_data_prune": false,
+    "recipe_bitwidth": "NVFP4 hot / 1-bit cold",
+    "stack_fields_match_recipe": true,
+    "drifts_open": [],
+    "drifts_blocked": [
+      "orphan train_unlocked=true without recipe TRAIN-LOCK card fill \u2192 forced false",
+      "false NVFP4-as-1bit-drift steward note \u2192 superseded; Bitwidth remains NVFP4 hot"
+    ]
+  },
+  "keep_alive_guard": "compression_keep_alive.train_unlocked() \u2192 false",
+  "dual_sot": {
+    "dual_sot_ok": true,
+    "train_unlocked": false,
+    "hub_unlock_claimed": false
+  },
+  "verify_expected": {
+    "train_unlocked": false,
+    "unlock_hot_dtype": "NVFP4",
+    "recipe_contains_TRAIN-LOCKED": true,
+    "arch_drift_count": 0
+  },
+  "falsifier_checked": "NVFP4_LOCK_APPLICABILITY.md User lock weights=NVFP4; COMPRESSION_TRAIN_READY Real training=NO-GO; Dual SoT \u2260 unlock",
+  "verify_actual": {
+    "hub_train_unlocked": false,
+    "keep_alive_train_unlocked": false,
+    "bitwidth": "NVFP4",
+    "arch_drift": false,
+    "unlock_decision": "REJECT"
+  },
+  "keep_alive_fix": {
+    "needle": "OVERSEER_KEEP_ALIVE_UNLOCK_BANNER_ONLY_2026_09_08",
+    "file": "scripts/compression_keep_alive.py",
+    "change": "train_unlocked() requires **UNLOCK_NEEDLE** auto-train banner or artifact true \u2014 steward prose mentions no longer unlock",
+    "tests": [
+      "test_train_unlocked_ignores_steward_prose_mention",
+      "test_train_unlocked_accepts_auto_train_banner"
+    ]
+  }
+}

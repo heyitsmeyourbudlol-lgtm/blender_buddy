@@ -1,0 +1,79 @@
+{
+  "peers": {
+    "implement": {
+      "subagent_type": "generalPurpose",
+      "reads": ["AGENT_MEMORY.md", "docs/product/EXPERIENCE_ROADMAP.md", "docs/agent/AGENT_WORKFLOW.md"],
+      "description": "Implement scoped changes — elegant statue, minimal diff"
+    },
+    "security": {
+      "subagent_type": "generalPurpose",
+      "reads": ["docs/playbooks/SECURITY_AUDIT.md", "AGENT_MEMORY.md"],
+      "description": "Security pass — BLOCK or PASS against playbook"
+    },
+    "verify": {
+      "subagent_type": "shell",
+      "reads": ["docs/agent/AGENT_WORKFLOW.md"],
+      "description": "Run npm test, check:controls, build — no edits"
+    },
+    "launch": {
+      "subagent_type": "generalPurpose",
+      "reads": ["AGENT_MEMORY.md", "docs/playbooks/DEMO_PLAN.md", "public/ide-agent.md"],
+      "description": "Ship user-facing — dogfood changelog, conversion"
+    }
+  },
+  "match_rules": [
+    {"template": "security_pass", "any": ["security", "rls", "audit", "harden", "soc2", "compliance"], "priority": 5},
+    {"template": "ops_all", "any": ["ops pass", "full newdrop", "run all"], "priority": 6},
+    {"template": "newdrop_ship", "any": ["newdrop", "changelog", "widget", "mcp", "ide-agent", "publish"], "priority": 10},
+    {"template": "statue_advise", "any": ["statue", "chrome", "ui", "ux", "dashboard"], "priority": 15},
+    {"template": "billing_money", "any": ["stripe", "billing", "checkout", "plan"], "priority": 20},
+    {"template": "git_hygiene", "any": ["commit", "stash", "git"], "priority": 4},
+    {"template": "automation_audit", "any": ["automation", "self-check"], "priority": 7},
+    {"template": "generic_task", "any": ["implement", "fix", "add", "ship"], "priority": 100}
+  ],
+  "task_templates": {
+    "security_pass": {
+      "peer": "security",
+      "safety_tier": "yellow",
+      "scope": ["src/lib/security/", "docs/playbooks/SECURITY_AUDIT.md"],
+      "prompt": "Run security hardening pass per SECURITY_AUDIT.md. Live-prove RLS/authz findings. Fix P0/P1 in scope. Output PASS or BLOCK."
+    },
+    "ops_all": {
+      "peer": "verify",
+      "safety_tier": "green",
+      "scope": [".cursor/skills/newdrop-all-pass/"],
+      "prompt": "Run full Newdrop ops pass per newdrop-all-pass SKILL.md (security → clone). Do not skip functions."
+    },
+    "newdrop_ship": {
+      "peer": "launch",
+      "safety_tier": "green",
+      "scope": ["public/ide-agent.md", "src/app/api/mcp/", "CHANGELOG.md"],
+      "prompt": "Ship user-facing What's New path. ≤5s publish proof on dogfood. Update CHANGELOG + run publish-site-changelog if user-visible."
+    },
+    "statue_advise": {
+      "peer": "implement",
+      "safety_tier": "green",
+      "scope": ["src/components/", "docs/product/EXPERIENCE_ROADMAP.md"],
+      "prompt": "Advise first per suggestions-first rule unless founder said ship. One job per screen. Remove chrome over adding knobs."
+    },
+    "billing_money": {
+      "peer": "security",
+      "safety_tier": "yellow",
+      "scope": ["src/lib/billing/", "src/app/api/stripe/"],
+      "prompt": "Billing/auth changes: fail-closed, expand-contract migrations, money smoke paths."
+    }
+  },
+  "verify_commands": [
+    "python3 scripts/peer_orchestrate.py --self-check",
+    "npm run lint",
+    "npm test",
+    "npm run check:controls",
+    "npm run build"
+  ],
+  "product_constraints": [
+    "Follow elegant statue — fixture not control room",
+    "Never commit secrets; AGENT_MEMORY.md same-turn updates for durable truth",
+    "Auto-commit/push per AGENT_WORKFLOW unless HOLD_PUSH exists",
+    "Verify must pass before declaring cycle complete"
+  ]
+}

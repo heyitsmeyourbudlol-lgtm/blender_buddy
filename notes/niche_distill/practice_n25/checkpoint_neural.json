@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N25",
+  "name": "moe_celebrity_score",
+  "domain": "moe_celebrity_score",
+  "helps": "load-spread",
+  "weights": "notes/niche_distill/practice_n25/weights/n25_moe_celebrity_score_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 0.9,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 9.029786451719701e-05,
+  "labels": [
+    "abstain",
+    "moe celebrity score_escalate",
+    "moe celebrity score_maybe",
+    "moe celebrity score_no",
+    "moe celebrity score_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N25 '<input>'"
+}

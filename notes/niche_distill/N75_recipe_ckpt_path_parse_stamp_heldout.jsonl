@@ -1,0 +1,10 @@
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"[abstain] P0 land proof — RECIPE.md sample-41","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"recipe_ckpt_path_parse decision → abstain. Input shape RECIPE.md. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Factory recipe ckpt path parse_escalate for recipe_ckpt_path_parse: fact_checker prefer-order","output":{"label":"recipe ckpt path parse_escalate"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=recipe ckpt path parse_yes | RECIPE.md | peer_loop IDLE seed","output":{"label":"recipe ckpt path parse_yes"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — [recipe ckpt path parse_no] P0 land proof — RECIPE.md sample-31","output":{"label":"recipe ckpt path parse_no"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"[recipe ckpt path parse_yes] P0 land proof — RECIPE.md sample-6","output":{"label":"recipe ckpt path parse_yes"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Factory unknown for recipe_ckpt_path_parse: GDS cuFile forbidden","output":{"label":"unknown"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=recipe ckpt path parse_no | RECIPE.md | WORK_QUEUE Active empty","output":{"label":"recipe ckpt path parse_no"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Kit lock — Niche recipe_ckpt_path_parse: label=unknown | RECIPE.md | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N75","niche":"recipe_ckpt_path_parse","input":"Niche recipe_ckpt_path_parse: label=recipe ckpt path parse_yes | RECIPE.md | peer_loop IDLE seed","output":{"label":"recipe ckpt path parse_yes"}}

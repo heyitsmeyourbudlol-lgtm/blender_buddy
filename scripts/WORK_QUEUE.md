@@ -1,0 +1,34 @@
+## Active
+- [x] **[factory] Forever fuel — worker-done refill** — protocol landed 2026-09-08 in `notes/AGENT_WORKING_MEMORY.md` · on DONE: twin sync + leave ≥1 next Active (A→Z→Newdrop→TOP10→builders) + CLEAN rsync + peer-turn + ≤8 Task peers · needle `OVERSEER_WORKER_DONE_REFILL_2026_09_07`
+- [ ] **[factory] Factory A→Z Phase4 unlock (Status red)** — falsify green lock honestly: CLEAN `./scripts/peer kit-run` CPT (or eligible target) until D=`pr` with live origin ref **or** `merge_note`+`pushed_ref`; heal false-green; writeback proof; **NO PAY** — `notes/FACTORY_A_TO_Z_PROOF.md` · needle `OVERSEER_NO_JUMP_UNTIL_A_TO_Z_2026_09_07`
+- [x] **Oversight + playbook on stagnation events** — landed 2026-09-07 `agent_dispatch_mode=event` keep oversight; investigate digest≠factory off; OVERSEER_SYSTEMD_SKIP_RESTART_TRANSITIONAL + FREE_DESKTOP_RESERVE (overseer excluded from factory census; no peer-loop restart on deactivating); playbook `investigate_digest_only_event_mode`; NO PAY
+- [x] **[oversight] Stop Mac→DGX rsync clobber of hub-protect scripts** — landed 2026-09-04 overseer (scripts fixed; ignore Mac sync restore)
+- [x] **[efficiency-research] Fix verify gate — unblock worker dispatch** — verify deferred (swarm/lock)
+- [x] **[top10] Newdrop production — next meaningful non-UI merge** — landed 2026-09-08 [#27](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/27) `139c526` + [#28](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/28) `4690223` · containment reconcile Stripe 503 · npm test 338 · check:controls 13ok · **UI untouched**
+- [x] **[top10] Newdrop — finish containment Stripe 503 PR** — landed 2026-09-08 [#27](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/27) `139c526` · `isStripeBillingConfigured→503` · npm test 338 · check:controls 13ok · **UI untouched**
+- [x] **[top10] Newdrop production — next meaningful non-UI merge** — landed 2026-09-08 [#30](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/30) `2a4fdb01` · webhook SSRF DNS→connect pin (#54) · npm test 344 · check:controls 12ok · **UI untouched**
+- [x] **[top10] Newdrop production — next meaningful non-UI merge** — landed 2026-09-08 [#29](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/29) `001a8b7` · billing reconcile cron Stripe 503 · npm test 351 · check:controls 12ok · **UI untouched**
+- [ ] **[top10] Newdrop production — next meaningful non-UI merge** — after #29/#30; file-scoped `/Users/togi/CaaS`; verify `npm test` + `check:controls`; **no UI unless flaw**; prefer backend/security/ops; done=PR merged; update EXTERNAL_PROOF + FACTORY_PROOF + scoreboard. Tasks: `notes/TOP10_PRODUCTION_POWER_TASKS.md`
+- [ ] **[top10] TOP10_NEXT T10-04 non-noop ≥8/day** — partial: day-rollup+scoreboard column landed; CLEAN measured GAP (≪8 observed today; flaps); keep open until scoreboard PASS ≥8/day; NO PAY — `notes/TOP10_NEXT.md`
+- [x] **[top10] TOP10_NEXT T10-07 CLEAN brain uptime ritual** — landed 2026-09-08 CLEAN peer-loop=active improve-loop=active ssh_rc=0 · mac-offloaded · Mac peer/improve LaunchAgents disabled · rsync improve-loop.log+peer-loop-state.json · `_clean_peer_improve_active` meter credit · `notes/FACTORY_PROOF.md` T10-07 ritual
+- [x] **[top10] TOP10_NEXT T10-08 dirty-tree coding worktree** — landed 2026-09-07 Dispatch clear **95%** (dirty hub + `.worktrees/peer-coding`) · unittest `test_t10_08_dirty_hub_coding_wt_dispatch_ge_95` · doc `notes/AUTOMATION.md`
+- [x] **[factory] Saturate free-desktop agents to cap 8** — landed 2026-09-08 CLEAN max=8 n=8 peer+improve=active avail~55GB ballast-stopped compression/dgx-gpu; cfg max_parallel_agent_procs=8 trim=false pause_beep=false; NO PAY
+- [x] **[factory] Sync Mac↔CLEAN WORK_QUEUE twin** — synced 2026-09-08 Mac↔CLEAN; sync_queue_drift=[]; identical open Top10; refuse empty CLEAN Active
+- [x] **[top10] GitHub+IDE — Newdrop App uninstall full clear + IDE watch paths** — landed 2026-09-07 [#26](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/26) `0df1f28`
+- [x] **[top10] GitHub+IDE — hub peer verbs** — landed 2026-09-07
+- [x] **[top10] Newdrop production — backup mirror fail-closed** — landed [#25](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/25)
+- [x] **[top10] Newdrop production — containment unban Auth clear** — landed [#24](https://github.com/heyitsmeyourbudlol-lgtm/caas-changelog/pull/24)
+- [x] **[top10] Free-desktop agent cap + CLEAN brain** — `max_parallel_agent_procs=8`
+- [x] **Pre-dispatch before every agent spawn** — landed 2026-09-07 `peer_loop._mechanical_pre_dispatch` = compact → plan-gate → check → ensure-pool (TTL); CLI `./scripts/peer pre-dispatch`; unittest `tests/test_pre_dispatch_spawn_wire.py` · needle `OVERSEER_PRE_DISPATCH_CHECK_POOL_2026_09_07`
+- [x] **Self-heal clears bottlenecks without human** — landed 2026-09-07 `./scripts/peer self-heal --write` · CLEAN OPEN_HIGH_CRIT=[] (peer+improve+research active) · Mac residual daemon_* expected under `mac-offloaded` (LaunchAgents parked; brain=CLEAN; launchctl bootstrap I/O) · re-ran `dgx_mac_offload.sh` · NO PAY
+- [ ] **[top10] TOP10_NEXT T10-09 Train tiny domain classifier niche** — free local niche checkpoint + infer in `niche_domain_classify`; NO PAY — `notes/TOP10_NEXT.md`
+- [ ] **[agent-builder] Smoke provision demo_widget_sme** — `./scripts/peer agent-build --dry-run` then validate role; vault README; NO PAY — `notes/SOP_AGENT_BUILDER.md`
+- [ ] **[command-builder] Commands-cycle harvest gaps** — `./scripts/peer commands-cycle`; wrap top unwrapped CLIs; update AGENT_COMMANDS — `notes/COMMAND_BUILDER.md`
+
+## Backlog (deferred — Top10 freeze)
+- [ ] **Daily flaw scan** — demoted Top10 freeze
+- [x] **[niche-distill] Stamp practice runner N02** — landed 2026-09-08 niche_distiller: `scripts/niche_n02_practice.py` + `practice_n02/checkpoint.json` · heldout 16@1.0 · `OVERSEER_NICHE_PRACTICE_N02_2026_09_07`
+- [x] **[niche-distill] Stamp practice runner N04** — landed 2026-09-08 niche_distiller: `scripts/niche_n04_practice.py` + `practice_n04/checkpoint.json` · heldout 16@1.0 · `OVERSEER_NICHE_PRACTICE_N04_2026_09_07`
+- [ ] **[niche-mint] Propose+start one closed-world speedup** — demoted Top10 freeze
+- [ ] **[compression-train] Keep-alive fuel** — demoted Top10 freeze
+- [ ] **[research-speed] Staff CLEAN fanout** — demoted (cap=8 free-desktop)

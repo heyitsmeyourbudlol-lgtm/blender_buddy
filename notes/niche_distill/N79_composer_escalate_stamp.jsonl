@@ -1,0 +1,48 @@
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as abstain. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → keep. Input shape niche confidences. continue_on_dirty HOLD","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[keep] committee — niche confidences sample-21","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[escalate] committee — niche confidences sample-31","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory keep for composer_escalate: GDS cuFile forbidden","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=abstain | niche confidences | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory escalate for composer_escalate: GDS cuFile forbidden","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory escalate for composer_escalate: fact_checker prefer-order","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [escalate] committee — niche confidences sample-1","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[keep] committee — niche confidences sample-36","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → abstain. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=escalate | niche confidences | peer_loop IDLE seed","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=escalate | niche confidences | WORK_QUEUE Active empty","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[abstain] committee — niche confidences sample-11","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=abstain | niche confidences | WORK_QUEUE Active empty","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → keep. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as escalate. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → keep. Input shape niche confidences. continue_on_dirty HOLD","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=keep | niche confidences | peer_loop IDLE seed","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [abstain] committee — niche confidences sample-41","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — composer_escalate decision → abstain. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Classify composer_escalate as abstain. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as keep. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → escalate. Input shape niche confidences. continue_on_dirty HOLD","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Factory escalate for composer_escalate: GDS cuFile forbidden","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=escalate | niche confidences | peer_loop IDLE seed","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as escalate. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → keep. Input shape niche confidences. RSS proposal 48GB reject","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=keep | niche confidences | WORK_QUEUE Active empty","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [keep] committee — niche confidences sample-6","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as keep. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Niche composer_escalate: label=abstain | niche confidences | peer_loop IDLE seed","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Factory keep for composer_escalate: GDS cuFile forbidden","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=abstain | niche confidences | peer_loop IDLE seed","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Factory abstain for composer_escalate: GDS cuFile forbidden","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as abstain. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — composer_escalate decision → abstain. Input shape niche confidences. continue_on_dirty HOLD","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Factory keep for composer_escalate: fact_checker prefer-order","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Factory abstain for composer_escalate: GDS cuFile forbidden","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=escalate | niche confidences | WORK_QUEUE Active empty","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"composer_escalate decision → abstain. Input shape niche confidences. continue_on_dirty HOLD","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[escalate] committee — niche confidences sample-16","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"[abstain] committee — niche confidences sample-26","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Classify composer_escalate as keep. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Classify composer_escalate as abstain. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (escalate to big model?)","output":{"label":"abstain"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — [keep] committee — niche confidences sample-51","output":{"label":"keep"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Kit lock — Classify composer_escalate as escalate. Context: sm_121a missing flag (escalate to big model?)","output":{"label":"escalate"}}
+{"niche_id":"N79","niche":"composer_escalate","input":"Niche composer_escalate: label=keep | niche confidences | peer_loop IDLE seed","output":{"label":"keep"}}

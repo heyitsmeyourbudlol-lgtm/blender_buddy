@@ -1,0 +1,16 @@
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — Niche meter_prompt_vs_writing: label=unknown | JSON/log | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Factory meter prompt vs writing_maybe for meter_prompt_vs_writing: GDS cuFile forbidden","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"[abstain] anti brochure-10k — JSON/log sample-11","output":{"label":"abstain"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Niche meter_prompt_vs_writing: label=meter prompt vs writing_no | JSON/log | WORK_QUEUE Active empty","output":{"label":"meter prompt vs writing_no"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — Classify meter_prompt_vs_writing as meter prompt vs writing_no. Context: sm_121a missing flag (meter split)","output":{"label":"meter prompt vs writing_no"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → unknown. Input shape JSON/log. continue_on_dirty HOLD","output":{"label":"unknown"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Niche meter_prompt_vs_writing: label=meter prompt vs writing_escalate | JSON/log | WORK_QUEUE Active empty","output":{"label":"meter prompt vs writing_escalate"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Factory abstain for meter_prompt_vs_writing: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Classify meter_prompt_vs_writing as unknown. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (meter split)","output":{"label":"unknown"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"meter_prompt_vs_writing decision → meter prompt vs writing_maybe. Input shape JSON/log. continue_on_dirty HOLD","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Classify meter_prompt_vs_writing as meter prompt vs writing_escalate. Context: sm_121a missing flag (meter split)","output":{"label":"meter prompt vs writing_escalate"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"[unknown] anti brochure-10k — JSON/log sample-46","output":{"label":"unknown"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — [meter prompt vs writing_escalate] anti brochure-10k — JSON/log sample-21","output":{"label":"meter prompt vs writing_escalate"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Kit lock — Classify meter_prompt_vs_writing as meter prompt vs writing_yes. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (meter split)","output":{"label":"meter prompt vs writing_yes"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Classify meter_prompt_vs_writing as meter prompt vs writing_maybe. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (meter split)","output":{"label":"meter prompt vs writing_maybe"}}
+{"niche_id":"N17","niche":"meter_prompt_vs_writing","input":"Factory meter prompt vs writing_escalate for meter_prompt_vs_writing: fact_checker prefer-order","output":{"label":"meter prompt vs writing_escalate"}}

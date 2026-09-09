@@ -1,0 +1,28 @@
+{
+  "needle": "OVERSEER_NICHE_BANK_STAMP_TRAIN_2026_09_06",
+  "kind": "neural",
+  "status": "DONE",
+  "done_bar": true,
+  "niche_id": "N75",
+  "name": "recipe_ckpt_path_parse",
+  "domain": "recipe_ckpt_path_parse",
+  "helps": "P0 land proof",
+  "weights": "notes/niche_distill/practice_n75/weights/n75_recipe_ckpt_path_parse_neural.pt",
+  "param_count": 5788678,
+  "heldout_accuracy": 1.0,
+  "heldout_n": 10,
+  "pass_bar": 0.9,
+  "passed": true,
+  "epochs": 28,
+  "last_loss": 0.0001599492970854044,
+  "labels": [
+    "abstain",
+    "recipe ckpt path parse_escalate",
+    "recipe ckpt path parse_maybe",
+    "recipe ckpt path parse_no",
+    "recipe ckpt path parse_yes",
+    "unknown"
+  ],
+  "local_only": true,
+  "serve": "python3 scripts/niche_bank_train.py --serve N75 '<input>'"
+}

@@ -1,0 +1,96 @@
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory failed for bank_train_status_read: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory failed for bank_train_status_read: fact_checker prefer-order","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as ready. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as pending. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-51","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory pending for bank_train_status_read: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=ready | bank_index snap | WORK_QUEUE Active empty","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory pending for bank_train_status_read: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory failed for bank_train_status_read: fact_checker prefer-order","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=ready | bank_index snap | peer_loop IDLE seed","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory ready for bank_train_status_read: fact_checker prefer-order","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=failed | bank_index snap | WORK_QUEUE Active empty","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=pending | bank_index snap | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → pending. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-21","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=pending | bank_index snap | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=failed | bank_index snap | WORK_QUEUE Active empty","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → pending. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=failed | bank_index snap | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory pending for bank_train_status_read: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=pending | bank_index snap | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → pending. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-61","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — [ready] train UI — bank_index snap sample-6","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — [pending] train UI — bank_index snap sample-91","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[failed] train UI — bank_index snap sample-56","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — [pending] train UI — bank_index snap sample-76","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory failed for bank_train_status_read: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory pending for bank_train_status_read: fact_checker prefer-order","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-111","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory pending for bank_train_status_read: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as pending. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — [failed] train UI — bank_index snap sample-41","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → ready. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory ready for bank_train_status_read: fact_checker prefer-order","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → ready. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as pending. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=failed | bank_index snap | WORK_QUEUE Active empty","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=pending | bank_index snap | peer_loop IDLE seed","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory failed for bank_train_status_read: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=failed | bank_index snap | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → ready. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-16","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[failed] train UI — bank_index snap sample-26","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as ready. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=ready | bank_index snap | peer_loop IDLE seed","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory ready for bank_train_status_read: GDS cuFile forbidden","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[failed] train UI — bank_index snap sample-101","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory ready for bank_train_status_read: fact_checker prefer-order","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → ready. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → ready. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-66","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory pending for bank_train_status_read: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-106","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=failed | bank_index snap | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Niche bank_train_status_read: label=ready | bank_index snap | WORK_QUEUE Active empty","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory failed for bank_train_status_read: GDS cuFile forbidden","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-1","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → pending. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=pending | bank_index snap | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-81","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as pending. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → pending. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → failed. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=pending | bank_index snap | WORK_QUEUE Active empty","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-31","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"bank_train_status_read decision → ready. Input shape bank_index snap. continue_on_dirty HOLD","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[failed] train UI — bank_index snap sample-71","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → ready. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory pending for bank_train_status_read: GDS cuFile forbidden","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Classify bank_train_status_read as failed. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[ready] train UI — bank_index snap sample-36","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — bank_train_status_read decision → failed. Input shape bank_index snap. RSS proposal 48GB reject","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"[pending] train UI — bank_index snap sample-46","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=ready | bank_index snap | peer_loop IDLE seed","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory ready for bank_train_status_read: GDS cuFile forbidden","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as pending. Context: sm_121a missing flag (ready_count / pending)","output":{"label":"pending"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Niche bank_train_status_read: label=failed | bank_index snap | peer_loop IDLE seed","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Factory ready for bank_train_status_read: GDS cuFile forbidden","output":{"label":"ready"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Factory failed for bank_train_status_read: fact_checker prefer-order","output":{"label":"failed"}}
+{"niche_id":"N101","niche":"bank_train_status_read","input":"Kit lock — Classify bank_train_status_read as ready. Context: Needle: `OVERSEER_EXAMPLE_2026_09_06` (ready_count / pending)","output":{"label":"ready"}}

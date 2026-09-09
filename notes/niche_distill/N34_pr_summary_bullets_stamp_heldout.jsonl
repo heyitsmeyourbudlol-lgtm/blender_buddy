@@ -1,0 +1,10 @@
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [pr summary bullets_escalate] PR factory — commits sample-21","output":{"label":"pr summary bullets_escalate"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"pr_summary_bullets decision → pr summary bullets_no. Input shape commits. RSS proposal 48GB reject","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [unknown] PR factory — commits sample-46","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Factory abstain for pr_summary_bullets: fact_checker prefer-order","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — [pr summary bullets_maybe] PR factory — commits sample-26","output":{"label":"pr summary bullets_maybe"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_yes | commits | peer_loop IDLE seed","output":{"label":"pr summary bullets_yes"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=unknown | commits | peer_loop IDLE seed","output":{"label":"unknown"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"[pr summary bullets_no] PR factory — commits sample-31","output":{"label":"pr summary bullets_no"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Classify pr_summary_bullets as abstain. Context: sm_121a missing flag (PR body stubs)","output":{"label":"abstain"}}
+{"niche_id":"N34","niche":"pr_summary_bullets","input":"Kit lock — Niche pr_summary_bullets: label=pr summary bullets_no | commits | WORK_QUEUE Active empty","output":{"label":"pr summary bullets_no"}}
